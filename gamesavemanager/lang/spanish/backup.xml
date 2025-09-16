@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Backup GameSave(s)</Title>
+	<Detection>
+		<Title>Entradas detectadas</Title>
+		<ListCheck>Seleccionar todo / Deseleccionar todo</ListCheck>
+		<Counter>%TOTAL% partida(s) detectada / %SELECTED% partida(s) seleccionada</Counter>
+		<Legend>
+			<Title>Leyenda</Title>
+			<Files>El archivos se pueden respaldar</Files>
+			<Registry>Datos del Registro serán respaldados</Registry>
+			<Warning>Entrada tiene un 'Mensaje Advertencia' es posible que desee leerlo</Warning>
+			<EntireEntry>Se copiarán todas las entradas</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Iniciar la Tarea Backup ahora.</Start>
+		<Delete>Eliminar selección al guardar en sistema.</Delete>
+		<Rescan>Volver a analizar el sistema para buscar GameSaves compatibles.</Rescan>
+	</Options>
+	<Details>
+		<Title>Detalles de entrada</Title>
+		<NoneSelected>Ninguna entrada seleccionada.
+
+Por favor, seleccione una entrada en la lista de la izquierda.</NoneSelected>
+		<Entry>
+			<Name>Nombre entrada:</Name>
+			<IsOfficial>Entrada oficial:</IsOfficial>
+			<Size>Tamaño en disco:</Size>
+			<Warning>Advertencia:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Directorio:</Directory>
+			<Size>Tamaño en disco:</Size>
+			<Files>Archivos:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Values:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Realizar reescaneo?" width="450" height="270">GameSave Manager ha utilizado los resultados del análisis de la sesión anterior, como tal, el juego no sera mostrado.
+Para solucionar esto, usted tendrá que realizar un nuevo análisis completa de su sistema.
+
+¿Desea realizar un nuevo análisis completa ahora?</Rescan>
+		<Success title="Éxito" width="350" height="110">La Tarea Backup se ha completado.
+
+Afortunadamente, no hay errores detectados.</Success>
+		<Failed title="Falló" width="420" height="110">La Tarea Backup se ha completado.
+		
+Desafortunadamente, al menos 1 error fue detectado.
+
+Se ha guardado un registro. ¿Quieres verlo?</Failed>
+		<Overwrite title="El archivo ya existe..." width="450" height="145">El archivo que ha especificado ya existe.
+Si continúa, GameSave Manager sobrescribirá los resultados con esta copia de seguridad.
+
+¿Continuar y sobrescribir el archivo existente?</Overwrite>
+		<NoEntries>GameSave Manager no ha podido encontrar ningún GameSaves soportados en el sistema.
+
+Tal vez haya una actualización de base de datos disponibles?
+También puede crear una entrada de GameSave personalizada.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">No se han especificado ningun GameSaves para ser incluidos en la copia de seguridad.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Error:" width="420" height="110">No se han especificado GameSaves para ser incluido en la tarea de eliminación.</NoneSelected>
+			<Warning title="¡Atención!" width="500" height="220">Hay algunas cosas que usted debe tener en cuenta antes de continuar...
+
+1. Sólo los archivos listados en cada registro seleccionado se eliminará
+2. Es altamente recomendable que usted guarde una copia de seguridad antes de continuar
+3. Una vez que te comprometes a esta operación, no se podra deshacer sin una copia de seguridad creado anteriormente!
+
+¿Desea continuar?</Warning>
+			<Success title="Éxito" width="350" height="110">La Tarea Eliminación se ha completado.
+
+Afortunadamente, no hay errores detectados.</Success>
+			<Failed title="Falló" width="420" height="110">La Tarea Eliminación se ha completado.
+		
+Desafortunadamente, al menos 1 error fue detectado.
+
+Se ha guardado un registro. ¿Quieres verlo?</Failed>
+		</Delete>
+	</Errors>
+	<GameplayBackup>
+      <Title>Gameplay Backup</Title>
+      <Info>Juega a un juego, mientras GameSave Manager hace un backup silenciosamiente del progreso cada pocos minutos.
+Para reducir el tiempo de procesp, y lag in-game, deberias seleccionar el juegos que estas jugando activamente.
+
+Para copias de seguridad más habituales , consulte la opción para tarea programada.</Info>
+      <Interval>
+         <RunEvery>Ejecutar cada...</RunEvery>
+         <minutes>minutos</minutes>
+         <hour>hora</hour>
+         <hours>horas</hours>
+      </Interval>
+      <Processing>
+         <Title>Gameplay Backup (ejecutando tareas)</Title>
+         <Info>GameSave Manager realiza ahora en silencio las copias de seguridad de las entradas que haya seleccionado cada %INTERVAL%.
+
+Puedes minimizar ahora esta ventana y empezar a jugar.
+Nota: Dependiendo tanto de la selección y especificaciones del sistema, puede experimentar algunos picos de retraso leve, mientras que las copias de seguridad se procesan.
+
+
+Para acabar esta tarea, click en el botón 'Cerrar' de esta ventana (X en la esquina superior derecha).</Info>
+         <Interval>Intervalo:</Interval>
+         <TimesRan>Tiempo funcionando:</TimesRan>
+         <DetectedErrors>Errores detectados:</DetectedErrors>
+         <ProcessingBackup>Actualmente realiza la copia de seguridad (s) ...</ProcessingBackup>
+         <Stopping>Parando la operación actual, esto puede tomar un tiempo ...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Error:" width="350" height="110">Por favor, asegúrese de seleccionar al menos una entrada al proceso, además de una ubicación para almacenar las copias de seguridad.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+</GameSaveManager_Translation>

@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\backup\\windowsapps\\installed\\pstools\\logs\\.d1c13e0ecf4fbfbf75e88c18c6cf0a9677e1d554-audit.json",
+    "files": [
+        {
+            "date": 1757933934007,
+            "name": "F:\\backup\\windowsapps\\installed\\pstools\\logs\\mcp-puppeteer-2025-09-15.log",
+            "hash": "2356f5c40a3e17b69353ef7144c402590f079cd236d43723a2595d41f6606866"
+        },
+        {
+            "date": 1758008088071,
+            "name": "F:\\backup\\windowsapps\\installed\\pstools\\logs\\mcp-puppeteer-2025-09-16.log",
+            "hash": "4f7c650890f35af8a0f457035ff2bd633340956711e6391d87a43e03dd57b8a4"
+        }
+    ],
+    "hashType": "sha256"
+}

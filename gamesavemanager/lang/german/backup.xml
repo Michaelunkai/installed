@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Spielstände Backuppen</Title>
+	<Detection>
+		<Title>Gefundene Einträge</Title>
+		<ListCheck width="140">Alle markieren / Markierung aufheben</ListCheck>
+		<Counter>%TOTAL% Einträge gefunden / %SELECTED% Einträge markiert</Counter>
+		<Legend>
+			<Title>Legende</Title>
+			<Files>Dateien werden gepackupped</Files>
+			<Registry>Registry-Data werden gepackedup</Registry>
+			<Warning>Der Eintrag hat einen Warnhinweis, den Sie lesen sollten</Warning>
+			<EntireEntry>Alles backuppen!</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Jetzt backuppen!</Start>
+		<Delete>Lösche die markierten Speicherstände auf dem Computer.</Delete>
+		<Rescan>Scanne den Computer erneut nach Spielstände.</Rescan>
+	</Options>
+	<Details>
+		<Title>Details</Title>
+		<NoneSelected>Kein Eintrag ausgewählt!
+
+Bitte wählen Sie links mindestens einen Eintrag aus.</NoneSelected>
+		<Entry>
+			<Name>Eintragsname:</Name>
+			<IsOfficial>Offizieler Eintrag:</IsOfficial>
+			<Size>Grösse:</Size>
+			<Warning>Warnung:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Verzeichnis:</Directory>
+			<Size>Grösse:</Size>
+			<Files>Dateien:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Wert:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Perform rescan?" width="450" height="170">GameSave Manager hat noch nicht nach aktuellen Spielständen gesucht.
+Bitte führen Sie erneut einen Scan durch.
+
+Möchten Sie jetzt ein Scan durchführen?</Rescan>
+		<Success title="Success" width="350" height="110">Backup wurde erfolgreich erstellt!
+
+Es wurden keine Fehler gefunden!</Success>
+		<Failed title="Failure" width="420" height="110">Backup wurde erfolgreich erstellt!
+		
+Leider wurde mind. einen Fehler gefunden.
+
+Ein Log wurde gespeichert. Möchte Sie ihn jetzt sehen?</Failed>
+		<Overwrite title="File already exists..." width="450" height="125">Die ausgewählte Datei existiert bereits!
+Wenn Sie fortsetzen, wird GameSave Manager die alte Datei überschreiben.
+
+Fortfahren und die Datei überschreiben?</Overwrite>
+		<NoEntries>GameSave Manager hat keine Speicherstände gefunden
+
+Vielleicht gibt es ein Datenbank-Update?
+Sie können auch einen eigenen Eintrag erstellen.</NoEntries>
+		<NoneSelected title="Error:" width="450" height="110">Es wurden keine Speicherstände für das Backup markiert.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Error:" width="450" height="110">Es wurden keine Speicherstände für das Entfernen markiert.</NoneSelected>
+			<Warning title="Attention!" width="500" height="170">Beachten Sie bitte zuerst einige Hinweise...
+
+1. Nur die gelistete Dateien werden gelöscht
+2. Es wird empfohlen, zuerst ein Backup durchzuführen
+3. Einmal ausgeführt, kann diese Operation nicht mehr Rückgängig gemacht werden!
+
+Trotzdem fortsetzen?</Warning>
+			<Success title="Success" width="550" height="110">Der Löschvorgang wurde erfolgreich durchgeführt!
+
+Es wurden keine Fehler gefunden.</Success>
+			<Failed title="Failure" width="550" height="110">Der Löschvorgang wurde erfolgreich durchgeführt!
+		
+Leider wurde mindestens einen Fehler gefunden!
+
+Ein Log wurde gespeichert. Möchte Sie ihn jetzt sehen?</Failed>
+		</Delete>
+	</Errors>
+	<GameplayBackup>
+      <Title>Gameplay Backup</Title>
+      <Info>Während Sie ein Spiel spieln, wird GameSave Manager im Hintergrund heimlich alle paar Minuten ein Backup von deinem Spielstand erstellen.
+Um die Berechnungszeit und Lags im Spiel zu vermeiden, solltest du nur die Spiele auswählen, welche Sie aktuell spielen.
+
+Für mehr Backup-Möglichkeiten, schauen Sie sich den Backup Zeitplan an.</Info>
+      <Interval>
+         <RunEvery>Führe jede...</RunEvery>
+         <minutes>Minute</minutes>
+         <hour>Stunde</hour>
+         <hours>Stunden</hours>
+      </Interval>
+      <Processing>
+         <Title>Gameplay Backup (aktiver task)</Title>
+         <Info>GameSave Manager wird jetzt im Hintergrund für die gewählten Einträge Backups erstellen, jede %INTERVAL%.
+
+Sie können dieses Programm nun minimieren.
+Note: Je nach Ihrer Auswahl und Systemleistung können während des Backups Lags bzw. Ruckler enstehen.
+
+
+Um diesen Task zu beenden, klicken Sie in diesem Fenster auf 'Schliessen' (das X rechts oben).</Info>
+         <Interval>Intervall:</Interval>
+         <TimesRan>Läuft seit:</TimesRan>
+         <DetectedErrors>Gefundene Fehler:</DetectedErrors>
+         <ProcessingBackup>Erstellt gerade ein Backup...</ProcessingBackup>
+         <Stopping>Laufende Aufgabe abbrechen, das könnte eine Weile dauern....</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Error:" width="350" height="110">Um zu Beginnen, wählen Sie mindestens einen Eintrag und das Speicherverzeichnis aus.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+</GameSaveManager_Translation>

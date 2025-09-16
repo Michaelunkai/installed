@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Vérification des mises à jour</Title>
+  <Info>Comme toutes vos applications, GameSave Manager est régulièrement mis à jour.
+Cette page liste toutes les mises à jour disponibles.
+
+Cliquez sur l'icône à gauche pour revérifier la présence de mise à jour.</Info>
+  <Recheck>Cliquez pour vérifier la présence de mises à jour maintenant.</Recheck>
+  <ProgramUpdate>
+    <Title>Mise à jour de l'application</Title>
+    <Info>Il est grandement recommandé d'utiliser la dernière version de GameSave Manager.
+Les mises à jour incluent de nouvelles fonctionnalités, des corrections de bugs et améliore GameSave Manager dans son intégralité.</Info>
+    <Download>Télécharger</Download>
+    <ApplyUpdate>Télécharger &amp; Installer</ApplyUpdate>
+  </ProgramUpdate>
+  <LangPack>
+    <Title>Pack de langue</Title>
+    <Info>Aucune mise à jour du programme détectée.
+Une mise à jour du pack de langue que vous utilisez actuellement est disponible.</Info>
+    <Download>Télécharger</Download>
+    <ApplyUpdate>Télécharger &amp; Installer</ApplyUpdate>
+  </LangPack>
+  <DatabaseUpdate>
+    <Title>Mise à jour de la base de données</Title>
+    <Info>Bien que les mises à jour de la base de données ne soient pas aussi importante que les mises à jour de l'application, elles ajoutent le support de jeux supplémentaires et corrigent les problèmes de détection des sauvegardes existantes.
+Il est donc recommandé de mettre à jour la base de donnée une fois par semaine.</Info>
+    <Download>Installer la mise à jour</Download>
+  </DatabaseUpdate>
+  <Changelog>Voir le journal</Changelog>
+  <DialogPrompt title="Mise à jour disponible" width="500" height="110">Au moins une nouvelle mise à jour est disponible.
+
+Voulez-vous aller sur la page des mises à jour?</DialogPrompt>
+  <Errors>
+    <Checking>Vérification des mises à jour...</Checking>
+    <NoUpdates>Aucune mise à jour disponible</NoUpdates>
+    <LangPack>[Fait par la communauté] Mise à jour du pack de langue</LangPack>
+    <LangPack_Invalid>Erreur de requête: le 'PackID' spécifié est inconnu!</LangPack_Invalid>
+    <UpdateRequired>Une mise à jour de la base de donnée est disponible; requiert la dernière version de l'application.</UpdateRequired>
+    <NoConnection>Impossible de vérifier la présence d'une mise à jour. Veuillez essayer ultérieurement.</NoConnection>
+  </Errors>
+</GameSaveManager_Translation>

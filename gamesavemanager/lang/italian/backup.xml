@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+   <GameplayBackup>
+      <Title>Gameplay Backup</Title>
+      <Info>Gioca pure, mentre GameSave Manager silenziosamente esegue il backup dei tuoi progressi ogni due minuti con Gameplay Backup.
+Per ridurre i tempi di caricamento, ed il lag in gioco, dovresti selezionare solo i giochi che stai attivamente giocando.
+
+Per altri backup di routine, seleziona le Opzioni Programmate.</Info>
+      <Interval>
+         <RunEvery>Esegui ogni...</RunEvery>
+         <minutes>minuti</minutes>
+         <hour>ora</hour>
+         <hours>ore</hours>
+      </Interval>
+      <Processing>
+         <Title>Gameplay Backup (operazione in corso)</Title>
+         <Info>GameSave Manager eseguirà silenziosamente il backup degli elementi che hai selezionato ogni %INTERVAL%.
+
+Puoi minimizzare questa finestra ed iniziare a giocare.
+Nota: A seconda delle tue scelte e del sistema in uso, potresti notare alcuni rallentamenti nel gioco durante i backup.
+
+
+Per terminare questa operazione, clicca sul pulsante "Chiudi" di questa finestra (X nell'angolo in alto a destra).</Info>
+         <Interval>Intervallo:</Interval>
+         <TimesRan>Numero esecuzioni:</TimesRan>
+         <DetectedErrors>Errori rilevati:</DetectedErrors>
+         <ProcessingBackup>Backup in corso...</ProcessingBackup>
+         <Stopping>Operazione in annullamento, potrebbe volerci del tempo...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Error:" width="350" height="110">Assicurati di aver selezionato almeno un elemento per procedere, più una destinazione per il backup.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+	<Title>Esegui Backup</Title>
+	<Detection>
+		<Title>Elementi Trovati</Title>
+		<ListCheck>Seleziona/Deseleziona tutto</ListCheck>
+		<Counter>%TOTAL% elemento/i trovato/i / %SELECTED% elemento/i selezionato/i</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>I file verranno salvati</Files>
+			<Registry>Gli elementi del registro verranno salvati</Registry>
+			<Warning>L'elemento ha un "Avvertimento" che dovresti leggere</Warning>
+			<EntireEntry>L'intero elemento verrà salvato</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Inizia il backup.</Start>
+		<Delete>Elimina dal sistema i salvataggi selezionati.</Delete>
+		<Rescan>Scansiona nuovamente il sistema.</Rescan>
+	</Options>
+	<Details>
+		<Title>Dettagli Elemento</Title>
+		<NoneSelected>Nessun elemento selezionato.
+
+Selezionare un elemento dall'elenco a sinistra.</NoneSelected>
+		<Entry>
+			<Name>Nome Elemento:</Name>
+			<IsOfficial>Elemento Ufficiale:</IsOfficial>
+			<Size>Dimensioni su Disco:</Size>
+			<Warning>Avvertimenti:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Percorso:</Directory>
+			<Size>Dimensioni su Disco:</Size>
+			<Files>File:</Files>
+		</Directory>
+		<Registry>
+			<Key>Chiave di Registro:</Key>
+			<Values>Valore:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Perform rescan?" width="450" height="170">GameSave Manager sta utilizzando i dati di una precedente scansione e, quindi, i salvataggi eseguiti da allora non sono elencati.
+Per ovviare al problema, devi eseguire un'altra scansione del sistema.
+
+Vuoi eseguire una scansione ora?</Rescan>
+		<Success title="Success" width="350" height="110">Backup completato.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+		<Failed title="Failure" width="420" height="110">Backup completato.
+		
+Sfortunatamente, è stato rilevato almeno un errore.
+
+È stato creato un rapporto. Vuoi leggerlo?</Failed>
+		<Overwrite title="File already exists..." width="450" height="125">Il file che hai selezionato esiste già.
+Se continui, GameSave Manager lo sovrascriverà con questo backup.
+
+Continuare e sovrascrivere il file esistente?</Overwrite>
+		<NoEntries>GameSave Manager non ha trovato alcun salvataggio supportato nel tuo sistema.
+
+Forse devi aggiornare il database?
+Puoi anche creare un elemento personalizzato.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">Nessun salvataggio selezionato per il backup.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Error:" width="350" height="110">Nessun salvataggio selezionato per l'eliminazione.</NoneSelected>
+			<Warning title="Attention!" width="500" height="170">Ci sono alcune cose che dovresti sapere prima di continuare...
+
+1. Solo i file selezionati saranno eliminati
+2. È caldamente raccomandato eseguire un backup dei salvataggi prima di procedere
+3. Una volta eseguita l'operazione, non potrai recuperare i dati se non hai eseguito un backup preventivo!
+
+Continuare?</Warning>
+			<Success title="Success" width="350" height="110">Eliminazione completata.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+			<Failed title="Failure" width="420" height="110">Eliminazione completata.
+		
+Sfortunatamente, è stato rilevato almeno un errore.
+
+È stato creato un rapporto. Vuoi leggerlo?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

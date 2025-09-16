@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Program Settings</Title>
+	<RestoreSettings>
+		<Title>Setting Defaults</Title>
+		<Confirm title="Confirm:" width="500" height="110">Are you sure you wish to restore GameSave Manager's settings to their default values?
+
+NOTE: Custom Gamesave Entries are not affected by this.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Categories</Title>
+		<List>
+			<General>General Settings</General>
+			<Cloud>Cloud Options</Cloud>
+			<Update>Update Behaviour</Update>
+			<Task>
+				<Header>Task Specific</Header>
+				<Backup>
+					<Header>Backup Settings</Header>
+					<ExternalScripts>External Scripts</ExternalScripts>
+					<SepArchives>Separate Archives</SepArchives>
+				</Backup>
+				<SyncLink>Sync &amp; Link</SyncLink>
+				<Spreader>Steam Spreader</Spreader>
+			</Task>
+			<SevZip>7zip Preferences</SevZip>
+			<Detection>Detection Configuration</Detection>
+			<SortEntries>Sort Entries</SortEntries>
+			<IgnoredEntries>Ignored Entries</IgnoredEntries>
+			<IgnoreSteam>Steam Cloud &amp; Steam User Cache</IgnoreSteam>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>File Associations</Header>
+			<gsba>Associate with .gsba files</gsba>
+			<gsdu>Associate with .gsdu files</gsdu>
+			<gsms>Associate with .gsms files</gsms>
+			<AutoCheck>Check file associations upon startup</AutoCheck>
+			<ContextMenu>Add a 'GameSave Manager' entry to context menu of supported files</ContextMenu>
+		</Associations>
+		<Lang>Language</Lang>
+		<Startup>
+			<Header>Startup Options</Header>
+			<ScanOnStartup>Scan system for supported saves</ScanOnStartup>
+			<UpdateCheckOnStartup>Check for program and database updates</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>Perform 'Shutdown Tasks' (recommended)</ShutdownTasks>
+		<SaveLogs>Save 'Task Logs' automatically</SaveLogs>
+		<ShowVerInTitle>Show program version information within Window Title</ShowVerInTitle>
+		<MessageSounds>Dialog Notifications have sounds</MessageSounds>
+		<RunAsAdmin>Use 'Program Compatibility' to always run with administrative rights</RunAsAdmin>
+		<RunAsAdmin_Question title="Restart?" width="500" height="110">GameSave Manager currently doesn't appear to be running with Administrative Rights.
+
+Would you like to restart with such rights now?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>In an effort to keep your saves safe, GameSave Manager can utilize many third party applications to store your saves 'in the cloud'.</Info>
+		<Subfolder>Sub-folder:</Subfolder>
+		<BoxSync>
+			<Header>Box.net</Header>
+			<Enable>Enable Box.net Sync support</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager was unable to detect the Box.net Sync client on your system.
+
+As such, this feature cannot be enabled.</Error>
+			<ManuallySpecify>Sync directory not found.
+Please manually specify it.</ManuallySpecify>
+		</BoxSync>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>Enable DropBox support</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager was unable to detect DropBox running on your system.
+
+As such, this feature cannot be enabled.</Error>
+			<ManuallySpecify>Sync directory not found.
+Please manually specify it.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Enable Google Drive support</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager was unable to detect Google Drive on your system.
+
+As such, this feature cannot be enabled.</Error>
+			<ManuallySpecify>Sync directory not found.
+Please manually specify it.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft OneDrive</Header>
+			<Enable>Enable OneDrive support</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager was unable to detect Microsoft OneDrive on your system.
+
+As such, this feature cannot be enabled.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Private Server via FTP</Header>
+			<Enable>Enable FTP support</Enable>
+			<Host>Host:</Host>
+			<User>Username:</User>
+			<Pass>Password:</Pass>
+			<Dir>Directory:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Program Updates</Header>
+			<None>I'll apply updates myself, please direct me to the downloads page</None>
+			<DirectLinks>Use 'Direct Download Links' where possible, but I'll apply the updates</DirectLinks>
+			<ProgDownload>Download updates and proceed to apply them for me</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>List available Beta, Alpha or Concept releases</ListTesting>
+		<UpdateCheckOnLogin>Check for database updates upon Windows Login</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Check for program and database updates upon startup</UpdateCheckOnStartup>
+		<AutoUpdate>Automatically apply any 'Database Updates' available</AutoUpdate>
+		<IncrementalUpdates>Don't rebuild the database, use incremental updates</IncrementalUpdates>
+		<RemindCheckUpdates>Remind me to check for updates once a week</RemindCheckUpdates>
+		<PromptUser>Display a dialog prompt whenever a update is available</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Separate Archives</Header>
+			<Enable>Create a separate archive for each entry being backed up</Enable>
+			<TimeStamp>Add a time-stamp to each archive's file-name</TimeStamp>
+			<OnChange>Create new archive upon file change (affects performance)</OnChange>
+			<SepSubFolders>Organise each entry's backup archives into sub folders</SepSubFolders>
+			<PurgeCount>Consolidate archives when backup count reaches...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation>Perform validation checks on archives immediately after their creation</ValidateOnArchiveCreation>
+		<DuplicateArchives>Copy all backups to another directory as they're made</DuplicateArchives>
+		<DefaultBackupDir>Set a default Backup Directory (overwritten by 'Cloud Options')</DefaultBackupDir>
+		<RescanReminder>Remind me to rescan once per session (if previous scan results are used)</RescanReminder>
+		<ConfirmChecksumResponse>Confirm checksum response and skip entries that fail</ConfirmChecksumResponse>
+		<RememberBackupSelection>Remember the entries I select between sessions</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Using the form below, specify what entries (if any) you'd like to create 'time-stamped' entries for.
+
+All entries left un-ticked will follow your settings as specified in 'Task Specific->Backup Settings'.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>To help save space on your Cloud Service of choice, Sync &amp; Link only lists directories that meet certain criteria.
+
+Here you can overwrite GameSave Manager's cautious listing routine to meet your needs.</Info>
+		<IgnoreExclusionRules>List directory entries regardless of their file exclusion rule-set</IgnoreExclusionRules>
+		<ShowSteamCloud>Show 'Steam Cloud' saves</ShowSteamCloud>
+		<ShowUplayCache>Show 'Uplay Cache' saves</ShowUplayCache>
+		<WaitAfterEachLink>After a link's creation, await user input before proceeding to next entry</WaitAfterEachLink>
+		<CustomSubfolder>Let me specify the sub-folder to use</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Link Type</Header>
+			<SymLink>Use 'Symbolic Links'</SymLink>
+			<Junction>Use 'NTFS Junctions'</Junction>
+		</Link>
+		<SteamRunningCheck>Warn me if Steam is running when necessary</SteamRunningCheck>
+		<HideXCOPY>Hide the XCOPY command window from view</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Archive Creation</Header>
+			<Use7zFormat>Use '7z' archive format (greater compression)</Use7zFormat>
+			<LZMA2>Use LZMA2 compression method (improved multi-threading)</LZMA2>
+			<UseCompression>Use maximum compression ratio possible (drastically affects performance)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow>Hide console window from view</HideWindow>
+		<UseLargePages>Use 'large pages' for theoretically faster compression</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Steam Detection</Header>
+			<Enable>Enable Steam Support</Enable>
+			<Cache>Include 'Steam Cache' directories</Cache>
+			<Cloud>Include 'Steam Cloud' directories</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>Enable detection of 'uPlay cache' gamesaves</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Macromedia Flash cache</Header>
+			<Enable>Search in the 'Flash cache' for saves</Enable>
+		</Flash>
+		<SaveScanResults>Save detection results for faster detection in future</SaveScanResults>
+		<DetectSize>Try and detect file sizes of saves</DetectSize>
+		<CheckForDupDirs>Prevent duplicate directories from being listed</CheckForDupDirs>
+		<RescanOnIdle>Upon system idle, rescan for supported saves</RescanOnIdle>
+		<ShowStatusInfo>Display additional info when scanning (may affect scan speeds)</ShowStatusInfo>
+		<QuickExclusionRuleset>Use improved 'exclusion ruleset' routines</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header>Sort by</Header>
+		<SortByName>Sort detected entries by entry name</SortByName>
+		<SortByDate>Sort detected entries by 'last modified' date</SortByDate>
+		<SortBySize>Sort detected entries by entry's file-size</SortBySize>
+		<SortByCustomEntries>Sort by status; Custom Entries listed first</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Tick the entries you wish to no longer search for.
+
+NOTE: Requires a full rescan for this to take affect.</Info>
+	</IgnoredEntries>
+	<IgnoreSteam>
+		<Info>Specify the Steam Cloud IDs and User Caches you wish to exclude when scanning for saves.
+
+NOTE: This only affects detection for backups / Sync & Link.</Info>
+		<SteamCloud>Steam Cloud</SteamCloud>
+		<SteamCache>Steam User Cache</SteamCache>
+		<NoneFound>N/A - not applicable (none found)</NoneFound>
+	</IgnoreSteam>
+	<ExternalScripts>
+		<Info>External Scripts can enhance your backups in many ways.
+
+Here, you can enable / disable scripts as well as change any available options they may have.</Info>
+		<ScriptName>Manage script for...</ScriptName>
+		<ScriptMETA>Author: %AUTHOR%
+Version: %VERSION%			|		Is Official: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Enable this script</EnableScript>
+		<ScriptOptions>
+			<Header>Script Options:</Header>
+			<Value>Value (press [enter] to save):</Value>
+			<Enable>Enable option</Enable>
+			<Saved>Value saved!</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+		<LaunchButton>Import and export your settings</LaunchButton>
+		<Title>Import / Export Settings</Title>
+		<Intro>
+			<Info>What would you like to do?</Info>
+			<Import>Import settings and custom entries</Import>
+			<Export>Export existing settings and custom entries</Export>
+		</Intro>
+		<Import>
+			<Step1>
+				<Info>Using the form below, please specify the backup that you wish to restore.
+When you're ready, click 'Next &gt;' to begin.</Info>
+				<Open>Open...</Open>
+			</Step1>
+			<Step2>
+				<Loading>Please wait while GameSave Manager reads the archive you selected.
+This may take a few moments.</Loading>
+				<Info>Using the options below, please select what you wish to import.</Info>
+				<Settings>Restore Program Settings</Settings>
+				<IgnoreList>Restore 'Ignore List'</IgnoreList>
+				<SteamSpreader>Overwrite Steam Spreader history</SteamSpreader>
+				<Logs>Restore task logs</Logs>
+				<CustomEntries>Restore the following Custom Gamesave Entries...</CustomEntries>
+				<SelectAll>Select all / De-select all</SelectAll>
+			</Step2>
+			<Step3>
+				<Success>Your selection has been successfully restored from the following backup...
+
+
+
+%FILE%</Success>
+				<Failed>Unfortunately, there was an error when trying to restore your selection.
+
+
+
+
+Error Details:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Import>
+		<Export>
+			<Step1>
+				<Info>Using the options below, please select what you wish to export.</Info>
+				<Settings>Include my Program Settings</Settings>
+				<IgnoreList>Include my 'Ignore List'</IgnoreList>
+				<SteamSpreader>Include my Steam Spreader history</SteamSpreader>
+				<Logs>Include all task logs</Logs>
+				<CustomEntries>Include the following Custom Gamesave Entries...</CustomEntries>
+				<SelectAll>Select all / De-select all</SelectAll>
+			</Step1>
+			<Step2>
+				<Info>Please specify where to save your settings backup below.
+Once you're ready, click 'Next &gt;' to start the backup procedure.</Info>
+				<SaveAs>Save as...</SaveAs>
+			</Step2>
+			<Step3>
+				<Success>Your settings have successfully been backed up to the following location...
+
+
+
+%FILE%</Success>
+				<Failed>Unfortunately, the backup failed to correctly generate.
+
+
+
+
+Error Details:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Export>
+		<Errors>
+			<InvalidFile title="Invalid backup" width="500" height="110">The backup archive you selected doesn't appear to be a valid settings backup.</InvalidFile>
+			<NothingSelected title="Error:" width="500" height="110">In order to proceed, you must specify at least one option.</NothingSelected>
+			<NoFile title="Error:" width="500" height="110">No file specified.
+
+Please specify a backup archive and try again.</NoFile>
+		</Errors>
+	</ImportExport>
+</GameSaveManager_Translation>

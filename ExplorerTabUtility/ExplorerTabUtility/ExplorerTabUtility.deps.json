@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/win-x64": {
+      "ExplorerTabUtility/2.5.0": {
+        "dependencies": {
+          "Autoupdater.NET.Extended.Markdown": "1.9.5.2",
+          "ConfigureAwait.Fody": "3.3.2",
+          "Fody": "6.9.2",
+          "H.Hooks": "1.7.0",
+          "Hardcodet.NotifyIcon.Wpf": "2.0.1"
+        },
+        "runtime": {
+          "ExplorerTabUtility.dll": {}
+        }
+      },
+      "Autoupdater.NET.Extended/1.9.5.2": {
+        "runtime": {
+          "lib/net8.0-windows7.0/AutoUpdater.NET.dll": {
+            "assemblyVersion": "1.9.5.2",
+            "fileVersion": "1.9.5.2"
+          }
+        }
+      },
+      "Autoupdater.NET.Extended.Markdown/1.9.5.2": {
+        "dependencies": {
+          "Autoupdater.NET.Extended": "1.9.5.2",
+          "Markdig": "0.40.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/AutoUpdater.NET.Markdown.dll": {
+            "assemblyVersion": "1.9.5.2",
+            "fileVersion": "1.9.5.2"
+          }
+        }
+      },
+      "ConfigureAwait.Fody/3.3.2": {
+        "dependencies": {
+          "Fody": "6.9.2"
+        }
+      },
+      "Fody/6.9.2": {},
+      "H.Hooks/1.7.0": {
+        "runtime": {
+          "lib/net9.0/H.Hooks.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Hardcodet.NotifyIcon.Wpf/2.0.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Hardcodet.NotifyIcon.Wpf.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.1.2717"
+          }
+        }
+      },
+      "Markdig/0.40.0": {
+        "runtime": {
+          "lib/net9.0/Markdig.dll": {
+            "assemblyVersion": "0.40.0.0",
+            "fileVersion": "0.40.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExplorerTabUtility/2.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autoupdater.NET.Extended/1.9.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPMc/mWOk+6giMDODjKNks53GXckuCuj38V/FqA5gNdxrFLxEmRZzKl2KogCrLbTdw5SsGlx+FWFJDhf3QNlKw==",
+      "path": "autoupdater.net.extended/1.9.5.2",
+      "hashPath": "autoupdater.net.extended.1.9.5.2.nupkg.sha512"
+    },
+    "Autoupdater.NET.Extended.Markdown/1.9.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q31GWV/3TsiOlimF96UYaG9cG5szD0iSZD1q69oWyyXYp+k6jARni7AwcyGJVomS95ejNJvbw6LXJkqlc3zhgA==",
+      "path": "autoupdater.net.extended.markdown/1.9.5.2",
+      "hashPath": "autoupdater.net.extended.markdown.1.9.5.2.nupkg.sha512"
+    },
+    "ConfigureAwait.Fody/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vzGcpFU7uY4SbdB1Q68sFqv52HU5V1l39bF1rw6BIb7Os/DRLZa5ObV1yf/CNuTXj8IZjqJQ7PnTzSUiI/W49A==",
+      "path": "configureawait.fody/3.3.2",
+      "hashPath": "configureawait.fody.3.3.2.nupkg.sha512"
+    },
+    "Fody/6.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YBHobPGogb0vYhGYIxn/ndWqTjNWZveDi5jdjrcshL2vjwU3gQGyDeI7vGgye+2rAM5fGRvlLgNWLW3DpviS/w==",
+      "path": "fody/6.9.2",
+      "hashPath": "fody.6.9.2.nupkg.sha512"
+    },
+    "H.Hooks/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k3wcNhCX+3Gtzy6FP+KZYSP29eDGO4KnP8/xkaqBeyN/aaFQ5f6DqeiSFbqMbOoYmW3l5KQjxG96ddPxcb4Onw==",
+      "path": "h.hooks/1.7.0",
+      "hashPath": "h.hooks.1.7.0.nupkg.sha512"
+    },
+    "Hardcodet.NotifyIcon.Wpf/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dtxmeZXzV2GzSm91aZ3hqzgoeVoARSkDPVCYfhVUNyyKBWYxMgNC0EcLiSYxD4Uc4alq/2qb3SmV8DgAENLRLQ==",
+      "path": "hardcodet.notifyicon.wpf/2.0.1",
+      "hashPath": "hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512"
+    },
+    "Markdig/0.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ve14zs+gt1irldTQE3y5FLAHuzmhW7T99lAAvVipe/q2LWT/nUCO0iICb9TXGvMX6n7Z1OZroFXkdSy91rO8w==",
+      "path": "markdig/0.40.0",
+      "hashPath": "markdig.0.40.0.nupkg.sha512"
+    }
+  }
+}

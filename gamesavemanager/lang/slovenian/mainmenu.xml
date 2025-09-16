@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Glavni meni</Title>
+	<Backup>
+		<Header>Varnostno kopiranje ...</Header>
+		<Description>Enostavno ustvarite varnostne kopije vašega napredka v igri na tem raèunalniku.</Description>
+		<Backup>Ustvari varnostno kopijo</Backup>
+		<Scheduled>Razporejeno opravilo</Scheduled>
+		<Sync>Uskladi in poveži</Sync>
+		<GameplayBackup>Varnostno kopiranje med igranjem</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Obnavljanje podatkov ...</Header>
+		<Description>Obnovite predhodne varnostne kopije shranjenih iger, ki jih je ustvaril GameSave Manager.</Description>
+		<Open>Odpri arhive</Open>
+	</Restore>
+	<Spreader>
+		<Header>Razpršilnik za Steam</Header>
+		<Description>Na enostaven naèin premaknite celotne mape na drug razdelek in pri tem ustvarite simbolne povezave do njih.</Description>
+		<GoTo>Pojdi na razpršilnik za Steam</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Prilagodi ...</Header>
+		<Description>Prilagodite GameSave Manager, da bo ustrezal vašim osebnim potrebam.</Description>
+		<CustomEntries>Vnosi shranjenih iger po meri</CustomEntries>
+		<Variables>Spremenite spremenljivke</Variables>
+		<Settings>Nastavitve programa</Settings>
+	</Customise>
+	<Log>
+		<Header>Dnevniki opravil</Header>
+		<Description>Oglejte si dnevnike predhodno obdelanih opravil.</Description>
+		<GoTo>Poglej dnevnike opravil</GoTo>
+	</Log>
+</GameSaveManager_Translation>

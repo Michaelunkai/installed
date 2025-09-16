@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Hlavní menu</Title>
+	<Backup>
+		<Header>Zálohovat...</Header>
+		<Description>Snadno vytvoříte zálohu vaší pozice ve hře uložené na tomto počítači.</Description>
+		<Backup>Vytvořit zálohu</Backup>
+		<Scheduled>Naplánovat úlohu</Scheduled>
+		<Sync>Sync &amp; Link</Sync>
+		<GameplayBackup>Zálohovat postup hrou</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Obnovit...</Header>
+		<Description>Obnovit zálohované pozice her pomocí GameSave Manager.</Description>
+		<Open>Otevřít archiv</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Spreader</Header>
+		<Description>Přesune celé složky na jiný diskový oddíl a vytvoří symbolický odkaz.</Description>
+		<GoTo>Přejít na Steam Spreader</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Přizpůsobit...</Header>
+		<Description>Přizpůsobte si GameSave Manager podle svých potřeb.</Description>
+		<CustomEntries>Vlastní uložené hry</CustomEntries>
+		<Variables>Upravit proměnné</Variables>
+		<Settings>Nastavení programu</Settings>
+	</Customise>
+	<Log>
+		<Header>Záznamy úloh</Header>
+		<Description>Zobrazit záznamy naposledy provedených úloh.</Description>
+		<GoTo>Zobrazit záznamy úloh</GoTo>
+	</Log>
+</GameSaveManager_Translation>

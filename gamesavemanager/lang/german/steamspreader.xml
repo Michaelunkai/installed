@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Steam Spreader</Title>
+	<Info>Steam Spreader ermöglicht es Ihnen, Ihre Dateien mit Hilfe einem symbolischen Link über verschiedene Festplattenpartitionen oder Festplatten zu verschieben.
+
+Die meisten Gamers benutzen symbolische Links um ein Teil Ihre Lieblingsspiele auf Ihre schnelle SSD zu verlagern, aber lassen den grossen Teil des Spieles auf einem mechanischen Festplatte um Speicherplatz auf der SSD zu sparen.</Info>
+	
+	<MoveDir>
+		<Header>Verzeichnisse verschieben</Header>
+				<Empty>Es wurden keine Verzeichnisse festgelegt.
+				Klicken Sie auf 'Hinzufügen', um zu beginnen.</Empty>
+		<DialogHeader>Steam Spreader; Queue Item</DialogHeader>
+		<Steam width="330">Verschiebe ein Spiel von Steam:</Steam>
+		 <Origin>Verschiebe ein Spiel von Origin:</Origin>
+		<Specify width="450">Wähle selbst das zu verschiebene Verzeichnis aus:</Specify>
+		<Move>Verschieben</Move>
+		<MoveTo>Verschiebe nach...</MoveTo>
+		<Messages>
+			<NoneSelected title="Error:" width="350" height="110">Sie haben nichts asusgewählt!
+			Bitte versuchen Sie es erneut!</NoneSelected>
+			<LinkError>
+				<SourceExists title="Link failure:" width="350" height="110">Leider konnte kein Link erstellt werden, da das Quellverzeichnis nicht entfernt werden konnte.</SourceExists>
+			</LinkError>
+			<Success title="Success" width="350" height="110">Steam Spreader wurde erfolgreich ausgeführt.
+
+Es wurden keine Fehler gefunden.</Success>
+			<Failed title="Failure" width="420" height="110">Steam Spreader wurde erfolgreich ausgeführt.
+		
+Leider wurde mindestens einen Fehler gefunden!
+
+Ein Log wurde gespeichert. Möchte Sie ihn jetzt lesen?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Verzeichnis wiederherstellen</Header>
+		<Source>Mache die Verschiebung bei den folgenden ausgeführten Aufgaben rückgängig..</Source>
+		<Destination>...welche sich zurzeit hier befindet:</Destination>
+		<Messages>
+         <NoneSelected title="Error:" width="350" height="110">Sie haben nicht das ganze Formular ausgefüllt! </NoneSelected>
+         <NoLongerLinked title="Link error:" width="450" height="150">Der angegebene Link konnte nicht gefunden werden.
+
+        Eventuell hast du das Spiel deinstalliert oder der Link wurde aus irgendeinem Grund zerstört.
+
+
+                Soll der Eintrag von der Liste entfernt werden?
+          </NoLongerLinked>
+         <LinkRemovalFail title="Error:" width="450" height="150">GameSave Manager konnte den entsprechenden Link nicht entfernen:
+
+          "%LINK%"</LinkRemovalFail>
+         <Success title="Success" width="350" height="110">Steam Spreader wurde erfolgreich ausgeführt!
+  
+          Es wurden keine Fehler gefunden!
+          </Success>
+      </Messages>
+	</Undo>
+	<SteamRunning title="Warning:" width="450" height="200">GameSave Manager hat festgestellt, dass Steam noch nicht geschlossen wurde.
+
+GameSave Manger steht zwar nicht mit Steam direkt in Verbindung, es werden nur die Spieldateien auf das gewünschtes Verzeichnis verschoben. 
+Dadurch könnte eine Warnung von Steam kommen, dass einige Dateien fehlen. Daraufhin wird Steam diese wieder herunterlanden.
+
+Möchten Sie die Verschiebung trotzdem beginnen?</SteamRunning>
+</GameSaveManager_Translation>

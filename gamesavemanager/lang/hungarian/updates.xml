@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Frissítések keresése</Title>
+	<Info>Mint minden szoftver esetében, a GameSave Manager is gyakran kap frissítéseket.
+Ez az oldal felsorolja a számodra elérhetõ frissítéseket.
+
+Kattints az ikonra a bal oldalon a frissítések újraellenõrzéséhez.</Info>
+	<Recheck>Ismételten lekérdezi a szerverrõl a frissítési információkat.</Recheck>
+	<ProgramUpdate>
+		<Title>Program frissítés</Title>
+		<Info>Nagyon ajánlott mindig a legfrissebb GameSave Manager-t használni.
+A programbeállítások új beállításokat tesznek lehetõvé, ismert hibákat javítanak ki és általában jobbá teszik a GameSave Manager-t.</Info>
+		<Download>Letöltés</Download>
+		<ApplyUpdate>Letöltés és érvényesítés</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Fordítási csomag</Title>
+		<Info>Nem található 'programfrissítés'.
+Azonban az általad is használt fordítási csomag készítõje új frissítést adott ki.</Info>
+		<Download>Letöltés</Download>
+		<ApplyUpdate>Letöltés és érvényesítés</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Adatbázis frissítés</Title>
+		<Info>Habár az adatbázis frissítések nem olyan fontosak, mint a programfrissítések, támogatást biztosítanak az újabb játékok számára és kijavítják a hibákat a már létezõ bejegyzésekben.
+Emiatt ajánlott frissíteni hetente az adatbázist.</Info>
+		<Download>Frissítés érvényesítése</Download>
+	</DatabaseUpdate>
+	<Changelog>Változások megtekintése</Changelog>
+	<DialogPrompt title="Frissítés elérhetõ" width="500" height="110">Úgy tûnik, hogy 'programfrissítés' vagy 'adatbázis frissítés' érhetõ el a számodra.
+
+Szeretnéd meglátogatni a Frissítések oldalát?</DialogPrompt>
+	<Errors>
+		<Checking>Frissítések keresése...</Checking>
+		<NoUpdates>Nincsenek elérhetõ frissítések</NoUpdates>
+		<LangPack>[Közösség által készített] Lokalizációs csomag frissítés</LangPack>
+		<LangPack_Invalid>Lekérdezési hiba: Ismeretlen meghatározott 'PackID'!</LangPack_Invalid>
+		<UpdateRequired>Adatbázis frissítés elérhetõ; a legfrissebb programfrissítés szükséges.</UpdateRequired>
+		<NoConnection>Nem sikerült lekérdezni a verzió információkat a honlapról. Kérlek próbáld újra késõbb.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

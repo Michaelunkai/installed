@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Senkron &amp; Bağlantı</Title>
+	<Info>Senkron &amp; Bağlantı Simgesel Bağlantılar ile istediğiniz oyun kayıtlarını farklı bir klasöre taşımanızı sağlar ( 'Steam Dağıtıcı' ile aynı şekilde çalışır).
+
+Dropbox, Google Drive veya SkyDrive birleşimi ile kayıtlarınıza 'cloud' özelliği (Steam Cloud benzeri) kazandırmak için hızlı ve basit bir çözümdür.</Info>
+	<Detection>
+		<Title>Desteklenen Girdiler</Title>
+		<ListCheck>Tümünü Seç / Seçimi Kaldır</ListCheck>
+		<Counter>%TOTAL% kayıt bulundu / %SELECTED% kayıt seçildi</Counter>
+	</Detection>
+	<Options>
+		<Start>Senkron ve Bağlantı görevini başlat.</Start>
+		<Unlink>Belirtilen klasördeki önceden yapılan tüm kayıt bağlantılarını kaldır.</Unlink>
+		<Relink>Belirtilen klasördeki önceden yapılan tüm kayıt bağlantıları yeniden yap.</Relink>
+		<Rescan>Desteklenen oyun kayıtları için sisteminizi yeniden tarayın.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Senkron & Bağlantı; Bağlantı Kaldır</Header>
+		<Info>Aşağıdaki bulunan ve listelenen klasörlerin hangilerinden 'bağlantılarının kaldırılacağını' belirtin lütfen.</Info>
+		<ListCheck>Tümünü Seç / Seçimi Kaldır</ListCheck>
+		<DupSaves>Kayıtları kopyala; kaynak dosyaları kaldırma</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Başarılı" width="350" height="110">Senkron &amp; Bağlantı Görevi tamamlandı.
+
+Hiç bir hata oluşmadı.</Success>
+		<Failed title="Başarısız" width="420" height="110">Senkron &amp; Bağlantı Görevi tamamlandı.
+		
+En az bir hata oluştu.
+
+Günlük kaydedildi. Görüntülemek ister misiniz?</Failed>
+		<NoEntries>GameSave Manager sisteminizde desteklene bir oyun kaydı bulamıyor.
+
+Veritabanı güncellemesi olabilir
+Ayrıca Özel Oyun Kaydı Girdisi oluşturabilirsiniz.</NoEntries>
+		<NoneSelected title="Hata:" width="350" height="110">Göreve eklenecek bir oyun kaydı belirtilmedi.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

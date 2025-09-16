@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Tâches planifiées</Title>
+  <Info>Vous pouvez paramétrer GameSave Manager ici pour faire des sauvegardes automatiquement à intervales réguliers.
+Les tâches planifiées peuvent être configurées pour sauvegarder certaines --ou toutes-- les sauvegardes détectées en utilisant des paramètres spécifiques, vous donnant un grand contrôle et une grande flexibilité sur le processus.</Info>
+  <List>
+    <Header>Tâches existantes</Header>
+    <NoEntries>Aucune tâche planifiée n'est définie.
+
+Pour commencer, cliquer sur le bouton 'Ajouter' ci-dessous.</NoEntries>
+  </List>
+  <Wizard>
+    <Title>Assistant de création de tâche planifiée; Étape %CURRENT% sur %TOTAL%</Title>
+    <Header>Assistant de création de tâche planifiée</Header>
+    <Step1>
+      <Info>Cet assistant va vous guider dans l'ajout --ou la modification-- d'une tâche planifiée.
+
+Dans cet assistant, vous devrez spécifier ce que vous voulez sauvegarder, quand effectuer la sauvegarde et éventuellement définir des paramètres de configuration différents.
+L'opération ne devrait pas prendre plus de 5 minutes. Vous pourrez annuler à tout moment.
+
+Pour commencer, donnez un nom à votre tâche planifiée.
+Vous pouvez utiliser le nom que vous voulez, mais il est recommandé d'utiliser un nom qui vous permettra facilement de vous souvenir de ce que la tâche fait.</Info>
+      <Name>Titre de la tâche:</Name>
+      <Errors>
+        <InvalidName title="Nom invalide:" width="420" height="110">Le nom spécifié ('%NAME%') est déjà utilisé par une tâche existante.
+
+Veuillez entrer un autre nom et réessayer.</InvalidName>
+        <NoName title="No name specified:" width="420" height="110">Vous avez oublié de donner un nom à votre tâche.
+
+Veuillez entrer un nom et réessayer.</NoName>
+      </Errors>
+    </Step1>
+    <Step2>
+      <Info>Dans le formulaire ci-dessous, choisissez ce que vous voulez sauvegarder au lancement de la tâche.</Info>
+      <AllDetected>Sauver toutes les sauvegardes détectées</AllDetected>
+      <Specific>Sauver seulement les sauvegardes suivantes</Specific>
+      <Rescan>Rescanner le système avant de lancer la tâche</Rescan>
+      <Errors>
+        <NoFound>Aucune sauvegarde n'a pu être détectée.
+
+Rescanner votre système peut régler ce problème; sinon, mettez à jour votre base de donnée ou créez une sauvegarde personnalisée et réessayez.</NoFound>
+        <NoSelected title="Erreur:" width="420" height="110">Aucune sauvegarde n'est sélectionnée.
+
+Afin de continuer, sélectionnez au moins une sauvegarde.</NoSelected>
+      </Errors>
+    </Step2>
+    <Step3>
+      <Info>Veuillez choisir quand la tâche doit être exécutée.</Info>
+      <Type>
+        <Header>Type de tâche:</Header>
+        <Daily>Quotidienne</Daily>
+        <Weekly>Hebdomadaire</Weekly>
+        <Monthly>Mensuelle</Monthly>
+        <Minute>Minuteur</Minute>
+        <Hourly>Horaire</Hourly>
+        <OnIdle>Système inactif</OnIdle>
+      </Type>
+      <Daily>
+        <Header>Tâche quotidienne</Header>
+        <RunThisTaskAt>Exécuter cette tâche à</RunThisTaskAt>
+        <Every>tous les</Every>
+        <Days>jour(s).</Days>
+      </Daily>
+      <Weekly>
+        <Header>Tâche hebdomadaire</Header>
+        <RunThisTaskAt>Exécuter cette tâche à</RunThisTaskAt>
+        <Every>chaque</Every>
+        <Weeks>semaine(s).</Weeks>
+        <DaysHeader>Exécuter la tâche le:</DaysHeader>
+        <Days>
+          <Monday>Lundi</Monday>
+          <Tuesday>Mardi</Tuesday>
+          <Wednesday>Mercredi</Wednesday>
+          <Thursday>Jeudi</Thursday>
+          <Friday>Vendredi</Friday>
+          <Saturday>Samedi</Saturday>
+          <Sunday>Dimanche</Sunday>
+        </Days>
+      </Weekly>
+      <Monthly>
+        <Header>Tâche mensuelle</Header>
+        <RunThisTaskAt>Exécuter cette tâche à</RunThisTaskAt>
+        <Specific>
+          <Header>le:</Header>
+          <Last>dernier jour</Last>
+        </Specific>
+        <EveryOther>
+          <Header>le</Header>
+          <Frequency>
+            <First>premier</First>
+            <Second>second</Second>
+            <Third>troisième</Third>
+            <Last>dernier</Last>
+          </Frequency>
+          <Day>
+            <Monday>Lundi</Monday>
+            <Tuesday>Mardi</Tuesday>
+            <Wednesday>Mercredi</Wednesday>
+            <Thursday>Jeudi</Thursday>
+            <Friday>Vendredi</Friday>
+            <Saturday>Samedi</Saturday>
+            <Sunday>Dimanche</Sunday>
+          </Day>
+        </EveryOther>
+        <MonthHeader>des mois suivants:</MonthHeader>
+        <Months>
+          <January>Janvier</January>
+          <February>Février</February>
+          <March>Mars</March>
+          <April>Avril</April>
+          <May>Mai</May>
+          <June>Juin</June>
+          <July>Juillet</July>
+          <August>Août</August>
+          <September>Septembre</September>
+          <October>Octobre</October>
+          <November>Novembre</November>
+          <December>Décembre</December>
+        </Months>
+      </Monthly>
+      <Minute>
+        <Header>Minuteur</Header>
+        <Every>Exécuter cette tâche toutes les</Every>
+        <Minutes>minute(s)</Minutes>
+        <StartingFromTasksCreation>à partir de l'heure de création de la tâche</StartingFromTasksCreation>
+        <StartingFrom>à partir de</StartingFrom>
+      </Minute>
+      <Hourly>
+        <Header>Tâche horaire</Header>
+        <Every>Exécuter cette tâche toutes les</Every>
+        <Hours>heure(s)</Hours>
+        <StartingFromTasksCreation>à partir de l'heure de création de la tâche</StartingFromTasksCreation>
+        <StartingFrom>à partir de</StartingFrom>
+      </Hourly>
+      <OnIdle>
+        <Header>Système inactif</Header>
+        <WhenIdleFor>Exécuter cette tâche quand le système est inactif pendant</WhenIdleFor>
+        <Minutes>minute(s)</Minutes>
+      </OnIdle>
+      <Errors>
+        <FormError title="Donnée(s) manquante(s):" width="420" height="110">Une partie ou l'ensemble du formulaire n'a pas été rempli correctement.
+
+Veuillez remplir le formulaire et réessayer.</FormError>
+      </Errors>
+    </Step3>
+    <Step4>
+      <Info>On y est presque!
+En utilisant les options ci-dessous, veuillez configurer comment GameSave Manager doit exécuter cette tâche.</Info>
+      <CreateSchedule>Ajouter la tâche au planificateur de tâche Windows</CreateSchedule>
+      <Shortcut>Créer un raccourci vers cette tâche sur le bureau pour la lancer manuellement</Shortcut>
+      <SaveHeader>Emplacement des sauvegardes:</SaveHeader>
+      <UseCloud>Utiliser la configuration d'enregistrement sur le cloud</UseCloud>
+      <SaveTo>Sauvegarder dans:</SaveTo>
+      <ArchiveSettings>Configuration des archives:</ArchiveSettings>
+      <SaveTo_Browse>Browse</SaveTo_Browse>
+      <AutoGenerate>Générer un nom de fichier automatiquement</AutoGenerate>
+      <Errors>
+        <CloudError title="Indisponible" width="420" height="110">Vous n'avez pas défini d'enregistrement sur le cloud dans la configuration du programme.
+
+Veuillez configurer l'enregistrement sur le cloud et réessayer.</CloudError>
+      </Errors>
+    </Step4>
+  </Wizard>
+  <Errors>
+    <InvalidEntry title="Erreur:" width="420" height="110">La tâche planifiée sélectionnée n'est pas valide ou une erreur est survenue lors de la récupération d'informations dans la base de données.
+
+Veuillez réessayer.</InvalidEntry>
+  </Errors>
+</GameSaveManager_Translation>

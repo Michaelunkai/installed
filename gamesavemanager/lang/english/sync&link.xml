@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link allows you to move specified saves to a custom directory via Symbolic Links (similar to the way 'Steam Spreader' works).
+
+Used in conjunction with Dropbox, Google Drive or SkyDrive it's a quick and simple solution for 'in-the-cloud' saves.</Info>
+	<Detection>
+		<Title>Supported Entries</Title>
+		<ListCheck>Select all / De-select all</ListCheck>
+		<Counter>%TOTAL% item(s) detected / %SELECTED% item(s) selected</Counter>
+	</Detection>
+	<Options>
+		<Start>Start the Sync and Link Task now.</Start>
+		<Unlink>Unlink all previously processed saves from a specified directory.</Unlink>
+		<Relink>Relink all previously processed saves from a specified directory.</Relink>
+		<Rescan>Rescan your system for supported gamesaves.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Unlink</Header>
+		<Info>Please specify what directories you'd like to 'unlink' from the ones detected and listed below.</Info>
+		<ListCheck>Select all / De-select all</ListCheck>
+		<DupSaves>Copy saves; don't remove source files</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Success" width="350" height="110">The Sync &amp; Link Task has completed.
+
+Thankfully, no errors were detected.</Success>
+		<Failed title="Failure" width="420" height="110">The Sync &amp; Link Task has completed.
+		
+Unfortunately, at least 1 error was detected.
+
+A log has been saved. Would you like to view it?</Failed>
+		<NoEntries>GameSave Manager was unable to find any supported gamesaves on your system.
+
+Perhaps there's a database update available?
+You could also create a Custom Gamesave Entry.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">No gamesaves have been specified to be included in the task.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

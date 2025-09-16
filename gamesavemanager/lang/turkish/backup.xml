@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Oyun Kayıtlarını Yedekle</Title>
+	<Detection>
+		<Title>Bulunan Girdiler</Title>
+		<ListCheck>Tümünü Seç / Seçimi Kaldır</ListCheck>
+		<Counter>%TOTAL% kayıt bulundu / %SELECTED% kayıt seçildi</Counter>
+		<Legend>
+			<Title>Açıklamalar</Title>
+			<Files>Yedeklenecek dosyalar</Files>
+			<Registry>Yedeklenecek Kayıt Defteri verileri</Registry>
+			<Warning>Girdide okumak isteyebileceğiniz 'Uyarı Mesajı' var</Warning>
+			<EntireEntry>Girdinin tamamı yedeklenecek</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Yedekleme Görevini başlat.</Start>
+		<Delete>Seçilen girişleri sistemden sil.</Delete>
+		<Rescan>Sisteminizi desteklenen oyunlar için tekrar tarayın.</Rescan>
+	</Options>
+	<Details>
+		<Title>Girdi Ayrıntıları</Title>
+		<NoneSelected>Hiçbir girdi seçilmedi.
+
+Soldaki listeden bir girdi seçin lütfen.</NoneSelected>
+		<Entry>
+			<Name>Girdi Adı:</Name>
+			<IsOfficial>Resmi Girdi:</IsOfficial>
+			<Size>Diskteki Boyut:</Size>
+			<Warning>Uyarı:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Klasör:</Directory>
+			<Size>Diskteki boyut:</Size>
+			<Files>Dosyalar:</Files>
+		</Directory>
+		<Registry>
+			<Key>Kayıt Defteri Anahtarı:</Key>
+			<Values>Değerler:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Yeniden Tarama Yapılsın mı?" width="450" height="170">GameSave Manager önceki oturumun tarama sonuçlarını kullanıyor, yani daha sonra yapılan oyun kaydı değişiklikleri listelenmiyor.
+Bunu çözmek için sisteminizde tam yeniden tarama başlatmalısınız.
+
+Tam yeniden taramayı şimdi başlatmak ister misiniz?</Rescan>
+		<Success title="Başarılı" width="350" height="110">Yedekleme Görevi tamamlandı.
+
+Herhangi bir hata algılanmadı.</Success>
+		<Failed title="Başarısız" width="420" height="110">Yedekleme Görevi tamamlandı.
+		
+Ne yazık ki en az 1 hata algılandı.
+
+Günlük dosyası kaydedildi. Görüntülemek ister misiniz?</Failed>
+		<Overwrite title="Dosya mevcut..." width="450" height="125">Belirtilen dosya mevcut.
+Devam ederseniz, GameSave Manager yedeğindeki dosya ile üzerine yazacak.
+
+Mevcut dosyanın üzerine yazılsın mı?</Overwrite>
+		<NoEntries>GameSave Manager sisteminizde desteklenen herhangi bir oyun kaydı bulamıyor.
+
+Belki de bir veri tabanı güncellemesi vardır?
+Ayrıca Özel Oyun Kaydı Girişi oluşturabilirsiniz.</NoEntries>
+		<NoneSelected title="Hata:" width="370" height="110">Yedekleme için herhangi bir oyun kaydı belirtilmedi</NoneSelected>
+		<Delete>
+			<NoneSelected title="Hata:" width="350" height="110">Silme işlemi için herhangi bir oyun kaydı belirtilmedi.</NoneSelected>
+			<Warning title="Dikkat!" width="500" height="170">Devam etmeden önce bilmeniz gereken bir kaç şey var...
+
+1. Yalnızca seçtiğiniz her girdi de listelenen dosyalar silinecek
+2. Devam etmeden önce kayıtlarınızı yedeklemeniz önerilir
+3. Bu işlemi gerçekleştirdiğinizde, önceden alınmış bir yedeğiniz olmadan geri alınamaz!
+
+Devam edilsin mi?</Warning>
+			<Success title="Başarılı" width="350" height="110">Silme İşlemi tamamlandı.
+
+Herhangi bir hata algılanmadı.</Success>
+			<Failed title="Başarısız" width="420" height="110">Silme İşlemi tamamlandı.
+		
+Ne yazık ki en az 1 hata algılandı.
+
+Günlük dosyası kaydedildi. Görüntülemek ister misiniz?</Failed>
+		</Delete>
+	</Errors>
+	<GameplayBackup>
+      <Title>Oynarken Yedekle</Title>
+      <Info>Siz oyununuzu oynarken, GameSave Manager "Oynarken Yedekle" özelliği ile ilerlemenizi her bir kaç dakikada bir yedekler.
+İşlem süresini düşürmek, oyun içinde takılmaları engellemek için sadece oynamakta olduğunuz oyunu seçin.
+
+Düzenli yedekleme işlemeleriniz için, Zamanlanmış Görevler seçeneğine bakabilirsiniz.</Info>
+      <Interval>
+         <RunEvery>Her...</RunEvery>
+         <minutes>dakikada bir çalıştır</minutes>
+         <hour>saatte bir çalıştır</hour>
+         <hours>saatte bir çalıştır</hours>
+      </Interval>
+      <Processing>
+         <Title>Oynarken Yedekle (çalışan görev)</Title>
+         <Info>GameSave Manager seçtiğiniz girdileri her %INTERVAL% sessizce yedekleyecek.
+
+Bu pencereyi küçültüp, oynamaya başlayabilirsiniz.
+Not: Seçiminize ve sistem özelliklerinize bağlı olarak, yedekleme sırasında küçük takılmalar yaşayabilirsiniz.
+
+
+Görevi sonlandırmak için, Pencerenin 'Kapat' düğmesine basın (Sağ üst köşedeki X).</Info>
+         <Interval>Süre:</Interval>
+         <TimesRan>Çalıştırma Sayısı:</TimesRan>
+         <DetectedErrors>Bulunan Hatalar:</DetectedErrors>
+         <ProcessingBackup>Şu anda yedekleniyor...</ProcessingBackup>
+         <Stopping>İşlem durduruluyor, biraz zaman alabilir...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Hata:" width="350" height="110">Lütfen en az bir girdi seçtiğinizden ve yedeklemeleri kaydetmek için bir konum belirttiğinizden emin olun.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+</GameSaveManager_Translation>

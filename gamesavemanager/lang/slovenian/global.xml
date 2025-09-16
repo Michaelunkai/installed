@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Datoteka</Title>
+			<Backup>Varnostno kopiraj shranjene igre</Backup>
+			<ScheduledTasks>Razporejena opravila</ScheduledTasks>
+			<SyncLink>Uskladi in poveži</SyncLink>
+			<GameplayBackup>Varnostno kopiranje med igranjem</GameplayBackup>			
+			<Restore>Obnovi shranjene igre</Restore>
+			<Validate>Preveri veljavnost arhivov</Validate>
+			<SteamSpreader>Razpršilnik za Steam</SteamSpreader>
+			<Exit>Konèaj</Exit>
+		</File>
+		<Edit>
+			<Title>Uredi</Title>
+			<CustomEntries>Vnosi shranjenih iger po meri</CustomEntries>
+			<Variables>Spremeni spremenljivke</Variables>
+			<ProgSettings>Nastavitve programa</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Pomoè</Title>
+			<Help>Pomoè za GameSave Manager</Help>
+			<CommandlineHelp>Pomoè za ukazno vrstico</CommandlineHelp>
+			<TranslationFilter>Filter prevodov</TranslationFilter>
+			<ListEntries>Katere igre so trenutno podprte?</ListEntries>
+			<VisitWebsite>Domaèa stran</VisitWebsite>
+			<Update>Preveri za posodobitvami</Update>
+			<ReleaseHistory>Zgodovina izdaj</ReleaseHistory>
+			<About>O GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<Social>
+		<Facebook>Pridružite se nam na Facebooku</Facebook>
+		<Twitter>Sledite nam na Twitterju</Twitter>
+		<GooglePlus>Pridružite se našemu 'krogu' na Google+</GooglePlus>
+		<Steam>Pridružite se skupini na Steam Community</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Razpoložljive posodobitve</Title>
+		<InfoTip>Imate eno ali veè posodobitev.
+Kliknite tukaj za veè podrobnosti.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Poèakajte</Title>
+		<Info>GameSave Manager nalaga zahtevane datoteke v sistemski pomnilnik ...</Info>
+		<Tasks>
+			<Dirs>Ustvarjanje delovnih map ...</Dirs>
+			<LoadDB>Nalaganje podatkovnih zbirk ...</LoadDB>
+			<Updates>>Preverjanje za razpoložljivimi posodobitvami ...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Pozdravljeni</Header>
+		<Welcome>Dobrodošli v GameSave Manager.
+Da zaènete, izberite vaš prednostni jezik iz spodnjega seznama.
+
+Opomba: to vrednost lahko kadarkoli spremenite (in še kaj drugega) tako, da obišèete 'nastavitve programa'.</Welcome>
+		<TranslationInfo>Razen 'English' so vsi jeziki vzdrževani s strani skupnosti.
+Tako bodo morda prevodi nepopolni.</TranslationInfo>
+		<CustomCache>Prilagodite 'mapo za predpomnjenje'</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Shrani nastavitve programa znotraj zagonske mape</StoreWithinLaunchDir>
+		<SeparateDBPerUser>Shrani podatkovno zbirko 'uradnih vnosov' v AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Namestim?</Header>
+		<Info>Èeprav je GameSave Manager popolnoma prenosljiv, pa ga bodo morda nekateri uporabniki želeli 'namestiti'. V ta namen je bil ustvarjen ta èarovnik.
+
+Ali bi želeli 'namestiti' GameSave Manager?</Info>
+		<Confirm>Da, rad bi ga 'namestil'</Confirm>
+		<Install>Namesti v:</Install>
+		<DesktopShortcut>Ustvari tudi bližnjico na namizju</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Spremeni spremenljivke</ModifyVariables>
+	<CustomDynDir>Prilagodite 'dinamièno zaznane' spremenljivke:</CustomDynDir>
+	<CustomCacheWarning>Sprememba te spremenljivke zahteva, da znova zaženete GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Nazaj v 'glavni meni'</BackToMainMenu>
+	<Unsupported title="Nepodprta zmožnost:" width="430" height="125">Izgleda, da poganjate operacijski sistem, ki trenutno ne podpira te zmožnosti.
+
+Ime OS:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Preverim za posodobitvami?" width="430" height="110">Odkar ste nazadnje uspešno preverili za posodobitvami je minilo preko 7 dni.
+
+Ali bi radi preverili za posodobitvami zdaj?</UpdateReminder>
+	<UpdateReminder_First title="Preverim za posodobitvami?" width="470" height="125">Dobrodošli v GameSave Manager.
+GameSave Manager se neprestano razvija preko posodobitev programa in podatkovne zbirke.
+
+Ali bi radi preverili za posodobitvami zdaj?</UpdateReminder_First>
+	<NoLogs title="Niè ni za prikazati" width="430" height="110">Trenutno ni prisotnih dnevnikov za prikaz.</NoLogs>
+	<RemoveLog>Izbriši izbran dnevnik</RemoveLog>
+	<GenericButtons>
+		<OK>V redu</OK>
+		<Yes>Da</Yes>
+		<No>Ne</No>
+		<Add>Dodaj</Add>
+		<Edit>Uredi</Edit>
+		<Remove>Odstrani</Remove>
+		<Back>&lt; Nazaj</Back>
+		<Next>Naprej &gt;</Next>
+		<Cancel>Preklièi</Cancel>
+		<Finish>Konèaj</Finish>
+		<Browse>Brskaj</Browse>
+		<Close>Zapri</Close>
+		<Abort>Prekini</Abort>
+	</GenericButtons>
+	<true>true</true>
+	<false>false</false>
+	<Detection>
+		<Backup>Poèakajte medtem ko bo vaš sistem preiskan za podprtimi shranjenimi igrami ...</Backup>
+		<Status>
+		      <LookingIn>Iskanje v ...</LookingIn>
+		      <Found>Najdeno ...</Found>
+		      <Nothing>niè :'(</Nothing>
+		</Status>
+		<Restore>Preiskovanje arhivov za shranjenimi igrami ...</Restore>
+		<Error>Trenutno ni bilo mogoèe zaznati mape.</Error>
+		<NoMsg>Ni razpoložljivih opozoril.</NoMsg>		
+	</Detection>
+	<Processing>
+		<Header>Dnevnik opravil:</Header>
+		<Info>Sedaj se lahko zleknete in sprostite medtem ko GameSave Manager izvaja zahtevano opravilo.
+Zahtevan èas je odvisen od sistema in vrste opravila.</Info>
+	</Processing>
+		<IgnoreCommandline>
+		<AlreadyIgnored title="Že prezrt" width="430" height="110">Vnos, ki ste ga podali ("%NAME%") je že prezrt.</AlreadyIgnored>
+		<InvalidEntryName title="Neveljavno ime vnosa" width="430" height="110">Ni vnosa imenovanega "%NAME%" v 'uradni' podatkovni zbirki, niti podatkovni zbirki 'po meri', zato ni mogoèe niè prezreti.</InvalidEntryName>
+		<Success title="Uspeh" width="500" height="150">Vnos imenovan "%NAME%" je bil uspešno oznaèen kot prezrt.
+
+Njegovo zaznavanje lahko znova omogoèite preko 'Nastavitve programa -> Nastavitve zaznave -> Prezrti vnosi'.</Success>
+	</IgnoreCommandline>
+</GameSaveManager_Translation>

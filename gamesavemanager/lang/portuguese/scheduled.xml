@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Tarefas Agendadas</Title>
+	<Info>Aqui você pode configurar o GameSave Manager para executar backups agendados especificados por você.
+'Tarefas Agendadas' podem ser configuradas para backup específico - ou todos detectados - salvar e substituir várias configurações de programa dando-lhe maior flexibilidade e controle.</Info>
+	<List>
+		<Header>Tarefas Existentes</Header>
+		<NoEntries>Nenhuma 'Tarefa Agendada'.
+
+Para começar, clique no botão 'Adicionar' abaixo.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Assistente de Tarefa Agendada; Passo %CURRENT% de %TOTAL%</Title>
+		<Header>Assistente de Tarefa Agendada</Header>
+		<Step1>
+			<Info>Este assistente irá guiá-lo através do processo de adição - ou modificação - de uma 'Tarefa Agendada'.
+
+Neste assistente, você será solicitado a especificar o que deseja incluir no backup, quando executar o backup e quais configurações do programa você deseja sobrescrever.
+Este processo não deve demorar mais do que 5 minutos. Lembre-se, você pode cancelar a qualquer momento.
+
+Para começar, vamos dar nome a nossa tarefa agendada.
+Você pode nomear esta entrada como desejar, mas é recomendável que você a nomeie com algo significativo para referência futura.</Info>
+			<Name>Nome da Tarefa:</Name>
+			<Errors>
+				<InvalidName title="Nome inválido:" width="420" height="110">O nome especificado ('%NAME%') já está em uso por outra Tarefa Agendada.
+
+Por favor, especifique um nome diferente e tente novamente.</InvalidName>
+				<NoName title="Nenhum nome especificado:" width="420" height="110">Você se esqueceu de nomear sua Tarefa Agendada.
+
+Por favor, especifique um nome e tente novamente.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Usando o formulário abaixo, por favor, especifique o que você gostaria de fazer backup quando esta tarefa for executada.</Info>
+			<AllDetected width="155">Backup de todas os saves</AllDetected>
+			<Specific width="160">Apenas o seguinte</Specific>
+			<Rescan>Reescanear o sistema antes de inciar a tarefa</Rescan>
+			<ExclusionList>Eu gostaria de especificar as entradas a serem ignoradas (para esta tarefa somente)</ExclusionList>
+			<Errors>
+				<NoFound>Nenhuma das entradas que estão no banco de dados foram encontradas atualmente.
+
+Reescanear seu sistema pode corrigir esse problema, caso contrário, atualize o banco de dados ou crie alguma Entrada Customizada de Saves e tente novamente.</NoFound>
+				<NoSelected title="Erro:" width="420" height="110">Você não especificou nenhuma entrada para backup.
+
+Para prosseguir, você deve selecionar pelo menos uma entrada.</NoSelected>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Por favor, especifique abaixo quando essa tarefa deve ser executada.</Info>
+			<Type>
+				<Header>Tipo de Tarefa:</Header>
+				<Daily width="47">Diária</Daily>
+				<Weekly width="60">Semanal</Weekly>
+				<Monthly width="67">Mensal</Monthly>
+				<Minute>Baseada em minutos</Minute>
+            			<Hourly>De hora em hora</Hourly>
+            			<OnIdle>No sistema ocioso</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Tarefa diária</Header>
+				<RunThisTaskAt>Executar esta tarefa às</RunThisTaskAt>
+				<Every>a cada</Every>
+				<Days>dia(s).</Days>
+			</Daily>
+			<Weekly>
+				<Header>Tarefa semanal</Header>
+				<RunThisTaskAt>Executar esta tarefa às</RunThisTaskAt>
+				<Every>a cada</Every>
+				<Weeks>semana(s).</Weeks>
+				<DaysHeader>Executar no(s) dia(s):</DaysHeader>
+				<Days>
+					<Monday>Segunda</Monday>
+					<Tuesday>Terça</Tuesday>
+					<Wednesday>Quarta</Wednesday>
+					<Thursday>Quinta</Thursday>
+					<Friday>Sexta</Friday>
+					<Saturday>Sábado</Saturday>
+					<Sunday>Domingo</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Tarefa mensal</Header>
+				<RunThisTaskAt>Executar esta tarefa:</RunThisTaskAt>
+				<Specific>
+					<Header width="135">no seguinte dia:</Header>
+					<Last>último dia</Last>
+				</Specific>
+				<EveryOther>
+					<Header width="57">na</Header>
+					<Frequency>
+						<First>primeira</First>
+						<Second>segunda</Second>
+						<Third>terceira</Third>
+						<Last>última</Last>
+					</Frequency>
+					<Day>
+						<Monday>Segunda</Monday>
+						<Tuesday>Terça</Tuesday>
+						<Wednesday>Quarta</Wednesday>
+						<Thursday>Quinta</Thursday>
+						<Friday>Sexta</Friday>
+						<Saturday>Sábado</Saturday>
+						<Sunday>Domingo</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>do(s) seguinte(s) mes(es):</MonthHeader>
+				<Months>
+					<January>Janeiro</January>
+					<February>Fevereiro</February>
+					<March>Março</March>
+					<April>Abril</April>
+					<May>Maio</May>
+					<June>Junho</June>
+					<July>Julho</July>
+					<August>Agosto</August>
+					<September>Setembro</September>
+					<October>Outubro</October>
+					<November>Novembro</November>
+					<December>Dezembro</December>
+				</Months>
+			</Monthly>
+			<Minute>
+            			<Header>Tarefa baseada em minutos</Header>
+			        <Every>A cada</Every>
+				<Minutes>minuto(s)</Minutes>
+				<StartingFromTasksCreation>iniciando do tempo de criação da tarefa</StartingFromTasksCreation>
+				<StartingFrom>iniciando de</StartingFrom>
+		        </Minute>
+         <Hourly>
+            <Header>Tarefa de hora em hora</Header>
+            <Every>A cada</Every>
+            <Hours>hora(s)</Hours>
+            <StartingFromTasksCreation>iniciando do tempo de criação da tarefa</StartingFromTasksCreation>
+            <StartingFrom>iniciando de</StartingFrom>
+         </Hourly>
+         <OnIdle>
+            <Header>No sistema ocioso</Header>
+            <WhenIdleFor>Quando o sistema estiver ocioso por</WhenIdleFor>
+            <Minutes>minuto(s)</Minutes>
+         </OnIdle>
+		<Errors>
+			<FormError title="Erro de preenchimento:" width="420" height="110">Parte ou tudo no formulário atual não foi corretamente preenchido.
+
+Por favor, preencha o formulário e tente novamente.</FormError>
+		</Errors>
+		</Step3>
+		<Step4>
+			<Info>Estamos quase terminando.
+Usando as opções abaixo, por favor, configure como deseja que o GameSave Manager se comporte ao executar esta tarefa.</Info>
+			<CreateSchedule width="265">Adicionar tarefa ao Agendador de Tarefas do Windows</CreateSchedule>
+			<Shortcut width="385">Criar atalho no desktop para essa tarefa para que eu possa iniciá-la à força</Shortcut>
+			<SaveHeader>Local do Salvamento:</SaveHeader>
+			<UseCloud width="145">Usar minhas configurações de 'Nuvem'</UseCloud>
+			<SaveTo>Salvar para:</SaveTo>
+			<ArchiveSettings>Configuração de Arquivamento:</ArchiveSettings>
+			<SaveTo_Browse>Procurar</SaveTo_Browse>
+			<AutoGenerate width="195">Gerar automaticamente o nome do arquivo</AutoGenerate>
+			<Errors>
+				<CloudError title="Indisponível" width="420" height="110">Você não parece ter configurado as opções de 'Nuvem' dentro das configurações do programa.
+
+Por favor, configure estas opções e tente novamente.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Erro:" width="420" height="110">A 'Tarefa Agendada' selecionada não parece ser válida ou ocorreu um erro ao consultar o banco de dados para dados necessários.
+
+Por favor tente novamente.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

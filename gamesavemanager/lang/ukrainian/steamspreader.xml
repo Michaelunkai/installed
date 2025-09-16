@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Steam Spreader</Title>
+	<Info>Steam Spreader дозволяє переміщати файли між розділами або дисками за допомогою символьних посилань.
+
+Більшість гравців використовують символьні посилання, щоб перемістити свої улюблені ігри на SSD, зберігаючи при цьому основну частину своїх ігор на HDD (жорсткому диску).</Info>
+	<MoveDir>
+		<Header>Переміщення каталогів</Header>
+		<Empty>Каталоги не обрано.
+
+Натисніть "Додати" щоб почати.</Empty>
+		<DialogHeader>Steam Spreader; Каталог в черзі</DialogHeader>
+		<Steam width="130">Перемістити Steam гру</Steam>
+		<Origin>Перемістити Origin гру</Origin>
+		<Specify width="140">Дозвольте мені вказати шлях</Specify>
+		<MoveTo>Перемістити в...</MoveTo>
+		<Move width="100">Перемістити</Move>
+		<Messages>
+			<NoneSelected title="Помилка:" width="350" height="110">Ви не вказали жодного каталогу для переміщення.
+Будь ласка, спробуйте ще раз.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Помилка переміщення:" width="350" height="110">Не вдалося створити посилання через неможливість видалити вихідний каталог з системи.</SourceExists>
+			</LinkError>
+			<Success title="Успіх" width="350" height="110">Steam Spreader завершив всі завдання.
+
+На щастя, помилок не виявлено.</Success>
+			<Failed title="Невдача" width="420" height="110">Steam Spreader завершив всі завдання.
+		
+На жаль, виявлена принаймні 1 помилка.
+
+Журнал було збережено. Бажаєте його переглянути?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Відновити каталог</Header>
+		<Source>Відновити наступний каталог...</Source>
+		<Destination>...які в даний момент пов'язані з:</Destination>
+		<Revert width="100">Відмінити</Revert>
+		<Messages>
+			<NoneSelected title="Помилка:" width="350" height="110">Ви не заповнили одне або декілька полів форми.
+Будь ласка заповніть їх і спробуйте ще раз</NoneSelected>
+			<NoLongerLinked title="Помилка посилання:" width="450" height="150">Неможливо знайти задане посилання у Вашій системі для відміни.
+
+Можливо Ви видалили гру або посилання було задано некоректно.
+
+
+Видалити зі списку?</NoLongerLinked>
+			<LinkRemovalFail title="Помилка:" width="450" height="150">GameSave Manager не зміг видалити посилання пов'язані з вказаним посиланням.
+
+	"%LINK%"</LinkRemovalFail>
+			<Success title="Успіх" width="350" height="110">Завдання Steam Spreader завершено.
+
+Помилок не виявлено.</Success>
+		</Messages>
+	</Undo>
+	<SteamRunning title="Зауваження:" width="450" height="200">GameSave Manager виявив, що Steam в даний момент, запущений у вашій машині.
+
+Так як GameSave Manager не взаємодіє з Steam безпосередньо, під час переміщення каталогів
+Steam може виявити, що частина ігрових файлів зникла і почне їх завантажувати знову.
+
+Продовжити?</SteamRunning>
+</GameSaveManager_Translation>

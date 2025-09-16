@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Steam Spreader</Title>
+	<Info>Steam Spreader dokáže přesunout soubory na další pevný disk nebo diskový oddíl za použití symbolických odkazů.
+
+Většina hráčů používá symbolické odkazy pro přesunutí svých oblíbených her na SSD a většinu svých her ponechává na pevném mechanickém disku.</Info>
+	<MoveDir>
+		<Header>Přesunout složky</Header>
+		<Empty>Nebyla vybrána žádná složka.
+
+Klikněte na 'Přidat' pro zahájení.</Empty>
+		<DialogHeader>Steam Spreader; položka ve frontě</DialogHeader>
+		<Steam>Přesunout Steam hru</Steam>
+		<Origin>Přesunout Origin hru</Origin>
+		<Specify>Cestu určím ručně</Specify>
+		<MoveTo>Přesunout do...</MoveTo>
+		<Move width="75">Přesunout</Move>
+		<Messages>
+			<NoneSelected title="Chyba:" width="350" height="110">Nevyplnili jste celý formulář.
+Prosím, zkuste to znovu.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Chyba odkazu:" width="350" height="110">Nelze vytvořit, protože není možné zdrojovou složku odebrat ze systému.</SourceExists>
+			</LinkError>
+			<Success title="Úspěšné" width="350" height="110">Úloha Steam Spreader dokončena.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+			<Failed title="Failure" width="420" height="110">Úloha Steam Spreader dokončena.
+		
+Bohužel byla zjištěna 1 chyba.
+
+Záznam byl uložen. Chcete jej zobrazit?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Obnovit složku</Header>
+		<Source>Vrátit úlohu do následující složky...</Source>
+		<Destination>..., který aktuálně odkazuje na:</Destination>
+		<Revert width="75">Vrátit</Revert>
+		<Messages>
+			<NoneSelected title="Chyba:" width="350" height="110">Nevyplnili jste celý formulář.
+Prosím, zkuste to znovu.</NoneSelected>
+			<NoLongerLinked title="Chyba odkazu:" width="450" height="150">Nelze najít požadovaný odkaz ve vašem systému pro vrácení změn.
+
+Možná jste hru odinstalovali nebo je odkaz poškozen jiným způsobem, za který nemůže GameSave Manager.
+
+
+Odebrat ze seznamu?</NoLongerLinked>
+			<LinkRemovalFail title="Chyba:" width="450" height="150">GameSave Manager nebyl schopen odebrat odkaz asociovaný s níže vybranou cestou.
+
+	"%LINK%"</LinkRemovalFail>
+			<Success title="Úspěšné" width="350" height="110">Úloha Steam Spreader dokončena.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+		</Messages>
+	</Undo>
+	<SteamRunning title="Varování:" width="450" height="200">GameSave Manager zjistil, že Steam běží na vašem počítači.
+
+GameSave Manager nekomunikuje přímo se Steam klientem, ale přesunuje soubory a složky s hrou.
+Steam někdy může zjistit, že soubory chybí a zahájit jejich nové stahování.
+
+Přesto pokračovat?</SteamRunning>
+</GameSaveManager_Translation>

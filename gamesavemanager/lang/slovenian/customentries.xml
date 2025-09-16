@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Vnosi shranjenih iger po meri</Title>
+	<Info>Na tej strani lahko dodate nova pravila zaznave za GameSave Manager.
+Tukaj lahko spremenite uradno podprt vnos, da vam bo ustrezal, dodate nov vnos ali pa upravljate z že obstojeèimi vnosi shranjenih iger po meri.</Info>
+	<List>
+		<Header>Obstojeèi vnosi</Header>
+		<NoEntries>Trenutno ni doloèenih 'vnosov shranjenih iger po meri'.
+
+Da zaènete, kliknite spodnji gumb 'Dodaj'.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Èarovnik za vnose shranjenih iger po meri; korak %CURRENT% od %TOTAL%</Title>
+		<Header>Èarovnik za vnose shranjenih iger po meri</Header>
+		<Step1>
+			<Info>Ta èarovnik vas bo vodil skozi opravilo dodajanja ali spreminjanja 'vnosov shranjenih iger po meri'.
+
+Èarovnik vas bo spraševal o razliènih podrobnostih o podatkih, ki bi jih radi varnostno kopirali, zato bodite pripravljeni, da boste odgovorili na nekaj vprašanj.
+To opravilo ne bi smelo trajati veè kot 5 minut. Zapomnite si, da ga lahko kadarkoli preklièete.
+
+Da zaènete, morate vnos shranjene igre po meri poimenovati.
+Ime je lahko poljubno, ampak je priporoèeno, da ga poimenujete smiselno (uporabite recimo polni naslov igre).</Info>
+			<Name>Naslov vnosa:</Name>
+			<Warning>OPOMBA: èe želite pripeti dodatne datoteke, poti ali registrske vnose k 'uradno podprtem vnosu', uporabite ime tega vnosa, da ga prepišete s svojimi podatki.
+
+Vaš vnos shranjene igre po meri bo izpolnjen s podatki, ki so uradno podprti in te boste lahko tudi uredili.</Warning>
+			<Errors>
+				<InvalidName title="Neveljavno ime:" width="420" height="110">Podano ime ('%NAME%') je že v uporabi za drug vnos shranjene igre po meri.
+
+Podajte drugaèno ime in poskusite znova.</InvalidName>
+				<NoName title="Ime ni podano:" width="420" height="110">Niste poimenovali vašega vnosa shranjene igre po meri.
+
+Podajte ime in poskusite znova.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Spodnji obrazec vam dovoljuje podati kakršnokoli opozorilno sporoèilo za ta vnos.
+Za obvestilo o opozorilnem sporoèilu je uporabljena ikona klicaja, ob izboru pa lahko sporoèilo vidite v pultu 'podrobnosti vnosa'.
+
+Èe opozoril ne želite podati, pustite spodnji obrazec prazen in kliknite 'Naprej &gt;'</Info>
+			<Backup>Opozorilo varnostnega kopiranja</Backup>
+			<Restore>Opozorilo obnavljanja</Restore>
+		</Step2>
+		<Step3>
+			<Info>Z uporabno spodnjega obrazca podajte katere predmete (datoteke, mape in registrske vnose) bi radi varnostno kopirali za ta vnos.
+Dodate lahko poljubno število predmetov.</Info>
+			<DirTitle>Varnostno kopiraj naslednje datoteke in mape:</DirTitle>
+			<RegTitle>Varnostno kopiraj naslednje registrske vnose:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Napaka:" width="420" height="110">Niste podali nobenih vnosov za varnostno kopiranje.
+
+Podajte vsaj eno mapo ali en registrski vnos in poskusite znova.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Konèali smo!
+Vsi zahtevani podatki so bili zbrani in so pripravljeni za shranjevanje v podatkovno zbirko.
+
+Èe želite karkoli spremeniti, lahko to storite sedaj ali kasneje tako da uredite ta vnos.</Info>
+			<SubmitPanel>
+				<Header>Delite vnos</Header>
+				<Info>Ta vnos izpolnjuje pogoje za pošiljanje na strežnike za GameSave Manager, kjer bo poèakal na odobritev.
+Èe bo odobren, bo vnos vgrajen v prihodnje 'posodobitve podatkovnih zbirk' in tako na voljo tudi ostalim èlanom skupnosti.</Info>
+				<InfoScene>Èeprav vaš vnos ustreza pogojem za pošiljanje, pa morda vsebuje mesta shranjenih iger, ki so poznana iz piratskih izdaj igre.
+Takšna mesta niso podprta, zato vnosa tudi ne morete poslati v odobritev.
+
+Èe mislite, da je to napaka, lahko vnos roèno pošljete v naših forumih.
+Kljub vsemu bo vaš vnos shranjene igre po meri ostal nespremenjen.</InfoScene>
+				<Submit>Da, rad bi delil ta vnos</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Vnosi shranjenih iger po meri: èarovnik za mape; korak %CURRENT% od %TOTAL%</Title>
+			<Header>Vnosi shranjenih iger po meri: èarovnik za mape</Header>
+			<Step1>
+				<Info>Ta èarovnik vas bo vodil skozi opravilo dodajanja ali spreminjanja pravil map za vaš vnos shranjene igre po meri.
+
+To opravilo ne bi smelo trajati veè kot minuto.
+
+Ali bi ob zaèetku želeli, da GameSave Manager sam zazna del te mape za vas?</Info>
+				<UseSpecialPaths>Da, dinamièno zaznaj naslednjo mapo</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Moji dokumenti</DOCUMENTS>
+					<SHARED_DOCUMENTS>Deljeni dokumenti</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Namestitvena mapa za Steam</STEAM>
+					<STEAM_CACHE>Steam Cache</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Predpomnilnik za Ubisoft uPlay</UPLAY>
+					<FLASH>Predpomnilnik za Macromedia Flash</FLASH>
+					<SAVED_GAMES>Shranjene igre</SAVED_GAMES>
+					<USER_PROFILE>Domaèa mapa</USER_PROFILE>
+					<REGISTRY>Iz registrske vrednosti</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Uporabite spodnji obrazec, da podate 'registrsko vrednost', ki vsebuje mapo, ki bi jo želeli dinamièno zaznati.
+
+OPOMBA: iz vrednosti bodo samodejno odstranjena imena datotek (npr, "C:\Game\Launch.exe" postane "C:\Game").</Info>
+				<Hive>Registrska skupina (hive):</Hive>
+				<Path>Registrska pot:</Path>
+				<Value>Registrska vrednost:</Value>
+				<Test>Preizkusi zaznavo</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Sedaj moramo pripeti še preostanek poti na konec mape, ki smo jo predhodno podali za dinamièno zaznavo.
+
+Da to storite, vnesite preostanek poti v spodnje polje.
+Èe ne rabite pripeti niè, pustite polje prazno in kliknite 'Naprej &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Ker ste izbrali, da ne želite dinamièno zaznati mape, morate spodaj podati polno pot.
+
+Èe želite iti nazaj in omogoèiti dinamièno zaznavo, kliknite "&lt; Nazaj".</InfoWithoutSpecialPath>
+				<DynamicDetection>Dinamièna zaznava</DynamicDetection>
+				<Append>Pripni naslednje</Append>
+				<Full>Preišèi naslednjo mapo</Full>
+			</Step2>
+			<Step3>
+				<Info>Na koncu morate doloèiti katere datoteke bi radi varnostno kopirali.
+
+Znotraj podanih imen datotek lahko uporabite 'nadomestne znake' (* in ?).
+
+Primeri:
+	*.* - obdela vse datoteke
+	*.sav - obdela vse vrste datotek '.sav'
+	My*.sav - obdela vse vrste datotek '.sav', ki se zaènejo z 'my'
+	MySave.sav - obdela datoteko 'MySave.sav' znotraj korenske mape
+	bin\MySave.sav - obdela datoteko 'MySave.sav' znotraj podmape 'bin'
+	bin\*.* - obdela vse datoteke znotraj podmape 'bin'</Info>
+				<Warning>OPOMBA: loèite datoteke z navpièno èrto (na primer *.sav|*.ini)</Warning>
+				<IncludedFiles>Vkljuèi datoteke</IncludedFiles>
+				<ExcludedFiles>Izkljuèi datoteke</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Vnosi shranjenih iger po meri: èarovnik za register</Title>
+			<Header>Vnosi shranjenih iger po meri: èarovnik za register</Header>
+			<Info>Za varnostno kopiranje morate spodaj vnesti podrobnosti registrskega kljuèa.</Info>
+			<Hive>Registrska skupina (hive):</Hive>
+			<Path>Registrska pot:</Path>
+			<DefinedValues>
+				<Header>Registrske vrednosti:</Header>
+				<EntireKey>Varnostno kopiraj celoten kljuè</EntireKey>
+				<Specific>Varnostno kopiraj naslednje vrednosti:</Specific>
+				<Values>Vrednosti:</Values>
+				<Info>Imena vrednosti loèite z navpièno èrto ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Sporoèilo ob pošiljanju</Header>
+		<Info>Pravkar boste poslali vaš vnos shranjene igre po meri poimenovan '%NAME%' na strežnike za GameSave Manager, kjer bo poèakal na odobritev.
+
+Ali bi radi podali tudi sporoèilo ob pošiljanju?</Info>
+		<NoMsg>Ne, samo pošlji vnos</NoMsg>
+		<Msg>Da, rad bi dodal dodatne podrobnosti</Msg>
+		<ReturnCodes>
+			<NoConnection title="Napaka" width="420" height="110">Med poskusom povezovanja s strežnikom za GameSave Manager je prišlo do napake.
+Morda je nepovezan ali pa nimate dejavne internetne povezave?</NoConnection>
+			<DBUpdate title="Napaka" width="420" height="110">Izgleda, da obstaja posodobitev podatkovne zbirke.
+
+Uveljavite posodobitev in poskusite znova.</DBUpdate>
+			<DynError title="Napaka" width="420" height="110">Vnosa ni bilo mogoèe poslati, saj obstaja težava z njegovo 'dinamièno zaznavo'</DynError>
+			<DupError title="Napaka" width="420" height="110">Ta vnos ste že poslali ali pa je to storil nekdo drug.</DupError>
+			<Banned title="Napaka" width="420" height="110">Iz vašega naslova IP smo prejeli preveè nezaželene pošte.
+Poskusite roèno poslati preko naših forumov</Banned>
+			<MissingData title="Napaka" width="420" height="110">Izgleda, da vnosu manjkajo zahtevani podatki.</MissingData>
+			<Update title="Napaka" width="420" height="110">Ta razlièica GameSave Manager-ja ni veè podprta s strani strežnika.
+Posodobite na najnovejšo razlièico in poskusite znova.</Update>
+			<Maintenance title="Napaka" width="420" height="110">Sistem za pošiljanje je nepovezan zaradi vzdrževanja.
+Poskusite znova ali pa vnos roèno pošljite preko naših forumov</Maintenance>
+			<SubmitError title="Napaka" width="420" height="110">Med pošiljanjem vnosa je prišlo do neznane napake.
+Poskusite znova ali pa vnos roèno pošljite preko naših forumov</SubmitError>
+			<Success title="Uspeh" width="420" height="110">Vaš vnos poimenovan '%NAME%' je bil uspešno poslan in èaka na odobritev.
+			
+			Hvala.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Napaka:" width="420" height="110">Izbran 'vnos shranjene igre po meri' ne izgleda veljaven ali pa je med poizvedovanjem po podatkovni zbirki za zahtevanimi podatki prišlo do napake.
+
+Poskusite znova.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Đồng bộ và Liên kết</Title>
+	<Info>Đồng bộ và Liên kết cho phép bạn di chuyển Sao lưu được chọn tới một thư mục tùy ý thông qua liên kết "Điện toán đám mây" (tương tự như "Di chuyển Stream").
+
+Được sử dụng kết hợp với Dropbox, Google Drive hoặc SkyDrive là một giải pháp lưu trữ đơn giản và nhanh chóng trong "Điện toán đám mây".</Info>
+	<Detection>
+		<Title>Mục tìm thấy</Title>
+		<ListCheck>Chọn Tất cả / Bỏ chọn Tất cả</ListCheck>
+		<Counter>Tìm thấy %TOTAL% mục / Đã chọn %SELECTED% mục</Counter>
+	</Detection>
+	<Options>
+		<Start>Bắt đầu Đồng bộ và Liên kết.</Start>
+		<Unlink>Bỏ Liên kết tất cả sao lưu trước đó từ thư mục chỉ định.</Unlink>
+		<Relink>Liên kết lại tất cả sao lưu trước đó từ thư mục chỉ định.</Relink>
+		<Rescan>Quét lại hệ thống để tìm Gamesave</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Đồng bộ và Liên kết; Bỏ Liên kết</Header>
+		<Info>Hãy xác định thư mục bạn muốn "Bỏ Liên kết" từ danh sách tìm kiếm ở dưới.</Info>
+		<ListCheck>Chọn Tất cả / Bỏ chọn Tất cả</ListCheck>
+		<DupSaves>Sao chép Sao lưu; không xóa tập tin nguồn</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Thành công" width="350" height="110">Đồng bộ và Liên kết hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+		<Failed title="Thất bại" width="420" height="110">Đồng bộ và Liên kết thất bại.
+		
+Rất tiếc, đã phát hiện lỗi.
+
+Đã lưu Ghi chép. Bạn có muốn xem nó?</Failed>
+		<NoEntries>GameSave Manager không tìm thấy Gamesave nào trong hệ thống.
+
+Có lẽ có một cập nhật dữ liệu có sẵn ?
+Bạn có thể tạo một Mục Gamesave tùy chỉnh.</NoEntries>
+		<NoneSelected title="Lỗi:" width="350" height="110">Không có Gamesave chỉ định nào.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

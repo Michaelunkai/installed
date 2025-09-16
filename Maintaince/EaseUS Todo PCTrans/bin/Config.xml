@@ -1,0 +1,569 @@
+﻿<GarbageGather>
+    <AppCategoryInfo Name="系统产生垃圾" ResID="a02" CatagoryType="0" LargeIcon="4" Icon="icon_os.png" SelState="1">
+		<AppInfo Name="系统文件" ResID="a0201" LargeIcon="0" Icon="">
+			<GarbageCatagory Name="Windows Defender病毒库备份" ResID="a020101" SelState="2">
+				<GarbageInfo Path="Microsoft\Windows Defender\Definition Updates\Backup" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="ProgramData" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Windows Defender扫描历史" ResID="a020102" SelState="2">
+				<GarbageInfo Path="Microsoft\Windows Defender\Scans\History\CacheManager" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="ProgramData" />
+				<GarbageInfo Path="Microsoft\Windows Defender\Scans\History\Results\Quick" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="ProgramData" />
+				<GarbageInfo Path="Microsoft\Windows Defender\Scans\History\Results\Resource" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="ProgramData" />
+				<GarbageInfo Path="Microsoft\Windows Defender\Scans" Filter="*.bin" Iteration="0" IsFolder="1" FolderEnvDir="ProgramData" />
+				<GarbageInfo Path="Microsoft\Windows Defender\Support" Filter="*.log" IsFolder="1" FolderEnvDir="ProgramData" />
+				<GarbageInfo Path="Microsoft AntiSpyware\errors.log" IsFolder="0" FolderEnvDir="ProgramFiles" FolderX86EnvDir="ProgramW6432" />
+				<GarbageInfo Path="Microsoft AntiSpyware\tracksEraser.log" IsFolder="0" FolderEnvDir="ProgramFiles" FolderX86EnvDir="ProgramW6432" />
+				<GarbageInfo Path="Microsoft AntiSpyware\cleaner.log" IsFolder="0" FolderEnvDir="ProgramFiles" FolderX86EnvDir="ProgramW6432" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Windows ManifestCache缓存" ResID="a020103" SelState="0">
+				<GarbageInfo Path="Winsxs\ManifestCache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="36" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="剪切板" ResID="a020104" SelState="2">
+			</GarbageCatagory>
+			<GarbageCatagory Name="内存转储" ResID="a020105" SelState="0">
+				<GarbageInfo Path="MiniDump" Filter="*.dmp" Iteration="0" IsFolder="1" FolderEnvDir="SystemRoot" />
+				<GarbageInfo Path="CrashDumps" Filter="*.dmp" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Memory.dmp" IsFolder="0" FolderEnvDir="SystemRoot" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Chkdsk文件碎片" ResID="a020106" SelState="2">
+				<GarbageInfo Path="" Filter="File*.chk" Iteration="0" IsFolder="1" FolderEnvDir="SystemDrive" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="回收站" ResID="a020107" SelState="0">
+				<GarbageInfo Path="" Filter="*" Iteration="1" IsFolder="1" FolderIndex="10" />
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="日志文件" ResID="a0202" LargeIcon="0" Icon="">
+			<GarbageCatagory Name="Microsoft Search日志文件" ResID="a020201" SelState="2">
+				<GarbageInfo Path="Microsoft\Search\Data\Applications\Windows" Filter="*" ExcludeFilter="Windows.edb|MSS.log|tmp.edb|MSSTmp.log" Iteration="0" IsFolder="1" FolderEnvDir="ProgramData" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="系统错误报告" ResID="a020202" SelState="0">
+				<GarbageInfo LoopPath="1" Path="Microsoft\Windows\WER" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="ProgramData">
+					<LoopPath Path="Report*"/>
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Microsoft\Windows\WER" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="Report*"/>
+				</GarbageInfo>
+				<GarbageInfo Path="ElevatedDiagnostics" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo GetByReg="1" RootKey="HKCU" Path="Software\Microsoft\Windows\Windows Error Reporting\Debug" Value="StoreLocation" Filter="*" Iteration="1" IsFolder="1" />
+				<GarbageInfo GetByReg="1" RootKey="HKLM" Path="Software\Microsoft\Windows\Windows Error Reporting\Debug" Value="StoreLocation" Filter="*" Iteration="1" IsFolder="1" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Windows系统日志" ResID="a020203" SelState="2">
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData\Roaming\SogouPY\Components\Picface\PicfaceData\sgim_piccell.v1.bin.bak" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData\Roaming\SogouPY\Components\Picface\PicfaceData\sgim_picidx.v1.bin.bak" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo Path="Panther" Filter="setupact.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="Panther" Filter="setuperr.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="wbem\Logs" Filter="*.lo*" Iteration="0" IsFolder="1" FolderIndex="37" />
+				<GarbageInfo Path="" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="" Filter="*.bak" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="" Filter="*log.txt" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="SchedLgU.txt" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo Path="Debug" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="Debug\UserMode" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="Debug\UserMode" Filter="*.bak" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="security\logs" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="security\logs" Filter="*.old" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="SoftwareDistribution" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="Logs" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="ServiceProfiles\NetworkService\AppData" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="Microsoft\Windows" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Windows" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Microsoft.NET" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="MigWiz" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="MigWiz" Filter="*.xml" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="ModemLogs" Filter="*.txt" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="inf\setupapi.app.log" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo Path="inf\setupapi.dev.log" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo Path="Performance\WinSAT\winsat.log" IsFolder="0" FolderIndex="36" />
+				<GarbageInfo LoopPath="1" Path="Microsoft" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="CLR_v*"/>
+					<LoopPath Path="*"/>
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="config\systemprofile\AppData\Local\Microsoft" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="37" >
+					<LoopPath Path="CLR_v*"/>
+					<LoopPath Path="*"/>
+				</GarbageInfo>
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="系统缓存" ResID="a0203" LargeIcon="0" Icon="" SelState="0">
+			<GarbageCatagory Name="Windows字体缓存" ResID="a020301">
+				<GarbageInfo Path="" Filter="*FontCache*" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData\Local" Filter="*FontCache*" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="fntcache.dat" IsFolder="0" FolderIndex="37" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="缩略图缓存" ResID="a020302">
+				<GarbageInfo Path="Microsoft\Windows\Explorer" Filter="*.db" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Windows\Explorer\ThumbCacheToDelete" Filter="thm*.tmp" Iteration="0" IsFolder="1" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="DNS缓存" ResID="a020303">
+			</GarbageCatagory>
+			<GarbageCatagory Name="远程桌面缓存" ResID="a020304">
+				<GarbageInfo Path="Microsoft\Terminal Server Client\Cache" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="托盘通知缓存" ResID="a020306">
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\Windows\CurrentVersion\Explorer\TrayNotify" Value="IconStreams|PastIconsStream" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" Value="IconStreams|PastIconsStream" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Windows自动更新缓存" ResID="a020307">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="临时文件" ResID="a0204" LargeIcon="0" Icon="">
+			<GarbageCatagory Name="软件临时使用文件" ResID="a020401" SelState="2">
+				<GarbageInfo Path="" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="TEMP" />
+				<GarbageInfo Path="Temp" Filter="*" Iteration="1" IsFolder="1" FolderIndex="36" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="系统补丁时留下的卸载信息" ResID="a020402" SelState="0">
+				<GarbageInfo Path="Installer\$PatchCache$" Filter="*" Iteration="1" IsFolder="1" FolderIndex="36" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="过期的预读数据" ResID="a020403" SelState="0">
+				<GarbageInfo Path="Prefetch" Filter="*.pf" Iteration="0" IsFolder="1" FolderIndex="36" />
+			</GarbageCatagory>
+		</AppInfo>
+    </AppCategoryInfo>
+    <AppCategoryInfo Name="Internet garbage" ResID="a01" CatagoryType="1" LargeIcon="0" Icon="icon_explorer.png" SelState="1" >
+		<AppInfo Name="Edge" ResID="a0101" LargeIcon="0" Icon="icon_Edge.png" LockFile="MicrosoftEdge.exe">
+			<GarbageCatagory Name="Edge浏览器缓存" ResID="a010101"  SelState="2" >
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.MicrosoftEdge_*" AddPath="AC" />
+					<LoopPath TerminalPath="Cache|InetCache|AppCache" ExactMatch="1"/>
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Edge历史" ResID="a010102"  SelState="2" >
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.MicrosoftEdge_*" AddPath="AC" />
+					<LoopPath TerminalPath="History" ExactMatch="1"/>
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Edge浏览器Cookie" ResID="a010103" SelState="0" >
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.MicrosoftEdge_*" AddPath="AC" />
+					<LoopPath TerminalPath="Cookies|DOMStore" ExactMatch="1"/>
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Edge浏览器会话" ResID="a010107" SelState="0" >
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.MicrosoftEdge_*" AddPath="AC\MicrosoftEdge\User\Default\Recovery\Active" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Edge浏览器下载历史" ResID="a010104" SelState="0" >
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.MicrosoftEdge_*" AddPath="AC\MicrosoftEdge\User\Default\DownloadHistory" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Edge浏览器保存的密码" ResID="a010106"  SelState="0" >
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.spartan_cw5n1h2txyewy\Spartan\IntelliForms\Storage2" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\IntelliForms\Storage2" />
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Chrome" ResID="a0102" LargeIcon="0" Icon="icon_Chrome.png" LockFile="chrome.exe" ProductName="Google Chrome" >
+			<GarbageCatagory Name="谷歌浏览器(Chrome)缓存" ResID="a010201" SelState="2" >
+				<GarbageInfo Path="Google\Chrome\User Data" Filter="*.tmp" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data" Filter="*-journal" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default" Filter="*-journal" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\GPUCache\data_0" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Application Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Local Storage" Filter="*-journal" Iteration="0" IsFolder="1" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome)浏览历史" ResID="a010202"  SelState="2" >
+				<GarbageInfo Path="Google\Chrome\User Data\Default\JumpListIcons" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\JumpListIconsOld" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Archived History" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Current Tabs" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\History Provider Cache" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Last Tabs" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Network Action Predictor" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Top Sites" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Visited Links" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\History" IsFolder="0" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome) Cookie" ResID="a010203" SelState="0" >
+				<GarbageInfo Path="Google\Chrome\User Data\Default\databases" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\IndexedDB" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Local Storage" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo ExcludePath="1" Path="Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects" Filter="*.sol" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<ExcludePath Path="support\flashplayer\sys" ExactMatch="1" Iteration="1" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome)会话" ResID="a010204" SelState="0" >
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Session Storage" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Extension State" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Current Session" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Last Session" IsFolder="0" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome)已保存的密码" ResID="a010206" SelState="0">
+				<GarbageInfo Path="Google\Chrome\User Data\Default\Login Data" IsFolder="0" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome)压缩数据库" ResID="a010208" SelState="0">
+			</GarbageCatagory>
+			<GarbageCatagory Name="谷歌浏览器(Chrome)保存的表单信息" ResID="a010209" SelState="0">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="IE" ResID="a0103" LargeIcon="0" Icon="icon_IE.png" LockFile="iexplore.exe">
+			<GarbageCatagory Name="IE浏览器临时文件" ResID="a010301" SelState="2">
+				<XP>
+					<GarbageInfo Path="IETldCache" Filter="WebCache*.*" Iteration="1" IsFolder="1" FolderEnvDir="USERPROFILE" />
+					<GarbageInfo LoopPath="1" Path="" Filter="*" ExcludeFilter="index.dat" Iteration="1" IsFolder="1" FolderIndex="32" >
+						<LoopPath Path="*" />
+					</GarbageInfo>
+					<GarbageInfo LoopPath="1" Path="Microsoft\Feeds Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+						<LoopPath Path="*" />
+					</GarbageInfo>
+				</XP>
+				<GarbageInfo Path="Microsoft\Windows\WebCache" Filter="WebCache*.*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Windows\inetcache\IE" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo LoopPath="1" Path="" Filter="*" ExcludeFilter="index.dat" Iteration="1" IsFolder="1" FolderIndex="32" >
+					<LoopPath Path="*" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Microsoft\Feeds Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="IE浏览历史" ResID="a010302" SelState="0">
+				<GarbageInfo ExcludePath="1" Path="" Filter="*.dat" Iteration="1" IsFolder="1" FolderIndex="34" EmptyProc="NT_ClearHistory" >
+					<ExcludePath Path="History.IE5" ExactMatch="1" Iteration="1" />
+				</GarbageInfo>
+				<GarbageInfo ExcludePath="1" Path="Microsoft\Internet Explorer\Recovery" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<ExcludePath Path="High\Active" ExactMatch="1" Iteration="0" />
+				</GarbageInfo>
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\Internet Explorer\TabbedBrowsing\NewTabPage" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\Windows\CurrentVersion\Ext\Stats" Iteration="1" Filter="iexplore" Value="Time|Count|Blocked|LoadTime|LoadTimeCount|LoadTimeArray|NavTimeArray" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="IE Cookie" ResID="a010303" SelState="0">
+				<XP>
+					<GarbageInfo Path="" Filter="*.txt" Iteration="0" IsFolder="1" FolderIndex="33" />
+					<GarbageInfo Path="UserData" Filter="*.xml" Iteration="1" IsFolder="1" FolderEnvDir="USERPROFILE" />
+				</XP>
+				<GarbageInfo Path="" Filter="*" ExcludeFilter="index.dat|Container.dat" Iteration="1" IsFolder="1" FolderIndex="33" />
+				<GarbageInfo Path="Microsoft\Windows\INetCookies" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Internet Explorer\UserData" Filter="*" ExcludeFilter="index.dat|Container.dat" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Microsoft\Internet Explorer\DOMStore" Filter="*" ExcludeFilter="index.dat|Container.dat" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="AppData\LocalLow\Microsoft\Internet Explorer\DOMStore" Filter="*" Iteration="1" IsFolder="1" FolderEnvDir="USERPROFILE" />
+				<GarbageInfo Path="Packages\windows_ie_ac_001\AC\Microsoft\Internet Explorer\DOMStore" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Packages\windows_ie_ac_001\AC\INetCookies" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Windows\INetCookies" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="IE 保存的密码" ResID="a010305" SelState="0">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Opera" ResID="a0104" LargeIcon="0" Icon="icon_Opera.png" LockFile="Opera.exe" ProductName="Opera Stable" >
+			<GarbageCatagory Name="Opera缓存" ResID="a010401" SelState="2">
+				<GarbageInfo Path="Opera Software\Opera Stable\Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Opera Software\Opera Stable\GPUCache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable" Filter="*-journal" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\Jump List Icons" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\Jump List IconsOld" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera历史" ResID="a010402" SelState="2">
+				<GarbageInfo Path="Opera Software\Opera Stable\Visited Links" IsFolder="0" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\History Provider Cache" IsFolder="0" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\History" IsFolder="0" FolderIndex="26" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera下载历史" ResID="a010403" SelState="2">
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera Cookies" ResID="a010404" SelState="0">
+				<GarbageInfo Path="Opera Software\Opera Stable\Local Storage" Filter="http*.localstorage" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo LoopPath="1" Path="Opera Software\Opera Stable\databases" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="http_*.com_0" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Opera Software\Opera Stable\IndexedDB" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="http_*.indexeddb.leveldb" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera会话" ResID="a010405" SelState="0">
+				<GarbageInfo Path="Opera Software\Opera Stable\Extension State" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\Current Session" IsFolder="0" FolderIndex="26" />
+				<GarbageInfo Path="Opera Software\Opera Stable\Last Session" IsFolder="0" FolderIndex="26" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera保存的密码" ResID="a010406" SelState="0">
+				<GarbageInfo Path="Opera Software\Opera Stable\Login Data" IsFolder="0" FolderIndex="26" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera最近下载的位置" ResID="a010407" SelState="0">
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera压缩数据库" ResID="a010408" SelState="0">
+			</GarbageCatagory>
+			<GarbageCatagory Name="Opera保存的表单信息" ResID="a010409" SelState="0">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Firefox" ResID="a0105" LargeIcon="0" Icon="icon_Firefox.png" LockFile="Firefox.exe" ProductName="Mozilla Firefox" >
+			<GarbageCatagory Name="Firefox缓存" ResID="a010501" SelState="2">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="cache2\entries" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="jumpListCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="Cache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="index*" Iteration="0" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="Cache2" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox历史" ResID="a010502" SelState="2">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="thumbnails" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="places.sqlite" Iteration="0" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox Cookies" ResID="a010504" SelState="0">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.metadata" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="storage\default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.sqlite" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="storage\default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.metadata" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" AddPath="storage\default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.sqlite" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" AddPath="storage\default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" ExcludeFilter="index.dat" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="OfflineCache" />
+					<LoopPath Path="*" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" AddPath="Storage\temporary" />
+					<LoopPath Path="https+++*" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox会话" ResID="a010505" SelState="0">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.json" ExcludeFilter="logins.json" Iteration="0" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" AddPath="sessionstore-backups"/>
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*.json" ExcludeFilter="logins.json" Iteration="0" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" AddPath="sessionstore-backups"/>
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox保存的密码" ResID="a010506" SelState="0">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="logins.json" Iteration="0" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="logins.json" Iteration="0" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox最近下载的位置" ResID="a010507" SelState="0">
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox压缩数据库" ResID="a010508" SelState="0">
+			</GarbageCatagory>
+			<GarbageCatagory Name="Firefox保存的表单信息" ResID="a010509" SelState="0">
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="formhistory.sqlite" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Mozilla\Firefox\Profiles" Filter="formhistory.sqlite" Iteration="0" IsFolder="1" FolderIndex="26">
+					<LoopPath Path="*.default" />
+				</GarbageInfo>
+			</GarbageCatagory>
+		</AppInfo>
+    </AppCategoryInfo>
+    <AppCategoryInfo Name="Windows自带应用产生的垃圾" ResID="a03" CatagoryType="2" LargeIcon="1" Icon="icon_win_app.png">
+		<AppInfo Name="应用商店" ResID="a0301" LargeIcon="0" Icon="icon_windows_store.png" >
+			<GarbageCatagory Name="应用商店缓存文件" ResID="a030101">
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData\Local\Temp" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="36" />
+				<GarbageInfo Path="ServiceProfiles\LocalService\AppData\Local\Temp\TfsStore" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="36" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="通讯录日志和缓存文件" ResID="a030102">
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*.log*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.windowscommunicationsapps_*" AddPath="Setting" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.windowscommunicationsapps_*" AddPath="AC\INetCache" />
+				</GarbageInfo>
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="必应" ResID="a0302" LargeIcon="0" Icon="icon_Bing.png" >
+			<GarbageCatagory Name="必应体育日志和缓存文件" ResID="a030201">
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\Microsoft\CryptnetUrlCache\MetaData" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\Microsoft\CryptnetUrlCache\Content" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\InetCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\InetCookies" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\INetHistory" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\Temp" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="AC\Microsoft\Internet Explorer\DOMStore" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" ExcludeFilter="_sessionState2.xml" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingSports_*" AddPath="LocalState\Cache" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="必应天气日志和缓存文件" ResID="a030202">
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="AC\Microsoft\CryptnetUrlCache\MetaData" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="AC\Microsoft\CryptnetUrlCache\Content" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="AC\InetCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="AC\InetCookies" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="AC\Microsoft\Internet Explorer\DOMStore" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" ExcludeFilter="_sessionState2.xml" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingWeather_*" AddPath="LocalState\Cache" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="必应新闻日志和缓存文件" ResID="a030203">
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\Microsoft\CryptnetUrlCache\MetaData" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\Microsoft\CryptnetUrlCache\Content" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\InetCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\InetCookies" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\INetHistory" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\Temp" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\AppCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*.log" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\Microsoft" />
+					<LoopPath Path="CLR_v*" AddPath="UsageLogs" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*.sync" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="TempState" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="AC\Microsoft\Internet Explorer\DOMStore" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" ExcludeFilter="_sessionState2.xml" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="LocalState\Cache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*.rfc" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingNews_*" AddPath="LocalState\appCache" />
+				</GarbageInfo>
+			</GarbageCatagory>
+			<GarbageCatagory Name="必应财经日志和缓存文件" ResID="a030204">
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\Microsoft\CryptnetUrlCache\MetaData" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\Microsoft\CryptnetUrlCache\Content" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\InetCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\InetCookies" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\INetHistory" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\Temp" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\PriAppCache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="AC\Microsoft\Internet Explorer\DOMStore" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" ExcludeFilter="_sessionState2.xml" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="LocalState\Cache" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Packages" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28">
+					<LoopPath Path="Microsoft.BingFinance_*" AddPath="LocalState\navigationHistory" />
+				</GarbageInfo>
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Zune" ResID="a0303" LargeIcon="0" Icon="icon_Zune.png" LockFile="Zune.exe">
+			<GarbageCatagory Name="Zune音乐日志和缓存文件" ResID="a030301">
+				<GarbageInfo Path="Microsoft\zune\art cache" Filter="*" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\zune\NowPlaying.dat" IsFolder="0" FolderIndex="28" />
+			</GarbageCatagory>
+			<GarbageCatagory Name="Zune视频日志和缓存文件" ResID="a030302">
+			</GarbageCatagory>
+		</AppInfo>
+    </AppCategoryInfo>
+    <AppCategoryInfo Name="Other application" ResID="a04" CatagoryType="3" LargeIcon="3" Icon="icon_app.png">
+		<AppInfo Name="Flash player" ResID="a0401" LargeIcon="0" Icon="icon_FlashPlayer.png" LockFile="FlashPlayerApp.exe" ProductName="Adobe Flash Player" >
+			<GarbageCatagory Name="Flash日志文件" ResID="a040101">
+				<GarbageInfo Path="Adobe\Flash Player\AssetCache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Macromedia\Flash" Filter="*.log" Iteration="1" IsFolder="1" FolderIndex="37" />
+				<GarbageInfo Path="Macromedia\Flash Player\#SharedObjects" Filter="*.sol" Iteration="0" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo LoopPath="1" Path="Macromedia\Flash Player\#SharedObjects" Filter="*.sol" Iteration="0" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*" />
+				</GarbageInfo>
+				<GarbageInfo LoopPath="1" Path="Macromedia\Flash Player\#SharedObjects" Filter="*.sol" Iteration="1" IsFolder="1" FolderIndex="26" >
+					<LoopPath Path="*" />
+					<LoopPath Path="*.com" />
+				</GarbageInfo>
+				<GarbageInfo Path="Macromedia\Flash Player\macromedia.com\support\flashplayer\sys" SelfExclude="1" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26" />
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Windows Media Player" ResID="a0402" LargeIcon="0" Icon="icon_multimedia.png" LockFile="wmplayer.exe">
+			<GarbageCatagory Name="日志和缓存" ResID="a040201">
+				<GarbageInfo LoopPath="1" Path="Microsoft\Media Player" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28" >
+					<LoopPath Path="*" AddPath="LocalMLS" />
+				</GarbageInfo>
+				<GarbageInfo Path="Microsoft\Media Player\lastplayed.wpl" IsFolder="0" FolderIndex="28" />
+				<GarbageInfo Path="Microsoft\Media Player" Filter="CacheEntry*" Iteration="1" IsFolder="1" FolderIndex="28"  />
+				<GarbageInfo Path="Microsoft\Media Player\Transcoded Files Cache" Filter="*" Iteration="1" IsFolder="1" FolderIndex="28"  />
+				<GarbageInfo GetByReg="1" RootKey="HKCU" Path="Software\Microsoft\MediaPlayer\Player\Settings" Value="SaveAsDir" Filter="*" Iteration="1" IsFolder="1" />
+				<GarbageInfo GetByReg="1" RootKey="HKCU" Path="Software\Microsoft\MediaPlayer\Services\MediaGuide" Value="CachedIconPath" Filter="*" Iteration="1" IsFolder="1" />
+				<GarbageInfo GetByReg="1" RootKey="HKCU" Path="Software\Microsoft\MediaPlayer\Services\MediaGuide" Value="CachedLargeLogoPath" Filter="*" Iteration="1" IsFolder="1" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\Player\RecentFileList" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\Player\RecentURLList" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\Preferences" Value="LastPlayList" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\Preferences" Value="LastPlayListIndex" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\AutoComplete\MediaEdit" />
+				<GarbageInfo Registry="1" RootKey="HKCU" KeyPath="Software\Microsoft\MediaPlayer\Player\RecentFileList" />
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="VLC Media Player" ResID="a0403" LargeIcon="0" Icon="icon_vlc.png" LockFile="vlc.exe" ProductName="VLC media player" >
+			<GarbageCatagory Name="日志和缓存" ResID="a040301">
+				<GarbageInfo Path="Vlc\art\artistalbum" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26"  />
+				<GarbageInfo Path="Vlc\art\arturl" Filter="*" Iteration="1" IsFolder="1" FolderIndex="26"  />
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="MS Wordpad" ResID="a0404" LargeIcon="0" Icon="icon_wordpad.png" LockFile="wordpad.exe" InBuildProgram="1" >
+			<GarbageCatagory Name="日志和缓存" ResID="a040401">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="MS Paint" ResID="a0405" LargeIcon="0" Icon="mspaint.png" LockFile="mspaint.exe" InBuildProgram="1">
+			<GarbageCatagory Name="日志和缓存" ResID="a040501">
+			</GarbageCatagory>
+		</AppInfo>
+		<AppInfo Name="Foxit Reader" ResID="a0406" LargeIcon="0" Icon="icon_foxitreader.png" LockFile="foxitreader.exe" ProductName="Foxit Reader" >
+			<GarbageCatagory Name="日志和缓存" ResID="a040601">
+				<GarbageInfo Path="Foxit Reader" Filter="*_old.DMP" Iteration="0" IsFolder="1" FolderIndex="28" />
+				<GarbageInfo Path="Foxit Software\Foxit Reader\Foxit Cloud\DownloadCache" Filter="*.cache" Iteration="0" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Foxit Software\Foxit Reader\Foxit Cloud\FileIDCache" Filter="*.fcd" Iteration="0" IsFolder="1" FolderIndex="26" />
+				<GarbageInfo Path="Foxit Software\Foxit Reader\Foxit Cloud\Foxitcloud.log" IsFolder="0" FolderIndex="26" />
+			</GarbageCatagory>
+		</AppInfo>
+    </AppCategoryInfo>
+</GarbageGather>

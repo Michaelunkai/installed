@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>File</Title>
+			<Backup>Backup Salvataggi</Backup>
+			<ScheduledTasks>Operazioni Pianificate</ScheduledTasks>
+			<SyncLink>Sincronizza e Collega</SyncLink>
+			<Restore>Ripristino Salvataggi</Restore>
+			<Validate>Convalida Archivio</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>
+			<GameplayBackup>Gameplay Backup</GameplayBackup>
+			<Exit>Esci</Exit>
+		</File>
+		<Edit>
+			<Title>Modifica</Title>
+			<CustomEntries>Salvataggi Personalizzati</CustomEntries>
+			<Variables>Modifica Variabili</Variables>
+			<ProgSettings>Impostazioni Generali</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Aiuto</Title>
+			<Help>Aiuto GameSave Manager</Help>
+			<CommandlineHelp>Aiuto Linea di Comando</CommandlineHelp>
+			<TranslationFilter>Filtro Traduzione</TranslationFilter>
+			<ListEntries>Quali Sono i Giochi Supportati?</ListEntries>
+			<VisitWebsite>Home Page</VisitWebsite>
+			<Update>Cerca Aggiornamenti</Update>
+			<ReleaseHistory>Cronologia Versioni</ReleaseHistory>
+			<About>About GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<OpenLog>Visualizza il rapporto selezionato con un'applicazione esterna</OpenLog>
+	<Social>
+		<Facebook>Trovaci su Facebook</Facebook>
+		<Twitter>Seguici su Twitter</Twitter>
+		<GooglePlus>Entra nella nostra cerchia su Google+</GooglePlus>
+		<Steam>Unisciti al nostro Gruppo Steam</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Aggiornamenti Disponibili</Title>
+		<InfoTip>Uno o più aggiornamenti disponibili.
+Clicca qui per maggiori dettagli.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Attendere prego</Title>
+		<Info>GameSave Manager sta caricando i file necessari...</Info>
+		<Tasks>
+			<Dirs>Generazione cartelle di sistema...</Dirs>
+			<LoadDB>Caricamento database...</LoadDB>
+			<Updates>Controllo aggiornamenti...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Benvenuto</Header>
+		<Welcome>Benvenuto in GameSave Manager.
+Per iniziare, ti preghiamo di scegliere la tua lingua qui sotto.
+
+Nota: Puoi cambiare questa opzione (e molte altre) in ogni momento visitando la sezione "Impostazioni Generali".</Welcome>
+		<TranslationInfo>Ad esclusione della lingua Inglese, tutte le altre sono mantenute dalla community.
+Per questo, alcune traduzioni potrebbero non essere complete.</TranslationInfo>
+		<CustomCache>Personalizza la "cartella cache"</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Salva le impostazioni nella cartella principale del programma</StoreWithinLaunchDir>
+		<SeparateDBPerUser>Salva il database "Elementi Ufficiali" nella cartella AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Installare?</Header>
+		<Info>Nonostante GameSave Manager sia completamente portable, alcuni utenti potrebbero preferire installarlo. Proprio per questo, è stato introdotto questo wizard.
+
+Vuoi installare GameSave Manager?</Info>
+		<Confirm>Si grazie, vorrei installarlo.</Confirm>
+		<Install>Installa in:</Install>
+		<DesktopShortcut>Crea anche un Collegamento sul Desktop</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Modifica Variabili</ModifyVariables>
+	<CustomDynDir>Personalizza le variabili della Rilevazione Dinamica:</CustomDynDir>
+	<CustomCacheWarning>Per modificare queste variabili, GameSave Manager dev'essere riavviato.</CustomCacheWarning>
+	<BackToMainMenu>Torna al Menu Principale</BackToMainMenu>
+	<Unsupported title="Feature unsupported:" width="430" height="125">Sembra che tu stia utilizzando un Sistema Operativo che per ora non supporta questa funzione.
+
+Nome OS:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Check for updates?" width="430" height="110">Sono passati oltre 7 giorni dall'ultimo controllo per aggiornamenti.
+
+Vuoi controllare ora?</UpdateReminder>
+	<UpdateReminder_First title="Check for updates?" width="470" height="125">Benvenuto in GameSave Manager.
+GameSave Manager è in continua evoluzione tramite gli aggiornamenti dell'applicazione e del database.
+
+Vuoi controllare se ci sono aggiornamenti?</UpdateReminder_First>
+	<NoLogs title="Nothing to display" width="430" height="110">Non sono presenti rapporti da visualizzare.</NoLogs>
+	<RemoveLog>Elimina il rapporto selezionato</RemoveLog>
+	<GenericButtons>
+		<OK>OK</OK>
+		<Yes>Si</Yes>
+		<No>No</No>
+		<Add>Aggiungi</Add>
+		<Edit>Modifica</Edit>
+		<Remove>Elimina</Remove>
+		<Back>&lt; Indietro</Back>
+		<Next>Avanti &gt;</Next>
+		<Cancel>Annulla</Cancel>
+		<Finish>Fine</Finish>
+		<Browse>Sfoglia</Browse>
+		<Close>Chiudi</Close>
+		<Abort>Annulla</Abort>
+	</GenericButtons>
+	<true>Si</true>
+	<false>No</false>
+	<Detection>
+		<Backup>Ti preghiamo di attendere durante la scansione del tuo sistema...</Backup>
+		<Status>
+			<LookingIn>Analizzando...</LookingIn>
+			<Found>Trovato...</Found>
+			<Nothing>niente :'(</Nothing>
+		</Status>
+		<Restore>Analisi degli archivi...</Restore>
+		<Error>Impossibile trovare cartelle.</Error>
+		<NoMsg>Nessun avvertimento.</NoMsg>
+	</Detection>
+	<Processing>
+		<Header>Rapporto Operazioni:</Header>
+		<Info>Ora puoi sederti e rilassarti mentre GameSave Manager esegue le operazioni richieste.
+Il tempo necessario varia da sistema a sistema e dal tipo di operazione da eseguire.</Info>
+	</Processing>
+	<IgnoreCommandline>
+		<AlreadyIgnored title="Already ignored" width="430" height="110">L'elemento specificato ("%NAME%") è già stato ignorato.</AlreadyIgnored>
+		<InvalidEntryName title="Invalid entry name" width="430" height="110">Non esiste alcun elemento denominato "%NAME%" né nel database ufficiale né in quello personalizzato, quindi non c'è nulla da ignorare.</InvalidEntryName>
+		<Success title="Success" width="500" height="150">L'elemento denominato "%NAME%" è stato aggiunto all'elenco degli elementi da ignorare.
+
+Puoi riabilitare questo elemento in ogni momento tramite "Impostazioni Generali -> Configurazione Rilevazione -> Elementi Ignorati".</Success>
+	</IgnoreCommandline>
+</GameSaveManager_Translation>

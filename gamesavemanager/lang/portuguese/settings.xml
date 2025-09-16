@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Configurações de Programa</Title>
+	<RestoreSettings>
+		<Title>Configurações Padrão</Title>
+		<Confirm title="Confirm:" width="500" height="110">Tem certeza de que deseja restaurar as confgurações do GameSave Manager para seus valores padrão?
+
+NOTA: Entrada Customizada de Saves não são afetados por isto.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Categorias</Title>
+		<List>
+			<General>Configurações Gerais</General>
+			<Cloud>Opções em Nuvem</Cloud>
+			<Update>Comportamento de Atualização</Update>
+			<Task>
+				<Header>Tarefas Específicas</Header>
+				<Backup>
+					<Header>Configurações de Backup</Header>
+					<ExternalScripts>Scripts Externos</ExternalScripts>
+					<SepArchives>Separar Arquivos</SepArchives>
+				</Backup>
+				<SyncLink>Sync &amp; Link</SyncLink>
+				<Spreader>Steam Spreader</Spreader>
+			</Task>
+			<SevZip>Preferências do 7zip</SevZip>
+			<Detection>Configurações de Detecção</Detection>
+			<SortEntries>Ordenar Entradas</SortEntries>
+			<IgnoredEntries>Entradas Ignoradas</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header width="140">Associações de Arquivo</Header>
+			<gsba width="182">Associar com arquivos .gsba</gsba>
+			<gsdu width="182">Associar com arquivos .gsdu</gsdu>
+			<gsms width="182">Associar com arquivos .gsms</gsms>
+			<AutoCheck width="410">Verificar as associações de arquivos durante a inicialização</AutoCheck>
+			<ContextMenu>Adicionar 'GameSave Manager' ao menu de contexto dos arquivos suportados</ContextMenu>
+		</Associations>
+		<Lang width="60">Idioma</Lang>
+		<Startup>
+			<Header width="140">Opções de Inicialização</Header>
+			<ScanOnStartup width="290">Verificar sistema por Saves suportados</ScanOnStartup>
+			<UpdateCheckOnStartup width="340">Verificar se há atualizações de programa e banco de dados</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks width="240">Executar 'Tarefas de Desligamento' (recomendado)</ShutdownTasks>
+		<SaveLogs width="180">Salvar 'Registros de Tarefas' automaticamente</SaveLogs>
+		<ShowVerInTitle width="310">Exibe as informações de versão do programa no Título da Janela</ShowVerInTitle>
+		<MessageSounds width="195">Notificações de Diálogo tem sons</MessageSounds>
+		<RunAsAdmin width="470">Use 'Compatibilidade de Programa' sempre para executar com direitos administrativos</RunAsAdmin>
+		<RunAsAdmin_Question title="Restart?" width="500" height="110">GameSave Manager atualmente não parece estar sendo executado com direitos administrativos.
+		
+Gostaria de reiniciar com tais direitos agora?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>Em um esforço para manter seus saves seguros, GameSave Manager pode usar vários aplicativos de terceiros para armazenar seus saves 'na nuvem'.</Info>
+		<Subfolder>Subpasta:</Subfolder>
+		<BoxSync>
+			<Header>Box.net</Header>
+			<Enable>Habilitar suporte ao Box.net</Enable>
+			<Error title="Recurso indisponível:" width="500" height="110">GameSave Manager não detectou o cliente Box.net Sync no seu sistema.
+
+Sendo assim, esse recurso não pode ser ativado.</Error>
+			<ManuallySpecify>Diretório de sincronização não encontrado.
+Por favor, especifique-o manualmente.</ManuallySpecify>
+		</BoxSync>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable width="250">Habilitar suporte ao DropBox</Enable>
+			<Error title="Recurso indisponível:" width="500" height="110">GameSave Manager não detectou o DropBox em execução no seu sistema.
+
+Sendo assim, esse recurso não pode ser ativado.</Error>
+			<ManuallySpecify>Diretório de sincronização não encontrado.
+Por favor, especifique-o manualmente.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable width="275">Habilitar suporte ao Google Drive</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager não detectou Google Drive no seu sistema.
+
+Sendo assim, esse recurso não pode ser ativado.</Error>
+			<ManuallySpecify>Diretório de sincronização não encontrado.
+Por favor, especifique-o manualmente.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable width="250">Habilitar suporte ao SkyDrive</Enable>
+			<Error title="Feature unavailable:" width="500" height="110">GameSave Manager não detectou Microsoft SkyDrive no seu sistema.
+
+Sendo assim, esse recurso não pode ser ativado.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Servidor privado via FTP </Header>
+			<Enable width="225">Habilitar suporte FTP</Enable>
+			<Host>Host:</Host>
+			<User>Nome de usuário:</User>
+			<Pass>Senha:</Pass>
+			<Dir>Diretório:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header width="150">Atualizações do Programa</Header>
+			<None width="460">Vou aplicar atualizações sozinho. Por favor me direcione para a página de downloads</None>
+			<DirectLinks width="485">Usar links diretos sempre que possível, mas vou aplicar as atualizações sozinho</DirectLinks>
+			<ProgDownload width="305">Baixar atualizações e aplicá-las para mim</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting width="255">Liste os Beta, Alpha ou Concept disponíveis</ListTesting>
+		<UpdateCheckOnLogin width="410">Verificar atualizações do banco de dados após Login do Windows</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup width="410">Verificar atualizações de programa e banco de dados na inicialização</UpdateCheckOnStartup>
+		<AutoUpdate width="395">Aplicar automaticamente quaisquer 'Atualizações de Banco de Dados'</AutoUpdate>
+		<IncrementalUpdates width="395">Não reconstruir o banco de dados, use atualizações incrementais</IncrementalUpdates>
+		<RemindCheckUpdates width="355">Lembrar-me de verificar as atualizações uma vez por semana</RemindCheckUpdates>
+		<PromptUser width="400">Exibir um prompt de diálogo sempre que uma atualização estiver disponível</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header width="102">Separar Arquivos</Header>
+			<Enable width="315">Criar um arquivo separado para cada entrada de backup</Enable>
+			<TimeStamp width="353">Adicionar um carimbo de tempo para cada nome de arquivo</TimeStamp>
+			<OnChange width="465">Criar novo arquivo após a alteração de um arquivo (afeta o desempenho)</OnChange>
+			<SepSubFolders>Organizar cada entrada de arquivo de backup em subpastas</SepSubFolders>
+			<PurgeCount>Consolidar arquivos quando o contador de backups chegar a...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation width="478">Executa verificações de validação de arquivos imediatamente após a sua criação</ValidateOnArchiveCreation>
+		<DuplicateArchives width="400">Copiar todos os backups para outro diretório conforme eles forem sendo feitos</DuplicateArchives>
+		<DefaultBackupDir width="445">Definir um diretório padrão de Backup (substituído por 'Opções em Nuvem')</DefaultBackupDir>
+		<RescanReminder width="495">Lembrar-me de examinar uma vez por sessão</RescanReminder>
+		<ConfirmChecksumResponse>Confirmar resposta da verificação e pular entradas que falharem</ConfirmChecksumResponse>
+		<RememberBackupSelection>Lembrar as entradas que selecionei entre as sessões</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Usando o formulário abaixo, especifique quais entradas (se houver alguma) você gostaria de criar entradas com data.
+
+Todas as entradas deixadas desmarcadas seguirão as configurações conforme especificado em 'Tarefas Específicas -> Configurações de Backup'.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Para ajudar a economizar espaço no seu serviço de nuvem escolhido, Sync &amp; Link somente lista diretórios que atendam a determinados critérios.
+
+Aqui você pode substituir a rotina de alerta do GameSave Manager para se adequar às suas necessidades.</Info>
+		<IgnoreExclusionRules width="390">Listar entradas de diretórios independentemente do conjunto de regras de exclusão de arquivo</IgnoreExclusionRules>
+		<ShowSteamCloud width="160">Mostrar os saves de 'Steam Cloud'</ShowSteamCloud>
+		<ShowUplayCache width="160">Mostrar os saves de 'Uplay Cache'</ShowUplayCache>
+		<WaitAfterEachLink width="390">Após a criação de um link, aguardar ação do usuário antes de prosseguir para a próxima entrada</WaitAfterEachLink>
+		<CustomSubfolder width="210">Deixe-me especificar a subpasta a ser utilizada</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header width="90">Tipo de Link</Header>
+			<SymLink width="225">Usar 'Links Simbólicos'</SymLink>
+			<Junction width="228">Usar 'Entroncamentos NTFS'</Junction>
+		</Link>
+		<SteamRunningCheck width="260">Avisar-me se o Steam está em execução quando necessário</SteamRunningCheck>
+		<HideXCOPY width="255">Ocultar a janela do comando XCOPY</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header width="115">Criação de Arquivo</Header>
+			<Use7zFormat width="255">Usar o formato '7z'(maior compactação)</Use7zFormat>
+			<LZMA2>Usar método de compressão LZMA2 (multitarefa aprimorado)</LZMA2>
+			<UseCompression width="410">Usar a maior compactação possivel (afeta a performance drasticamente)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow width="190">Ocultar a janela do console</HideWindow>
+		<UseLargePages width="395">Usar 'páginas grandes' para compactação teoricamente mais rápida</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header width="95">Detectar Steam</Header>
+			<Enable width="140">Habilitar Suporte Steam</Enable>
+			<Cache width="195">Incluir os diretórios 'Steam Cache'</Cache>
+			<Cloud width="195">Incluir os diretórios 'Steam Cloud'</Cloud>
+		</Steam>
+		<Uplay>
+			<Header width="80">Ubisoft uPlay</Header>
+			<Enable width="250">Habilitar detecção dos saves da 'uPlay cache'</Enable>
+		</Uplay>
+		<Flash>
+			<Header width="135">Macromedia Flash cache</Header>
+			<Enable width="210">Pesquisar por saves no 'Flash cache'</Enable>
+		</Flash>
+		<SaveScanResults width="390">Salvar os resultados de detecção para detecção mais rápida no futuro</SaveScanResults>
+		<DetectSize width="188">Tentar e detectar os tamanhos dos saves</DetectSize>
+		<CheckForDupDirs>Prevenir que diretórios duplicados sejam listados</CheckForDupDirs>
+		<RescanOnIdle>Quando o sistema estiver ocioso, procurar por saves suportados</RescanOnIdle>
+		<ShowStatusInfo>Mostrar informação adicional enquanto escaneia (pode afetar a velocidade)</ShowStatusInfo>
+		<QuickExclusionRuleset>Use rotinas de 'regras de exclusão' aperfeiçoadas</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header width="45">Classificação</Header>
+		<SortByName width="205">Classificar entradas detectadas por nome da entrada</SortByName>
+		<SortByDate width="247">Classificar entradas detectadas por data de 'última modificação'</SortByDate>
+		<SortBySize width="225">Classificar entradas detectadas por tamanho do arquivo</SortBySize>
+		<SortByCustomEntries>Classificar por status; Entradas customizadas listadas primeiro</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Marque as entradas que você não deseja mais procurar.
+
+NOTA: Requer um reexame completo para fazer efeito.</Info>
+	</IgnoredEntries>
+	<ExternalScripts>
+		<Info>Scripts externos podem incrementar seus backups de muitas maneiras.
+
+Aqui você pode habilitar / desabilitar scripts bem como mudar quaisquer opções disponíveis que eles possam ter.</Info>
+		<ScriptName>Gerenciar script para...</ScriptName>
+		<ScriptMETA>Autor: %AUTHOR%
+Versão: %VERSION%			|		Oficial: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Habilitar este script</EnableScript>
+		<ScriptOptions>
+			<Header>Opções de Script:</Header>
+			<Value>Valor (pressione [enter] para salvar):</Value>
+			<Enable>Opção habilitada</Enable>
+			<Saved>Valor salvo!</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+		<LaunchButton>Importar e exportar suas configurações</LaunchButton>
+		<Title>Importar / Exportar Configurações</Title>
+		<Intro>
+			<Info>O que você gostaria de fazer?</Info>
+			<Import>Importar configurações e entradas customizadas</Import>
+			<Export>Exportar configurações existentes e entradas customizadas</Export>
+		</Intro>
+		<Import>
+			<Step1>
+				<Info>Usando o formulário a seguir, por favor, especifique o backup que você deseja restaurar.
+Quando você estiver pronto, clique 'Próximo &gt;' para iniciar.</Info>
+				<Open>Abrir...</Open>
+			</Step1>
+			<Step2>
+				<Loading>Por favor, aguarde enquanto GameSave Manager lê o arquivo que você selecionou.
+Isso pode levar algum tempo.</Loading>
+				<Info>Usando a opção a seguir, por favor, selecione o que você deseja importar.</Info>
+				<Settings>Restaurar Configurações do Programa</Settings>
+				<IgnoreList>Restaurar 'Lista de Ignorados'</IgnoreList>
+				<SteamSpreader>Sobrescrever histórico do Steam Spreader</SteamSpreader>
+				<Logs>Restaurar logs de tarefas</Logs>
+				<CustomEntries>Restaurar as seguintes entradas customizadas do Gamesave...</CustomEntries>
+				<SelectAll>Selecionar tudo / Deselecionar tudo</SelectAll>
+			</Step2>
+			<Step3>
+				<Success>Sua seleção foi restaurada com sucesso do seguinte backup...
+
+
+
+%FILE%</Success>
+				<Failed>Infelizmente houve um erro na tentativa de restaurar sua seleção.
+
+
+
+
+Detalhes do Erro:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Import>
+		<Export>
+			<Step1>
+				<Info>Usando a opção a seguir, por favor, selecione o que você deseja exportar.</Info>
+				<Settings>Incluir minhas Configurações do Programa</Settings>
+				<IgnoreList>Incluir minha 'Lista de ignorados'</IgnoreList>
+				<SteamSpreader>Incluir meu histórico do Steam Spreader</SteamSpreader>
+				<Logs>Incluir todos os logs de tarefas</Logs>
+				<CustomEntries>Incluir as seguintes entradas customizadas do Gamesave...</CustomEntries>
+				<SelectAll>Selecionar tudo / Deselecionar tudo</SelectAll>
+			</Step1>
+			<Step2>
+				<Info>Por favor, especifique onde salvar o backup das configurações a seguir.
+Uma vez que esteja pronto, clique 'Próximo &gt;' para iniciar o procedimento de backup.</Info>
+				<SaveAs>Salvar como...</SaveAs>
+			</Step2>
+			<Step3>
+				<Success>O backup das suas configurações foi realizado com sucesso no seguinte local...
+
+
+
+%FILE%</Success>
+				<Failed>Infelizmente o backup não foi gerado corretamente.
+
+
+
+
+Detalhes do erro:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Export>
+		<Errors>
+			<InvalidFile title="Backup inválido" width="500" height="110">O arquivo de backup que você selecionou não parece ser um backup de configurações válido.</InvalidFile>
+			<NothingSelected title="Erro:" width="500" height="110">Para prosseguir você deve especificar pelo menos uma opção.</NothingSelected>
+			<NoFile title="Erro:" width="500" height="110">Nenhum arquivo especificado.
+
+Por favor especifique um arquivo de backup e tente novamente.</NoFile>
+		</Errors>
+	</ImportExport>
+</GameSaveManager_Translation>

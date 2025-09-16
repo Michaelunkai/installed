@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Nastavitve programa</Title>
+	<RestoreSettings>
+		<Title>Privzete nastavitve</Title>
+		<Confirm title="Potrdite:" width="500" height="110">Ali ste preprièani, da želite obnoviti nastavitve za GameSave Manager na njihove privzete vrednosti?
+
+OPOMBA: to ne vpliva na vnose shranjenih iger po meri.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Kategorije</Title>
+		<List>
+			<General>Splošne nastavitve</General>
+			<Cloud>Možnosti oblaka</Cloud>
+			<Update>Obnašanje posodobitev</Update>
+			<Task>
+				<Header>Doloèeno za opravila</Header>
+				<Backup>
+					<Header>Nastavitve varnostnih kopij</Header>
+					<ExternalScripts>Zunanji skripti</ExternalScripts>
+					<SepArchives>Loèeni arhivi</SepArchives>
+				</Backup>
+				<SyncLink>uskladi in poveži</SyncLink>
+				<Spreader>Razpršilnik za Steam</Spreader>
+			</Task>
+			<SevZip>Možnosti za 7zip</SevZip>
+			<Detection>Nastavitev zaznave</Detection>
+			<SortEntries>Razvrsti vnose</SortEntries>
+			<IgnoredEntries>Prezrti vnosi</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>Povezave datotek</Header>
+			<gsba>Poveži z datotekami .gsba</gsba>
+			<gsdu>Poveži z datotekami .gsdu</gsdu>
+			<gsms>Poveži z datotekami .gsms</gsms>
+			<AutoCheck>Ob zagonu preveri povezave z datotekami</AutoCheck>
+			<ContextMenu>Dodaj vnos 'GameSave Manager' v vsebinski meni podprtih datotek</ContextMenu>
+		</Associations>
+		<Lang>Jezik</Lang>
+		<Startup>
+			<Header>Zagonske možnosti</Header>
+			<ScanOnStartup>Preišèi sistem za podprtimi shranjenimi igrami </ScanOnStartup>
+			<UpdateCheckOnStartup>Preveri za posodobitvami programa in podatkovnih zbirk</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>Izvedi 'izklop opravil' (priporoèeno)</ShutdownTasks>
+		<SaveLogs>Samodejno shrani 'dnevnike opravil'</SaveLogs>
+		<ShowVerInTitle>Znotraj naslova okna pokaži podrobnosti o razlièici programa</ShowVerInTitle>
+		<MessageSounds>Obvestila pogovornih oken imajo zvok</MessageSounds>
+		<RunAsAdmin>Uporabi 'združljivost programov', da bo program vedno zagnan s skrbniškimi pravicami</RunAsAdmin>
+		<RunAsAdmin_Question title="Zaženem znova?" width="500" height="110">GameSave Manager trenutno ne teèe s skrbniškimi pravicami.
+
+Ali bi ga radi znova zagnali in jih pridobili?</RunAsAdmin_Question>
+	</General>
+	<Cloud>	
+		<Info>Da bi bile vaše shranjene igre varne, lahko GameSave Manager uporabi programe tretjih oseb in shrani vaše shranjene igre 'v oblak'.</Info>
+		<Subfolder>Podmapa:</Subfolder>
+		<BoxSync>
+			    <Header>Box.net</Header>
+			    <Enable>Omogoèi podporo Box.net Sync</Enable>
+			    <Error title="Zmožnost ni na voljo:" width="500" height="110">GameSave Manager ni mogel zaznati, da bi na vašem sistemu obstajal odjemalec za .
+
+		Zaradi tega te zmožnosti ni mogoèe omogoèiti.</Error>
+			    <ManuallySpecify>Mapa za uskladitev ni bila najdena.
+Podajte jo roèno.</ManuallySpecify>
+		</BoxSync>	
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>Omogoèi podporo za DropBox</Enable>
+			<Error title="Zmožnost ni na voljo:" width="500" height="110">GameSave Manager ni mogel zaznati, da bi na vašem sistemu tekel DropBox.
+
+Zaradi tega te zmožnosti ni mogoèe omogoèiti.</Error>
+			<ManuallySpecify>Mapa za uskladitev ni bila najdena.
+Podajte jo roèno.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Omogoèi podporo za Google Drive</Enable>
+			<Error title="Zmožnost ni na voljo:" width="500" height="110">GameSave Manager ni mogel zaznati, da bi na vašem sistemu obstajal Google Drive.
+
+Zaradi tega te zmožnosti ni mogoèe omogoèiti.</Error>
+			<ManuallySpecify>Mapa za uskladitev ni bila najdena.
+Podajte jo roèno.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable>Omogoèi podporo za SkyDrive</Enable>
+			<Error title="Zmožnost ni na voljo:" width="500" height="110">GameSave Manager ni mogel zaznati, da bi na vašem sistemu obstajal Microsoft SkyDrive.
+
+Zaradi tega te zmožnosti ni mogoèe omogoèiti.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Zasebni strežnik FTP</Header>
+			<Enable>Omogoèi podporo za FTP</Enable>
+			<Host>Gostitelj:</Host>
+			<User>Uporabniško ime:</User>
+			<Pass>Geslo:</Pass>
+			<Dir>Mapa:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Posodobitve programa</Header>
+			<None>Posodobitve bom uveljavil sam, preusmeri me na stran s prejemi</None>
+			<DirectLinks>Kjer je mogoèe, uporabi 'neposredne povezave za prejem', posodobitve pa bo uveljavljal sam</DirectLinks>
+			<ProgDownload>Prejmi posodobitve in jih tudi uveljavi</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>Prikaži razpoložljive  beta, alfa ali zasnovne razlièice</ListTesting>
+		<UpdateCheckOnLogin>Ob prijavi v Windows preveri za posodobitvami podatkovne zbirke</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Ob zagonu preveri za posodobitvami programa in podatkovnih zbirk</UpdateCheckOnStartup>
+		<AutoUpdate>Samodejno uveljavi vse razpoložljive 'posodobitve podatkovnih zbirk'</AutoUpdate>
+		<IncrementalUpdates>Podatkovne zbirke ne izgradi znova, uporabi delne posodobitve</IncrementalUpdates>
+		<RemindCheckUpdates>Enkrat tedensko me opomni, da preverim za posodobitvami</RemindCheckUpdates>
+		<PromptUser>Prikaži pogovorno okno vsakiè, ko je na voljo posodobitev</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Loèeni arhivi</Header>
+			<Enable>Za vsak varnostno kopiran vnos ustvari loèen arhiv</Enable>
+			<TimeStamp>Vsakemu imenu arhiva dodaj èasovni žig</TimeStamp>
+			<OnChange>Ob spremembi datoteke ustvari nov arhiv (vpliva na hitrost delovanja)</OnChange>
+			<SepSubFolders>Arhive za vsak vnos razvrsti v podmape</SepSubFolders>
+			<PurgeCount>Združuj arhive, ko število varnostnih kopij doseže ...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation>Takoj po ustvaritvi preveri veljavnost arhivov</ValidateOnArchiveCreation>
+		<DuplicateArchives>Zatem ko so bile ustvarjene vse varnostne kopije, jih kopiraj v drugo mapo</DuplicateArchives>
+		<DefaultBackupDir>Nastavi privzeto mapo za varnostne kopije (prepisano s strani 'možnosti oblaka')</DefaultBackupDir>
+		<RescanReminder>Enkrat na sejo me opomni na ponovno preiskovanje (èe so uporabljeni rezultati predhodnega preiskovanja)</RescanReminder>
+		<ConfirmChecksumResponse>Potrdi odziv nadzorne vsote in preskoèi vnose, ki spodletijo</ConfirmChecksumResponse>
+		<RememberBackupSelection>Zapomni si vnose, ki jih izberem, za vsako sejo</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Z uporabo spodnjega obrazca podajte za katere vnose (èe sploh) bi radi ustvarili razlièice s 'èasovnim žigom'.
+
+Vsi neoznaèeni vnosi bodo sledili nastavitvam v 'doloèeno za opravila->nastavitve varnostnih kopij'.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Da prihrani prostor na vaši izbrani storitvi oblaka, bo 'uskladi in poveži' prikazal le mape, ki izpolnijo doloèene pogoje.
+
+Tukaj lahko prilagodite v GameSave Manager vgrajen seznam.</Info>
+		<IgnoreExclusionRules>Prikaži vnose map ne glede na pravila izloèanja</IgnoreExclusionRules>
+		<ShowSteamCloud>Prikaži shranjene igre za 'Steam Cloud'</ShowSteamCloud>
+		<ShowUplayCache>Prikaži shranjene igre za 'Uplay Cache'</ShowUplayCache>
+		<WaitAfterEachLink>Po ustvaritvi povezave poèakaj na vnos uporabnika preden preideš na nov vnos</WaitAfterEachLink>
+		<CustomSubfolder>Rad bi podal podmapo, ki bo uporabljena</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Vrsta povezave</Header>
+			<SymLink>Uporabi 'Simbolne povezave'</SymLink>
+			<Junction>Uporabi 'Spoji (junctions) NTFS'</Junction>
+		</Link>
+		<SteamRunningCheck>Ko je potrebno, me opozori, èe je zagnan Steam</SteamRunningCheck>
+		<HideXCOPY>Skrij ukazno okno XCOPY</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Ustvarjanje arhivov</Header>
+			<Use7zFormat>Uporabi vrsto arhiva '7z' (veèje stiskanje)</Use7zFormat>
+			<LZMA2>Uporabi naèin stiskanja LZMA2 (izboljšano veènitenje)</LZMA2>
+			<UseCompression>Uporabi najveèje mogoèe razmerje stiskanja (izjemno vpliva na hitrost delovanja)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow>Skrij okno konzole v pogledu</HideWindow>
+		<UseLargePages>Uporabi 'large pages' za teoretièno hitrejše stiskanje</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Zaznava Steama</Header>
+			<Enable>Omogoèi podporo za Steam</Enable>
+			<Cache>Vkljuèi mape 'Steam Cache'</Cache>
+			<Cloud>Vkljuèi mape 'Steam Cloud'</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>Omogoèi zaznavo shranjenih iger v 'predpomnilniku za uPlay'</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Predpomnilnik za Macromedia Flash</Header>
+			<Enable>Poišèi shranjene igre v 'predpomnilniku za Flash'</Enable>
+		</Flash>
+		<SaveScanResults>Shrani rezultate zaznave za hitrejšo zaznavo v prihodnosti</SaveScanResults>
+		<DetectSize>Poskusi zaznati velikosti datotek shranjenih iger</DetectSize>
+		<CheckForDupDirs>Prepreèi, da bi bile na seznamu podvojene mape</CheckForDupDirs>
+		<RescanOnIdle>Ob nedejavnosti sistema, znova preišèi za podprtimi shranjenimi igrami</RescanOnIdle>
+		<ShowStatusInfo>Prikaži dodatne podrobnosti med preiskovanjem (lahko vpliva na hitrost preiskovanja)</ShowStatusInfo>
+		<QuickExclusionRuleset>Uporabi izboljšane rutine za 'pravila izloèanja'</QuickExclusionRuleset>		
+	</Detection>
+	<SortEntries>
+		<Header>Razvrsti po</Header>
+		<SortByName>imenu vnosa</SortByName>
+		<SortByDate>datumu 'zadnje spremembe'</SortByDate>
+		<SortBySize>velikosti datoteke vnosa</SortBySize>
+		<SortByCustomEntries>po stanju; najprej vnosi po meri</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Oznaèite vnose, katere ne želite veè najti.
+
+OPOMBA: Da to stopi v veljavo, morate izvesti polno ponovno preiskovanje.</Info>
+	</IgnoredEntries>
+		<ExternalScripts>
+		<Info>Zunanji skripti lahko izboljšajo vaše varnostne kopije na veè naèinov.
+
+Tukaj lahko omogoèite/onemogoèite skripte kot tudi spremenite morebitne razpoložljive možnosti.</Info>
+		<ScriptName>Upravljaj skript za ...</ScriptName>
+		<ScriptMETA>Avtor: %AUTHOR%
+Razlièica: %VERSION%			|		Je uradno: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Omogoèi ta skript</EnableScript>
+		<ScriptOptions>
+			<Header>Možnosti skripta:</Header>
+			<Value>Vrednost (pritisnite Enter za shranjevanje):</Value>
+			<Enable>Omogoèi možnost</Enable>
+			<Saved>Vrednost shranjena!</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+	    <LaunchButton>Uvozite in izvozite vaše nastavitve</LaunchButton>
+	    <Title>Nastavitve uvoza / izvoza</Title>
+	    <Intro>
+		<Info>Kaj želite storiti?</Info>
+		<Import>Uvoziti nastavitve in vnose po meri</Import>
+		<Export>Izvoziti obstojeèe nastavitve in vnose po meri</Export>
+	    </Intro>
+	    <Import>
+		<Step1>
+		    <Info>S pomoèjo spodnjega obrazca navedite varnostno kopijo, ki bi jo želeli obnoviti. 
+	Ko boste pripravljeni, kliknite 'Naprej &gt;' za zaèetek.</Info>
+		    <Open>Odpri ...</Open>
+		</Step1>
+		<Step2>
+		    <Loading>Poèakajte, da GameSave Manager prebere arhiv, ki ste ga izbrali.
+    To lahko traja nekaj trenutkov.</Loading>
+		    <Info>S pomoèjo spodnjih možnosti, izberite kaj želite uvoziti.</Info>
+		    <Settings>Obnovi nastavitve programa</Settings>
+		    <IgnoreList>Obnovi 'Seznam prezrtih'</IgnoreList>
+		    <SteamSpreader>Prepiši zgodovino Razpršilnika za Steam</SteamSpreader>
+		    <Logs>Obnovi dnevnike opravil</Logs>
+		    <CustomEntries>Obnovi vse naslednje vnose shranjenih iger po meri ...</CustomEntries>
+		    <SelectAll>Izberi vse / odstrani izbiro</SelectAll>
+		</Step2>
+		<Step3>
+		    <Success>Vaš izbor je bil uspešno obnovljen iz naslednje varnostne kopije ...
+
+
+
+    %FILE%</Success>
+		    <Failed>Žal je med poskusom obnovitve vašega izbora prišlo do napake.
+
+
+
+
+    Podrobnosti napake:
+    ---
+	%ERROR%</Failed>
+		</Step3>
+	    </Import>
+	    <Export>
+		<Step1>
+		    <Info>S pomoèjo spodnjih možnosti, izberite kaj želite izvoziti.</Info>
+		    <Settings>Vkljuèi moje nastavitve programa</Settings>
+		    <IgnoreList>Vkljuèi moj 'Seznam prezrtih'</IgnoreList>
+		    <SteamSpreader>Vkljuèi mojo zgodovino Razpršilnika za Steam</SteamSpreader>
+		    <Logs>Vkljuèi vse dnevnike opravil</Logs>
+		    <CustomEntries>Vkljuèi vse naslednje vnose shranjenih iger po meri ...</CustomEntries>
+		    <SelectAll>Izberi vse / odstrani izbiro</SelectAll>
+		</Step1>
+		<Step2>
+		    <Info>Spodaj navedite kam naj bo shranjena varnostna kopija vaših nastavitev.
+    Ko boste pripravljeni, kliknite 'Naprej &gt;', da bo opravilo varnostnega kopiranja zaèeto.</Info>
+		    <SaveAs>Shrani kot ...</SaveAs>
+		</Step2>
+		<Step3>
+		    <Success>Vaše nastavitve so bile uspešno varnostno kopirane na naslednje mesto ...
+
+
+
+    %FILE%</Success>
+		    <Failed>Žal varnostne kopije ni bilo mogoèe uspešno ustvariti.
+
+
+
+
+    Podrobnosti napake:
+    ---
+	%ERROR%</Failed>
+		</Step3>
+	    </Export>
+	    <Errors>
+		<InvalidFile title="Neveljavna varnostna kopija" width="500" height="110">Arhiv varnostne kopije, ki ste ga izbrali, ne izgleda veljaven.</InvalidFile>
+		<NothingSelected title="Napaka:" width="500" height="110">Za nadaljevanje morate navesti vsaj eno možnost.</NothingSelected>
+		<NoFile title="Napaka:" width="500" height="110">Datoteka ni navedena.
+
+    Navedite arhiv varnostne kopije in poskusite znova.</NoFile>
+	    </Errors>
+	</ImportExport>		
+</GameSaveManager_Translation>

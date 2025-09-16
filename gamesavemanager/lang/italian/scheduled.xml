@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Operazioni Programmate</Title>
+	<Info>Qui puoi impostare GameSave Manager perchè esegua i backup quando lo desideri.
+"Operazioni Programmate" può essere configurato per eseguire il backup di salvataggi specifici o di tutti i giochi rilevati; possiede varie impostazioni e ti permette grande controllo e flessibilità.</Info>
+	<List>
+		<Header>Operazioni Esistenti</Header>
+		<NoEntries>Nessuna Operazione Programmata.
+
+Per iniziare, clicca sul pulsante "Aggiungi" qui sotto.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Wizard Operazioni Programmate; Fase %CURRENT% di %TOTAL%</Title>
+		<Header>Wizard Operazioni Programmate</Header>
+		<Step1>
+			<Info>Questo wizard ti guiderà attraverso il processo di creazione (o di modifica) di un'Operazione Programmata.
+
+Durante questo wizard, ti verrà richiesto di indicare quello che vuoi salvare, quando eseguire il backup ed alcune impostazioni utili al salvataggio.
+Questo processo non dovrebbe durare più di 3 minuti; ricorda, puoi annullarlo in ogni momento.
+
+Per iniziare, diamo un nome alla tua Operazione Programmata.
+Puoi dare il nome che preferisci, ma ti raccomandiamo di utilizzarne uno significativo.</Info>
+			<Name>Nome Operazione:</Name>
+			<Errors>
+				<InvalidName title="Invalid name:" width="420" height="110">Il nome inserito ("%NAME%") è già utilizzato per un'altra Operazione Programmata.
+
+Ti preghiamo di specificare un nome diverso e riprovare.</InvalidName>
+				<NoName title="No name specified:" width="420" height="110">Hai dimenticato il nome della tua Operazione Programmata.
+
+Ti preghiamo di specificare un nome e riprovare.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<ExclusionList>Desidero specificare degli elementi da ignorare (solo per questa volta)</ExclusionList>
+			<Info>Utilizzando il modulo qui sotto, specifica quello che vuoi salvare e quando eseguire l'operazione.</Info>
+			<AllDetected>Esegui il backup di tutti i salvataggi rilevati</AllDetected>
+			<Specific>Esegui il backup dei seguenti elementi</Specific>
+			<Rescan>Scansiona nuovamente il sistema prima dell'operazione</Rescan>
+			<Errors>
+				<NoFound>Nessun elemento presente nel database è stato rilevato.
+
+Eseguire una nuova scansione può risolvere questo problema, altrimenti prova ad aggiornare il database o crea un Salvataggio Personalizzato e riprova.</NoFound>
+				<NoSelected title="Error:" width="420" height="110">Hai dimenticato di specificare dei dati da salvare.
+
+Per poter procedere, devi selezionare almeno un elemento.</NoSelected>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Indica qui sotto quando questa operazione dovrà essere eseguita.</Info>
+			<Type>
+				<Header>Esecuzione Operazione:</Header>
+				<Daily>Quotidiana</Daily>
+				<Weekly>Settimanale</Weekly>
+				<Monthly>Mensile</Monthly>
+				<Minute>Ogni Tot Minuti</Minute>
+				<Hourly>Ogni Tot Ore</Hourly>
+				<OnIdle>Quando il Sistema è Inattivo</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Operazione Quotidiana</Header>
+				<RunThisTaskAt>Esegui alle</RunThisTaskAt>
+				<Every>ogni</Every>
+				<Days>giorno/i.</Days>
+			</Daily>
+			<Weekly>
+				<Header>Operazione Settimanale</Header>
+				<RunThisTaskAt>Esegui alle</RunThisTaskAt>
+				<Every>ogni</Every>
+				<Weeks>settimana/e.</Weeks>
+				<DaysHeader>Esegui in questi giorni:</DaysHeader>
+				<Days>
+					<Monday>Lunedì</Monday>
+					<Tuesday>Martedì</Tuesday>
+					<Wednesday>Mercoledì</Wednesday>
+					<Thursday>Giovedì</Thursday>
+					<Friday>Venerdì</Friday>
+					<Saturday>Sabato</Saturday>
+					<Sunday>Domenica</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Operazione Mensile</Header>
+				<RunThisTaskAt>Esegui alle</RunThisTaskAt>
+				<Specific>
+					<Header>in questo giorno:</Header>
+					<Last>ultimo giorno</Last>
+				</Specific>
+				<EveryOther>
+					<Header>nel</Header>
+					<Frequency>
+						<First>primo</First>
+						<Second>secondo</Second>
+						<Third>terzo</Third>
+						<Last>ultimo</Last>
+					</Frequency>
+					<Day>
+						<Monday>Lunedì</Monday>
+						<Tuesday>Martedì</Tuesday>
+						<Wednesday>Mercoledì</Wednesday>
+						<Thursday>Giovedì</Thursday>
+						<Friday>Venerdì</Friday>
+						<Saturday>Sabato</Saturday>
+						<Sunday>Domenica</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>di questi mesi:</MonthHeader>
+				<Months>
+					<January>Gennaio</January>
+					<February>Febbraio</February>
+					<March>Marzo</March>
+					<April>Aprile</April>
+					<May>Maggio</May>
+					<June>Giugno</June>
+					<July>Luglio</July>
+					<August>Agosto</August>
+					<September>Settembre</September>
+					<October>Ottobre</October>
+					<November>Novembre</November>
+					<December>Dicembre</December>
+				</Months>
+			</Monthly>
+			<Minute>
+				<Header>Operazione Ogni Tot Minuti</Header>
+				<Every>Ogni</Every>
+				<Minutes>minuto/i</Minutes>
+				<StartingFromTasksCreation>a partire dalla creazione dell'operazione</StartingFromTasksCreation>
+				<StartingFrom>a partire dalle</StartingFrom>
+			</Minute>
+			<Hourly>
+				<Header>Operazione Ogni Tot Ore</Header>
+				<Every>Ogni</Every>
+				<Hours>ora/e</Hours>
+				<StartingFromTasksCreation>a partire dalla creazione dell'operazione</StartingFromTasksCreation>
+				<StartingFrom>a partire dalle</StartingFrom>
+			</Hourly>
+			<OnIdle>
+				<Header>Operazione a Sistema Inattivo</Header>
+				<WhenIdleFor>Quando il sistema è inattivo da</WhenIdleFor>
+				<Minutes>minuto/i</Minutes>
+			</OnIdle>
+			<Errors>
+				<FormError title="Missing form data:" width="420" height="110">Una parte di questo modulo non è stato compilato correttamente.
+
+Ti preghiamo di compilare nuovamente il modulo e riprovare.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Abbiamo quasi finito.
+Utilizzando le opzioni qui sotto, configura il modo in cui vuoi che GameSave Manager esegua l'operazione.</Info>
+			<CreateSchedule>Aggiungi l'operazione a "Gestione Attività di Windows"</CreateSchedule>
+			<Shortcut>Crea un collegamento sul desktop per questa operazione per forzarne l'avvio</Shortcut>
+			<SaveHeader>Destinazione Salvataggio:</SaveHeader>
+			<UseCloud>Usa le mie impostazioni "Cloud"</UseCloud>
+			<SaveTo>Salva in:</SaveTo>
+			<ArchiveSettings>Configurazione Archivio:</ArchiveSettings>
+			<SaveTo_Browse>Sfoglia</SaveTo_Browse>
+			<AutoGenerate>Genera automaticamente il nome del file</AutoGenerate>
+			<Errors>
+				<CloudError title="Unavailable" width="420" height="110">Sembra che tu non abbia configurato le impostazioni "Cloud" nelle Impostazioni Generali.
+
+Ti preghiamo di configurare queste opzioni e riprovare.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">L'Operazione Programmata selezionata non sembra valida, o si è verificato un errore interrogando il database per i dati necessari.
+
+Ti preghiamo di riprovare.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

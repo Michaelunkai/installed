@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Özel Oyun Kaydı Girişleri</Title>
+	<Info>Bu sayfadan, GameSave Manager uyacağı yeni oyun kaydı bulma kuralları ekleyebilirsiniz.
+Resmi olarak desteklenen bir girişi ihtiyaçlarınıza göre düzenleyebilir, tamamen yeni bir giriş ekleyebilir yada sadece mevcut Özel Oyun Kaydı Girişini değiştirebilirsiniz.</Info>
+	<List>
+		<Header>Mevcut Girişler</Header>
+		<NoEntries>Tanımlanmış 'Özel Oyun Kaydı Girişi' yok.
+
+Başlamak için, aşağıdaki 'Ekle' düğmesine tıklayın.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Özel Oyun Kaydı Girişleri Sihirbazı; Adım %CURRENT% / %TOTAL%</Title>
+		<Header>Özel Oyun Kaydı Girişleri Sihirbazı</Header>
+		<Step1>
+			<Info>Bu sihirbaz size 'Özel Oyun Kaydı Girişi' ekleme--yada değiştirme--işleminde rehberlik edecektir.
+
+Bu süreçte sihirbaz, yedekleyeceğiniz veri hakkında çeşitli sorular soracak, lütfen birkaç soruya cevap vermeye hazır olun.
+Bu işlem 5 dakikadan uzun sürmeyecektir. Herhangi bir zamanda iptal edebileceğinizi unutmayın.
+
+Başlangıç olarak, Özel Oyun Kaydı Girişimize bir ad verelim.
+Bu girişe istediğiniz bir adı verebilirsiniz, ama anlamlı bir ad kullanmanız önerilir (oyunun tam adı gibi).</Info>
+			<Name>Giriş Başlığı:</Name>
+			<Warning>NOT: Mevcut olan 'Resmi Olarak Desteklenen Giriş'e ilave dosyalar, yollar veya kayıt defteri girişi tanımlayacaksanız, kendi tanımlamalarınız ile değiştirmek için mevcut girdi ile aynı adı kullanın.
+
+Özel Oyun Kaydı Girişiniz düzenlemeniz için 'Resmi olarak Desteklenen' giriş verisi ile doldurulacaktır.</Warning>
+			<Errors>
+				<InvalidName title="Geçersiz Ad:" width="420" height="110">Belirttiğiniz isim ('%NAME%') başka bir Özel Oyun Kaydı Girişinde kullanılıyor.
+
+Başka bir isim seçip tekrar deneyin.</InvalidName>
+				<NoName title="İsim belirtilmedi:" width="420" height="110">Özel Oyun Kaydı girişinize bir ad vermediniz.
+
+Lütfen bir ad belirtin ve tekrar deneyin.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Aşağıdaki form, bu giriş için bir uyarı iletisi belirlemenizi sağlar.
+Uyarı iletisi kullanıcıya ünlem işareti ile bildirilecek, ve 'Girdi Ayrıntıları' panelinden seçilerek görülebilecek.
+
+Herhangi bir uyarı belirlemek istemiyorsanız, formu boş bırakıp 'İleri &gt;' tıklayın </Info>
+			<Backup>Yedekleme uyarısı</Backup>
+			<Restore>Geri Yükleme uyarısı</Restore>
+		</Step2>
+		<Step3>
+			<Info>Aşağıda yedeklemek istediğiniz, tüm  dosyaları, klasörleri ve kayıt defteri verilerini belirtin.
+İstediğiniz kadar öğe ekleyebilirsiniz.</Info>
+			<DirTitle>Yedeklenecek dosyalar & klasörler:</DirTitle>
+			<RegTitle>Yedeklenecek kayıt defteri verisi:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Hata:" width="420" height="110">Yedeklemek için herhangi birşey belirtmediniz.
+
+Lütfen en az 1 klasör veya 1 kayıt defteri verisi belirtin ve tekrar deneyin.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Tamamlandı!
+Tüm gerekli bilgi toplandı ve veritabanına kaydetmeye hazır.
+
+Herhangi bir şey değiştirmek isterseniz, şimdi yapabilirsiniz yada daha ileri bir tarihte bu girişi düzenleyerek yapabilirsiniz.</Info>
+			<SubmitPanel>
+				<Header>Girişi Paylaş</Header>
+				<Info>Bu giriş gerekli kriterleri sağladığından GameSave Manager sunucularına onaylama için gönderilebilir.
+Onaylanırsa, bu giriş sonraki 'Veritabanı Güncellemesi'ne eklenir ve böylece tüm topluluk bundan yararlanabilir.</Info>
+				<Submit>Evet, Bu girişi paylaşmak istiyorum</Submit>
+				<InfoScene>Girdiniz gönderim için gerekli şartları sağlamasına rağmen, aynı zamanda bir yada da daha fazla 'Korsan yayın'lara ait kayıt konumu içeriyor.
+Bu tarz konumlar desteklenmiyor, dolayısıyla bu girdiyi onay için gönderemezsiniz.
+
+Eğer bunun bir hata olduğunu düşünüyorsanız, Forumlarımıza girdinizi kendiniz gönderebilirsiniz.
+Bunun dışında, özel oyun kaydı girdiniz dikkate alınmayacaktır.</InfoScene>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Özel Oyun Kaydı Girişleri: Klasör Sihirbazı; Adım %CURRENT% / %TOTAL%</Title>
+			<Header>Özel Oyun Kaydı Girişleri: Klasör Sihirbazı</Header>
+			<Step1>
+				<Info>Bu sihirbaz Özel Oyun Kaydı Girişinize klasör kuralları ekleme --yada değiştirme--sürecinde rehberlik edecektir.
+
+Bir dakikadan uzun sürmeyecektir.
+
+Başlangıç olarak, GameSave Manager klasör yolunun bir kısmını dinamik olarak oluştursun mu?</Info>
+				<UseSpecialPaths>Evet lütfen, aşağıdaki klasörü dinamik olarak oluştursun</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Belgelerim</DOCUMENTS>
+					<SHARED_DOCUMENTS>Paylaşılan Belgeler</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Ortak</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Kullanıcı</APPDATA_LOCAL>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Steam Yükleme Klasörü</STEAM>
+					<STEAM_CACHE>Steam ön belleği</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay ön belleği</UPLAY>
+					<FLASH>Macromedia Flash ön belleği</FLASH>
+					<SAVED_GAMES>Kaydedilen oyunlar</SAVED_GAMES>
+					<USER_PROFILE>Kullanıcı ana klasörü</USER_PROFILE>
+					<REGISTRY>Kayıt defteri değerinden</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Lütfen aşağıya dinamik oluşturulacak klasörü içeren 'kayıt defteri değerini' girin.
+
+NOT: Dosya adları değerden otomatik olarak silinecektir (Örneğin, "C:\Game\Launch.exe" değeri "C:\Game" olur).</Info>
+				<Hive>Kayıt Defteri Yığını:</Hive>
+				<Path>Kayıt Defteri Yolu:</Path>
+				<Value>Kayıt Defteri Değeri:</Value>
+				<Test>Test Et</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Şimdi önceden dinamik olarak oluşturduğumuz klasör yolunun sonuna, geri kalan kısmını eklememiz gerekli.
+
+Bunun için, aşağıdaki alana klasör yolunun sadece geri kalanını girin.
+Dinamik olarak oluşturulan yola herhangi bir şey eklemeyecekseniz, alanı boş bırakın ve 'İleri &gt;' tıklayın.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Klasör yolunun dinamik olarak oluşturulmasını seçmediyseniz, aşağıda tam yolu belirtmeniz gerekir.
+
+Geri dönüp dinamik oluşturmayı etkinleştirmek isterseniz, "&lt; Geri" tıklamaktan çekinmeyin.</InfoWithoutSpecialPath>
+				<DynamicDetection>Dinamik Oluşturulan</DynamicDetection>
+				<Append>Aşağıdakini Ekle</Append>
+				<Full>Aşağıdaki klasör yolunda ara</Full>
+			</Step2>
+			<Step3>
+				<Info>Son olarak, hangi dosyaların yedekleneceğini belirlemeliyiz.
+
+ Dosya adlarında 'joker' (* ve ?) karakter kullanabilirsiniz.
+
+Örnekler:
+	*.* - Tüm dosyaları dahil eder
+	*.sav - Tüm '.sav' uzantılı dosyaları dahil eder
+	My*.sav - 'my' ile başlayan tüm '.sav' uzantılı dosyaları dahil eder
+	MySave.sav - Klasör kökündeki 'MySave.sav' dosyasını dahil eder
+	bin\MySave.sav - 'bin' alt klasöründeki 'MySave.sav' dosyasını dahil eder
+	bin\*.* - 'bin' alt klasöründeki tüm dosyaları dahil eder</Info>
+				<Warning>NOT: Dosyaları dikey ile ayırın (Örneğin *.sav|*.ini)</Warning>
+				<IncludedFiles>Dahil Edilen Dosyalar</IncludedFiles>
+				<ExcludedFiles>Hariç Tutulan Dosyalar</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Özel Oyun Kaydı Girişleri: Kayıt Defteri Sihirbazı</Title>
+			<Header>Özel Oyun Kaydı Girişleri: Kayıt Defteri Sihirbazı</Header>
+			<Info>Lütfen yedeklenecek Kayıt Defteri ayrıntılarını aşağıya girin.</Info>
+			<Hive>Kayıt Defteri Yığını:</Hive>
+			<Path>Kayıt Defteri Yolu:</Path>
+			<DefinedValues>
+				<Header>Kayıt Defteri Değeri:</Header>
+				<EntireKey>Tüm anahtarı yedekle</EntireKey>
+				<Specific>Aşağıdaki değeri yedekle:</Specific>
+				<Values>Değerler:</Values>
+				<Info>Değer adlarını dikey ile ayırın ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>İleti Gönderimi</Header>
+		<Info>'%NAME%' adındaki Özel Oyun Kaydı Girişinizi GameSave Manager sunucusuna onay için göndermek üzeresiniz.
+
+Bir ileti yazmak ister misiniz?</Info>
+		<NoMsg>Hayır, sadece girişi gönder</NoMsg>
+		<Msg>Evet lütfen, bazı ek bilgiler yazmak istiyorum</Msg>
+		<ReturnCodes>
+			<NoConnection title="Hata" width="420" height="110">GameSave Manager sunucusuyla iletişime geçerken bir hata oluştu.
+Muhtemelen çevrim dışı yada internet bağlantınızda sorun var?</NoConnection>
+			<DBUpdate title="Hata" width="420" height="110">Veritabanı Güncellemesi var.
+
+Lütfen güncellemeyi uygulayın ve tekrar deneyin.</DBUpdate>
+			<DynError title="Hata" width="420" height="110">Dinamik oluşturmadaki sorundan dolayı giriş gönderilemiyor</DynError>
+			<DupError title="Hata" width="420" height="110">Bu giriş siz yada bir başkası tarafından zaten gönderilmiş görünüyor.</DupError>
+			<Banned title="Hata" width="420" height="110">IP adresinizden çok sayıda gereksiz gönderi aldık.
+Forumlarımızı kullanarak kendiniz gönderin</Banned>
+			<MissingData title="Hata" width="420" height="110">Girdide gerekli bir veri eksik görünüyor.</MissingData>
+			<Update title="Hata" width="420" height="110">GameSave Manager bu sürümü sunucu tarafından artık desteklenmiyor.
+Lütfen son sürüme güncelleyip tekrar deneyin.</Update>
+			<Maintenance title="Hata" width="420" height="110">Gönderi sistemi bakım için kapatılmış gibi görünüyor.
+Lütfen daha sonra tekrar deneyin, yada forumlarımızı kullanarak kendiniz gönderin</Maintenance>
+			<SubmitError title="Hata" width="420" height="110">Girişi göndeririken bilinmeyen bir hata oluştu.
+Lütfen daha sonra tekrar deneyin, yada forumlarımızı kullanarak kendiniz gönderin</SubmitError>
+			<Success title="Başarılı" width="420" height="110">'%NAME%' adlı girişiniz başarıyla gönderildi ve onay için bekliyor.
+			
+			Teşekkürler.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Hata:" width="420" height="110">Seçilen 'Özel Oyun Kaydı Girişi' geçerli görünmüyor, yada gerekli veri için veritabanı sorgularken hata oluştu.
+
+Lütfen tekrar deneyin.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

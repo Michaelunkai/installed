@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Program Ayarları</Title>
+	<RestoreSettings>
+		<Title>Varsayılan Ayarlar</Title>
+		<Confirm title="Confirm:" width="500" height="110">GameSave Manager'ın ayarlarını varsayılan değerlerine döndürmek istediğinize emin misiniz ?
+
+NOT: Özel Oyun Kaydı Girdileri bundan etkilenmeyecektir.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Kategoriler</Title>
+		<List>
+			<General>Genel Ayarlar</General>
+			<Cloud>Cloud Seçenekleri</Cloud>
+			<Update>Güncelleme Davranışları</Update>
+			<Task>
+				<Header>Göreve Özgül </Header>
+				<Backup>
+					<Header>Yedekleme Ayarları</Header>
+					<SepArchives>Arşivleri Ayır</SepArchives>
+					<ExternalScripts>Harici Betikler</ExternalScripts>
+				</Backup>
+				<SyncLink>Senkron &amp; Bağlantı</SyncLink>
+				<Spreader>Steam Dağıtıcı</Spreader>
+			</Task>
+			<SevZip>7zip Tercihleri</SevZip>
+			<Detection>Tespit Yapılandırması</Detection>
+			<SortEntries>Girdileri Sırala</SortEntries>
+			<IgnoredEntries>Yoksayılan Girdiler</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>Dosya İlişkilendirmesi</Header>
+			<gsba>.gsba dosyaları ile ilişkilendir</gsba>
+			<gsdu>.gsdu dosyaları ile ilişkilendir</gsdu>
+			<gsms>.gsms dosyaları ile ilişkilendir</gsms>
+			<AutoCheck>Başlangıçta dosya ilişkilendirmesini kontrol et</AutoCheck>
+			<ContextMenu>Desteklenen dosyalar için içerik menüsüne 'GameSave Manager' girdisi ekle</ContextMenu>
+		</Associations>
+		<Lang>Dil</Lang>
+		<Startup>
+			<Header>Başlangıç Seçenekleri</Header>
+			<ScanOnStartup>Desteklenen kayıtlar için sistemi tara</ScanOnStartup>
+			<UpdateCheckOnStartup>Program ve veritabanı güncellemelerini kontrol et</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>'Kapatma İşlemleri' gerçekleştir (önerilir)</ShutdownTasks>
+		<SaveLogs>'Görev Günlüklerini' otomatik kaydet</SaveLogs>
+		<ShowVerInTitle>Pencere başlığında program sürümünü göster</ShowVerInTitle>
+		<MessageSounds>Uyarı bildirimleri sesli olsun</MessageSounds>
+		<RunAsAdmin>'Program Uyumluluğunu' kullanarak her zaman yönetici haklarıyla çalıştır</RunAsAdmin>
+		<RunAsAdmin_Question title="Yeniden Başlatılsın mı?" width="500" height="110">GameSave Manager şu anda Yönetici Haklarıyla çalışmıyor.
+
+Bu haklar ile yeniden başlatmak ister misiniz ?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>Oyun kayıtlarınızı güvenli tutmak amacıyla, GameSave Manager bir çok üçüncü parti uygulamayı kullanarak kayıtlarınızı 'cloud' içinde saklayabilir.</Info>
+		<Subfolder>Alt Klasör:</Subfolder>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>DropBox desteğini etkinleştir</Enable>
+			<Error title="Özellik kullanılamıyor:" width="500" height="110">GameSave Manager sisteminizde DropBox uygulaması bulamıyor.
+
+Dolayısıyla bu özellik etkinleştirilemez.</Error>
+			<ManuallySpecify>Senkron klasörü bulunamıyor.
+Lütfen kendiniz belirtin.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Google Drive desteğini etkinleştir</Enable>
+			<Error title="Özellik kullanılamıyor:" width="500" height="110">GameSave Manager sisteminizde Google Drive uygulaması bulamıyor.
+
+Dolayısıyla bu özellik etkinleştirilemez.</Error>
+			<ManuallySpecify>Senkron klasörü bulunamıyor.
+Lütfen kendiniz belirtin.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable>SkyDrive desteğini etkinleştir</Enable>
+			<Error title="Özellik kullanılamıyor:" width="500" height="110">GameSave Manager sisteminizde Microsoft SkyDrive uygulaması bulamıyor.
+
+Dolayısıyla bu özellik etkinleştirilemez.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>FTP üzerinden Özel Sunucu</Header>
+			<Enable>FTP desteğini etkinleştir</Enable>
+			<Host>Sunucu:</Host>
+			<User>Kullanıcı Adı:</User>
+			<Pass>Parola:</Pass>
+			<Dir>Klasör:</Dir>
+		</FTP>
+	<BoxSync>
+         <Header>Box.net</Header>
+         <Enable>Box.net Sync desteğini etkinleştir</Enable>
+         <Error title="Özellik kullanılamıyor:" width="500" height="110">GameSave Manager sisteminizde Box.net Sync uygulaması bulamıyor.
+
+Dolayısıyla bu özellik etkinleştirilemez.</Error>
+         <ManuallySpecify>Senkron klasörü bulunamıyor.
+Lütfen kendiniz belirtin.</ManuallySpecify>
+      </BoxSync>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Program Güncellemeleri</Header>
+			<None>Güncellemeyi kendim yapacağım, lütfen beni indirme sayfasına yönlendir</None>
+			<DirectLinks>Mümkünse 'Doğrudan indirme bağlantılarını' kullan, ancak ben güncelleyeceğim</DirectLinks>
+			<ProgDownload>Güncellemeleri indir ve uygula</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>Mevcut Beta, Alpha veya Concept sürümlerini listele</ListTesting>
+		<UpdateCheckOnLogin>Windows Açılışinda veritabanı güncellemelerini denetle</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Başlangıçta program ve veritabanı güncellemelerini kontrol et</UpdateCheckOnStartup>
+		<AutoUpdate>Mevcut tüm 'Veritabanı Güncellemelerini' otomatik uygula</AutoUpdate>
+		<IncrementalUpdates>Veritabanını yeniden oluşturma, arttırmalı güncellemeleri kullan</IncrementalUpdates>
+		<RemindCheckUpdates>Haftada bir güncellemeleri kontrol etmemi hatırlat</RemindCheckUpdates>
+		<PromptUser>Bir güncelleme olduğunda uyarı kutusu göster</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Arşivleri Ayır</Header>
+			<Enable>Yedeklenecek her girdi için ayrı arşiv oluştur</Enable>
+			<TimeStamp>Yedeklenecek her arşivin dosya adına zaman damgası ekle</TimeStamp>
+			<OnChange>Dosya değişikliğinde yeni arşiv oluştur (performansı etkiler)</OnChange>
+			<SepSubFolders>Her girdinin yedekleme arşivini alt klasörlere dağıt</SepSubFolders>
+			<PurgeCount>Bu yedekleme sayısına ulaşıldığında arşivleri birleştir...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation>Oluşturulduktan hemen sonra arşivleri doğrula</ValidateOnArchiveCreation>
+		<DuplicateArchives>Tüm yedeklerin farklı bir klasöre de kopyasını oluştur</DuplicateArchives>
+		<DefaultBackupDir>Varsayılan Yedek klasörünü ayarla ('Cloud Seçenekleri' üstüne yazabilir)</DefaultBackupDir>
+		<RescanReminder>Her defasında yeniden tarama yapmamı hatırlat (önceki tarama sonuçları kullanılıyorsa)</RescanReminder>
+		<ConfirmChecksumResponse>Sağlama toplamlarını denetle ve hatalı çıkan girdileri atla</ConfirmChecksumResponse>
+		<RememberBackupSelection>Daha önceki oturumda yaptığım seçimleri hatırla</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Aşağıda hangi girdileri 'zaman damgalı' olarak oluşturmak istediğinizi belirtin.
+
+İşaretlemeden bırakılan tüm girdiler  'Göreve Özgül->Yedekleme Ayarları' da belirttiğiniz ayarları kullanacak.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Seçtiğiniz Cloud hizmetinde yerden kazanmanıza yardımcı olmak için, Senkron &amp; Bağlantı belirli şartlara uyan klasörleri listeler.
+
+Buradan GameSave Manager'ın listeleme rutinini ihtiyaçlarınıza uygun hale getirebilirsiniz.</Info>
+		<IgnoreExclusionRules>Klasör girdilerini dosya dışlama kuralarına bakılmaksızın listele</IgnoreExclusionRules>
+		<ShowSteamCloud>'Steam Cloud' kayıtlarını göster</ShowSteamCloud>
+		<ShowUplayCache>'Uplay Cache' kayıtlarını göster</ShowUplayCache>
+		<WaitAfterEachLink>Bir bağlantı oluşturulduktan sonra, sıradaki girdiye devam etmeden önce kullanıcı girişini bekle</WaitAfterEachLink>
+		<CustomSubfolder>Kullanılacak alt klasörü ben belirleyeyim</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Bağlantı Türü</Header>
+			<SymLink>'Simgesel Bağlantı' kullan</SymLink>
+			<Junction>'NTFS Junctions' kullan</Junction>
+		</Link>
+		<SteamRunningCheck>Gerektiğinde Steam çalışıyor uyarısı ver</SteamRunningCheck>
+		<HideXCOPY>XCOPY komut penceresini gizle</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Arşiv Oluşturma</Header>
+			<Use7zFormat>'7z' arşiv biçimi kullan (daha iyi sıkıştırma)</Use7zFormat>
+			<UseCompression>Mümkün olan en yüksek sıkıştırma oranını kullan (büyük ölçüde performansı etkiler)</UseCompression>
+			<LZMA2>LZMA2 sıkıştırma yöntemini kullan (iyileştirilmiş multi-threading)</LZMA2>
+		</ArchiveCreation>
+		<HideWindow>Konsol penceresini gizle</HideWindow>
+		<UseLargePages>Teoride daha hızlı sıkıştırma için 'büyük sayfalar' kullan</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Steam Tespiti</Header>
+			<Enable>Steam Desteğini Etkinleştir</Enable>
+			<Cache>'Steam Önbelleği' klasörlerini ekle</Cache>
+			<Cloud>'Steam Cloud' klasörlerini ekle</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>'uPlay cache' oyun kayıtlarının tespitini etkinleştir</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Macromedia Flash önbelleği</Header>
+			<Enable>'Flash önbelleğini' kayıtlar için ara</Enable>
+		</Flash>
+		<SaveScanResults>İleride daha hızlı tespit için tarama sonuçlarını kaydet</SaveScanResults>
+		<DetectSize>Kayıtların dosya boyutlarını bulmaya çalış</DetectSize>
+		<CheckForDupDirs>Yinelenen (kopya) klasörlerin listelenmesini engelle</CheckForDupDirs>
+		<RescanOnIdle>Sistem boştayken, desteklenen oyunlar için tarama yap</RescanOnIdle>
+		<ShowStatusInfo>Tarama yaparken ek bilgi göster (tarama hızını etkileyebilir)</ShowStatusInfo>
+		<QuickExclusionRuleset>Gelişmiş 'Hariç tutma kurallarını' kullan</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header>Sırala</Header>
+		<SortByName>Bulunan girdileri girdi adına göre sırala</SortByName>
+		<SortByDate>Bulunan girdileri 'Son Değiştirilme' tarihine göre sırala</SortByDate>
+		<SortBySize>Bulunan girdileri dosya boyutuna göre sırala</SortBySize>
+		<SortByCustomEntries>Durumuna göre sırala; Özel girdiler önce listelenir</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Bir daha aranmasını istemediğiniz girdileri işaretleyin.
+
+NOT: Etkili olabilmesi için tam yeniden tarama gereklidir.</Info>
+	</IgnoredEntries>
+	<ExternalScripts>
+      <Info>Harici betikler yedeklerinizi çok yönden geliştirebilir.
+
+Buradan hem, betikleri Etkinleştirebilir / Devre dışı bırabilir, hemde betik seçeneklerini değiştirebilirsiniz.</Info>
+      <ScriptName>Betikleri yönet...</ScriptName>
+      <ScriptMETA>Yazan: %AUTHOR%
+Sürüm: %VERSION%         |      Resmi: %ISOFFICIAL%</ScriptMETA>
+      <EnableScript>Bu betiği etkinleştir</EnableScript>
+      <ScriptOptions>
+         <Header>Betik seçenekleri:</Header>
+         <Value>Değer (Kaydetmek için [enter] basın):</Value>
+         <Enable>Seçeneği etkinleştir</Enable>
+         <Saved>Değer kaydedildi!</Saved>
+      </ScriptOptions>
+   </ExternalScripts>
+   <ImportExport>
+      <LaunchButton>Ayarlarınızı alın ve verin</LaunchButton>
+      <Title>Ayarları Al / Ver</Title>
+      <Intro>
+         <Info>Ne yapmak istiyorsunuz?</Info>
+         <Import>Ayarlarları ve özel girdileri al</Import>
+         <Export>Ayarlarları ve özel girdileri ver</Export>
+      </Intro>
+      <Import>
+         <Step1>
+            <Info>Lütfen aşağıdaki formu kullanarak, geri yüklemek istediğiniz yedeği belirtin.
+Hazır olduğunuzda başlamak için, 'Sonraki &gt;' tıklayın.</Info>
+            <Open>Aç...</Open>
+         </Step1>
+         <Step2>
+            <Loading>GameSave Manager seçtiğiniz arşivi okurken bekleyin lütfen.
+Bu bir kaç dakika sürebilir.</Loading>
+            <Info>Hangi ayarları almak isteğidinizi, aşağıdaki seçenekleri kullanarak belirtin lütfen.</Info>
+            <Settings>Program Ayarlarını geri yükle</Settings>
+            <IgnoreList>'Yoksayılan listesini' geri yükle</IgnoreList>
+            <SteamSpreader>Steam Dağıtıcı geçmişinin üstüne yaz</SteamSpreader>
+            <Logs>Görev günlüklerini geri yükle</Logs>
+            <CustomEntries>Aşağıdaki Özel Oyun Kaydı Girdilerini geri yükle...</CustomEntries>
+            <SelectAll>Tümünü Seç / Hiçbirini Seçme</SelectAll>
+         </Step2>
+         <Step3>
+            <Success>Seçtikleriniz aşağıdaki yedekten başarıyla geri yüklendi...
+
+
+
+%FILE%</Success>
+            <Failed>Ne yazıkki seçtiklerinizi geri yüklerken bir hata oluştu.
+
+
+
+
+Hata Ayrıntıları:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Import>
+      <Export>
+         <Step1>
+            <Info>Hangi ayarları vermek isteğidinizi, aşağıdaki seçenekleri kullanarak belirtin lütfen.</Info>
+            <Settings>Program ayarlarını dahil et</Settings>
+            <IgnoreList>'Yoksayılan listesini' dahil et</IgnoreList>
+            <SteamSpreader>Steam Dağıtıcı Geçmişimi dahil et</SteamSpreader>
+            <Logs>Tüm görev günlüklerini dahil et</Logs>
+            <CustomEntries>Aşağıdaki Özel Oyun Kaydı Girdilerini dahil et...</CustomEntries>
+            <SelectAll>Tümünü Seç / Hiçbirini Seçme</SelectAll>
+         </Step1>
+         <Step2>
+            <Info>Ayarlar yedeğinizi nereye kaydetmek istediğinizi belirtin lütfen.
+Hazır olduğunuzda yedekleme işlemini başlatmak için, 'Sonraki &gt;' tıklayın.</Info>
+            <SaveAs>Faklı Kaydet...</SaveAs>
+         </Step2>
+         <Step3>
+            <Success>Ayarlarınız aşağıdaki konuma başarıyla yedeklendi...
+
+
+
+%FILE%</Success>
+            <Failed>Ne yazıkki yedekleme düzgün bir şekilde oluşturulamadı.
+
+
+
+
+Hata Ayrıntıları:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Export>
+      <Errors>
+         <InvalidFile title="Geçersiz yedek" width="500" height="110">Seçtiğiniz yedekleme arşivi geçerli bir ayarlar yedeği gibi görünmüyor.</InvalidFile>
+         <NothingSelected title="Hata:" width="500" height="110">Devam etmek için, en az bir seçeneği seçmelisiniz.</NothingSelected>
+         <NoFile title="Hata:" width="500" height="110">Dosya belirtilmedi.
+
+Lütfen bir yedekleme arşivi belirtip, tekrar deneyin.</NoFile>
+      </Errors>
+   </ImportExport>
+</GameSaveManager_Translation>

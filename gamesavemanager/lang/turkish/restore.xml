@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Oyun Kayıtlarını Geri Yükle</Title>
+	<Detection>
+		<Title>Bulunan Girdiler</Title>
+		<ListCheck>Tümünü Seç / Seçimi Kaldır</ListCheck>
+		<Counter>%TOTAL% kayıt bulundu / %SELECTED% seçildi</Counter>
+		<Legend>
+			<Title>Açıklamalar</Title>
+			<Files>Geri yüklenecek dosyalar</Files>
+			<Registry>Geri yüklenecek kayıt defteri verisi</Registry>
+			<Warning>Girdide okumak isteyebileceğiniz bir 'Uyarı Mesajı' var</Warning>
+			<Unrestorable>Ayarlar yada eksik kayıt defteri değerlerinden dolayı geri yüklenemiyor</Unrestorable>
+			<EntireEntry>Tüm girdi geri yüklenecek</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Geri yükleme görevini başlat.</Start>
+		<Open>Daha önceden oluşturulan Geri Yükleme Arşivini aç.</Open>
+	</Options>
+	<Details>
+		<Title>Girdi Ayrıntıları</Title>
+		<NoneSelected>Girdi Seçilmedi.
+
+Lütfen soldaki listeden bir girdi seçin.</NoneSelected>
+		<Unrestorable>Seçilen girdi geri yüklenemez.
+
+Bunun pek çok sebebi olabilir, ancak bunlar en muhtemelleri:
+1. 'Program Ayarlarınız' tespiti engelliyordur ('Tespit yapılandırması' bakın)
+2. Oyun kaydı yolu, şu anda sisteminizde mevcut olmayan bir kayıt defteri değerinden dinamik olarak bulunması gerekli.
+
+Eğer neden 2 numaralı sebep ise, lütfen oyunu yeniden yükleyin ve çalıştırın.</Unrestorable>
+		<UnrestorableEntry>GameSave Manager gerekli yolları bulamadığından, bu girdi için tüm yedeklenen veri geri yüklenemiyor.
+
+Lütfen mümkün olan çözümler ve daha fazla bilgi için klasör girişlerinden birini seçin.</UnrestorableEntry>
+		<Entry>
+			<Name>Girdi Adı:</Name>
+			<VerInfo>Oluşturma:</VerInfo>
+			<IsOfficial>Resmi Girdi:</IsOfficial>
+			<Size>Diskteki Boyut:</Size>
+			<Warning>Uyarı:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Klasör:</Directory>
+			<Size>Diskteki Boyut:</Size>
+			<Files>Dosyalar:</Files>
+		</Directory>
+		<Registry>
+			<Key>Kayıt Defteri Anahtarı:</Key>
+			<Values>Değerler:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Başarılı" width="350" height="110">Geri Yükleme Görevi tamamlandı.
+
+Hiç bir hata oluşmadı.</Success>
+		<Failed title="Başarısız" width="420" height="110">Geri Yükleme Görevi tamamlandı.
+		
+En az 1 hata oluştu.
+
+Günlük kaydedildi. Şimdi görüntülemek ister misiniz?</Failed>
+		<NoArchive>Henüz yedekleme arşivi yüklenmedi.
+
+Başlamak için, lütfen pencerenin sağ üst köşesindeki 'Aç' düğmesine tıklayın.</NoArchive>
+		<InvalidFile>Bu dosya kullanışlı görünüyor, ne utanç vericidir ki GameSave Manager tarafından desteklenmiyor.</InvalidFile>
+		<Incompatible>Belirttiğiniz dosya GameSave Manager bu sürümü tarafından desteklenmiyor.
+
+Lütfen tekrar deneyin.</Incompatible>
+		<NoneSelected title="Hata:" width="350" height="110">Geri yüklenecek bir oyun kaydı belirtilmedi.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

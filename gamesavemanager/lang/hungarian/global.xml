@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<NoLogs title="Nincs mit megjeleníteni" width="430" height="110">Nincs jelen megjeleníthetõ naplófájl.</NoLogs>
+	<FileMenu>
+		<File>
+			<Title>Fájl</Title>
+			<Backup>Játékmentések mentése</Backup>
+			<ScheduledTasks>Ütemezett feladatok</ScheduledTasks>
+			<SyncLink>Szinkronizáció és link</SyncLink>
+			<Restore>Játékmentések visszaállítása</Restore>
+			<Validate>Archívum ellenõrzése</Validate>
+			<SteamSpreader>Steam-mozgató</SteamSpreader>
+			<GameplayBackup>Játékmenet elmentése</GameplayBackup>
+			<Exit>Kilépés</Exit>
+		</File>
+		<Edit>
+			<Title>Szerkesztés</Title>
+			<CustomEntries>Egyéni játékmentés bejegyzések</CustomEntries>
+			<Variables>Változók módosítása</Variables>
+			<ProgSettings>Programbeállítások</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Súgó</Title>
+			<Help>GameSave Manager súgó</Help>
+			<TranslationFilter>Fordítás szûrõ</TranslationFilter>
+			<ListEntries>Mely játékok támogatottak jelenleg?</ListEntries>
+			<VisitWebsite>Honlap</VisitWebsite>
+			<Update>Frissítések keresése</Update>
+			<ReleaseHistory>Kiadási elõzmény</ReleaseHistory>
+			<CommandlineHelp>Parancssor súgó</CommandlineHelp>
+			<About>A GameSave Manager névjegye</About>
+		</Help>
+	</FileMenu>
+	<OpenLog>Kiválasztott napó megtekintése egy külsõ programban</OpenLog>
+	<RemoveLog>Kiválasztott napló törlése</RemoveLog>
+	<IgnoreCommandline>
+      <AlreadyIgnored title="Már kihagyva" width="430" height="110">Az általad megadott bejegyzés ("%NAME%") már kihagyásra került korábban.</AlreadyIgnored>
+      <InvalidEntryName title="Érvénytelen bejegyzésnév" width="430" height="110">Nem található "%NAME%" nevû bejegyzés sem a 'hivatalos', sem az 'egyéni' adatbázisokban, így nincs mit kihagyni.</InvalidEntryName>
+      <Success title="Siker" width="500" height="150">A(z) "%NAME%" nevû bejegyzést sikeresen kihagyásra jelölted.
+
+	  Újra engedélyezheted az érzékelését a 'Programbeállítások -> Észlelés beállítás -> Kihagyott bejegyzések' menüben.</Success>
+   </IgnoreCommandline>
+	<Social>
+		<Facebook>Csatlakozz hozzánk a Facebook-on</Facebook>
+		<Twitter>Kövess minket a Twitter-en</Twitter>
+		<GooglePlus>Csatlakozz a 'körünkhöz' a Google+-on</GooglePlus>
+		<Steam>Csatlakozz a Steam közösségi csoportunkhoz</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Frissítés elérhetõ</Title>
+		<InfoTip>Egy frissítés elérhetõ a számodra.
+Több információért kattints ide.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Kérlek várj</Title>
+		<Info>A GameSave Manager betölti a szükséges fájlokat a rendszermemóriába...</Info>
+		<Tasks>
+			<Dirs>Munkamappák generálása...</Dirs>
+			<LoadDB>Adatbázisok betöltése...</LoadDB>
+			<Updates>Elérhetõ frissítések ellenõrzése...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Üdvözlés</Header>
+		<Welcome>Üdvözlünk a GameSave Managerben.
+A kezdésnek válaszd ki a kezelõfelület nyelvét.
+
+Figyelem: Ezt (és sok más) az értéket bármikor megváltoztathatod, ha meglátogatod a 'Programbeállításokat'.</Welcome>
+		<TranslationInfo>Az 'Angol' nyelvet leszámítva az összes nyelvet a közösség tartja karban.
+Emiatt néhányuk lehet, hogy nem teljes.</TranslationInfo>
+		<CustomCache>A 'gyorsítótár mappa' testreszabása</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Programbeállítások tárolása az indítómappában</StoreWithinLaunchDir>
+		<SeparateDBPerUser>'Hivatalos bejegyzések' adatbázis tárolása az AppData-ban</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Telepíted?</Header>
+		<Info>Attól függetlenül, hogy a GameSave Manager teljes mértékben hordozható, néhány felhasználó jobban szereti a telepített változatot. Ennek érdekében vezettük be ezt a varázslót.
+
+Szeretnéd 'telepíteni' a GameSave Managert?</Info>
+		<Confirm>Igen, szeretném telepíteni</Confirm>
+		<Install>Telepítési hely:</Install>
+		<DesktopShortcut>Hozzon létre egy asztali parancsikont is</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Változók módosítása</ModifyVariables>
+	<CustomDynDir>A 'Dinamikusan észlelt' változók testreszabása:</CustomDynDir>
+	<CustomCacheWarning>Ennek a változónak a megváltoztatása a GameSave Manager újraindítását igényli.</CustomCacheWarning>
+	<BackToMainMenu>Vissza a 'Fõmenübe'</BackToMainMenu>
+	<Unsupported title="Lehetõség nem támogatott:" width="430" height="125">Úgy tûnik egy jelenleg nem támogatott operációs rendszert használsz.
+
+Operációs rendszer:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Frissítések keresése?" width="430" height="110">Több mint 7 napja nem ellenõrizted a frissítéseket.
+
+Szeretnél most frissítéseket keresni?</UpdateReminder>
+	<UpdateReminder_First title="Frissítések keresése?" width="470" height="125">Üdvözlünk a GameSave Manager-ben.
+A GameSave Manager folyamatosan fejlõdik a program és adatbázis frissítéseken keresztül.
+
+Szeretnél most frissítéseket keresni?</UpdateReminder_First>
+	<GenericButtons>
+		<OK>Rendben</OK>
+		<Yes>Igen</Yes>
+		<No>Nem</No>
+		<Add>Hozzáad</Add>
+		<Edit>Szerkeszt</Edit>
+		<Remove>Eltávolít</Remove>
+		<Back>&lt;Vissza</Back>
+		<Next>Következõ &gt;</Next>
+		<Cancel>Mégse</Cancel>
+		<Finish>Befejez</Finish>
+		<Browse>Tallóz</Browse>
+		<Close>Bezár</Close>
+		<Abort>Megszakítás</Abort>
+	</GenericButtons>
+	<true>igaz</true>
+	<false>hamis</false>
+	<Detection>
+		<Backup>Kérlek várj, amíg a rendszer ellenõrzésre kerül támogatott mentések után...</Backup>
+		<Restore>Archívumok ellenõrzése mentések után...</Restore>
+		<Error>Jelenleg nem sikerült észlelni a mappát.</Error>
+		<NoMsg>Nincs elérhetõ figyelmeztetés.</NoMsg>
+		 <Status>
+         <LookingIn>Keresés itt...</LookingIn>
+         <Found>Talált...</Found>
+         <Nothing>semmi :'(</Nothing>
+      </Status>
+	</Detection>
+	<Processing>
+		<Header>Feladatnapló:</Header>
+		<Info>Nyugodtan dõlj hátra, amíg a GameSave Manager végrehajtja a kiválasztott feladatot.
+Az ehhez szükséges idõ rendszerenként és végrehajtandó feladatonként különbözik.</Info>
+	</Processing>
+</GameSaveManager_Translation>

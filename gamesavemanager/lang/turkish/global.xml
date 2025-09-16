@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Dosya</Title>
+			<Backup>Oyun Kayıtlarını Yedekle</Backup>
+			<ScheduledTasks>Zamanlanmış Görevler</ScheduledTasks>
+			<SyncLink>Senkron ve Bağlantı</SyncLink>
+			<Restore>Oyun Kayıtlarını Geri Yükle</Restore>
+			<Validate>Arşivi Doğrula</Validate>
+			<SteamSpreader>Steam Dağıtıcı</SteamSpreader>
+			<GameplayBackup>Oynarken Yedekle</GameplayBackup>
+			<Exit>Çıkış</Exit>
+		</File>
+		<Edit>
+			<Title>Düzenle</Title>
+			<CustomEntries>Özel Oyun Kaydı Girişleri</CustomEntries>
+			<Variables>Değişkenleri Düzenle</Variables>
+			<ProgSettings>Program Ayarları</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Yardım</Title>
+			<Help>GameSave Manager Yardım</Help>
+			<TranslationFilter>Tercüme Filtresi</TranslationFilter>
+			<ListEntries>Desteklenen Oyunlar</ListEntries>
+			<VisitWebsite>Ana Sayfa</VisitWebsite>
+			<Update>Güncellemeleri Kontrol Et</Update>
+			<ReleaseHistory>Sürüm Geçmişi</ReleaseHistory>
+			<About>GameSave Manager Hakkında</About>
+			<CommandlineHelp>Komut Satırı Yardımı</CommandlineHelp>
+		</Help>
+	</FileMenu>
+	<Social>
+		<Facebook>Bize Facebook'ta katılın</Facebook>
+		<Twitter>Twitter'da takip edin</Twitter>
+		<GooglePlus>Google+ 'çevreler' katılın </GooglePlus>
+		<Steam>Steam Topluluğumuza katılın</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Güncelleme Mevcut</Title>
+		<InfoTip>Bir yada daha fazla güncelleme mevcut.
+Daha fazla bilgi için buraya tıklayın.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Lütfen bekleyin</Title>
+		<Info>GameSave Manager gerekli dosyaları sistem belleğine yüklüyor...</Info>
+		<Tasks>
+			<Dirs>Çalışma klasörleri oluşturuluyor...</Dirs>
+			<LoadDB>Veritabanı yükleniyor...</LoadDB>
+			<Updates>Mevcut güncellemeler kontrol ediliyor...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Merhabalar</Header>
+		<Welcome>GameSave Manager Hoşgeldiniz.
+Öncelikle, tercih ettiğiniz dili aşağıdan seçin lütfen.
+
+Not: Bunu (ve daha bir çok ayarı) 'Program Ayarları'na girerek istediğiniz zaman değiştirebilirsiniz.</Welcome>
+		<TranslationInfo>'İngilizce' hariç diğer tüm tercümeler topluluk tarafından yapılmaktadır.
+Bu nedenle, tercümelerde eksiklik olabilir.</TranslationInfo>
+		<CustomCache>'Önbellek klasörü' özelleştirin</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Program ayarlarını çalıştırma klasöründe sakla</StoreWithinLaunchDir>
+		<SeparateDBPerUser>'Resmi Girdi' veritabanını AppData içinde sakla</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Yüklensin mi?</Header>
+		<Info>GameSave Manager tamamen kurulmadan çalışabilmesine rağmen, bazı kullanıcılar yüklemeyi tercih eder. Bu nedenle bu sihirbaz karşınızda.
+
+GameSave Manager 'yüklemek' ister misiniz ?</Info>
+		<Confirm>Evet lütfen, 'Yüklemek' isterim</Confirm>
+		<Install>Yükle:</Install>
+		<DesktopShortcut>Masaüstü kısayoluda oluştur</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Değişkenleri Düzenle</ModifyVariables>
+	<CustomDynDir>Dinamik olarak oluşturulan değişkenleri özelleştir:</CustomDynDir>
+	<CustomCacheWarning>Bu değişkenleri değiştirmek GameSave Manager yeniden başlatmayı gerektirir.</CustomCacheWarning>
+	<BackToMainMenu>'Ana Menü' Dön</BackToMainMenu>
+	<Unsupported title="Özellik Desteklenmiyor:" width="430" height="125">Bu özellik tarafından şu anda desteklenmeyen bir İşletim Sistemi kullanıyorsunuz.
+
+İS Adı:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Güncellemelere bakılsın mı?" width="430" height="110">En son başarılı güncelleme denetiminden bu yana 7 günden fazla süre geçti.
+
+Güncellemeleri şimdi denetlemek ister misiniz ?</UpdateReminder>
+	<UpdateReminder_First title="Check for updates?" width="470" height="125">GameSave Manager'a Hoşgeldiniz.
+GameSave Manager program ve veritabanı güncellemeleri ile sürekli gelişiyor.
+
+Güncellemeleri şimdi denetlemek ister misiniz ?</UpdateReminder_First>
+	<GenericButtons>
+		<OK>Tamam</OK>
+		<Yes>Evet</Yes>
+		<No>Hayır</No>
+		<Add>Ekle</Add>
+		<Edit>Düzenle</Edit>
+		<Remove>Kaldır</Remove>
+		<Back>&lt; Geri</Back>
+		<Next>İleri &gt;</Next>
+		<Cancel>İptal</Cancel>
+		<Finish>Bitir</Finish>
+		<Browse>Gözat</Browse>
+		<Close>Kapat</Close>
+		<Abort>Vazgeç</Abort>
+	</GenericButtons>
+	<true>doğru</true>
+	<false>yanlış</false>
+	<Detection>
+		<Backup>Sisteminiz desteklenen oyun kayıtları için taranırken lütfen bekleyin...</Backup>
+		<Restore>Oyun kayıtları için arşivler taranıyor...</Restore>
+		<Error>Şu anda dizinler algılanamıyor.</Error>
+		<NoMsg>Uyarı yok.</NoMsg>
+		<Status>
+         <LookingIn>Konum...</LookingIn>
+         <Found>Bulundu...</Found>
+         <Nothing>hiçbirşey :'(</Nothing>
+      </Status>
+	</Detection>
+	<Processing>
+		<Header>Görev günlüğü:</Header>
+		<Info>GameSave Manager istenilen görevi yaparken arkanıza yaslanıp, rahatlayabilirsiniz.
+Gerekli süre sistemden sisteme ve yapılan göreve göre değişebilir.</Info>
+	</Processing>
+	<NoLogs title="Görüntülenecek içerik yok" width="430" height="110">Şu anda görüntülenecek bir günlük kaydı yok.</NoLogs>
+	<RemoveLog>Seçili günlük kaydını sil</RemoveLog>
+   <IgnoreCommandline>
+      <AlreadyIgnored title="Zaten yok sayılıyor" width="430" height="110">Belirttiğiniz ("%NAME%") girdisi zaten yok sayılıyor.</AlreadyIgnored>
+      <InvalidEntryName title="Geçersiz girdi adı" width="430" height="110">'Resmi' yada 'Özel' veritabanında "%NAME%" adında bir girdi yok, bu nedenle yok sayılabilcek bir şey yok.</InvalidEntryName>
+      <Success title="Başarılı" width="500" height="150">"%NAME%" adındaki girdi başarıyla yok sayılacak olarak işaretlendi.
+
+Bunu istediğiniz zaman 'Program Ayarları -> Tespit Yapılandırması -> Yoksayılan Girdiler' tekrar açabilirsiniz.</Success>
+   </IgnoreCommandline>
+   <OpenLog>Seçili günlüğü harici uygulamada göster</OpenLog>
+</GameSaveManager_Translation>

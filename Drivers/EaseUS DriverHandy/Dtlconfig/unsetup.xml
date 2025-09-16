@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DTL>
+	<DTLUNSETUP timeout ="300">
+
+		<company name="intel" timeout ="300">
+			<vid id = "1111"></vid>
+			<vid id="8086"></vid>
+			<dev guid = "{4d36e968-e325-11ce-bfc1-08002be10318}" name= "display">
+				<keyword name = "Intel(R) Processor Graphics" main_exec="" guid="" >
+					<windows>
+						
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+		<company name="amd" timeout ="500">
+			<vid id="1022"></vid>
+			<vid id="1002"></vid>
+			<dev guid = "{4d36e968-e325-11ce-bfc1-08002be10318}" name= "display">
+				<keyword name = "AMD Catalyst Install Manager" main_exec="" guid="" >
+					<windows>
+						
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+		<company  name="nvidia" timeout ="300">
+			<vid id="10DE"></vid>
+			<dev guid = "{4d36e968-e325-11ce-bfc1-08002be10318}" name = "display" >
+				<keyword name = "NVIDIA 图形驱动程序" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="en"></wnd>
+						<wnd beginwnd_title="NVIDIA 卸载程序" beginwnd_btn="卸载(&U)" 
+							completewnd_title="NVIDIA 卸载程序" completewnd_btn="马上重新启动(&R)" language="cns"></wnd>
+						<wnd beginwnd_title="NVIDIA 卸载" beginwnd_btn="卸载(&U)" 
+							completewnd_title="NVIDIA 卸载" completewnd_btn="马上重新启动(&R)" language="cns"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cnt"></wnd>	
+					</windows>
+				</keyword>
+				<keyword name = "NVIDIA Drivers" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="en"></wnd>
+						<wnd beginwnd_title="NVIDIA 卸载" beginwnd_btn="是(&Y)" 
+							completewnd_title="NVIDIA 卸载" completewnd_btn="是(&Y)" language="cns"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cnt"></wnd>	
+					</windows>
+				</keyword>
+				<keyword name = "NVIDIA Graphics Driver" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="NVIDIA Uninstaller" beginwnd_btn="&UNINSTALL" 
+							completewnd_title="NVIDIA Uninstaller" completewnd_btn="RESTART NOW" language="en"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cns"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cnt"></wnd>	
+					</windows>
+				</keyword>
+				<keyword name = "NVIDIA 圖形驅動程式" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="en"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cns"></wnd>
+						<wnd beginwnd_title="NVIDIA 解除安裝程式" beginwnd_btn="解除安裝(&U)" 
+							completewnd_title="NVIDIA 解除安裝程式" completewnd_btn="立即重新啟動 (&R)" language="cnt"></wnd>	
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+		<company name="realtek" timeout ="300">
+			<vid id="10EC"></vid>
+			<dev guid = "{4d36e96c-e325-11ce-bfc1-08002be10318}" name = "media" >
+				<keyword name = "Realtek High Definition Audio Driver" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="Realtek High Definition Audio Driver - InstallShield Wizard" beginwnd_btn="&Yes" 
+							completewnd_title="Realtek High Definition Audio Driver Uninstall " completewnd_btn="Finish" language="en"></wnd>
+						<wnd beginwnd_title="Realtek High Definition Audio Driver - InstallShield Wizard" beginwnd_btn="是(&Y)" 
+							completewnd_title="Realtek High Definition Audio Driver Uninstall " completewnd_btn="完成" language="cns"></wnd>
+						<wnd beginwnd_title="Realtek High Definition Audio Driver - InstallShield Wizard" beginwnd_btn="是(&Y)" 
+							completewnd_title="卸载完成" completewnd_btn="确定" language="cns"></wnd>
+						<wnd beginwnd_title="Realtek High Definition Audio Driver - InstallShield Wizard" beginwnd_btn="是(&Y)" 
+							completewnd_title="卸载完成" completewnd_btn="确定" language="cnt"></wnd>
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+		<company name="idt" timeout ="300">
+			<vid id="8384"></vid>
+			<dev guid = "{4d36e96c-e325-11ce-bfc1-08002be10318}" name = "media" >
+				<keyword name = "IDT Audio" main_exec="" guid="" >
+					<windows>
+						<wnd beginwnd_title="Confirm Uninstall" beginwnd_btn="Confirm" 
+							completewnd_title="Configuring IDT Audio Driver and Applications" completewnd_btn="Finish" language="en"></wnd>
+						<wnd beginwnd_title="确认卸载" beginwnd_btn="确定" 
+							completewnd_title="正在配置IDT Audio驱动程序和应用软件" completewnd_btn="完成" language="cns"></wnd>
+						<wnd beginwnd_title="" beginwnd_btn="" 
+							completewnd_title="" completewnd_btn="" language="cnt"></wnd>	
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+		<company name="via" timeout ="300">
+			<vid id="1106"></vid>
+			<dev guid = "{4d36e96c-e325-11ce-bfc1-08002be10318}" name = "media" >
+				<keyword name = "IDT Audio" main_exec="" guid="" >
+					<windows>
+									
+					</windows>
+				</keyword>
+			</dev>
+		</company>
+
+	</DTLUNSETUP>
+</DTL>

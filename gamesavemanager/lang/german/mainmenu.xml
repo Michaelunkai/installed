@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Hauptmenü</Title>
+	<Backup>
+		<Header>Back-Up...</Header>
+		<Description>Mache ein Backup von deinen Spielständen auf diesem Computer.</Description>
+		<Backup>Backup erstellen</Backup>
+		 <GameplayBackup>Gameplay Backup</GameplayBackup>
+		<Scheduled>Backup Zeitplan erstellen</Scheduled>
+		<Sync>Sync &amp; Link</Sync>
+	</Backup>
+	<Restore>
+		<Header>Daten wiederherstellen...</Header>
+		<Description>Die Spielstände vom Back-Up von GameSave Manager wiederherstellen.</Description>
+		<Open>Archiv(e) öffnen</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Spreader</Header>
+		<Description>Verschiebe mit einem symbolischen Link ganze Ordnerstrukturen auf eine andere Partition bzw. Festplatte.</Description>
+		<GoTo>Starte Steam Spreader</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Anpassen...</Header>
+		<Description>Passe GameSave Manager an deine persönliche Bedürfnisse an.</Description>
+		<CustomEntries>Eigene Spielstand-Einträge</CustomEntries>
+		<Variables>Standardpfade ändern</Variables>
+		<Settings>Einstellungen</Settings>
+	</Customise>
+	<Log>
+		<Header>Task Logs</Header>
+		<Description>Logs von ausgeführten Tasks anzeigen.</Description>
+		<GoTo>Task Logs ansehen</GoTo>
+	</Log>
+</GameSaveManager_Translation>

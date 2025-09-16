@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Játékmentések mentése</Title>
+	<Detection>
+		<Title>Észlelt bejegyzések</Title>
+		<ListCheck>Mindet kijelöl / Egyiket sem</ListCheck>
+		<Counter>%TOTAL% elem észlelve / %SELECTED% elem kijelölve</Counter>
+		<Legend>
+			<Title>Magyarázat</Title>
+			<Files>ájl kerül mentésre</Files>
+			<Registry>Rendszerleíró adat kerül mentésre</Registry>
+			<Warning>Bejegyzés rendelkezik 'Figyelmeztetõ üzenettel', amit ajánlott elolvasni</Warning>
+			<EntireEntry>Teljes bejegyzés kerül mentésre</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Mentési feladat indítása most.</Start>
+		<Delete>Kijelölt mentések eltávolítása a rendszerbõl.</Delete>
+		<Rescan>Rendszer újraellenõrzése támogatott játékmentések után.</Rescan>
+	</Options>
+	<Details>
+		<Title>Bejegyzés részletek</Title>
+		<NoneSelected>Nincs bejegyzés kijelölve.
+
+Kérlek válassz ki egy bejegyzést a bal oldali listából.</NoneSelected>
+		<Entry>
+			<Name>Bejegyzés neve:</Name>
+			<IsOfficial>Hivatalos bejegyzés:</IsOfficial>
+			<Size>Méret a merevlemezen:</Size>
+			<Warning>Figyelmeztetés:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Mappa:</Directory>
+			<Size>Méret a merevlemezen:</Size>
+			<Files>Fájlok:</Files>
+		</Directory>
+		<Registry>
+			<Key>Rendszerleíró kulcs:</Key>
+			<Values>Értékek:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Újraellenõrzés végrehajtása?" width="450" height="170">A GameSave Manager az elõzõ mûvelet keresési eredményeit használta és az azóta létrehozott játékmentések nincsenek a listában.
+Ennek megoldására hajts végre egy teljes rendszer újraellenõrzést.
+
+Szeretnéd ezt most megtenni?</Rescan>
+		<Success title="Siker" width="350" height="110">A mentési feladat befejezõdött.
+
+Szerencsére nem történt hiba.</Success>
+		<Failed title="Sikertelen" width="420" height="110">A mentési feladat befejezõdött.
+		
+Sajnos legalább 1 hiba történt.
+
+Egy napló került elmentésre. Szeretnéd ezt most megtekinteni?</Failed>
+		<Overwrite title="A fájl már létezik..." width="450" height="125">Az általad megadott fájl már létezik.
+Ha folytatod, a GameSave Manager felülírja azt ennek a mentésnek az eredményeivel.
+
+Folytatod és felülírod a létezõ fájlt?</Overwrite>
+		<NoEntries>A GameSave Manager nem talált támogatott játékmentéseket a rendszereden.
+
+Esetleg van új adatbázis frissítés?
+Emellett létrehozhatsz egy új egyéni játékmentés bejegyzést is.</NoEntries>
+		<NoneSelected title="Hiba:" width="350" height="110">Nem adtál meg játékmentést a mentéshez.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Hiba:" width="350" height="110">Nem adtál meg eltávolítani kívánt játékmentést.</NoneSelected>
+			<Warning title="Figyelem!" width="500" height="170">Vedd figyelembe a következõket, mielõtt folytatod...
+
+1. Csak az egyes bejegyzésnél felsorolt fájlok kerülnek eltávolításra
+2. Mindenképp ajánlott mentést készíteni a játékmentéseidrõl a folytatás elõtt
+3. Miután elindítod ezt a mûveletet, egy korábban létrehozott mentés nélkül már nem vonható vissza!
+
+Mindenképpen folytatod?</Warning>
+			<Success title="Siker" width="350" height="110">Az eltávolítási feladat befejezõdött.
+
+Szerencsére nem történt hiba.</Success>
+			<Failed title="Sikertelen" width="420" height="110">Az eltávolítási feladat befejezõdött.
+		
+Sajnos legalább 1 hiba történt.
+
+Egy napló került elmentésre. Szeretnéd ezt most megtekinteni?</Failed>
+		</Delete>
+	</Errors>
+<GameplayBackup>
+      <Title>Játékmenet elmentése</Title>
+      <Info>Miközben játszol, a GameSave Manager a háttérben pár percenként elmenti az elõrehaladásodat.
+A feldolgozási idõ és a játékban elõforduló akadozás elkerülése érdekében csak azt a játékot válaszd ki, amivel aktívan játszol.
+
+A gyakoribb mentésekhez lásd az Ütemezett feladat beállítást.</Info>
+      <Interval>
+         <RunEvery>Futtatás...</RunEvery>
+         <minutes>percenként</minutes>
+         <hour>óránként</hour>
+         <hours>óránként</hours>
+      </Interval>
+      <Processing>
+         <Title>Játékmenet elmentése (futó folyamat)</Title>
+         <Info>A GameSave Manager most a háttérben elmenti az általad kiválasztott bejegyzéseket %INTERVAL%.
+
+Most lekicsinyítheted a tálcára ezt az ablakot és nekiláthatsz a játéknak.
+Megjegyzés: a kijelölésedtõl és a rendszertulajdonságaidtól függõen találkozhatsz némi akadozással, miközben a mentés folyik.
+
+
+Ennek a feladatnak a befejezéséhez kattints az ablak 'Bezárás' gombjára (X a jobb felsõ sarokban).</Info>
+         <Interval>Idõköz:</Interval>
+         <TimesRan>Futtatva:</TimesRan>
+         <DetectedErrors>Észlelt hibák:</DetectedErrors>
+         <ProcessingBackup>Jelenleg mentés van folyamatban...</ProcessingBackup>
+         <Stopping>Jelenlegi mûvelet megállítása, ez eltarthat egy ideig...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Error:" width="350" height="110">Kérlek válassz ki legalább egy feldolgozandó bejegyzést, valamint egy helyet a mentések számára.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+</GameSaveManager_Translation>

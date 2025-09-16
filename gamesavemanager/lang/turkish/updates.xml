@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Güncellemeler Denetleniyor</Title>
+	<Info>Tüm yazılımlarda olduğu gibi, GameSave Manager düzenli güncellemeleri vardır.
+Bu sayfa mevcut güncellemeleri size listeleyecektir.
+
+Soldaki simgeye tıklayarak güncellemeleri yeniden denetleyebilirsiniz.</Info>
+	<Recheck>Güncelleme bilgisi için sunucular yeniden denetler.</Recheck>
+	<ProgramUpdate>
+		<Title>Program Güncellemesi</Title>
+		<Info>Kesinlikle GameSave Manager en son sürümünü kullanmanız önerilir.
+Program Güncellemeleri yeni özellikler ekler, bilinen hataları düzeltir ve genellikle GameSave Manager'ı daha iyiye doğru geliştirir.</Info>
+		<Download>İndir</Download>
+		<ApplyUpdate>İndir &amp; Uygula</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Tercüme Paketi</Title>
+		<Info>Program Güncellemesi bulunamadı.
+Ancak, kullandığınız Tercüme Paketinin hazırlayıcısı bir güncelleme yayınladı.</Info>
+		<Download>İndir</Download>
+		<ApplyUpdate>İndir &amp; Uygula</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Veritabanı Güncellemesi</Title>
+		<Info>Veritabanı Güncellemeleri Program Güncellemeleri kadar önemli olmasada, daha fazla oyun desteği ekler ve mevcut girdilerdeki sorunları düzeltir.
+Bu nedenle, Veritabanını haftada bir kez güncellemenizi öneririz.</Info>
+		<Download>Güncellemeyi Uygula</Download>
+	</DatabaseUpdate>
+	<Changelog>Değişiklikleri Göster</Changelog>
+	<DialogPrompt title="Güncelleme mevcut" width="500" height="110">'Program Güncellemesi' ve/veya 'Veritabanı Güncellemesi' mevcut olduğu görünüyor.
+
+Güncelleme sayfasına gitmek ister misiniz?</DialogPrompt>
+	<Errors>
+		<Checking>Güncellemeler denetleniyor...</Checking>
+		<NoUpdates>Şu anda güncelleme yok</NoUpdates>
+		<LangPack>[Topluluk yapımı] Tercüme Paketi güncellemesi</LangPack>
+		<LangPack_Invalid>Sorgulama Hatası: Bilinmeyen 'PackID' belirtildi!</LangPack_Invalid>
+		<UpdateRequired>Veritabanı Güncellemesi mevcut; en son Programı Güncellemesi gerektirmektedir.</UpdateRequired>
+		<NoConnection>Sürüm bilgisi için web sitesi sorgulanamıyor. Lütfen daha sonra tekrar deneyin.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Búsqueda de actualizaciones</Title>
+	<Info>Como con todo los programas, GameSave Manager tiene actualizaciones regulares.
+Esta página lista todas las actualizaciones disponibles para usted.
+
+Haga clic en el icono de la izquierda para buscar actualizaciones.</Info>
+	<Recheck>Consulta los servidores de nuevo para actualizar la información.</Recheck>
+	<ProgramUpdate>
+		<Title>Actualización del Programa</Title>
+		<Info>Se recomienda que ejecute la versión más reciente de GameSave Manager.
+La actualizaciones del programa añaden nuevas funciones, corrigen errores conocidos y mejoras en general.</Info>
+		<Download>Descargar</Download>
+		<ApplyUpdate>Descargar &amp; Aplicar</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+	      <Title>Paquete Traducción</Title>
+	      <Info>No hay 'Actualización del Programa' detectado.
+Sin embargo, el autor del paquete de traducción que estás utilizando ha publicado una actualización.</Info>
+	      <Download>Descargar</Download>
+	      <ApplyUpdate>Descargar &amp; Aplicar</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Actualizar Database</Title>
+		<Info>Mientras que las actualizaciones de la base de datos no son tan importantes como las actualizaciones del programa, pero añade soporte para más juegos y solucionar problemas de detección con entradas existentes.
+Por lo tanto, es recomendable que actualice su base de datos al menos una vez por semana.</Info>
+		<Download>Aplicar actualización</Download>
+	</DatabaseUpdate>
+	<Changelog>Ver Changelog</Changelog>
+	<DialogPrompt title="Actualización disponible" width="430" height="110">Parece haber una 'Actualización de Programa' o 'Actualización de Database' disponible para usted.
+
+¿Desea visitar la página de actualizaciones?</DialogPrompt>
+	<Errors>
+		<Checking>Comprobación de actualizaciones...</Checking>
+		<NoUpdates>No hay actualizaciones disponibles</NoUpdates>
+		<LangPack>[Hecho en la Comunidad] Actualización del paquete de traducción</LangPack>
+		<LangPack_Invalid>Error Consulta: Desconocido 'PackID' especificado!</LangPack_Invalid>
+		<UpdateRequired>Actualización de Database disponibles; requiere la última actualización del programa.</UpdateRequired>
+		<NoConnection>No es posible consultar página web para ver la información de la versión. Por favor, intentelo más tarde.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

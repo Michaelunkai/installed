@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Obnovit uložené pozice her</Title>
+	<Detection>
+		<Title>Detekované položky</Title>
+		<ListCheck>Vybrat vše / Zrušit výběr</ListCheck>
+		<Counter>Detekováno %TOTAL% položek / Vybráno %SELECTED% položek</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>Soubory byly obnoveny</Files>
+			<Registry>Data registru budou obnoveny</Registry>
+			<Warning>Položka vygenerovala upozornění, které byste si měli přečíst.</Warning>
+			<Unrestorable>Nelze detekovat cestu pro obnovení z důvodu nastavení nebo chybějícího záznamu v registru.</Unrestorable>
+			<EntireEntry>Celý záznam bude obnoven</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Spustit obnovení</Start>
+		<Open>Otevře předchozí zálohu pro obnovení.</Open>
+	</Options>
+	<Details>
+		<Title>Detaily záznamu</Title>
+		<NoneSelected>Nevybrána žádná položka.
+
+Prosím, vyberte položku ze seznamu vlevo.</NoneSelected>
+		<Unrestorable>Vybranou položku nelze obnovit.
+
+Existuje mnoho důvodu, ale tyto jsou nejčastější:
+1. V nastavení programu je na záložce Konfigurace detekce blokováno zjišťování záznamů
+2. Cesta pro obnovení je dynamicky generována z hodnot registru, které ve vašem systému neexistují.
+
+V případě možnosti č. 2 přeinstalujte hru a spusťte ji.</Unrestorable>
+		<UnrestorableEntry>Veškerá zálohovaná data pro tuto položku nelze obnovit z důvodu, že GameSave Manager není schopen detekovat správnou cestu.
+
+Pro více informací a možné řešení vyberte jednu složku.</UnrestorableEntry>
+		<Entry>
+			<Name>Položka:</Name>
+			<VerInfo>Vytvořeno:</VerInfo>
+			<IsOfficial>Oficiální záznam:</IsOfficial>
+			<Size>Velikost na disku:</Size>
+			<Warning>Varování:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Složka:</Directory>
+			<Size>Velikost na disku:</Size>
+			<Files>Souborů:</Files>
+		</Directory>
+		<Registry>
+			<Key>Klíč registru:</Key>
+			<Values>Hodnoty:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Úspěšné" width="350" height="110">Obnovení dokončeno.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+		<Failed title="Neúspěšné" width="420" height="110">Obnovení dokončeno.
+		
+Bohužel byla zjištěna 1 chyba.
+
+Záznam byl uložen. Chcete jej zobrazit?</Failed>
+		<NoArchive>Není načten žádný archiv se zálohou.
+
+Pro zahájení klikněte vpravo nahoře na tlačítko 'Otevřít'.</NoArchive>
+		<InvalidFile>Soubor vypadá v pořádku, ale není podporován GameSave Manager.</InvalidFile>
+		<Incompatible>Vybraný archiv není podporován touto verzí GameSave Manager.
+
+Prosím, zkuste to znovu.</Incompatible>
+		<NoneSelected title="Chyba:" width="350" height="110">Nebyly vybrány žádné uložené pozice her pro obnovení.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

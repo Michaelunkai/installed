@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Restore Gamesave(s)</Title>
+	<Detection>
+		<Title>Detected Entries</Title>
+		<ListCheck>Select all / De-select all</ListCheck>
+		<Counter>%TOTAL% item(s) detected / %SELECTED% item(s) selected</Counter>
+		<Legend>
+			<Title>Legend</Title>
+			<Files>Files will be restored</Files>
+			<Registry>Registry Data will be restored</Registry>
+			<Warning>Entry has a 'Warning Message' you may wish to read</Warning>
+			<Unrestorable>Unable to detect restore path due to settings or a missing registry value</Unrestorable>
+			<EntireEntry>Entire entry will be restored</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Start the Restore Task now.</Start>
+		<Open>Opens a previously created Backup Archive for restore.</Open>
+	</Options>
+	<Details>
+		<Title>Entry Details</Title>
+		<NoneSelected>No entry selected.
+
+Please select an entry from the list on the left.</NoneSelected>
+		<Unrestorable>The entry selected is unrestorable.
+
+There are many possible causes for this, but here are the most likely:
+1. Your 'Program Settings' are preventing detection (see 'Detection Configuration')
+2. The save's path is dynamically detected via a Registry Value which isn't currently present on your system.
+
+If reason number 2 is the cause, please re-install the game. You may require to run it.</Unrestorable>
+		<UnrestorableEntry>All backed up data for this entry is unrestorable due to GameSave Manager not being able to detect their paths.
+
+Please select one of it's directory entries for more information, as well as possible solutions.</UnrestorableEntry>
+		<Entry>
+			<Name>Entry Name:</Name>
+			<VerInfo>Created with:</VerInfo>
+			<IsOfficial>Official Entry:</IsOfficial>
+			<Size>Size on disk:</Size>
+			<Warning>Warning:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Directory:</Directory>
+			<Size>Size on disk:</Size>
+			<Files>Files:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Values:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Success" width="350" height="110">The Restore Task has completed.
+
+Thankfully, no errors were detected.</Success>
+		<Failed title="Failure" width="420" height="110">The Restore Task has completed.
+		
+Unfortunately, at least 1 error was detected.
+
+A log has been saved. Would you like to view it?</Failed>
+		<NoArchive>No Backup Archive is currently loaded.
+
+To begin, please click the 'Open' button at the top-right of this window.</NoArchive>
+		<InvalidFile>That file looks useful, shame it's not supported by GameSave Manager.</InvalidFile>
+		<Incompatible>The Backup Archive you specified doesn't appear to be supported by this version of GameSave Manager.
+
+Please try again.</Incompatible>
+		<NoneSelected title="Error:" width="350" height="110">No gamesaves have been specified to be restored.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

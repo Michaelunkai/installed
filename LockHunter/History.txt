@@ -1,0 +1,103 @@
+====================== 'LockHunter' Version History =====================
+
+Legend:
+  [+] - Added, [-] - Fixed, [*] - Improved/Changed, [i] - Information
+
+Version 3.4.2 (Apr 26, 2021)
+  [+] HighDPI support added
+  [+] Portable version added
+  [*] End User License Agreement added into the installer
+  [-] An error displayed when program was maximized on previous start
+  
+
+Version 3.3.4 (Nov 29, 2019)
+  [+] Ability to choose multiple files for unlock\delete
+  [+] Ability to drag-n-drop files\folders to the program window
+  [+] Improved the UI, it's made in ModerUI style
+  [+] Added an ability to view and manage files to delete on restart
+  [*] Improved performance of locking process scan
+  [-] GDI objects count grows with each UI refresh
+  [-] The icon in the Explorer context menu had white background, now it's 
+      transparent
+  [-] If asked to delete directories on OS restart it falsely reported they were 
+      deleted, while actually it didn't that
+  [-] The process list didn't always scroll with mouse wheel
+  [-] "Delete selected processes from disk" function always displayed false 
+      result even if file was deleted
+  [-] In WinXP in some cases "Cannot open service control manager" was displayed
+  
+  Changes from 3.3 beta 3:
+  [*] Progress bar is displayed on search for the locking processes
+  [*] "Menu..." link is replaced by "Hamburger" icon
+  [-] The process list didn't always scroll with mouse wheel
+  [-] Wrong processes displayed on non existing path (ver 3.3 bug)    
+  [-] "Thread error" message was displayed in some cases (ver 3.3 bug)
+  [-] "Delete selected processes from disk" function always displayed false 
+      result even if file was deleted
+  [-] In WinXP in some cases "Cannot open service control manager" was displayed
+  
+Version 3.3 beta 3 (Released on Sep 23, 2019)
+  [+] Improved the UI, it's made in ModerUI style
+  [+] Added an ability to view and manage files to delete on restart
+    
+Version 3.3 beta 1 (Released on Mar 18, 2019)
+  [+] Ability to choose multiple files for unlock\delete
+  [+] Ability to drag-n-drop files\folders to the program window
+  [*] Improved performance of locking process scan
+  [-] GDI objects count grows with each UI refresh
+  [-] The icon in the Explorer context menu had white background, now it's 
+      transparent
+  [-] If asked to delete directories on OS restart it falsely reported they were 
+      deleted, while actually it didn't that
+
+Version 3.2.3 (Released on July 19, 2017)
+  [+] Now command line returns non zero exit code in case of unsuccessful 
+     operation.
+  [+] "delperm" command line switch added.
+  [-] On some configurations the program stopped displaying its UI
+  [-] It was impossible to select a locked file from the open file dialog 
+      ('file in use' error)
+  [-] The program displayed a wrong message on command line "delete" command
+  [-] Incorrect order of "kill" command when called with "delete" switch 
+      ("delete" called before "kill" which lead to inabilty to delete a blocked file)
+  [-] A message may display even when the program called with "silent" command 
+      line switch
+  [-] The program displayed success message on deletion failure of a folder
+  [-] Some minor interface glitches in classic Windows theme fixed
+  [-] Command line may lose some parameters when run from non-elevated environment
+
+Version 3.1.1 (Released on Nov 22, 2013)
+  [-] In case if the UAC is disabled and the program is running under non 
+      administrative account it doesn't start
+  
+Version 3.0.2 (Released on Sep 22, 2013)
+  [+] Deleting files at next operating system restart
+  [+] Displaying more information
+  [+] Auto check for upgrades
+  [+] Multimonitor support
+  [+] Ability to copy information to clipboard
+  [+] Unified installer for 32 and 64 bit 
+  
+  [-] Files with non latin characters could not be deleted
+  [-] A "Canvas does not allow drawing" error might happen on frequent refresh
+  [-] Small Windows 8 graphical issues were fixed
+  [-] A not existing process might be displayed
+  [-] Path field didn't accept quoted file or folder names
+  [-] A click sound was heard when press Enter key in the path field
+  [-] Explorer and other file managers could be crashing on unloading shell extension .dll
+  [-] Technical error might be displayed in some cases on file unlocking
+
+Version 2.0 beta 2 (Feb 18, 2012)
+  [-] The process list displayed garbled on Windows 7 64 bit with Aero theme enabled.
+  
+Version 2.0 beta 1 (Jan 26, 2012)
+  [+] Command line support
+  [+] Copy & rename actions added
+  [+] Various UI improvements
+  [+] Unloading DLLs from the locking processes
+  [+] Full Explorer context menu integration
+  [-] No more "DeleteFile failed;code 5" error on reinstallation LockHunter
+  [-] The locking processes continue displaying even after successful unlocking
+
+Version 1.0 Beta 3 (Apr 27, 2009)
+  [+] The first public version of 64\32 bit file unlocker

@@ -1,0 +1,44 @@
+<lan_list>
+	<lan>
+		<name>english.ini</name> <!--语言文件-->
+		<prilan>9</prilan> <!--主语言-->
+		<sublan>1</sublan> <!--子语言-->
+		<flag>0</flag> <!--是否判断子语言-->
+	</lan>
+	<lan>
+		<name>french.ini</name>
+		<prilan>12</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+	<lan>
+		<name>german.ini</name>
+		<prilan>7</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+	<lan>
+		<name>portuguese.ini</name>
+		<prilan>22</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+	<lan>
+		<name>armenian.ini</name>
+		<prilan>43</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+	<lan>
+		<name>russian.ini</name>
+		<prilan>25</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+	<lan>
+		<name>japanese.ini</name>
+		<prilan>17</prilan>
+		<sublan>1</sublan>
+		<flag>0</flag>
+	</lan>
+</lan_list>

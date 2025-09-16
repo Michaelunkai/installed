@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Programbeállítások</Title>
+	<RestoreSettings>
+		<Title>Alapértelmezett beállítások</Title>
+		<Confirm title="Megerõsítés:" width="500" height="110">Biztosan vissza akarod állítani a GameSave Manager beállításait az alapértelmezett értékekre?
+
+		Figyelem: Az egyéni játékmentés bejegyzésekre ez nincs hatással.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Kategóriák</Title>
+		<List>
+			<General>Általános beállítások</General>
+			<Cloud>Felhõ beállítások</Cloud>
+			<Update>Frissítési viselkedés</Update>
+			<Task>
+				<Header>Feladat specifikus</Header>
+				<Backup>
+					<Header>Mentési beállítások</Header>
+					<SepArchives>Különálló archívumok</SepArchives>
+					<ExternalScripts>Külsõ szkriptek</ExternalScripts>
+				</Backup>
+				<SyncLink>Szinkronizáció és link</SyncLink>
+				<Spreader>Steam-mozgató</Spreader>
+			</Task>
+			<SevZip>7zip tulajdonságok</SevZip>
+			<Detection>Észlelési beállítások</Detection>
+			<SortEntries>Bejegyzések rendezése</SortEntries>
+			<IgnoredEntries>Kihagyott bejegyzések</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>Fájlhozzárendelések</Header>
+			<gsba>.gsba fájlok hozzárendelése</gsba>
+			<gsdu>.gsdu fájlok hozzárendelése</gsdu>
+			<gsms>.gsms fájlok hozzárendelése</gsms>
+			<AutoCheck>Fájlhozzárendelések ellenõrzése indításkor</AutoCheck>
+			<ContextMenu>'GameSave Manager' bejegyzés hozzáadása a támogatott fájlok jobbklikk menüjéhez</ContextMenu>
+		</Associations>
+		<Lang>Nyelv</Lang>
+		<Startup>
+			<Header>Indítási beállítások</Header>
+			<ScanOnStartup>Rendszer ellenõrzése támogatott mentések után</ScanOnStartup>
+			<UpdateCheckOnStartup>Program és adatbázis frissítések keresése</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>'Leállítási feladatok' végrehajtása (ajánlott)</ShutdownTasks>
+		<SaveLogs>'Feladatnaplók' mentése automatikusan</SaveLogs>
+		<ShowVerInTitle>Program verzióinformáció megjelenítésre az ablak címében</ShowVerInTitle>
+		<MessageSounds>Üzenetértesítések hangjának bekapcsolása</MessageSounds>
+		<RunAsAdmin>'Program kompatibilitás' használata, hogy mindig rendszergazda jogokkal fusson</RunAsAdmin>
+		<RunAsAdmin_Question title="Újraindítod?" width="500" height="110">Úgy tûnik a GameSave Manager jelenleg nem rendszergazdai jogosultsággal fut.
+
+Szeretnéd most újraindítani ilyen jogosultsággal?</RunAsAdmin_Question>
+	</General>
+	<ImportExport>
+      <LaunchButton>A beállításaid importálása és exportálása</LaunchButton>
+      <Title>Beállítások importálása / exportálása</Title>
+      <Intro>
+         <Info>Mit szeretné tenni?</Info>
+         <Import>Beállítások és egyéni bejegyzések importálása</Import>
+         <Export>Létezõ beállítások és egyéni bejegyzések exportálása</Export>
+      </Intro>
+      <Import>
+         <Step1>
+            <Info>Az alábbi ûrlapot használva kérlek add meg a mentést, amelyet szeretnél visszaállítani.
+Amikor kszen állsz, kattints a 'Következõ &gt;' gombra az indításhoz.</Info>
+            <Open>Open...</Open>
+         </Step1>
+         <Step2>
+            <Loading>Kérlek várj, amíg a GameSave Manager beolvassa a kiválasztott archívumot.
+Ez eltarthat egy ideig.</Loading>
+            <Info>Az alábbi beállításokat használva válaszd ki azt, amit szeretnél importálni.</Info>
+            <Settings>Progreambeállítások visszaállítása</Settings>
+            <IgnoreList>'Kihagyási lista' visszaállítása</IgnoreList>
+            <SteamSpreader>Steam-mozgató elõzmények felülírása</SteamSpreader>
+            <Logs>Feladatnaplók visszaállítása</Logs>
+            <CustomEntries>A következõ egyéni játékmentés bejegyzések visszaállítása...</CustomEntries>
+            <SelectAll>Mindet kijelöl / Egyiket sem</SelectAll>
+         </Step2>
+         <Step3>
+            <Success>A kiválasztásod sikeresen visszaállításra került a következõ mentésbõl...
+
+
+
+%FILE%</Success>
+            <Failed>Sajnos hiba történt a kiválasztottak visszaállítása közben.
+
+
+
+
+Error Details:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Import>
+      <Export>
+         <Step1>
+            <Info>Az alábbi ûrlapot használva kérlek add meg amit exportálni szeretnél.</Info>
+            <Settings>Programbeállításaimat is</Settings>
+            <IgnoreList>'Kihagyási listámat' is</IgnoreList>
+            <SteamSpreader>Steam-mozgató elõzményeimet is</SteamSpreader>
+            <Logs>Minden feladatnaplót is</Logs>
+            <CustomEntries>A következõ egyéni játékmentés bejegyzéseket is...</CustomEntries>
+            <SelectAll>Mindet kijelöl / Egyiket sem</SelectAll>
+         </Step1>
+         <Step2>
+            <Info>Kérlek add meg alább, ahova a beállításaidat szeretnéd menteni.
+Amikor kszen állsz, kattints a 'Következõ &gt;' gombra a mentési folyamat indításhoz.</Info>
+            <SaveAs>Mentés mint...</SaveAs>
+         </Step2>
+         <Step3>
+            <Success>A beállításaid sikeresen elmentésre kerültek a következõ helyre...
+
+
+
+%FILE%</Success>
+            <Failed>Sajnos a mentést nem sikerült megfelelõen létrehozni.
+
+
+
+
+Error Details:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Export>
+      <Errors>
+         <InvalidFile title="Invalid backup" width="500" height="110">A kiválasztott mentési archívum nem tûnik érvényes beállítási mentésnek.</InvalidFile>
+         <NothingSelected title="Error:" width="500" height="110">A folytatáshoz meg kell adnod legalább egy leehtõséget.</NothingSelected>
+         <NoFile title="Error:" width="500" height="110">Nincs fájl megadva.
+
+Please specify a backup archive and try again.</NoFile>
+      </Errors>
+   </ImportExport>
+	<Cloud>
+		<Info>A játékmentések biztonságban tartása érdekében a GameSave Manager több külsõ alkalmazással el tudja tárolni azokat a 'felhõben'.</Info>
+		<Subfolder>Almappa:</Subfolder>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>DropBox támogatás engedélyezése</Enable>
+			<Error title="Nem elérhetõ:" width="500" height="110">A GameSave Manager nem észlelte a DropBox-ot a rendszereden.
+
+Emiatt ez a lehetõség nem érhetõ el.</Error>
+			<ManuallySpecify>Sync directory not found.
+Please manually specify it.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Google Drive támogatás engedélyezése</Enable>
+			<Error title="Nem elérhetõ:" width="500" height="110">A GameSave Manager nem észlelte a Google Drive-ot a rendszereden.
+
+Emiatt ez a lehetõség nem érhetõ el.</Error>
+			<ManuallySpecify>Szinkronizációs mappa nem található.
+Kérek add meg manuálisan.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable>SkyDrive támogatás engedélyezése</Enable>
+			<Error title="Nem elérhetõ:" width="500" height="110">A GameSave Manager nem észlelte a Microsoft SkyDrive-ot a rendszereden.
+
+Emiatt ez a lehetõség nem érhetõ el.</Error>
+		</SkyDrive>
+		<BoxSync>
+         <Header>Box.net</Header>
+         <Enable>Box.net Sync támogatás engedélyezése</Enable>
+         <Error title="Nem elérhetõ:" width="500" height="110">A GameSave Manager nem észlelte a Box.net Sync-et a rendszereden.
+
+			Emiatt ez a lehetõség nem érhetõ el.</Error>
+         <ManuallySpecify>Sync mappa nem található.
+		Kérlek add meg manuálisan.</ManuallySpecify>
+      </BoxSync>
+		<FTP>
+			<Header>Privát szerver FTP-n keresztül</Header>
+			<Enable>FTP támogatás engedélyezése</Enable>
+			<Host>Szerver:</Host>
+			<User>Felhasználónév:</User>
+			<Pass>Jelszó:</Pass>
+			<Dir>Mappa:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Program frissítések</Header>
+			<None>Saját magam telepítem a frissítéseket, kérlek nyisd meg a letöltések oldalt</None>
+			<DirectLinks>Ahol lehetséges, használjon 'Közvetlen letöltési linket', de én telepítem a frissítéseket</DirectLinks>
+			<ProgDownload>Frissítések letöltése és telepítése</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>Lista elérhetõ Béta, Alpha vagy Tervezett kiadásokhoz</ListTesting>
+		<UpdateCheckOnLogin>Adatbázis frissítések keresése a Windows bejelentkezéskor</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Program és adatbázis frissítések keresése az indításkor</UpdateCheckOnStartup>
+		<AutoUpdate>Automatikusan alkalmazza az elérhetõ 'Adatbázis frissítéseket'</AutoUpdate>
+		<IncrementalUpdates>Ne építse újra az adatbázist, használjon kiegészítõ frissítéseket</IncrementalUpdates>
+		<RemindCheckUpdates>Emlékeztessen frissítések keresésére hetente</RemindCheckUpdates>
+		<PromptUser>Jelenítsen meg egy üzenetet, ha új frissítés érhetõ el</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Különálló archívumok</Header>
+			<Enable>Különálló archívum létrehozása minden egyes menteni kívánt bejegyzéshez</Enable>
+			<TimeStamp>Idõpecsét hozzáadása minden archívum fájlnevéhez</TimeStamp>
+			<OnChange>Új archívum létrehozása fájlváltozás esetén (hatással van a teljesítményre)</OnChange>
+			<SepSubFolders>Minden bejegyzés mentési archívumának külön almappákba való rendezése</SepSubFolders>
+			<PurgeCount>Archívumok egyesítése, ha a mentések száma eléri...</PurgeCount>
+		</SeparateArchives>
+		<RememberBackupSelection>Bejegyzések megjegyzése, amiket én választok ki két használat között</RememberBackupSelection>
+		<ValidateOnArchiveCreation>Archívumok ellenõrzése közvetlenül a létrehozásuk után</ValidateOnArchiveCreation>
+		<DuplicateArchives>Minden mentés átmásolása egy másik mappába, miután elkészültek</DuplicateArchives>
+		<DefaultBackupDir>Alapértelmezett mentési mappa megadása (ezt felülírja a 'Felhõ beállítások')</DefaultBackupDir>
+		<RescanReminder>Emlékeztessen az újraellenõrzésre mûveletenként (ha az elõzõ keresési eredményeket használja)</RescanReminder>
+		<ConfirmChecksumResponse>Checksum válasz megerõsítése és sikertelen bejegyzések átugrása</ConfirmChecksumResponse>
+	</Backup>
+	<ExternalScripts>
+      <Info>A külsõ szkriptek számos módon jobbá tehetik a biztonsági mentéseidet.
+
+		Itt engedélyezheted / letilthatod a szkripteket és állíthatod az esetlegesen elérhetõ beállításaikat is.</Info>
+      <ScriptName>Szkript kezelése...</ScriptName>
+      <ScriptMETA>Szerzõ: %AUTHOR%
+		Verzió: %VERSION%         |      Hivatalos-e: %ISOFFICIAL%</ScriptMETA>
+      <EnableScript>Szkript engedélyezése</EnableScript>
+      <ScriptOptions>
+         <Header>Szkript beállítások:</Header>
+         <Value>Érték (nyomj [enter]-t a mentéshez):</Value>
+         <Enable>Lehetõség engedélyezése</Enable>
+         <Saved>Érték elmentve!</Saved>
+      </ScriptOptions>
+    </ExternalScripts>
+	<SepArchives>
+		<Info>Az alábbi ûrlapot használva határozd meg, hogy mely bejegyzésekhez (ha egyáltalán) szeretnél 'idõpecsétes' bejegyzéseket létrehozni.
+
+A ki nem jelölt bejegyzésekre a 'Feladat specifikus->Mentési beállításokban' megadottak lesznek érvényesek.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Annak érdekében, hogy helyet spórolj a kiválasztott felhõszolgáltatódnál, a Szinkronizáció és link csak a megadott feltételeknek megfelelõ mappákat listázza ki.
+
+Itt felülírhatod a GameSave Manager óvatos kilistázó rutinját, hogy jobban megfeleljen az igényeidnek.</Info>
+		<IgnoreExclusionRules>Mappa bejegyzések kilistázása függetlenül a fájlkizárási szabályrendszerüktõl</IgnoreExclusionRules>
+		<ShowSteamCloud>'Steam felhõ' mentések megjelenítése</ShowSteamCloud>
+		<ShowUplayCache>'Uplay gyorsítótár' mentések megjelenítése</ShowUplayCache>
+		<WaitAfterEachLink>A link létrehozása után várakozzon a felhasználóra, mielõtt továbblép a következõ bejegyzésre</WaitAfterEachLink>
+		<CustomSubfolder>Hadd adjam meg én a használni kívánt almappát</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Link típusa</Header>
+			<SymLink>'Szimbolikus linkek' használata</SymLink>
+			<Junction>'NTFS könyvtárcsatolás' használata</Junction>
+		</Link>
+		<SteamRunningCheck>Figyelmeztet, ha a Steam fut, amikor szükséges</SteamRunningCheck>
+		<HideXCOPY>Elrejti az XCOPY parancsablakot</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Archívum létrehozás</Header>
+			<Use7zFormat>'7z' archívum formátum használata (jobb tömörítés)</Use7zFormat>
+			<LZMA2>'LZMA2' tömörítési formátum használata (fejlesztett többszálas mûvelet)</LZMA2>
+			<UseCompression>Maximális tömörítés használata (nagyban hatással van a teljesítményre)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow>Konzolablak elrejtése</HideWindow>
+		<UseLargePages>'Nagy oldalak' használata a valószínûsíthetõleg gyorsabb tömörítés érdekében</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Steam észlelés</Header>
+			<Enable>Steam támogatás engedélyezése</Enable>
+			<Cache>'Steam gyorsítótár' mappák beleszámítása</Cache>
+			<Cloud>'Steam felhõ' mappák beleszámítása</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>'uPlay gyorsítótár' játékmentések észlelésének engedélyezése</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Macromedia Flash gyorsítótár</Header>
+			<Enable>Keresés a 'Flash gyorsítótárban' mentések után</Enable>
+		</Flash>
+		<ShowStatusInfo>További információk megjelenítése keresés közben (hatással lehet a keresési sebességre)</ShowStatusInfo>
+		<SaveScanResults>Észlelési eredmények mentése a késõbbi gyorsabb észlelés érdekében</SaveScanResults>
+		<DetectSize>Mentések fájlméretének érzékelése</DetectSize>
+		<CheckForDupDirs>Duplikált mappák kilistázásának megakadályozása</CheckForDupDirs>
+		<RescanOnIdle>Üresjárat esetén ellenõrizze újra a támogatott mentéseket</RescanOnIdle>
+		<QuickExclusionRuleset>Fejlett 'kizárási szabály' rutinok használata</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header>Rendezés</Header>
+		<SortByName>Észlelt bejegyzések rendezése név alapján</SortByName>
+		<SortByDate>Észlelt bejegyzések rendezése 'utoljára módosított' dátum alapján</SortByDate>
+		<SortBySize>Észlelt bejegyzések rendezése fájlméret alapján</SortBySize>
+		<SortByCustomEntries>Rendezés állapot alapján; elõre az egyéni bejegyzések kerülnek</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Jelöld be azokat a mezõket, amiket nem akarsz keresni.
+
+FIGYELEM: Teljes ellenõrzést igényel, hogy életbe lépjen.</Info>
+	</IgnoredEntries>
+</GameSaveManager_Translation>

@@ -1,0 +1,129 @@
+[F 2025-06-24 20:20:08] ===== Parsec: Started =====
+[D 2025-06-24 20:20:08] log: Parsec release-ui[release7] (150-99, Service: -1, Loader: 13)
+[3 2025-06-24 20:20:08] IPC name in args: PARSEC_IPC_af721773c7a9f7a6
+[D 2025-06-24 20:20:08] log: Parsec getting initial user data.
+[D 2025-06-24 20:20:08] log: Parsec got initial user data.
+[I 2025-06-24 20:20:08] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-06-24 20:20:08] Client status changed to: -3
+[I 2025-06-24 20:20:08] * mfx_shared_init/MFXInit[56] = -3
+
+[F 2025-06-24 21:08:22] ===== Parsec: Started =====
+[D 2025-06-24 21:08:22] log: Parsec release-ui[release7] (150-99, Service: -1, Loader: 13)
+[3 2025-06-24 21:08:22] IPC name in args: PARSEC_IPC_504f9925f05cb357
+[D 2025-06-24 21:08:22] log: Parsec getting initial user data.
+[D 2025-06-24 21:08:23] log: Parsec got initial user data.
+[I 2025-06-24 21:08:23] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-06-24 21:08:23] Client status changed to: -3
+[I 2025-06-24 21:08:23] * mfx_shared_init/MFXInit[56] = -3
+
+
+
+
+
+
+
+[F 2025-06-30 23:26:05] ===== Parsec: Started =====
+[D 2025-06-30 23:26:05] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-06-30 23:26:05] IPC name in args: PARSEC_IPC_7e44f3718555a6c7
+[D 2025-06-30 23:26:05] log: Parsec getting initial user data.
+[D 2025-06-30 23:26:06] log: Parsec got initial user data.
+[I 2025-06-30 23:26:06] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-06-30 23:26:06] Client status changed to: -3
+[I 2025-06-30 23:26:06] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-06-30 23:26:15] UPNP: Getting a valid IGD: NO IGD found
+[F 2025-06-30 23:26:15] ===== Parsec: Shutdown with 0 =====
+
+[F 2025-07-06 17:34:22] ===== Parsec: Started =====
+[D 2025-07-06 17:34:22] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-06 17:34:22] IPC name in args: PARSEC_IPC_fed1e5f5fe0680c3
+[D 2025-07-06 17:34:22] log: Parsec getting initial user data.
+[D 2025-07-06 17:34:23] log: Parsec got initial user data.
+[I 2025-07-06 17:34:23] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-06 17:34:23] Client status changed to: -3
+[I 2025-07-06 17:34:23] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-06 17:34:32] UPNP: Getting a valid IGD: an UPnP device has been found but was not recognized as an IGD
+
+[F 2025-07-08 11:10:36] ===== Parsec: Started =====
+[D 2025-07-08 11:10:36] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-08 11:10:36] IPC name in args: PARSEC_IPC_e55802f9ba6acf2b
+[D 2025-07-08 11:10:36] log: Parsec getting initial user data.
+[D 2025-07-08 11:10:36] log: Parsec got initial user data.
+[I 2025-07-08 11:10:36] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-08 11:10:36] Client status changed to: -3
+[I 2025-07-08 11:10:36] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-08 11:10:44] UPNP: No devlist
+
+[F 2025-07-08 11:36:19] ===== Parsec: Started =====
+[D 2025-07-08 11:36:19] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-08 11:36:19] IPC name in args: PARSEC_IPC_f5cf90f46e684f5e
+[D 2025-07-08 11:36:19] log: Parsec getting initial user data.
+[D 2025-07-08 11:36:19] log: Parsec got initial user data.
+[I 2025-07-08 11:36:19] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-08 11:36:19] Client status changed to: -3
+[I 2025-07-08 11:36:19] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-08 11:36:27] UPNP: No devlist
+
+
+[F 2025-07-08 13:00:51] ===== Parsec: Started =====
+[D 2025-07-08 13:00:51] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-08 13:00:51] IPC name in args: PARSEC_IPC_61b04ac4289d7de8
+[D 2025-07-08 13:00:51] log: Parsec getting initial user data.
+[D 2025-07-08 13:00:52] log: Parsec got initial user data.
+[I 2025-07-08 13:00:52] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-08 13:00:52] Client status changed to: -3
+[I 2025-07-08 13:00:52] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-08 13:01:00] UPNP: No devlist
+[D 2025-07-08 13:10:23] MTY_WideToMulti: 'WideCharToMultiByte' failed with error 0x7A
+
+[F 2025-07-08 22:08:09] ===== Parsec: Started =====
+[D 2025-07-08 22:08:09] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-08 22:08:09] IPC name in args: PARSEC_IPC_87ca442d70044a98
+[D 2025-07-08 22:08:09] log: Parsec getting initial user data.
+[D 2025-07-08 22:08:09] log: Parsec got initial user data.
+[I 2025-07-08 22:08:09] unprivileged_user=1 webview_available=0 enable_webview=0
+[D 2025-07-08 22:08:09] Client status changed to: -3
+[I 2025-07-08 22:08:09] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-08 22:08:17] UPNP: No devlist
+
+[F 2025-07-08 22:20:53] ===== Parsec: Shutdown with 0 =====
+
+[F 2025-07-12 20:23:47] ===== Parsec: Started =====
+[D 2025-07-12 20:23:47] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-12 20:23:47] IPC name in args: PARSEC_IPC_7f5cd86c642b69a2
+[D 2025-07-12 20:23:47] log: Parsec getting initial user data.
+[D 2025-07-12 20:23:47] log: Parsec got initial user data.
+[I 2025-07-12 20:23:47] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-12 20:23:47] Client status changed to: -3
+[I 2025-07-12 20:23:48] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-12 20:23:57] UPNP: Getting a valid IGD: an UPnP device has been found but was not recognized as an IGD
+
+[F 2025-07-12 20:27:06] ===== Parsec: Started =====
+[D 2025-07-12 20:27:06] log: Parsec release-ui[release9] (150-99, Service: -1, Loader: 13)
+[3 2025-07-12 20:27:06] IPC name in args: PARSEC_IPC_4c8c464b2e6a6d62
+[D 2025-07-12 20:27:06] log: Parsec getting initial user data.
+[D 2025-07-12 20:27:06] log: Parsec got initial user data.
+[I 2025-07-12 20:27:06] unprivileged_user=1 webview_available=1 enable_webview=0
+[D 2025-07-12 20:27:06] Client status changed to: -3
+[I 2025-07-12 20:27:06] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-12 20:27:15] UPNP: Getting a valid IGD: an UPnP device has been found but was not recognized as an IGD
+[D 2025-07-12 20:42:50] UPNP: No devlist
+[I 2025-07-12 20:44:02] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:48:54] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:50:53] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:51:04] * mfx_shared_init/MFXInit[56] = -3
+[D 2025-07-12 20:51:51] Client status changed to: 20
+[I 2025-07-12 20:52:00] STUN reply from ::ffff:3.228.228.84:3478
+[D 2025-07-12 20:52:00] net           = BUD|::ffff:94.159.136.211|21386
+[D 2025-07-12 20:52:00] BUD AES_GCM   = 256
+[I 2025-07-12 20:52:00] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:52:00] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:52:00] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:52:00] * mfx_shared_init/MFXInit[56] = -3
+[I 2025-07-12 20:52:01] Host's virtual microphone is enabled
+[I 2025-07-12 20:52:01] Host's virtual microphone is enabled
+[D 2025-07-12 20:52:01] decoder       = amd
+[D 2025-07-12 20:52:01] codec         = h265
+[D 2025-07-12 20:52:01] bitdepth      = 8-bit
+
+
+

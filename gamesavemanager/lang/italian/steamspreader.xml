@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Steam Spreader</Title>
+	<Info>Steam Spreader ti permette di spostare i tuoi file in altri hard disk e partizioni utilizzando dei "Link Virtuali".
+
+Molti giocatori utilizzato "link virtuali" per spostare i loro giochi su un supporto SSD, pur tenendo il carico su un hard disk meccanico.</Info>
+	<MoveDir>
+		<Header>Sposta cartelle</Header>
+		<Empty>Nessuna cartella selezionata.
+
+Clicca sul pulsante "Aggiungi" per iniziare.</Empty>
+		<DialogHeader>Steam Spreader; Elenco Elementi</DialogHeader>
+		<Steam>Sposta un gioco Steam</Steam>
+		<Origin>Sposta un gioco Origin</Origin>
+		<Specify>Lasciami decidere il percorso</Specify>
+		<MoveTo>Sposta in...</MoveTo>
+		<Move width="75">Sposta</Move>
+		<Messages>
+			<NoneSelected title="Error:" width="350" height="110">Hai dimenticato di completare il modulo.
+Ti preghiamo ti riprovare.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Link failure:" width="350" height="110">Impossibile spostare la cartella d'origine.</SourceExists>
+			</LinkError>
+			<Success title="Success" width="350" height="110">Operazione completata.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+			<Failed title="Failure" width="420" height="110">Operazione completata.
+		
+Sfortunatamente, è stato rilevato almeno un errore.
+
+È stato creato un rapporto. Vuoi leggerlo?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Ripristina una cartella</Header>
+		<Source>Annulla l'operazione per le seguenti cartelle...</Source>
+		<Destination>...che è attualmente collegata a:</Destination>
+		<Revert width="75">Ripristina</Revert>
+		<Messages>
+			<NoneSelected title="Error:" width="350" height="110">Hai dimenticato di completare il modulo.
+Ti preghiamo ti riprovare.</NoneSelected>
+			<NoLongerLinked title="Link error:" width="450" height="150">Impossibile trovare il link da ripristinare.
+
+Potresti aver disinstallato il gioco o interrotto il link in qualche modo al di fuori di GameSave Manager.
+
+
+Rimuoverlo dall'elenco?</NoLongerLinked>
+			<LinkRemovalFail title="Error:" width="450" height="150">GameSave Manager non è riuscito a rimuovere il link associato al percorso specificato.
+
+	"%LINK%"</LinkRemovalFail>
+			<Success title="Success" width="350" height="110">Operazione completata.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+		</Messages>
+	</Undo>
+	<SteamRunning title="Warning:" width="450" height="200">GameSave Manager ha rilevato che Steam è attualmente in esecuzione.
+
+Anche se GameSave Manager non interagisce direttamente con Steam, sposta file contenuti nelle sue cartelle.
+Quindi Steam potrebbe rilevare che questi file manchino all'appello e potrebbe riscaricarli.
+
+Procedere comunque?</SteamRunning>
+</GameSaveManager_Translation>

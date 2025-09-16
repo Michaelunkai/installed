@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Cài đặt</Title>
+	<RestoreSettings>
+		<Title>Khôi phục mặc định</Title>
+		<Confirm title="Xác nhận:" width="500" height="110">Có phải bạn muốn khôi phục các cài đặt của GameSave Manager về giá trị mặc định ?
+
+LƯU Ý: Không áp dụng cho Mục Gamesave tùy chỉnh.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Thể loại</Title>
+		<List>
+			<General>Cài đặt Chung</General>
+			<Cloud>Điện toán đám mây</Cloud>
+			<Update>Cập nhật</Update>
+			<Task>
+				<Header>Tác vụ cụ thể</Header>
+				<Backup>
+					<Header>Cài đặt Sao lưu</Header>
+				              <SepArchives>Lưu trữ riêng biệt</SepArchives>
+                                                                      <ExternalScripts>Mã lệnh ngoài</ExternalScripts>
+				</Backup>
+				<SyncLink>Đồng bộ và Liên kết</SyncLink>
+				<Spreader>Di chuyển Steam</Spreader>
+			</Task>
+			<SevZip>Cài đặt Nén 7zip</SevZip>
+			<Detection>Cấu hình tìm kiếm</Detection>
+			<SortEntries>Sắp xếp</SortEntries>
+			<IgnoredEntries>Mục Loại trừ</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>Liên kết với tập tin của chương trình</Header>
+			<gsba>Liên kết với tập tin .gsba (tập tin lưu trữ)</gsba>
+			<gsdu>Liên kết với tập tin .gsdu (tập tin cập nhật)</gsdu>
+			<AutoCheck>Kiểm tra liên kết tập tin khi khởi động</AutoCheck>
+			<ContextMenu>Thêm mục "GameSave Manager" vào menu ngữ cảnh của tập tin tương thích</ContextMenu>
+		</Associations>
+		<Lang>Ngôn ngữ</Lang>
+		<Startup>
+			<Header>Tùy chọn khởi động</Header>
+			<ScanOnStartup>Quét hệ thống tìm gamesave khi khởi động</ScanOnStartup>
+			<UpdateCheckOnStartup>Kiểm tra cập nhật</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>Thực hiện "Tắt game" (đề nghị)</ShutdownTasks>
+		<SaveLogs>Tự động lưu "Ghi chép"</SaveLogs>
+		<ShowVerInTitle>Hiện thông tin phiên bản trong hộp thoại</ShowVerInTitle>
+		<MessageSounds>Hộp thoại có âm thanh</MessageSounds>
+		<RunAsAdmin>Sử dụng "Chương trình tương thích" để luôn chạy với quyền quản trị</RunAsAdmin>
+		<RunAsAdmin_Question title="Khởi động lại ?" width="500" height="110">GameSave Manager hiện không thể chạy với quyền quản trị.
+
+Bạn có muốn khởi động lại bây giờ ?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>Để lưu trữ an toàn Sao lưu của bạn, GameSave Manager có thể sử dụng chương trình khác để lưu trữ trong "Điện toán đám mây".</Info>
+		<Subfolder>Thư mục con:</Subfolder>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>Kích hoạt hỗ trợ DropBox</Enable>
+			<Error title="Thông báo:" width="500" height="110">GameSave Manager không tìm thấy DropBox trong hệ thống của bạn.
+
+Vì vậy, tính năng này không thể kích hoạt.</Error>
+			<ManuallySpecify>Thư mục đồng bộ không tìm thấy.
+Vui lòng xác định thủ công.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Kích hoạt hỗ trợ Google Drive</Enable>
+			<Error title="Thông báo:" width="500" height="110">GameSave Manager không tìm thấy Google Drive trong hệ thống của bạn.
+
+Vì vậy, tính năng này không thể kích hoạt.</Error>
+			<ManuallySpecify>Thư mục đồng bộ không tìm thấy.
+Vui lòng xác định thủ công.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable>Kích hoạt hỗ trợ SkyDrive</Enable>
+			<Error title="Thông báo:" width="500" height="110">GameSave Manager không tìm thấy Microsoft SkyDrive trong hệ thống của bạn.
+
+Vì vậy, tính năng này không thể kích hoạt.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Thông qua FTP</Header>
+			<Enable>Kích hoạt hỗ trợ FTP</Enable>
+			<Host>Host:</Host>
+			<User>Tên:</User>
+			<Pass>Mật khẩu:</Pass>
+			<Dir>Thư mục:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Cập nhật chương trình</Header>
+			<None>Tự cập nhật, hãy hướng dẫn trang tải</None>
+			<DirectLinks>Tải trực tiếp và cập nhật khi cần thiết</DirectLinks>
+			<ProgDownload>Tải và áp dụng cập nhật</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>Phiên bản Beta, Alpha</ListTesting>
+		<UpdateCheckOnLogin>Kiểm tra cập nhật dữ liệu khi đăng nhập Windows</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Kiểm tra cập nhật chương trình và dữ liệu khi khởi động</UpdateCheckOnStartup>
+		<AutoUpdate>Tự động áp dụng mọi dữ liệu cập nhật</AutoUpdate>
+		<IncrementalUpdates>Không khởi tạo lại dữ liệu, sử dụng thêm dữ liệu cập nhật mới</IncrementalUpdates>
+		<RemindCheckUpdates>Nhắc nhở kiểm tra cập nhật mỗi tuần</RemindCheckUpdates>
+		<PromptUser>Hiện hộp thoại thông báo mỗi khi có bản cập nhật mới</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Lưu trữ riêng biệt</Header>
+			<Enable>Tạo mỗi lưu trữ riêng biệt cho mỗi mục sao lưu</Enable>
+			<TimeStamp>Thêm một mốc thời gian cho mỗi tên tập tin lưu trữ</TimeStamp>
+			<OnChange>Tạo lưu trữ mới khi tập tin thay đổi (tối ưu)</OnChange>
+			<SepSubFolders>Sắp xếp từng mục sao lưu vào các thư mục con</SepSubFolders>
+			<PurgeCount>Sắp xếp lại lưu trữ khi đạt số sao lưu là:</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation>Lập tức thực hiện kiểm tra xác nhận lưu trữ sau khi tạo</ValidateOnArchiveCreation>
+		<DuplicateArchives>Sao chép tất cả sao lưu tới thư mục khác</DuplicateArchives>
+		<DefaultBackupDir>Tạo một thư mục sao lưu mặc định (ghi đè như "Điện toán đám mây")</DefaultBackupDir>
+		<RescanReminder>Nhắc nhở quét lại mỗi khi chạy chương trình (nếu sử dụng kết quả quét trước đây)</RescanReminder>
+                            <ConfirmChecksumResponse>Xác nhận kiểm tra tổng và bỏ qua mục không đúng</ConfirmChecksumResponse>
+	</Backup>
+	<SepArchives>
+		<Info>Dùng mẫu ở dưới, chọn mục (nếu có) muốn tạo mốc thời gian.
+
+Tất cả các mục còn lại không chọn sẽ theo thiết lập tại "Tác vụ cụ thể/Cài đặt Sao lưu".</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Để giúp tiết kiệm không gian trên dịch vụ "Điện toán đám mây", "Đồng bộ và Liên kết" chỉ liệt kê các thư mục đáp ứng các tiêu chuẩn nhất định.
+
+Ở đây bạn có thể ghi đè lên danh sách chọn lọc theo yêu cầu của bạn.</Info>
+		<IgnoreExclusionRules>Danh sách thư mục bao gồm cả tập tin loại trừ đã thiết lập</IgnoreExclusionRules>
+		<ShowSteamCloud>Hiện tập tin save của "Steam Cloud"</ShowSteamCloud>
+		<ShowUplayCache>Hiện tập tin save của "Uplay Cache"</ShowUplayCache>
+		<WaitAfterEachLink>Sau khi tạo 1 liên kết, đợi người dùng trước khi chuyển sang mục tiếp theo</WaitAfterEachLink>
+		<CustomSubfolder>Tùy chọn thư mục con</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Kiểu liên kết</Header>
+			<SymLink>Dùng "Liên kết Biểu tượng"</SymLink>
+			<Junction>Dùng "Giao tiếp NTFS"</Junction>
+		</Link>
+		<SteamRunningCheck>Cảnh báo nếu Steam đang chạy khi cần thiết</SteamRunningCheck>
+		<HideXCOPY>Ẩn hộp thoại lệnh XCOPY</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Tạo nén</Header>
+			<Use7zFormat>Dùng định dạng nén "7zip" (mức nén cao)</Use7zFormat>
+			<UseCompression>Nén với mức cao nhất (tối ưu hiệu suất)</UseCompression>
+                                          <LZMA2>Dùng phương thức nén LZMA2 (hiệu suất đa luồng)</LZMA2>
+		</ArchiveCreation>
+		<HideWindow>Ẩn hộp thoại nén</HideWindow>
+		<UseLargePages>Dùng "trang lớn" để nén nhanh hơn</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Tìm kiếm Steam</Header>
+			<Enable>Kích hoạt tính năng hỗ trợ Steam</Enable>
+			<Cache>Bao gồm thư mục "Steam Cache"</Cache>
+			<Cloud>Bao gồm thư mục "Steam Cloud"</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>Kích hoạt tìm kiếm gamesave trong "uPlay cache"</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Bộ nhớ tạm Macromedia Flash</Header>
+	                            <Enable>Kích hoạt tìm kiếm gamesave trong "Macromedia Flash"</Enable>
+		</Flash>
+		<SaveScanResults>Lưu kết quả tìm kiếm để tìm kiếm nhanh hơn trong tương lai</SaveScanResults>
+		<DetectSize>Tìm dung lượng tập tin gamesave</DetectSize>
+		<CheckForDupDirs>Loại trừ thư mục bị trùng trong danh sách</CheckForDupDirs>
+                            <RescanOnIdle>Khi hệ thống nhàn rỗi, quét lại để tìm kiếm gamesave</RescanOnIdle>
+	</Detection>
+	<SortEntries>
+		<Header>Sắp xếp theo</Header>
+		<SortByName>Sắp xếp mục tìm thấy theo tên</SortByName>
+		<SortByDate>Sắp xếp mục tìm thấy theo thời gian</SortByDate>
+		<SortBySize>Sắp xếp mục tìm thấy theo dung lượng</SortBySize>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Đánh dấu mục bạn muốn loại trừ.
+
+LƯU Ý: Cần thiết quét lại hệ thống để áp dụng điều này.</Info>
+	</IgnoredEntries>
+              <ExternalScripts>
+                            <Info>Mã lệnh ngoài có thể tăng cường sao lưu của bạn theo nhiều cách.
+
+Ở đây, bạn có thể kích hoạt / vô hiệu hóa các mã lệnh cũng như thay đổi bất kỳ tùy chọn có sẵn.</Info>
+                            <ScriptName>Quản lí mã lệnh cho...</ScriptName>
+                            <ScriptMETA>Tác giả: %AUTHOR%
+Phiên bản: %VERSION%     |    Là Chính thức: %ISOFFICIAL%</ScriptMETA>
+                            <EnableScript>Kích hoạt mã lệnh này</EnableScript>
+                            <ScriptOptions>
+                                          <Header>Tùy chọn mã lệnh:</Header>
+                                          <Value>Giá trị (bấm "Enter" để lưu):</Value>
+                                          <Enable>Kích hoạt tùy chọn</Enable>
+                                          <Saved>Đã lưu giá trị !</Saved>
+                            </ScriptOptions>
+              </ExternalScripts>
+</GameSaveManager_Translation>

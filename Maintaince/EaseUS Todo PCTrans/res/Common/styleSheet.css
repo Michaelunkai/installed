@@ -1,0 +1,5128 @@
+﻿
+*{
+	font-family: "Segoe UI";
+	font-size : 14px;
+	color: #2c364c;
+}
+
+QLabel#CBPWinFrmTitle_WindTitle
+{
+	font-size:16px;
+	/*color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #818D9D, stop: 1 #525E6E);*/
+	font-family: "Segoe UI Semibold";
+	color:#818D9D;
+	
+}
+
+
+QLineEdit
+{
+	border-radius: 4px;
+}
+
+  QWidget#CUIImageLeftBar
+  {
+	  background-color:#192a40;
+	  border:solid 2px #222a3e;
+	  border-top-left-radius:0px;
+	  border-top-right-radius:0px;
+	  border-bottom-right-radius:0px;
+	  border-bottom-left-radius:6px;
+	  
+  }
+  
+  QWidget#pctopcnotice,#CUIImageLeftBar
+  {
+	  background-color:#192a40;
+	  border:solid 1px #222a3e;
+  }
+  
+  
+  
+  
+  QWidget#processInfo
+  {
+	  background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+  }
+  
+  QWidget#pcinfoBar
+  {
+	  max-width:240px;
+	  min-width:240px;
+	  background-color:#192b41;
+	  border-top-left-radius:0px;
+	  border-top-right-radius:0px;
+	  border-bottom-right-radius:0px;
+	  border-bottom-left-radius:6px;
+  }
+
+  QWidget#SelectCardDlg,#CCardWidgetHlist,#CUIProcessIconContrl,#CUIProcessIconList
+  {
+	 background:transparent;
+  }
+  
+  QScrollArea
+  {
+	  background:transparent;
+  }
+  
+  
+  QLabel#CUIChoseTranceDir_thisPCNameLabel,#CUIChoseTranceDir_otherPCNameLabel,#CUIAnalyzeDataInfo_thisPCNameLabel,#CUIAnalyzeDataInfo_otherPCNameLabel
+  {
+	  font-family: "Segoe UI Semibold";
+	  font-size:16px;
+	  color:#7e93b1;
+  }
+  
+
+/*  CUIMakeSureDlg*/
+QLabel#CUIMakeSureDlgTitle
+{
+	font-family: "Segoe UI Semibold";
+	font-size : 24px;
+	font-weight: 70;
+}
+
+/*  CUIMakeSureDlg*/
+QLabel#CUIMakeSureDlgContent
+{
+	font-size:16px;
+}
+
+
+
+QPushButton#1,#ImageSystemPathPop_continueButton
+{
+	border:1px solid #1B9cff;
+    border-radius: 4px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#ffffff;
+	text-align :  center;
+	min-width  : 120px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#1b9cff;
+	
+}
+
+QPushButton:hover#1,:hover#ImageSystemPathPop_continueButton
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#1,:pressed#ImageSystemPathPop_continueButton
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#1
+{
+	background-color: #EAEAF0;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+QPushButton#2,#ImageSystemPathPop_changPathButton
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 130px;
+	min-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#2,:hover#ImageSystemPathPop_changPathButton
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 130px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#2,:pressed#ImageSystemPathPop_changPathButton
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 130px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#2
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+
+QWidget#CUIMakeSureDlg
+{
+	border-radius:4px;
+	background-color:#eef2f7;
+	min-width  : 700px;
+	min-height : 240px;
+	max-width  : 700px;
+	max-height : 240px;
+}
+
+/*  begin*/
+QPushButton#pctopcinducebtn,#NoPCfoundOK,#CUIChoseTranceDir_okBtn,#CUIRemoteConnectState_okBtn,#CUIInputPwdToConnect_okBtn,#CUIImageIntroduce_startBtn,#CGarbageCleanFinishPage_finishBtn,#CNoBigFilePage_finish,#CListProductKeyWdg_saveBtn,#CProductKeyHomePage_scanBtn,#CMoveAnfCleanFileHome_startbtn,#CAppManageMentHomePage_start,#CUIProcessRateLog_m_viewImgBtn
+{
+	font-family: "Segoe UI Semibold";
+	border-radius:4px;
+	font-size:18px;
+	font-weight:75;
+	text-align:center;
+	background-color:#1b9cff;
+	color:#ffffff;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+QPushButton:hover#pctopcinducebtn,:hover#NoPCfoundOK,:hover#CUIChoseTranceDir_okBtn,:hover#CUIRemoteConnectState_okBtn,:hover#CUIInputPwdToConnect_okBtn,:hover#CUIImageIntroduce_startBtn,:hover#CGarbageCleanFinishPage_finishBtn,:hover#CNoBigFilePage_finish,:hover#CListProductKeyWdg_saveBtn,:hover#CProductKeyHomePage_scanBtn,:hover#CMoveAnfCleanFileHome_startbtn,:hover#CAppManageMentHomePage_start
+,:hover#CUIProcessRateLog_m_viewImgBtn
+{
+	font-family: "Segoe UI Semibold";
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color:#3aa7fb;
+	color:#ffffff;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+QPushButton:pressed#pctopcinducebtn,:pressed#NoPCfoundOK,:pressed#CUIChoseTranceDir_okBtn,:pressed#CUIRemoteConnectState_okBtn,:pressed#CUIInputPwdToConnect_okBtn,:pressed#CUIImageIntroduce_startBtn,:pressed#CGarbageCleanFinishPage_finishBtn,:pressed#CNoBigFilePage_finish,:pressed#CListProductKeyWdg_saveBtn,:pressed#CProductKeyHomePage_scanBtn,:pressed#CMoveAnfCleanFileHome_startbtn,:pressed#CAppManageMentHomePage_start
+,:pressed#CUIProcessRateLog_m_viewImgBtn
+{
+	font-family: "Segoe UI Semibold";
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color:#1677c1;
+	color:#ffffff;
+	min-height:40px;
+	min-width:140px;
+}
+
+QPushButton:disabled#CUIInputPwdToConnect_okBtn,:disabled#CUIChoseTranceDir_okBtn
+{
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color:#49556D;
+	color:#7F8FA4;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+/*  end*/
+
+/*   begin*/
+QPushButton#pctopcAddaPC,#CUIRemoteConnectState_laterBtn
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background : transparent;
+	color:#7e93b1;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+QPushButton:hover#pctopcAddaPC,:hover#CUIRemoteConnectState_laterBtn
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	/*background-color:#eceff4;*/
+	background-color:rgba(126,147,177,70);
+	color:#7e93b1;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+QPushButton:pressed#pctopcAddaPC,:pressed#CUIRemoteConnectState_laterBtn
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color: rgba(126, 147, 177, 90);
+	color:#7e93b1;
+	min-height:40px;
+	min-width:140px;
+}
+
+
+
+QPushButton:disabled#CUIRemoteConnectState_laterBtn,:disabled#CUIRemoteConnectState_okBtn
+{
+	border:0px;
+	color:transparent;
+	background:transparent;
+}
+
+/*QPushButton:disabled
+{
+	border:1px solid #49556d;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color:#d2d9e4;
+	color:#49556D;
+	min-height:40px;
+	min-width:140px;
+}*/
+
+
+
+/* bar begin*/
+QLabel#pcinfothispcLabel,#otherpc,#CUIAnalyzeDataInfo_thispcLabel,#CUIAnalyzeDataInfo_otherpcLabel
+{
+	font-size:12px;
+	color:#7e93b1;
+}
+
+
+QLabel#CUIBaseINputConnectInfo_othrerPc,#CUIInputPwdToConnect_otherPcText,#CUIChoseTranceDir_thisPcLabel,#CUIChoseTranceDir_otherPcLabel,#CProductKeyHomePage_proName
+{
+	font-size:12px;
+	color:#7E93B1;
+}
+
+QLabel#CUICardInfoTips_textLable
+{
+	color:#faad14;
+}
+
+
+QLabel#titleLabel_optional,#CUIRemoteConnectState_otherPCNameLabel,#CUIRemoteConnectState_thisPCNameLabel
+{
+	color:#F4E8E8;
+	font-size:16px;
+}
+
+QLabel#CUIRemoteConnectState_tispcLabel,#CUIRemoteConnectState_otherPcLabel,#CUILocalAppTranceIntroduce_diskALabel,#CUILocalAppTranceIntroduce_diskBLabel
+{
+	color:#7e93b1;
+	font-size:12px;
+}
+
+
+QLabel#CUIImageIntroduce_imageName,#CUIImageIntroduce_pcName
+{
+	color:#7e93b1;
+	font-size:12px;
+}
+
+QPushButton#onlinhelpbtn
+{
+	background : transparent;
+	font-size:14px;
+}
+
+
+QPushButton#urlBtn
+{
+	/*background-color:#7e93b1;*/
+	background : transparent;
+	font-size:14px;
+	color:#1b9cff;
+	text-decoration: underline;
+}
+
+
+
+
+QPushButton#copyUrlBtn
+{
+	margin: 0px, 14px,14px, 0px;
+	border-radius:14px;
+	background-color:#3a5579;
+	color:#ffffff;
+	font-size:14px;
+	
+}
+
+/* bar end*/
+
+
+/*   label*/
+QLabel#pctopcMainlable,#CUIImageIntroduce_titleLabel,#localappmainlabel,#CleanSystitleLable,#CProductKeyHomePage_title,#CMoveAnfCleanFileHome_title
+{
+	font-family:"Segoe UI Semibold";
+	font-size:28px;
+	color:#ffffff;
+}
+
+
+QLabel#eAvailable,#eLeft,#eMid_1,#eMid_2
+{
+	font-size:14px;
+	color:#ffffff;
+	background-color:transparent;
+}
+
+
+/* label*/
+QLabel#pctopcbeforetrans,#pctopcFindlabel,#pctopcChoseLabel,#NoPcFound,#CUIInputPwdToConnect_enterLabel,#CUIChoseTranceDir_tranceDirLabel,#CUIRemoteConnectState_titleLabel,#CUIAnalyzeDataInfo_anlyInfo,#CUIImageOperatorSelect_infolabel,#titleLabel_tiltle,#CUIImgeSelectFiles_title,#CListProductKeyWdg_title
+{
+	font-family:"Segoe UI light";
+	font-size:28px;
+	color:#ffffff;
+	/*font-weight:25;*/
+}
+
+
+QLabel#pctopcnetwork,#pctopcdownload,#NoPCFoundClose,#CUIImageIntroduce_introduce
+{
+	font-size:18px;
+	color:#ffffff;
+}
+
+QLabel#pctopcinducelabel,#CUINoImageFiles_noImgLabel,#CUILoadingImgFiles_text,#LogsState_textLable
+{
+	font-size:18px;
+	color:#ffffff;
+}
+
+
+QLabel#localinfolabel,#CUiImageCreateChoiseDir_nameLabel,#titleLabel_savaPath
+{
+	font-size:16px;
+	color:#a9bbd0;
+	
+}
+
+QLabel#cleansysinducLabel
+{
+	font-size:16px;
+	color:#7e93b1;
+}
+
+QLabel#pctopcintroduce,#NoPCFoundyoucando,#NoPCFoundOr,#CUIPctoPcIntroduce_introduceLabel,#CUIImageIntroduce_introLabel,#CUILocalAppTranceIntroduce_appintro,#cleansysinducLabel,#CMoveAnfCleanFileHome_subTitle
+{
+	font-size:18px;
+	color:#a9bbd0;
+	font-weight:400;
+}
+
+QLabel#pcinfoOsnameLabel,#pcinfoIpLabel,#pctopcdownInduce,#CImgTextLabel_pcInfoLabel,#pctopcnetinduce,#NoPCFoundCloseInfo
+{
+	font-size:14px;
+	color:#a9bbd0;
+}
+
+
+QLabel#localnoticelabel,#CUIImageIntroduce_notice,#pctopcinfolabel
+{
+	font-size:14px;
+	color:#657994;
+}
+
+QLabel:disabled#CUIRemoteConnectState_m_transDirLabel
+{
+	color:transparent;
+}
+QLabel#CUIRemoteConnectState_m_transDirLabel
+{
+	font-size:16px;
+	color:#A9BBD0;
+}
+
+/*   begin*/
+QProgressBar#processRate_processBar
+{
+	  border-radius: 0px;
+	  background-color: #2c3c51;
+	  
+}
+
+QProgressBar#bigfileProcessBar,#garbageProcessBar
+{
+	  border-radius: 0px;
+	  background-color:rgba(0,0,0,40);
+}
+
+  
+  QLabel#CUIEllipseAutoHideTips
+  {
+	  color:#ffffff;
+	  background-color:#000000;
+	  border-radius:15px;
+  }
+  
+  QLabel#percentLabel
+  {
+	  font-family:"Segoe UI light";
+	  font-size:48px;
+	  font-weight:Light;
+  }
+  
+  QLabel#CUIEllipseAutoHideTips
+  {
+	  border-radius: 15px;
+	  background-color: #000000;
+	  color:#ffffff;
+	  font-size:14px;
+  }
+  
+  QLabel#processOperName
+  {
+	  font-family:"Segoe UI Semibold";
+	  font-size:18px;
+	  color:#ffffff;
+  }
+  
+  QLabel#processCurOperName
+  {
+	  font-size:14px;
+	  color:#7e93b1;
+  }
+  
+  QLabel#CUIPctoPcIntroduce_newLable,#CUIPctoPcIntroduce_oldLable
+  {
+	  font-size:12px;
+	  color:#7e93b1;
+  }
+  
+  QLabel#processTimeName,#processTimeLong,#CUIImageOperatorChoseCard_indulabel,#CUIImageLeftBar_induceLabel,#CUINoImageFiles_indulabel
+  {
+	  font-size:14px;
+	  color:#a9bbd0;
+  }
+
+ QLabel#ProcesslogcomLabel
+ {
+	 font-family:"Segoe UI light";
+	 font-size:38px;
+	 color:#ffffff;
+	 
+ }
+ 
+  QLabel#ProcesslogitemLabel,#ProcesslogdataLabel,#ProcesslogtimeLable,#pcinfoNameLabel,#CUIBaseINputConnectInfo_conntctIndu,#CUIInputPwdToConnect_accountNameLabel,#CUIInputPwdToConnect_infoLabel,#CUIImgeSelectFiles_location,#CUIImgeSelectFiles_fileLabel
+ {
+	 font-size:16px;
+	 color:#A9BBD0;
+	 font-weight:300;
+ }
+ 
+ QLabel#CUIImageLeftBar_operNameLabel
+ {
+	 font-family:"Segoe UI Semibold";
+	 font-size:16px;
+	 color:#A9BBD0;
+	
+ }
+ 
+ /*
+ QListWidget#ProcessRateLogList
+ {
+	 background: #32435b;
+	 border: 1px solid #3d506a;
+	 color:#ffffff;
+	 font-size:14px;
+	 outline:0px;
+ }
+ 
+ QListWidget::item#ProcessRateLogList{
+     background: #32435b;
+	 border-bottom: 1px solid #3d506a;
+	 color:#ffffff;
+	 height:38px;
+	 padding-left:16px;
+	  
+  }
+  */
+  
+
+ QPushButton#PeocesslogBtn
+  {
+	  color:#7E93B1;
+	  font-size:18px;
+	  font-weight:600;
+	  background-color:transparent;
+	  border:1px solid #7B90AE;
+	  border-radius:4px;
+	  min-height:40px;
+	  min-width:146px;
+  }
+  
+ QPushButton:hover#PeocesslogBtn
+  {
+	  background-color:#3aa7fb;
+  }
+  
+    
+QPushButton:hover#PeocesslogBtn
+  {
+	  background-color:#1677c1;
+  }
+  
+  
+  
+/* end*/
+
+/*application windows*/
+QWidget#CLocalAppContainter, QWidget#CRemoteAppContainer, QWidget#CTransferTypeSelContainer, QWidget#CTreeFrameContainter
+, QWidget#CMigrationNoteRightFrame
+{
+	background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+}
+
+QWidget#CRemoteAppSelCtrl
+{
+	background:#27364b;
+}
+
+QWidget#CMigrationNatePage
+{
+	background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+
+}
+
+QWidget#CLocalAppLeftView, QWidget#CCommonCalcFrame
+{
+	background:#192a3e;
+}
+
+QTreeWidget#CPctAppListMode
+{
+	background : rgb(51,67,92);
+	border: 1px solid #3d506a;
+}
+
+QPushButton#LocalAppHintClose
+{
+	border : none;
+	min-width  : 16px;
+	min-height : 16px;
+	max-width  : 16px;
+	max-height : 16px;
+	border-image : url(../res/Common/icon_no.png);
+}
+
+QLineEdit#LocalAppPathEdit
+{
+	border: 2px solid #3d506a;
+	border-radius: 4px;
+	background: rgba(73, 85, 109, 153)/*#49556d*/;
+	font-size: 16px;
+	height: 40px;
+	color: white;
+}
+
+QLabel#CCardInfoWidget_nameLabel,#CUIProcessRateLog_num,#CUIProcessRateLog_size,#CUIProcessRateLog_time
+{
+	font-size:16px;
+	color:#ffffff;
+}
+
+QLabel#CUIImageOperatorChoseCard_operlabel
+{
+	font-family:"Segoe UI Semibold";
+	font-size:16px;
+	color:#ffffff;
+}
+
+
+QLabel#CLocalAppSelDiskInfo
+{
+/*
+	font-size : 32px;
+	font-weight: 25;
+	*/
+	color: white;
+	
+}
+
+QLabel#CLocalAppMirgateToLabel
+{
+	font-size : 16px;
+	color: rgb(121, 138, 158);
+}
+
+QLabel#CLocalErrorHintLabel
+{
+	color: red;
+}
+
+QWidget#CHeaderSelInfoCtrl QLabel#CLocalAppSelNumberHint, QLabel#CLocalAppSelSizeHint
+{
+	font-size : 14px;
+	color: white;
+}
+
+
+QWidget#CHeaderSelInfoCtrl QLabel#CLocalAppSelNumber, QLabel#CLocalAppSelSize
+{
+	min-width: 40px;
+	font-size : 16px;
+	color : rgb(27, 157, 255);
+	background-color: transparent/*#30e9ec*/;
+	color: #0bf0fa;
+	font-weight: bold;/*
+	border: 1px solid #30e9ec;
+	border-radius: 12px;*/
+}
+
+
+QWidget#CUserSelInfoFrame QLabel,QWidget#CImageCreateLeftFrameInfo QLabel
+, QWidget#CImageRecoveryLeftFrameInfo QLabel, QLabel#CImageTransferCardPath
+{
+	font-size: 14px;
+	color: #A9BBD0;
+}
+QWidget#CImageRecoveryLeftFrameInfo QLabel#CImageReImageTotalSizeLabel
+{
+	color: rgba(126, 147, 177, 128);
+}
+
+
+QPushButton#CTypeSelCardEditBtn
+{
+	min-width  : 100px;
+	min-height : 26px;
+	max-width  : 180px;
+	max-height : 26px;
+	border-radius: 13px;
+	background : rgb(27, 157, 255);
+	color	: white;
+	font-size : 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+QPushButton:hover#CTypeSelCardEditBtn
+{
+	background : #3AA7FB;
+}
+
+QPushButton:pressed#CTypeSelCardEditBtn
+{
+	background : #1677c1;
+}
+
+QPushButton#CUIImageOperatorChoseCard_btn
+{
+	min-width  : 100px;
+	min-height : 28px;
+	max-width  : 100px;
+	max-height : 28px;
+	border-radius: 14px;
+	background : rgb(27, 157, 255);
+	color	: white;
+	font-size : 16px;
+}
+
+
+QPushButton#CUiImageCreateChoiseDir_Browse,#CUIImgeSelectFiles_browseBtn,#CbigFileScanPage_browse
+{
+	border-radius:4px;
+	background-color:#3a5579;
+	font-size:16px;
+	font-weight:500;
+	color:#ffffff;
+	min-height:40px;
+	max-height:40px;
+	min-width:90px;
+}
+
+
+
+QPushButton:hover#CUiImageCreateChoiseDir_Browse,:hover#CUIImgeSelectFiles_browseBtn,:hover#CbigFileScanPage_browse
+{
+	border-radius:4px;
+	background-color:#405d83;
+	font-size:16px;
+	font-weight:500;
+	color:#ffffff;
+	min-height:40px;
+	max-height:40px;
+	min-width:90px;
+	
+}
+
+
+
+
+QPushButton:pressed#CUiImageCreateChoiseDir_Browse,:pressed#CUIImgeSelectFiles_browseBtn,:pressed#CbigFileScanPage_browse
+{
+	border-radius:4px;
+	background-color:#2e4460;
+	font-size:16px;
+	font-weight:500;
+	color:#ffffff;
+	min-height:40px;
+	max-height:40px;
+	min-width:90;
+}
+
+
+
+
+
+
+QWidget#CTypeSelectCard QLabel#CTypeSelCardTypeDescLabel
+{
+	font-size: 16px;
+	color: #ffffff;
+}
+
+
+QWidget#CCommonCalcFrame QLabel#CalcFrameTypeLabel
+{
+	font-size:16px;
+	color: #A9BBD0;
+	font-weight: 600;
+}
+
+QWidget#CCommonCalcFrame QLabel#CalcFramePCDescLabel
+{
+	color: #A9BBD0;
+	font-size : 12px;
+}
+
+
+
+QWidget#CTransferTypeRightFrame QLabel#CTransferTypeRightTitleLabel,
+ QWidget#CTreeFrameContainter QLabel#CTreeContainerHeader
+{
+	color : white;
+}
+
+
+QWidget#CTreeLeftNodeScrollArea
+{
+	border: none;
+}
+
+QPushButton#CAccountLockButton
+{
+	min-width : 28px;
+	min-height : 17px;
+	max-width : 28px;
+	max-height : 17px;
+	border-image: url(../res/Common/ico_lock_normal.png);
+}
+
+QPushButton#CRestorePointHelpBtn
+{
+	min-width : 12px;
+	min-height : 12px;
+	max-width : 12px;
+	max-height : 12px;
+	border-image: url(../res/Common/ico_question_normal.png);
+}
+
+QPushButton:hover#CRestorePointHelpBtn
+{
+	border-image: url(../res/Common/ico_question_hover.png);
+}
+
+QPushButton:pressed#CRestorePointHelpBtn
+{
+	border-image: url(../res/Common/ico_question_press.png);
+}
+
+QPushButton:disabled#CRestorePointHelpBtn
+{
+	border-image: url(../res/Common/ico_question_disable.png);
+}
+
+QPushButton:hover#CAccountLockButton
+{
+	border-image: url(../res/Common/ico_lock_hover.png);
+}
+
+QPushButton:pressed#CAccountLockButton
+{
+	border-image: url(../res/Common/ico_lock_press.png);
+}
+
+
+QPushButton:disabled#CAccountLockButton
+{
+	border-image: url(../res/Common/ico_lock_normal.png);
+}
+
+
+
+/*check-box*/
+QCheckBox
+{
+	spacing: 10px;
+	color:#ffffff;
+}
+QCheckBox::indicator:unchecked
+{
+	image: url(../res/Common/check_unsel.png);
+}
+
+QCheckBox::indicator:checked
+{
+	image: url(../res/Common/check_sel.png);
+}
+
+ QCheckBox::indicator:indeterminate 
+ {
+      image: url(../res/Common/checkbox_half_garbage.png);
+ }
+
+
+QWidget#CPasswordControl QLineEdit
+{
+	border:1px solid #e1e4e7;
+	background : transparent;
+	color: #273044;
+	font-size : 16px;
+}
+
+QPushButton#CPasswordEyesButton
+{
+	border : none;
+	background : transparent;
+}
+
+
+
+
+QWidget#CPasswordRelocatePathDlg QLineEdit
+{
+	border:1px solid #e1e4e7;
+	border-radius: 4px;
+	max-height: 30px;
+	min-height : 30px;
+	background : white;
+	font-size : 16px;
+	color: #273044;
+}
+
+
+QWidget#CPasswordRelocatePathDlg QLineEdit::disabled
+{
+	border:1px solid #e1e4e7;
+	background : #e5e9f0;
+	color : #B2BAC5;
+}
+QWidget#CPasswordRelocatePathDlg QLabel#CPasswordRelocateContent
+{
+	font-size: 16px;
+	color: #273044;
+}
+QWidget#CPasswordRelocatePathDlg QLabel#PasswordRelocateOriginalLabel, QLabel#PasswordRelocateODstLabel
+{
+	max-height: 32px;
+	min-height : 32px;
+	font-size: 16px;
+	color: #7f8fa4;
+}
+
+QWidget#CPasswordRelocatePathDlg QLabel#PasswordDialogPCName, QLabel#PasswordDialogPCAttr
+{
+	font-size: 12px;
+	color: #7f8fa4;
+	
+}	
+
+
+QWidget#CTreeNodeSelFrame QLabel
+{
+	color: #ffffff;
+}
+
+QWidget#CAccountSplitTag
+{
+	background : #2c3c51;
+}
+QWidget#CAccountSplitTag QLabel
+{
+	font-size: 12px;
+	color: #a9bbd0;
+}
+
+
+QWidget#CTreeNodeSelFrame, QTreeView#CFileUserTreeView
+{
+	background : #32435b;
+}
+
+QTreeView#CFileUserTreeView
+{
+	border: none;/*1px solid #3d506a;*/
+	
+}
+
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings 
+{
+	border-image: none;
+	image: url(../res/Common/branch_close_normal.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings 
+ {
+	border-image: none;
+    image: url(../res/Common/branch_open_normal.png);
+}
+
+
+QTreeView::branch:open:has-children:!has-siblings:hover,
+QTreeView::branch:open:has-children:has-siblings:hover  {
+        border-image: none;
+        image: url(../res/Common/branch_open_hover.png);
+}
+
+QTreeView::branch:has-siblings:!adjoins-item, 
+QTreeView::branch:has-siblings:adjoins-item,
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: none;
+    image:none;
+}
+
+/*QSilder*/
+QSlider
+{
+	border: none;
+	background-color: transparent;
+}
+
+QSlider::handle:vertical
+{
+	background: transparent;
+	border:none;
+}
+
+QScrollBar:horizontal
+{
+    height:6px;
+    background:transparent;
+    margin:0px,0px,0px,0px;
+    padding-left:0px;  
+    padding-right:0px;
+}
+
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal
+{
+  background: transparent;
+  width:0px;
+	
+}
+
+QScrollBar::handle:horizontal
+{
+    height:6px;
+    background:#253449;
+    min-width: 20px;
+    border-radius : 3px;
+}
+QScrollBar::handle:horizontal:hover
+{
+    height:6px;
+    background:#2F425C;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:pressed
+{
+	background:#263954;
+}
+
+QScrollBar::handle:horizontal:disabled
+{
+	background:transparent;
+}
+
+
+QLabel#CSelectCardInfo_lineLabel
+{
+	background:#3d506a;
+}
+
+QLabel:disabled#CSelectCardInfo_lineLabel
+{
+	background:transparent;
+}
+
+/*QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal 
+{
+	border : none;
+	background: transparent;
+}*/
+
+
+QScrollBar::add-line:horizontal
+{
+	border : none;
+	background: none;
+	width:0px;
+	 subcontrol-position:-90;
+}
+
+QScrollBar::sub-line:horizontal 
+{
+	border : none;
+	background: none;
+	width:0px;
+	 subcontrol-position:-90;
+}
+
+
+/*QScrollBar*/
+QScrollBar:vertical
+{
+    width:8px;
+    background:  #405068/*rgb(51, 67, 92)*/;
+    margin: 0px, 0px, 0px, 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #253449;
+    min-height:20px;
+	border-radius : 4px;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background: #405068;
+}
+QScrollBar::up-arrow:vertical,QScrollBar::down-arrow:vertical
+{
+	border :none;
+	background: transparent;
+}
+
+QScrollBar::handle:vertical:hover
+{
+	background:#3a5579;
+}
+
+QScrollBar::handle:vertical:pressed
+{
+	background:#263954;
+}
+
+QScrollBar::add-line:vertical 
+{
+	border : none;
+	background: none;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+QScrollBar::sub-line:vertical
+{
+	border : none;
+	background: none;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar:vertical
+{
+    background: #192a40;
+}
+
+QWidget#CTreeLeftNodeScrollArea QScrollBar:vertical
+{
+	background:#32435b;
+}
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar::handle:vertical,
+
+QWidget#CTreeLeftNodeScrollArea QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #253449;
+    min-height:20px;
+	border-radius : 4px;
+}
+
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar::handle:vertical:hover,
+QScrollArea#CTreeLeftNodeScrollArea QScrollBar::handle:vertical:hover
+{
+	background: #3a5579;
+}
+
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar::handle:vertical:pressed,
+QScrollArea#CTreeLeftNodeScrollArea QScrollBar::handle:vertical:pressed
+{
+	background: #263954;
+}
+
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar::add-page:vertical, 
+QScrollArea#CLocalAppLeftDiskScrollArea QScrollBar::sub-page:vertical
+{
+	background: #192a40;
+}
+
+QScrollArea#CTreeLeftNodeScrollArea QScrollBar::add-page:vertical, 
+QScrollArea#CTreeLeftNodeScrollArea QScrollBar::sub-page:vertical
+{
+	background:#32435b;
+}
+
+/*
+QPushButton#CUITabButton_button
+{
+	background-color:transparent;
+	color:#ffffff;
+	font-size:18px;
+}
+
+QPushButton:hover#CUITabButton_button
+{
+	background-color:transparent;
+	color:#1b9cff;
+	font-size:18px;
+}
+
+QPushButton:press#CUITabButton_button
+{
+	background-color:transparent;
+	color:#1b9cff;
+	font-size:18px;
+}
+*/
+
+QLabel#CUITabButton_lineLabel
+{
+	border-radius:1px;
+	max-height:3px;
+	min-height:3px;
+	background-color:#1b9cff;
+}
+
+QWidget#CUITabButton
+{
+	background-color:transparent;
+}
+
+QLabel#CUIMainConnect_lineLabel
+{
+	max-height:1px;
+	min-height:1px;
+	background-color:#222a3e;
+}
+
+QLineEdit#CUIInputPwdToConnect_nameLineEdit
+{
+	border: 1px solid #3d506a;
+	border-radius: 4px;
+	min-height:40px;
+	min-width:336px;
+	max-height:40px;
+	max-width:336px;
+	background: #2d3d56;
+	font-size: 16px;
+	height: 40px;
+	color: #7f8fa4;
+	padding-left:12px;
+}
+
+
+QLineEdit:disabled#CUIInputPwdToConnect_nameLineEdit
+{
+	border: 1px solid #3d506a;
+	border-radius: 4px;
+	min-height:40px;
+	min-width:336px;
+	max-height:40px;
+	max-width:336px;
+	background: rgba(73,85,109,153);
+	font-size: 16px;
+	height: 40px;
+	color: #FFFFFF;
+	padding-left:12px;
+}
+
+
+
+QLineEdit#CUiImageCreateChoiseDir_name
+{
+	border: 1px solid #4d6483;
+	border-radius: 4px;
+	min-height:40px;
+	max-height:40px;
+	background: #24354f;
+	font-size: 16px;
+	height: 40px;
+	color: #ffffff;
+	padding-left:12px;
+}
+
+
+QLineEdit#CUIImgeSelectFiles_pathEdit
+{
+	border: 1px solid rgba(61, 80, 106, 153);
+	border-radius: 4px;
+	min-height:40px;
+	min-width:336px;
+	max-height:40px;
+	max-width:336px;
+	background: rgba(73, 85, 109, 153);
+	font-size: 16px;
+	height: 40px;
+	color: #ffffff;
+	padding-left:12px;
+}
+
+QLineEdit#CUiImageCreateChoiseDir_path
+{
+	border: 1px solid rgba(61, 80, 106, 153);
+	border-radius: 4px;
+	min-height:40px;
+	max-height:40px;
+	background: rgba(73, 85, 109, 153);
+	font-size: 16px;
+	height: 40px;
+	color: #ffffff;
+	padding-left:12px;
+}
+
+
+QRadioButton
+{
+	color:#a9bbd0;
+	font-size:18px;
+}
+
+  QRadioButton::indicator::unchecked {
+      image: url(../res/Common/ico_danxuan_normal.png);
+	  
+  }
+
+  QRadioButton::indicator:unchecked:hover {
+      image: url(../res/Common/ico_danxuan_hover.png);
+  }
+
+  QRadioButton::indicator:unchecked:pressed {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+  QRadioButton::indicator::checked {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+  QRadioButton::indicator:checked:hover {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+  QRadioButton::indicator:checked:pressed {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+  
+  
+QToolButton#CSelectCardInfo_nextBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_RIGHT_normal.png);
+}
+
+QToolButton:hover#CSelectCardInfo_nextBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_right_hover.png);
+}
+
+
+QToolButton:pressed#CSelectCardInfo_nextBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_right_press.png);
+}
+
+
+QToolButton:disabled#CSelectCardInfo_nextBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_RIGHT_disable.png);
+}
+ 
+QToolButton#CSelectCardInfo_preBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_left_normal.png);
+}
+
+QToolButton:hover#CSelectCardInfo_preBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_left_hover.png);
+}
+
+
+QToolButton:pressed#CSelectCardInfo_preBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_left_press.png);
+}
+
+
+QToolButton:disabled#CSelectCardInfo_preBtn
+{
+	background:transparent;
+	border-image:url(../res/Common/ico_left_disable.png);
+}
+  
+QToolTip
+{
+	border: 1px solid #101c2d;
+	padding : 2px;
+	color: white;
+    background: #101c2d;
+}
+
+QTextEdit#CUIImageLeftBar_textEdit,#CUIImageOperatorChoseCard_textEdit
+{
+	border: none;
+	font-size:14px;
+	color:#a9bbd0;
+	background: transparent;
+}
+
+QTextEdit:disabled#CUIImageLeftBar_textEdit,#CUIImageOperatorChoseCard_textEdit
+{
+	background: transparent;
+}
+
+QTextEdit#CUIPctoPcIntroduce_textEdit
+{
+	border: none;
+	font-size:16px;
+	color:#a9bbd0;
+	background: transparent;
+}
+QTextEdit:disabled#CUIPctoPcIntroduce_textEdit
+{
+	background: transparent;
+}
+
+/*active and upgrade*/
+QTableWidget#OldActiveTableWidget
+{
+	alternate-background-color: white;
+	background: rgba(127, 143, 164, 25);
+}
+
+QPushButton#CTablePriceWidgetBtnByNow
+{
+	background:#e4690d;
+	border-radius: 4px;
+	font-weight:600;
+	font-size: 16px;
+	color:#ffffff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-height : 32px;
+}
+
+QPushButton#CTablePriceWidgetBtnByNow:hover
+{
+	background:#fc8226;
+}
+
+QPushButton#CTablePriceWidgetBtnByNow:pressed
+{
+	background:#c65209;
+}
+
+QPushButton#CTablePriceWidgetBtnByNow:disabled
+{
+	background:#e5eaf0;
+}
+
+QWidget#CTablePriceWidget QCheckBox
+{
+	font-size: 14px;
+	color: #273044;
+	spacing: 10px;
+}
+
+QWidget#CTablePriceWidget QCheckBox::indicator:unchecked
+{
+	image: url(../res/Common/active_checkbox-normal.png);
+}
+
+QWidget#CTablePriceWidget QCheckBox::indicator:checked
+{
+	image: url(../res/Common/active_checkbox-select.png);
+}
+/*
+QWidget#CTablePriceWidget  QCheckBox::indicator:hover
+{
+	image: url(../res/Common/active_checkbox-hover.png);
+}
+*/
+/* QComboBox */
+QComboBox{
+    border:1px solid #e1e4e7;
+    height:24px;
+	min-width : 112px;
+	max-width: 112px;
+	font-size: 14px;
+}
+
+QComboBox QAbstractItemView
+{
+	outline:0px;
+	color : #273044;
+	border: 1px solid rgba(127, 143, 164, 25);
+}
+
+QComboBox QAbstractItemView::item, QComboBox QListView::item
+{
+	color : #273044;
+    height: 24px;
+	border: none;
+	text-align : center;
+}
+
+QComboBox QListView::item:hover 
+{
+	color : #273044;
+    background: #e8f5ff;
+}
+
+QComboBox QListView::item:selected {
+	color : #273044;
+    background: rgba(127, 143, 164, 25);
+}
+
+
+QComboBox::drop-down
+{
+	subcontrol-origin:padding;
+    subcontrol-position:center right;
+	border: 0px;
+	width: 24px;
+}
+
+QComboBox::down-arrow{
+	
+    image:url(../res/Common/branch_open_normal.png);
+}
+
+QComboBox::down-arrow:hover{
+    image:url(../res/Common/branch_open_hover.png);
+}
+
+
+QComboBox::down-arrow:pressed{
+    image:url(../res/Common/branch_open_press.png);
+}
+
+QComboBox QLineEdit
+{
+	background: white;
+	color : 	#273044;
+	font-size : 14px;
+	border : 1px solid white;
+}
+
+QPushButton#CAboutCloseBtn, QPushButton#InnerBuyCloseBtn, QPushButton#CActiveCloseBtn
+{
+	min-height: 32px;
+	min-width: 32px;
+	max-height: 32px;
+	max-width: 32px;
+	border-image:url(../res/Common/close_normal.png);
+}
+
+QPushButton#CAboutCloseBtn:hover, QPushButton#InnerBuyCloseBtn:hover, QPushButton#CActiveCloseBtn:hover
+{
+	border-image:url(../res/Common/close_hover.png);
+}
+QPushButton#CAboutCloseBtn:pressed, QPushButton#InnerBuyCloseBtn:pressed, QPushButton#CActiveCloseBtn:pressed
+{
+	border-image:url(../res/Common/close_press.png);
+}
+QPushButton#CAboutCloseBtn:disabled, QPushButton#InnerBuyCloseBtn:disabled, QPushButton#CActiveCloseBtn:disabled
+{
+	border-image:url(../res/Common/close_disable.png);
+}
+
+
+
+
+QWidget#COfflineActive QLineEdit
+{
+	border: 1px solid #E1E4E7;
+	min-height: 30px;
+	max-height: 30px;
+	font-size: 16px;
+}
+
+QWidget#COfflineActive QLineEdit::disabled
+{
+	background: #e5e9f0;
+	border: 1px solid #e1e4e7;
+}
+
+QLineEdit#COfflineMacthCodeEdit
+{
+	background: #e5e9f0;
+	border: 1px solid #e1e4e7;
+	min-height: 30px;
+	max-height: 30px;
+	font-size: 16px;
+}
+
+QWidget#COfflineActiveCodeFrame QTextEdit
+{
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+QFrame#COfflineActiveCodeFrame
+{
+	background: white;
+	border-radius: 4px;
+	border: 1px solid #e1e4e7;
+}
+
+/*
+QComboBox::up-arrow{
+    image:url(../res/Common/ico_up_normal.png);
+}
+QComboBox::up-arrow:hover{
+    image:url(../res/Common/ico_up_hover.png);
+}
+QComboBox::up-arrow:pressed{
+    image:url(../res/Common/ico_up_select.png);
+}
+*/
+
+QLineEdit#PcToPcPwdLineEdit
+{
+	border:1px solid #4d6483;
+	border-radius: 4px;
+	max-height: 38px;
+	min-height : 38px;
+	background : #24354f;
+	font-size : 16px;
+	color: white;
+	min-width: 348;
+}
+QLineEdit#PcToPcPwdLineEdit:disabled
+{
+	border:1px solid #4d6483;
+	background : #32425c;
+}
+
+/*app submit btn*/
+QPushButton#CAppSubmitButton
+{
+	border: none;
+	font-size : 14px;
+	min-height: 28;
+	max-height: 28;
+	min-width:  90;
+	max-width: 90;
+	border-radius: 14px;
+	background: #2F4C6B;
+	color: #1B9CFF;
+	text-align: center;
+}
+
+
+QPushButton#CAppSubmitButton:hover
+{
+	background: #365E89;
+	color: #1B9CFF;
+}
+
+QPushButton#CAppSubmitButton:pressed,
+QPushButton#CAppSubmitButton:disabled
+{
+	background: rgba(61, 76, 100, 128);
+	color: #7F8FA4;
+}
+
+/*new active frame*/
+QPushButton#CActiveFreeButtonObj
+{
+	border:none;
+	background: #DEE2E8;
+	min-height: 32px;
+	max-height: 32px;
+	font-size:  16px;
+	font-family:"Segoe UI Semibold";
+	color: rgba(39, 48, 68, 180);
+	border-radius: 4px;
+	width: 160px;
+	
+}
+
+
+QPushButton#CActiveFreeButtonObj:hover
+{
+	background: #EDEEF0;
+	color: #464d60;
+}
+
+QPushButton#CActiveFreeButtonObj:pressed
+{
+	background: #D4D6DA;
+	color: #464d60;
+}
+
+/*input license btn*/
+QPushButton#CActiveInputLicenseBtn
+{
+	border: none;
+	background: #2C6497;
+	min-height: 32px;
+	max-height: 32px;
+	font-size:  16px;
+	font-family: "Segoe UI Semibold";
+	color: white;
+	border-radius: 4px;
+	width: 140px;
+}
+
+QPushButton#CActiveInputLicenseBtn:hover
+{
+	background: #1580d2;
+}
+
+QPushButton#CActiveInputLicenseBtn:pressed
+{
+	background: #1E4569;
+}
+
+/*key edit*/
+QLineEdit#CLicenseKeyEdit
+{
+	border:1px solid #4d6483;
+	border-radius: 4px;
+	max-height: 30px;
+	min-height : 30px;
+	background : #24354f;
+	font-size : 16px;
+	color: white;
+}
+
+/*buy now button*/
+QPushButton#CPctProBuyBtn
+{
+	border:none;
+	max-height: 32px;
+	min-height : 32px;
+	min-width: 160px;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #DCC67F, stop: 1 #AA7413);
+	/*border-image: url(../res/Common/active_pro_normal.png);*/
+}
+
+
+QPushButton#CPctProBuyBtn:hover
+{
+	/*background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #F4E5B5, stop: 1 #BC9246);*/
+	border-image: url(../res/Common/active_pro_hover.png);
+}
+
+QPushButton#CPctProBuyBtn:pressed
+{
+	/*background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #BCA150, stop: 1 #634102);*/
+	border-image: url(../res/Common/active_pro_press.png);
+}
+
+
+QPushButton#CPctServerBuyBtn
+{
+	border:none;
+	max-height: 32px;
+	min-height : 32px;
+	min-width: 160px;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #C1877A, stop: 1 #9B5940);
+	/*border-image: url(../res/Common/active_tech_normal.png);*/
+	
+}
+
+QPushButton#CPctServerBuyBtn:hover
+{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #DAA498 , stop: 1 #A06C59);
+}
+
+QPushButton#CPctServerBuyBtn:pressed
+{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #AE766A, stop: 1 #743A24);
+	/*border-image: url(../res/Common/active_tech_press.png);*/
+}
+
+
+
+
+QPushButton#CPctTechBuyBtn
+{
+	border:none;
+	max-height: 32px;
+	min-height : 32px;
+	min-width: 160px;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	/*background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #757E8C, stop: 1 #232E3C);*/
+	border-image: url(../res/Common/active_tech_normal.png);
+	
+}
+
+QPushButton#CPctTechBuyBtn:hover
+{
+	/*background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #818894, stop: 1 #444D59);*/
+	border-image: url(../res/Common/active_tech_hover.png);
+}
+
+QPushButton#CPctTechBuyBtn:pressed
+{
+	/*background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #505761, stop: 1 #1A222D);*/
+	border-image: url(../res/Common/active_tech_press.png);
+}
+
+
+QWidget#CActiveRightScroll QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #D1DBE9;
+    min-height: 20px;
+	border-radius : 4px;
+	border:none;
+}
+
+QScrollArea#CActiveRightScroll QScrollBar::handle:vertical:hover
+{
+	background: #D9E5F6;
+}
+
+
+QScrollArea#CActiveRightScroll QScrollBar::handle:vertical:pressed
+{
+	background: #BEC7D3;
+}
+
+ 
+  QTableWidget#ProcessRateLogList
+ {
+	 background: #32435b;
+	 border: 1px solid #3d506a;
+	 color:#ffffff;
+	 font-size:14px;
+	 outline:0px;
+ }
+ 
+
+  QTableWidget#logHistoryDetailTable
+ {
+	 background: #32435b;
+	 border: 1px solid #3d506a;
+	 outline:0px;
+ }
+ 
+
+ QTableWidget#logHistoryLeftTable
+ {
+	 background: #192B41;
+	 border: 0px;
+	 color:#a9bbd0;
+	 font-size:16px;
+	 outline:0px;
+	 padding-top:10px;
+ }
+
+
+  QTableWidget#logHistoryDetailTable
+ {
+	 background: #32435b;
+	 border: 1px solid #3d506a;
+	 outline:0px;
+ }
+ 
+ QFrame#LogsState,#recordDetail
+ {
+	 background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+ }
+ 
+ QFrame#recodePandect
+ {
+	 background:#32435b;
+	 border: 1px solid #3d506a;
+ }
+ 
+ QFrame#recodesBtnFram
+ {
+	 background:#1d2e46;
+ }
+ 
+ 
+ QLabel#LabelItemName,#labelSizeName,#labelTimeName
+{
+	font-size: 14px;
+	color: #A9BBD0;
+}
+ 
+ 
+ QLabel#labelItems,#labelSize,#labelTime
+ {
+	font-size: 14px;
+	color: #ffffff;
+ }
+
+ 
+  QLabel#labelThisPc,#labelOtherPC
+ {
+	font-family:"Segoe UI Semibold";
+	font-size: 10px;
+	color: #7e93b1;
+ }
+ 
+ 
+QScrollArea#CActiveRightScroll QScrollBar:vertical
+{
+	border-radius : 4px;
+	background: #e2e9f2;
+	border:none;
+
+}
+
+QScrollArea#CActiveRightScroll QScrollBar::add-page:vertical, 
+QScrollArea#CActiveRightScroll QScrollBar::sub-page:vertical
+{
+	border:none;
+	background: #e2e9f2;
+	
+}
+
+/*offline active btn*/
+QPushButton#COfflineCancelBtn
+{
+	border:1px solid #1B9cff;
+    border-radius: 4px;
+	font-size: 18px;
+	font-family: "Segoe UI Semibold";
+	background: #ffffff;
+	text-align :  center;
+	min-width  : 146px;
+	min-height : 38px;
+	max-height : 38px;
+	color:		#1b9cff;
+}
+
+
+QPushButton#COfflineCancelBtn:hover
+{
+	  background-color:#e8f5ff;
+}
+
+QPushButton#COfflineCancelBtn:pressed
+{
+	 background:#bae1ff;
+}
+
+
+
+QPushButton#CActiveResOkBtn
+{
+	border:none;
+	border-radius: 4px;
+	font-size:18px;
+	font-family: "Segoe UI Semibold";
+	background: #1b9cff;
+	text-align:	center;
+	min-width  : 180px;
+	min-height : 40px;
+	color:		#ffffff
+}
+
+QPushButton#CActiveResOkBtn:hover
+{
+	 background:#3aa7fb;
+}
+
+QPushButton#CActiveResOkBtn:pressed
+{
+	 background:#1677c1;
+}
+
+
+QWidget#CPctActiveDownMenFrame
+{
+	background-color: #f4f5f7; /* sets background of the menu */
+	border: 1px solid #E1E4E7;
+	width: 160px;
+	border-radius: 6px;
+	min-width: 16px;
+	border:1px solid #E1E4E7;
+}
+
+QPushButton#CInnerBuyPro1YearBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	/*border-radius: 4px;*/
+}
+
+QPushButton#CInnerBuyPro2YearBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+}
+
+QPushButton#CInnerBuyPro1YearXagonBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-radius: 4px;
+}
+
+QPushButton#CInnerBuyProLifettimeBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+QPushButton#CInnerBuyPro1YearXagonBtn:hover,
+QPushButton#CInnerBuyPro1YearXagonBtn:pressed,
+QPushButton#CInnerBuyPro1YearXagonBtn:checked,
+QPushButton#CInnerBuyPro1YearBtn:hover,
+QPushButton#CInnerBuyPro1YearBtn:pressed,
+QPushButton#CInnerBuyPro1YearBtn:checked,
+QPushButton#CInnerBuyPro2YearBtn:hover,
+QPushButton#CInnerBuyPro2YearBtn:pressed,
+QPushButton#CInnerBuyPro2YearBtn:checked,
+QPushButton#CInnerBuyProLifettimeBtn:hover,
+QPushButton#CInnerBuyProLifettimeBtn:pressed,
+QPushButton#CInnerBuyProLifettimeBtn:checked
+{
+	background-color: #DFCAA5;
+}
+
+QPushButton#CInnerBuyTech1YearXagonBtn
+{
+	width: 160px;
+	background: #f4f5f7;
+    border: none;
+	height: 28px;
+	border-radius: 4px;
+}
+
+QPushButton#CInnerBuyTech1YearBtn
+{
+	width: 160px;
+	background: #f4f5f7;
+    border: none;
+	height: 28px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	/*border-radius: 4px;*/
+}
+
+QPushButton#CInnerBuyTech2YearBtn
+{
+	width: 160px;
+	background: #f4f5f7;
+    border: none;
+	height: 28px;
+}
+
+QPushButton#CInnerBuyTechLifettimeBtn
+{
+	width: 160px;
+	background: #f4f5f7;
+    border: none;
+	height: 28px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+
+QPushButton#CInnerBuyTech1YearXagonBtn:hover,
+QPushButton#CInnerBuyTech1YearXagonBtn:pressed,
+QPushButton#CInnerBuyTech1YearXagonBtn:checked,
+QPushButton#CInnerBuyTech1YearBtn:hover,
+QPushButton#CInnerBuyTech1YearBtn:pressed,
+QPushButton#CInnerBuyTech1YearBtn:checked,
+QPushButton#CInnerBuyTech2YearBtn:hover,
+QPushButton#CInnerBuyTech2YearBtn:pressed,
+QPushButton#CInnerBuyTech2YearBtn:checked,
+QPushButton#CInnerBuyTechLifettimeBtn:hover,
+QPushButton#CInnerBuyTechLifettimeBtn:pressed,
+QPushButton#CInnerBuyTechLifettimeBtn:checked
+{
+	background-color: #98BCE1;
+}
+
+QPushButton#CInnerBuyServer1YearBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	/*border-radius: 4px;*/
+}
+
+QPushButton#CInnerBuyServer2YearBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+}
+
+QPushButton#CInnerBuyServer1YearXagonBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-radius: 4px;
+}
+
+QPushButton#CInnerBuyServerLifettimeBtn
+{
+	width: 160px;
+	background: #ffffff; /* sets background of the menu */
+    border: none;
+	height: 28px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+QPushButton#CInnerBuyServer1YearXagonBtn:hover,
+QPushButton#CInnerBuyServer1YearXagonBtn:pressed,
+QPushButton#CInnerBuyServer1YearXagonBtn:checked,
+QPushButton#CInnerBuyServer1YearBtn:hover,
+QPushButton#CInnerBuyServer1YearBtn:pressed,
+QPushButton#CInnerBuyServer1YearBtn:checked,
+QPushButton#CInnerBuyServer2YearBtn:hover,
+QPushButton#CInnerBuyServer2YearBtn:pressed,
+QPushButton#CInnerBuyServer2YearBtn:checked,
+QPushButton#CInnerBuyServerLifettimeBtn:hover,
+QPushButton#CInnerBuyServerLifettimeBtn:pressed,
+QPushButton#CInnerBuyServerLifettimeBtn:checked
+{
+	background-color: #DAB7A4;
+}
+
+QLabel#CVersonCompareExplain
+{
+	font-size: 16px;
+	color:#273044;
+}
+
+QPushButton#CVersionTipIconBtn
+{
+	border:none;
+	border-image: url(../res/Common/active_tips_normal.png);
+	min-width: 14px;
+	min-height: 14px;
+	max-width: 14px;
+	max-height: 14x;
+}
+
+QPushButton#CVersionTipIconBtn:hover,
+QPushButton#CVersionTipIconBtn:pressed
+{
+	border-image: url(../res/Common/active_tips_hover.png);
+}
+
+/*
+QLabel#CVersionCompareExplain
+{
+	font-size: 16px;
+	color: #273044;
+}
+*/
+QPushButton#CInnerBuyRetryBtn
+{
+	border-radius: 4px;
+	font-size:18px;
+	font-family: "Segoe UI Semibold";
+	background: #1b9cff;
+	text-align:center;
+	min-width  : 180px;
+	height : 40px;
+	color:#ffffff;
+}
+
+QPushButton#CInnerBuyRetryBtn:hover
+{
+	background:#3aa7fb;
+}
+
+QPushButton#CInnerBuyRetryBtn:pressed
+{
+	background:#1677c1;
+}
+
+QWidget#CPriceInfoFrameFree
+{
+	background: #f4f7fa;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+QWidget#CPriceInfoFramePro
+{
+	border-image: url(../res/Common/ico_active_pro_bg.png);
+	/*
+	background: rgba(207, 169, 100, 14%);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;*/
+}
+
+QWidget#CPriceInfoFrameTech
+{
+	/*background: rgba(12, 90, 173, 10%);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;*/
+	border-image: url(../res/Common/ico_active_tech_bg.png);
+}
+
+
+QWidget#CFrameTitle
+{
+	background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #2c3e5c, stop: 1 #22344d);
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	font-size:16px;
+	font-family:"Segoe UI Semibold";
+}
+
+QLabel#CFrameTitle_textTitle
+{
+	color:#7f8fa4;
+	font-size:16px;
+	font-family:"Segoe UI Semibold";
+}
+
+
+QPushButton#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/close_normal.png);
+
+}
+
+
+QPushButton:hover#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/ico_guanbi_hover.png);
+
+}
+
+QPushButton:pressed#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/ico_guanbi_press.png);
+
+}
+
+
+QPushButton:disabled#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/close_disable.png);
+
+}
+
+QWidget#CfileFilterSetingDlg_base
+{
+	background-color:#eef2f7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+QLabel#filterTitle,#CfileFilterSetingDlg_repaeatLable
+{
+	font-size:14px;
+	font-family: "Segoe UI Semibold";
+	color:#273044;
+}
+
+QWidget#CfileFilterSetingDlg QCheckBox
+{
+	font-size: 14px;
+	color: #273044;
+	spacing: 10px;
+}
+
+QWidget#CfileFilterSetingDlg QCheckBox::indicator:unchecked
+{
+	image: url(../res/Common/active_checkbox-normal.png);
+}
+
+QWidget#CfileFilterSetingDlg QCheckBox::indicator:checked
+{
+	image: url(../res/Common/check_sel.png);
+}
+
+
+QLabel#CfileFilterSetingDlg_listTitle
+{
+	font-size:12px;
+	color:#7e93b1;
+	padding-left:8px;
+	background-color:#ccd6e3;
+	border-top: 1px solid #E1E4E7;
+	border-right: 1px solid #E1E4E7;
+	border-left: 1px solid #E1E4E7;
+	border-bottom:none;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+QListWidget#CfileFilterSetingDlg_listwidget
+{
+
+	border-top: none;
+	border-right: 1px solid #E1E4E7;
+	border-left: 1px solid #E1E4E7;
+	border-bottom:1px solid #E1E4E7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+
+
+
+
+QPushButton#CfileFilterSetingDlg_Addbtn
+{
+	border:1px solid #1B9cff;
+    border-radius: 2px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#ffffff;
+	text-align :  center;
+	min-width  : 72px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#1b9cff;
+	
+}
+
+QPushButton:hover#CfileFilterSetingDlg_Addbtn
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#CfileFilterSetingDlg_Addbtn
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#CfileFilterSetingDlg_Addbtn
+{
+	background-color: #EAEAF0;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+QLabel#CfileFilterSetingDlg_tipText
+{
+	font-size:13px;
+	color:#e87e00;
+}
+
+QWidget#CfileFilterSetingDlg QRadioButton
+{
+	color:#273044;
+	font-size:14px;
+}
+
+QWidget#CfileFilterSetingDlg QRadioButton::indicator::unchecked {
+      image: url(../res/Common/ico_danxuan_normal.png);
+	  
+  }
+
+QWidget#CfileFilterSetingDlg  QRadioButton::indicator:unchecked:hover {
+      image: url(../res/Common/ico_danxuan_hover.png);
+  }
+
+QWidget#CfileFilterSetingDlg QRadioButton::indicator:unchecked:pressed {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+QWidget#CfileFilterSetingDlg QRadioButton::indicator::checked {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+QWidget#CfileFilterSetingDlg QRadioButton::indicator:checked:hover {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+
+QWidget#CfileFilterSetingDlg QRadioButton::indicator:checked:pressed {
+      image: url(../res/Common/ico_danxuan_press.png);
+  }
+  
+  
+  
+QWidget#CfileFilterSetingDlg QPushButton#CfileFilterSetingDlg_cancle
+{
+	border:1px solid #1B9cff;
+    border-radius: 4px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#ffffff;
+	text-align :  center;
+	min-width  : 120px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#1b9cff;
+	
+}
+QWidget#CfileFilterSetingDlg QPushButton:hover#CfileFilterSetingDlg_cancle
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QWidget#CfileFilterSetingDlg QPushButton:pressed#CfileFilterSetingDlg_cancle
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QWidget#CfileFilterSetingDlg QPushButton:disabled#CfileFilterSetingDlg_cancle
+{
+	background-color: #EAEAF0;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+QWidget#CfileFilterSetingDlg QPushButton#CfileFilterSetingDlg_savebtn
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	color:#ffffff
+	
+}
+
+QWidget#CfileFilterSetingDlg QPushButton:hover#CfileFilterSetingDlg_savebtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CfileFilterSetingDlg QPushButton:pressed#CfileFilterSetingDlg_savebtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CfileFilterSetingDlg QPushButton:disabled#CfileFilterSetingDlg_savebtn
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+
+QWidget#CfileFilterSetingDlg QScrollBar:vertical
+{
+    width:8px;
+    background:  #e3ebf6/*rgb(51, 67, 92)*/;
+    margin: 0px, 0px, 0px, 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+	
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #d1dbe9;
+    min-height:20px;
+	border-radius : 4px;
+	border: 0px solid transparent;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::sub-page:vertical
+{
+	background: #e3ebf6;
+	border: 0px ;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::add-page:vertical
+{
+    background: #e3ebf6;
+	border: 0px ;
+	
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::down-arrow:vertical
+{
+	border: 0px solid transparent;
+    width: 0px;
+    height: 0px;
+	background: transparent;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::up-arrow:vertical
+{
+	border: 0px solid transparent;
+    width: 0px;
+    height: 0px;
+	background: transparent;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::handle:vertical:hover
+{
+	border: 0px solid transparent;
+	background:#d9e5f6;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::handle:vertical:pressed
+{
+	border: 0px solid transparent;
+	background:#bec7d3;
+}
+
+
+QWidget#CfileFilterSetingDlg QScrollBar::sub-line:vertical 
+{
+	border: 0px;
+	background: transparent;
+	subcontrol-position:0;
+	height: 0px;
+	width:0px;
+}
+
+QWidget#CfileFilterSetingDlg QScrollBar::add-line:vertical
+{
+	border: 0px;
+	background: transparent;
+	subcontrol-position:-0;
+	height: 0px;
+	border: 0px 
+}
+
+
+QLabel#CNavigationBar_trancLabel,#CNavigationBar_cleanLabel,#CNavigationBar_protecLabel
+{
+	font-family:"Segoe UI";
+	font-size: 12px;
+	color: #7e93b1;
+}
+
+
+QWidget#CleanUP_DiskWidget
+{
+	background:#3b4f6a;
+}
+
+
+
+QWidget#GarbageCleanPage_basewidget
+{
+	background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+}
+
+QPushButton#CGarbageCleanPage_rescan
+{
+	background-color:transparent;
+	color:#1b9cff;
+	font-family: "Segoe UI Semibold";
+	font-size:16px;
+}
+
+QPushButton:hover#CGarbageCleanPage_rescan
+{
+	background-color:transparent;
+	color:#3AA7FB;
+	font-family: "Segoe UI Semibold";
+	font-size:16px;
+}
+
+QPushButton:pressed#CGarbageCleanPage_rescan
+{
+	background-color:transparent;
+	color:#1677C1;
+	font-family: "Segoe UI Semibold";
+	font-size:16px;
+}
+
+
+QWidget#CGarbageCleanPage QPushButton#CGarbageCleanPage_operate 
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	color:#ffffff
+	
+}
+
+QWidget#CGarbageCleanPage QPushButton:hover#CGarbageCleanPage_operate
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CGarbageCleanPage QPushButton:pressed#CGarbageCleanPage_operate
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CGarbageCleanPage QPushButton:disabled#CGarbageCleanPage_operate
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+
+QWidget#CGarbageCleanPage QPushButton#CGarbageCleanPage_cancle
+{
+	border:1px solid #7E93B1;
+    border-radius: 4px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:transparent;
+	text-align :  center;
+	min-width  : 120px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#7e93b1;
+	
+}
+
+QWidget#CGarbageCleanPage QPushButton:hover#CGarbageCleanPage_cancle
+{
+	  background-color:rgba(126, 147, 177, 38);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QWidget#CGarbageCleanPage QPushButton:pressed#CGarbageCleanPage_cancle
+{
+	  background-color:rgba(126, 147, 177, 89);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QWidget#CGarbageCleanPage QPushButton:disabled#CGarbageCleanPage_cancle
+{
+	background-color: transparent;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+
+QPushButton#CGarbageItem_detailBtn
+{
+	border-image: url(../res/Common/ico_xiangqing_nomal.png);
+
+}
+
+
+QPushButton:hover#CGarbageItem_detailBtn
+{
+	border-image: url(../res/Common/ico_xiangqing_hover.png);
+
+}
+
+QPushButton:pressed#CGarbageItem_detailBtn
+{
+	border-image: url(../res/Common/ico_xiangqing_press.png);
+
+}
+
+
+QPushButton:disabled#CGarbageItem_detailBtn
+{
+	border-image: url(../res/Common/ico_xiangqing_disable.png);
+
+}
+
+QWidget#CGarbageDetails
+{
+	background-color:#eef2f7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	
+}
+
+
+QWidget#CGarbageDetails QFrame#CGarbageDetails_baseBtnFram
+{
+	background-color:#ccd6e3;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	
+}
+
+
+QWidget#CGarbageDetails QFrame#CGarbageDetails_infoFram
+{
+	border:1px solid #bbc9dd;
+	border-radius:4px;
+	
+}
+
+QWidget#CGarbageDetails QPushButton#CGarbageDetails_allBtn,#CGarbageDetails_defailtBtn,#CGarbageDetails_noneBtn
+{
+	max-height:20;
+	min-height:20;
+	color:#1b9cff;
+	background-color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	font-family: "Segoe UI Semibold";
+	font-size:12px;
+}
+
+QWidget#CGarbageDetails QPushButton#CGarbageDetails_allBtn:hover,#CGarbageDetails_defailtBtn:hover,#CGarbageDetails_noneBtn:hover
+{
+	max-height:20;
+	min-height:20;
+	color:#3aa7fb;
+	background-color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	font-family: "Segoe UI Semibold";
+	font-size:12px;
+}
+
+QWidget#CGarbageDetails QPushButton#CGarbageDetails_allBtn:pressed,#CGarbageDetails_defailtBtn:pressed,#CGarbageDetails_noneBtn:pressed
+{
+	max-height:20;
+	min-height:20;
+	color:#1677c1;
+	background-color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	font-family: "Segoe UI Semibold";
+	font-size:12px;
+}
+
+
+
+QWidget#CGarbageDetails QPushButton#CGarbageDetails_allBtn:disabled,#CGarbageDetails_defailtBtn:disabled,#CGarbageDetails_noneBtn:disabled
+{
+	max-height:20;
+	min-height:20;
+	color:#ffffff;
+	background-color:#1B9CFF;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	font-family: "Segoe UI Semibold";
+	font-size:12px;
+}
+
+
+QWidget#CGarbageDetails QTreeView#CGarbageDetails_treeview
+{
+	border:none;
+}
+
+
+
+
+QWidget#CGarbageDetails QPushButton#CGarbageDetails_finishBtn, QPushButton#CleanActive_buyNow
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	color:#ffffff
+	
+}
+
+QWidget#CGarbageDetails QPushButton:hover#CGarbageDetails_finishBtn, QPushButton:hover#CleanActive_buyNow
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CGarbageDetails QPushButton:pressed#CGarbageDetails_finishBtn, QPushButton:perssed#CleanActive_buyNow
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QWidget#CGarbageDetails QPushButton:disabled#CGarbageDetails_finishBtn, QPushButton:disabled#CleanActive_buyNow
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+QPushButton#CGarbageCleanFinishPage_rescan
+{
+	background-color:transparent;
+	color:#1b9cff;
+	font-family:"Segoe UI Semibold";
+	font-size:16px;
+}
+
+
+QPushButton:hover#CGarbageCleanFinishPage_rescan
+{
+	background-color:transparent;
+	color:#3AA7FB;
+	font-family:"Segoe UI Semibold";
+	font-size:16px;
+}
+
+
+QPushButton:pressed#CGarbageCleanFinishPage_rescan
+{
+	background-color:transparent;
+	color:#1677C1;
+	font-family:"Segoe UI Semibold";
+	font-size:16px;
+}
+
+
+
+QPushButton#CGarbageCleanFinishPage_tips
+{
+	border-image: url(../res/Common/ico_notice_nomal.png);
+}
+
+QPushButton:hover#CGarbageCleanFinishPage_tips
+{
+	border-image: url(../res/Common/ico_notice_hover.png);
+}
+
+
+QTreeView#CGarbageDetails_treeview QScrollBar:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar:vertical
+ {
+  border: none;
+  background: #d1dbe9;
+  width: 8px;
+  margin: 0px 0 0px 0;
+ }
+ 
+QTreeView#CGarbageDetails_treeview QScrollBar::handle:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #d1dbe9;
+    min-height:20px;
+	border-radius : 4px;
+}
+
+QTreeView#CGarbageDetails_treeview QScrollBar::add-page:vertical,
+QTreeView#CGarbageDetails_treeview QScrollBar::sub-page:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::add-page:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::sub-page:vertical
+{
+    background: #dae4f0;
+}
+QTreeView#CGarbageDetails_treeview QScrollBar::up-arrow:vertical,
+QTreeView#CGarbageDetails_treeview QScrollBar::down-arrow:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::up-arrow:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::down-arrow:vertical
+{
+	border :none;
+	background: #dae4f0;
+}
+
+QTreeView#CGarbageDetails_treeview QScrollBar::handle:vertical:hover,
+QTreeView#CBigFileDeleteAckView QScrollBar::handle:vertical:hover
+{
+	background:#d9e5f6;
+}
+
+QTreeView#CGarbageDetails_treeview QScrollBar::handle:vertical:pressed,
+QTreeView#CBigFileDeleteAckView QScrollBar::handle:vertical:pressed
+{
+	background:#bec7d3;
+}
+
+QTreeView#CGarbageDetails_treeview QScrollBar::add-line:vertical, 
+QTreeView#CBigFileDeleteAckView QScrollBar::add-line:vertical
+{
+	border : none;
+	background: dae4f0;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+QTreeView#CGarbageDetails_treeview QScrollBar::sub-line:vertical,
+QTreeView#CBigFileDeleteAckView QScrollBar::sub-line:vertical
+{
+	border : none;
+	background: dae4f0;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+
+QWidget#bigFileHome_tiltleBaseWidget
+{
+	background-color:rgba(0, 0, 0, 40);
+}
+
+QWidget#bigFileHome QPushButton#bigFileHome_sacanBtn 
+{
+    border-radius: 4px;
+	font-size:18px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	color:#ffffff
+	
+}
+
+QWidget#bigFileHome QPushButton:hover#bigFileHome_sacanBtn
+{
+      border-radius: 4px;
+	  font-size:18px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QWidget#bigFileHome QPushButton:pressed#bigFileHome_sacanBtn
+{
+      border-radius: 4px;
+	  font-size:18px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QWidget#bigFileHome QPushButton:disabled#bigFileHome_sacanBtn
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+
+QWidget#CbigFileScanPage_scroall
+{
+	background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #1f2e44, stop: 1 #17293f);
+}
+
+QWidget#CbigFileScanPage_titleWidget
+{
+	background-color:rgba(0,0,0,40);
+}
+
+QWidget#CleanActive_basetWidget
+{
+	background-color:#eef2f7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	
+}
+
+QWidget#CleanActive_barWidget
+{
+	border-image: url(../res/Common/pic_activate_progress.png);
+}
+
+QWidget#CbigFileScanPage_diskWidget
+{
+	background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #1f2e44, stop: 1 #17293f);
+}
+
+QWidget#CbigFileScanPage_viewWidget
+{
+	background-color:transparent;
+}
+
+
+QTreeView#CbigFileScanPage_bigFileView,#CUserFilesMoveSelect_view
+{
+	border:1px solid #3d506a;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	background-color:#32435b;
+}
+
+QPushButton#CbigFileDeleteAckPage_finish
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width  : 120px;
+	max-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#CbigFileDeleteAckPage_finish
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#CbigFileDeleteAckPage_finish
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#CbigFileDeleteAckPage_finish
+{
+	font-family: "Segoe UI Semibold";
+	background-color:"#49556d";
+	color: #7f8fa4;
+}
+QPushButton#CbigFileScanPage_moveBtn,#CUserFilesMoveSelect_MoveBtn
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	color:#ffffff;
+	width:140px;
+	height:40px;
+	
+}
+
+QPushButton:hover#CbigFileScanPage_moveBtn,:hover#CUserFilesMoveSelect_MoveBtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QPushButton:pressed#CbigFileScanPage_moveBtn,:pressed#CUserFilesMoveSelect_MoveBtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QPushButton:disabled#CbigFileScanPage_moveBtn,:disabled#CUserFilesMoveSelect_MoveBtn
+{
+	font-family: "Segoe UI Semibold";
+	background-color:"#49556d";
+	color: #7f8fa4;
+}
+
+
+QPushButton#CbigFileDeleteAckPage_delete,#CbigFileDeleteAckPage_move
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width  : 120px;
+	max-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#CbigFileDeleteAckPage_delete,:hover#CbigFileDeleteAckPage_move
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#CbigFileDeleteAckPage_delete,:pressed#CbigFileDeleteAckPage_move
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#CbigFileDeleteAckPage_delete,:disabled#CbigFileDeleteAckPage_move
+{
+	font-family: "Segoe UI Semibold";
+	background-color:#e5eaf0;
+	color: #7f8fa4;
+}
+
+
+
+QPushButton#CbigFileScanPage_cancle,#CbigFileScanPage_delete
+{
+	border:1px solid #7e93b1;
+    border-radius: 4px;
+	font-size: 18px;
+	font-family: "Segoe UI Semibold";
+	background:transparent;
+	text-align :  center;
+	color:#7e93b1;
+	width:140px;
+	height:40px;
+	
+}
+
+QPushButton:hover#CbigFileScanPage_cancle,:hover#CbigFileScanPage_delete
+{
+	  background:rgba(126, 147, 177,38);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#CbigFileScanPage_cancle:pressed#CbigFileScanPage_delete
+{
+	  background-color:rgba(126, 147, 177,89);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#CbigFileScanPage_cancle,:disabled#CbigFileScanPage_delete
+{
+	background-color: transparent;
+	border:1px solid #49556d;
+	font-family: "Segoe UI Semibold";
+	color:#49556d;
+}
+
+
+QWidget#CbigFileDeleteAckPage_baseWidget,#CleanActive_basetWidget
+{
+	background-color:#eef2f7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+QTreeView#CBigFileDeleteAckView,#CUserFIleMoveAckPage_view
+{
+	border:1px solid #bbc9dd;
+	border-radius:4px;
+	background-color:#e5edf7;
+}
+
+
+
+QCheckBox::indicator:unchecked#garbage_checkBox
+{
+	image: url(../res/Common/check_unsel.png);
+}
+
+QCheckBox::indicator:checked#garbage_checkBox
+{
+	image: url(../res/Common/check_sel.png);
+}
+
+ QCheckBox::indicator:indeterminate#garbage_checkBox
+ {
+      image: url(../res/Common/check_halfsel.png);
+ }
+ 
+ QWidget#BigFiletopDisableWidget
+ {
+	 background-color:rgba(0,0,0,127);
+ }
+
+ 
+  QLabel#CViewVerifiCode_title
+ {
+	font-family: "Segoe UI Semibold";
+	font-size : 24px;
+	font-weight: 70;
+ }
+ 
+ 
+  QLabel#CViewVerifiCode_contex
+ {
+	font-size:16px;
+ }
+ 
+QLabel#CViewVerifiCode_verifiCode
+{
+	font-weight:600;
+	font-size:30px;
+	background:#ffffff;
+	padding-left:18px;
+	border-radius:4px;
+}
+ 
+
+QPushButton#CViewVerifiCode_refushBtn
+{
+	border-image: url(../res/Common/ico_refresh_nomal.png);
+}
+
+QPushButton:hover#CViewVerifiCode_refushBtn
+{
+	border-image: url(../res/Common/ico_refresh_hover.png);
+}
+
+QPushButton:pressed#CViewVerifiCode_refushBtn
+{
+	border-image: url(../res/Common/ico_refresh_press.png);
+}
+
+
+QPushButton#CViewVerifiCode_okBtn
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width  : 120px;
+	max-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#CViewVerifiCode_okBtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#CViewVerifiCode_okBtn
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff;
+}
+
+
+QListView#CConnectRemotePC_pcList
+{
+	background:transparent;
+}
+
+
+QListView#CConnectRemotePC_pcList QScrollBar:vertical
+{
+	background:transparent;
+}
+
+
+QListView#CConnectRemotePC_pcList QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #A8BAD6;
+    min-height:20px;
+	border-radius : 4px;
+}
+
+QListView#CConnectRemotePC_pcList QScrollBar::handle:vertical:hover
+{
+	background: #FFFFFF;
+}
+QListView#CConnectRemotePC_pcList QScrollBar::handle:vertical:pressed
+{
+	background: #D4D6DA;
+}
+QListView#CConnectRemotePC_pcList QScrollBar::handle:vertical:disabled
+{
+	background: #525D6B;
+}
+
+QListView#CConnectRemotePC_pcList QScrollBar::add-page:vertical,
+QListView#CConnectRemotePC_pcList QScrollBar::sub-page:vertical
+{
+	background: transparent;
+}
+
+
+QPushButton#CConnectRemotePC_addPC
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background : transparent;
+	color:#7e93b1;
+}
+
+
+QPushButton:hover#CConnectRemotePC_addPC
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	/*background-color:#eceff4;*/
+	background-color:rgba(126,147,177,70);
+	color:#7e93b1;
+
+}
+
+
+QPushButton:pressed#CConnectRemotePC_addPC
+{
+	font-family: "Segoe UI Semibold";
+	border:1px solid #7e93b1;
+	border-radius:4px;
+	font-size:18px;
+	text-align:center;
+	background-color: rgba(126, 147, 177, 90);
+	color:#7e93b1;
+
+}
+
+
+
+QPushButton:disabled#CConnectRemotePC_addPC
+{
+	border:0px;
+	color:#49556D;
+	border:1px solid #49556D;
+	background:transparent;
+}
+
+QLabel#CConnectRemotePC_adjacent
+{
+	font-size:14px;
+	color:#7e93b1;
+}
+
+QLabel#CRemoteCheck_userName
+{
+	font-size:14px;
+	color:#7e93b1;
+	font-weight:600;
+}
+
+QLabel#CRemoteCheck_otherPC
+{
+	font-size:12px;
+	color:#7e93b1;
+}
+
+
+QLabel#CVerifiCodeWdg_notice,#CPwdCheckWdg_notice
+{
+	color:#a9bbd0;
+	font-size:16px;
+}
+
+QRadioButton#CRemoteCheck_this,#CRemoteCheck_other
+{
+	color:#a9bbd0;
+	font-size:16px;
+}
+
+  QRadioButton::disabled#CRemoteCheck_this,::disabled#CRemoteCheck_other
+  {
+	  color:#536784;
+ }
+ 
+  QRadioButton::indicator:unchecked:disabled#CRemoteCheck_this,::indicator:unchecked:disabled#CRemoteCheck_other
+ {
+      image: url(../res/Common/ico_danxuan_disable.png);
+ }
+
+QFrame#CConnectRemotePC_leftbase
+{
+	background:#192b41;
+	border-bottom-left-radius:4px;
+}
+
+QLabel#CRadarWidget_title,#CSearchRemotePC_title
+{
+	font-size:28px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+	
+}
+
+QLabel#CRadarWidget_info
+{
+	font-size:14px;
+	color:#7E93B1;
+}
+
+QTextEdit#CRemotePCInfoTips_name
+{
+	font-size:14px;
+	color:#ffffff;
+	border:0px;
+	background:transparent;
+}
+
+QLabel#CdirSelectTips_textLable
+{
+	font-size:14px;
+	color:#ffffff;
+}
+
+QPushButton#CLogDownMenuButon
+{
+	background: #192b41;
+	border:none;
+	font-family: "Segoe UI Semibold";
+	font-size: 16px;
+	color: #1b9cff;
+}
+
+QFrame#CImageHistortFrame
+{
+	background-color: #41526e;
+}
+
+
+QLabel#CUIProcessRateLog_otherName,#CUIProcessRateLog_thisPC,#CUIProcessRateLog_otherPC
+{
+	font-size:10px;
+	color:#7E93B1;
+}
+
+QLabel#CUIProcessRateLog_thisName
+{
+	font-size:10px;
+	color:#ffffff;
+	font-weight:600;
+}
+
+QWidget#CLogsInfos
+{
+	background: transparent;
+	border-radius: 12px;
+}
+
+
+QLabel#conntctInduLable
+{
+	font-size:16px;
+	color:#a9bbd0;
+}
+
+
+QLabel#CUIRemoteConnectState_introducelabel
+{
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight:400;
+	color: #a9bbd0;
+}
+
+
+QLabel#CverifiCodeEdit_num0,#CverifiCodeEdit_num1,#CverifiCodeEdit_num2,#CverifiCodeEdit_num3
+{
+	border-radius:4px;
+	border:1px solid rgba(201,215,236,51);
+	font-family: "Segoe UI";
+	font-size: 20px;
+	color: #ffffff;
+	background:transparent;
+}
+
+QLabel::disabled#CverifiCodeEdit_num0,::disabled#CverifiCodeEdit_num1,::disabled#CverifiCodeEdit_num2,::disabled#CverifiCodeEdit_num3
+{
+	border:none;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	color: transparent;
+	background:transparent;
+}
+
+QLabel::disabled#CRemoteCheck_vercode
+{
+	font-size:14px;
+	color:transparent;
+}
+
+QLabel#CRemoteCheck_vercode,#CSearchRemotePC_vericode,#CSearchRemotePC_ipdec,#CSearchRemotePC_ip,#CSearchRemotePCItem_induce,#CPCloadingWdg_text
+{
+	font-size:14px;
+	color:#7E93B1;
+}
+
+
+QLabel#CSearchRemotePC_induce
+{
+	font-size:17px;
+	color:#a9bbd0;
+}
+
+QLabel#CSearchRemotePCItem_title
+{
+	font-size:18px;
+	color:#ffffff;
+}
+
+
+QFrame#CSearchRemotePCItem
+{
+	background:rgba(34, 50, 78, 48);
+}
+
+
+QFrame#CSearchRemotePC
+{
+	background::qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+}
+
+
+QLabel#CSearchRemotePCItem_title
+{
+	font-size:18px;
+	color:#ffffff;
+}
+
+
+QFrame#CSearchRemotePCItem
+{
+	background:rgba(34, 50, 78, 48);
+}
+QFrame#CSearchRemotePC
+{
+	background::qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #41526e, stop: 1 #2c3c51);
+}
+
+QPushButton#ClimitedWdg_upgrate,#CUpgrateProWdg_upgrate,#CHasNewVersionDlg_upgrateBtn
+{
+	background:#FF7812;
+	border-radius:4px;
+	font-size:18px;
+	color:#ffffff;
+	font-weight:600;
+}
+
+QPushButton::hover#ClimitedWdg_upgrate,::hover#CUpgrateProWdg_upgrate,::hover#CHasNewVersionDlg_upgrateBtn
+{
+	background:#FF9b37;
+	border-radius:4px;
+	font-size:18px;
+	color:#ffffff;
+	font-weight:600;
+}
+
+
+QPushButton::pressed#ClimitedWdg_upgrate,::pressed#CUpgrateProWdg_upgrate,::perssed#CHasNewVersionDlg_upgrateBtn
+{
+	background:#DC5E0E;
+	border-radius:4px;
+	font-size:18px;
+	color:#ffffff;
+	font-weight:600;
+}
+
+
+QPushButton#CUpgrateProWdg_latter
+{
+	background : transparent;
+	font-size:14px;
+	color:#1b9cff;
+	text-decoration: underline;
+}
+
+QPushButton::hover#CUpgrateProWdg_latter
+{
+	background : transparent;
+	font-size:14px;
+	color:#3AA7FB;
+	text-decoration: underline;
+}
+
+
+QPushButton::pressed#CUpgrateProWdg_latter
+{
+	background : transparent;
+	font-size:14px;
+	color:#1677C1;
+	text-decoration: underline;
+}
+
+
+
+QPushButton#ClimitedWdg_Latter
+{
+	background : #e9ecf1;
+	font-size:14px;
+	color:#7f8fa4;
+	border: 1px solid rgba(39, 48, 68, 51);
+	border-radius:4px;
+	
+}
+
+QPushButton::hover#ClimitedWdg_Latter
+{
+	background : #e9ecf1;
+	font-size:14px;
+	color:#273044;
+	border: 1px solid rgba(39, 48, 68, 102);
+	border-radius:4px;
+}
+
+
+QPushButton::pressed#ClimitedWdg_Latter
+{
+	background : #ced3d8;
+	font-size:14px;
+	color:#A5afbb;
+	border: 1px solid rgba(39, 48, 68, 51);
+	border-radius:4px;
+}
+
+
+
+QLabel#CProductKeyHomePage_subTitle
+{
+	font-size:16px;
+	color:#7E93B1;
+}
+
+QLabel#CProductKeyHomePage_dect
+{
+	font-size:16px;
+	color:#a9bbd0;
+}
+
+QTableView#CListProductKeyWdg_listView
+{
+	background:#32435b;
+	border:solid 1px #3d506a;
+}
+
+QTableView#CListProductKeyWdg_listView
+{
+	background:#32435b;
+	border:solid 1px #3d506a;
+}
+
+QPushButton#CHasNewVersionDlg_latterBtn
+{
+	background : transparent;
+	font-size:18px;
+	color:#1b9cff;
+	text-decoration: underline;
+}
+
+QPushButton::hover#CHasNewVersionDlg_latterBtn
+{
+	background : transparent;
+	font-size:18px;
+	color:#3AA7FB;
+	text-decoration: underline;
+}
+
+
+QPushButton::pressed#CHasNewVersionDlg_latterBtn
+{
+	background : transparent;
+	font-size:18px;
+	color:#1677C1;
+	text-decoration: underline;
+}
+
+QFrame#CDataRescuePrePare_leftBar
+{
+	background-color:#192a40;
+	border: solid 1px #222a3e;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:0px;
+}
+
+ QPushButton#CDataRescuePrePare_scanBtn,#CDiskScanPage_scanBtn,#CImgSelectOperatorType_next
+  {
+	  color:#ffffff;
+	  font-size:18px;
+	  background-color:#1b9cff;
+	  border-radius:4px;
+	  min-height:40px;
+	  min-width:146px;
+	  max-width:146px;
+	  font-family: "Segoe UI";
+	  font-weight:600;
+  }
+  
+   QPushButton#Batch_downMsi
+  {
+	  color:#ffffff;
+	  font-size:13px;
+	  background-color:#1b9cff;
+	  border-radius:4px;
+	  font-family: "Segoe UI";
+	  font-weight:600;
+  }
+  
+ QPushButton:hover#CDataRescuePrePare_scanBtn,:hover#CDiskScanPage_scanBtn,:hover#CImgSelectOperatorType_next,:hover#Batch_downMsi
+{
+	background-color:#3aa7fb;
+}
+  
+    
+QPushButton:pressed#CDataRescuePrePare_scanBtn,:pressed#CDiskScanPage_scanBtn,:pressed#CImgSelectOperatorType_next,:pressed#Batch_downMsi
+{
+	background-color:#1677c1;
+}
+
+QPushButton:disabled#CDiskScanPage_scanBtn,:disabled#CImgSelectOperatorType_next,:disabled#Batch_downMsi
+{
+	background-color:#49556d;
+}
+
+
+QFrame#CDiskScanPage_leftBar
+{
+	background-color:#192b41;
+	border:solid 1px #222a3e;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:0px;
+}
+
+QLabel#CDiskScanPage_title
+{
+	color:#ffffff;
+	font-family:"Segoe UI light";
+	font-size:28px;
+}
+
+
+
+QLabel#CDiskRefush_text
+{
+	font-size:14px;
+	color:#a9bbd0;
+	text-align:center;
+}
+
+
+ QPushButton#CDiskRefush_refushBtn
+  {
+	  color:#ffffff;
+	  font-size:16px;
+	
+	  background-color:#1b9cff;
+	  border-radius:4px;
+
+  }
+  
+ QPushButton:hover#CDiskRefush_refushBtn
+{
+	background-color:#3aa7fb;
+}
+  
+    
+QPushButton:pressed#CDiskRefush_refushBtn
+{
+	background-color:#1677c1;
+}
+
+QPushButton:disabled#CDiskRefush_refushBtn
+{
+	background-color:#49556d;
+}
+
+
+QPushButton#CDiskRefush_method
+{
+	/*background-color:#7e93b1;*/
+	background : transparent;
+	font-size:12px;
+	color:#1b9cff;
+	text-decoration: underline;
+}
+
+
+QPushButton:hover#CDiskRefush_method
+{
+	/*background-color:#7e93b1;*/
+	background : transparent;
+	font-size:12px;
+	color:#3aa7fb;
+	text-decoration: underline;
+}
+
+
+QPushButton:pressed#CDiskRefush_method
+{
+	/*background-color:#7e93b1;*/
+	background : transparent;
+	font-size:12px;
+	color:#1677C1;
+	text-decoration: underline;
+}
+
+
+
+QFrame#CDiskInfoWidget_base
+{
+	background-color: #32435b;
+	border: solid 1px #3d506a;
+}
+
+
+QLabel#CPartitionWidgetItem_OSLabel,#CDataResuceAnalyze_resOs,#CDataResuceAnalyze_curOs,#CCommonCalcFrame_osLabel
+{
+	font-size:12px;
+	color:#7E93B1;
+	background-color:#293952;
+	border-radius:8px;
+}
+
+
+QWidget#CDataResuceMethod_radiBase,#CDataResuceMethod_base
+{
+	background-color:#eef2f7;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar:vertical,
+QScrollArea#CDataResuceMethod QScrollBar:vertical
+ {
+  border: none;
+  background: #C7D3E2;
+  width: 8px;
+  margin: 0px 0 0px 0;
+ }
+ 
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #A6AFBA;
+    min-height:20px;
+	border-radius : 4px;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar::add-page:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::sub-page:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::add-page:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::sub-page:vertical
+{
+    background: #C7D3E2;
+}
+QScrollArea#CDataResuceMethod QScrollBar::up-arrow:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::down-arrow:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::up-arrow:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::down-arrow:vertical
+{
+	border :none;
+	background: #C7D3E2;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical:hover,
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical:hover
+{
+	background:#959FAA;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical:pressed,
+QScrollArea#CDataResuceMethod QScrollBar::handle:vertical:pressed
+{
+	background:#8792A1;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar::add-line:vertical, 
+QScrollArea#CDataResuceMethod QScrollBar::add-line:vertical
+{
+	border : none;
+	background:#C7D3E2;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+QScrollArea#CDataResuceMethod QScrollBar::sub-line:vertical,
+QScrollArea#CDataResuceMethod QScrollBar::sub-line:vertical
+{
+	border : none;
+	background:#C7D3E2;
+	subcontrol-position: -180;
+	width: 0px;
+}
+
+
+QLabel#CDataResuceAnalyze_title,#CDataRescuePrePare_title
+{
+	font-size:28px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+}
+
+QLabel#CImgOperatorBase_title
+{
+	font-size:28px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+	padding-left:16px;
+}
+
+QLabel#CImgSelectOperatorType_line,#CleanBigFileHomePage_line,#CbigFileScanPage_line,#CUserFilesMoveSelect_line
+{
+	background-color:#222a3e;
+	border:none;
+}
+
+
+QFrame#CDiskFram_disk
+{
+	background-color:#3e5370;
+}
+
+QLabel#CPartitionWidgetItem_name
+{
+	font-size:14px;
+	color:#ffffff;
+}
+
+
+QLabel#CMoveAnfCleanFileHome_bigfileTitle,#CMoveAnfCleanFileHome_folderTitle
+{
+	font-family:"Segoe UI Semibold";
+	font-size:16px;
+	color:#ffffff;
+}
+
+QLabel#CMoveAnfCleanFileHome_bigfilesubTitle,#CMoveAnfCleanFileHome_foldersubTitle
+{
+	font-size:14px;
+	color:#a9bbd0;
+}
+
+QLabel#bigFileHome_clenup
+{
+	font-size:14px;
+	color:#7E93B1;
+}
+
+QLabel#bigFileHome_line,#CbigFileScanPage_linelable
+{
+	background-color:rgba(216,216, 216, 33);
+	border:0px;
+}
+
+QLabel#bigFileHome_largecleanup
+{
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	color:#a9bbd0;
+}
+
+QFrame#bigFileHome_leftFram,#CbigFileScanPage_diskWidget
+{
+	background-color:#192a40;
+	border:solid 1px #222a3e;
+	border-bottom-left-radius:6px;
+}
+
+QLabel#CleanBigFileHomePage_title
+{
+	font-size:28px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+}
+
+QLabel#CbigFileScanPage_movetolable
+{
+	color:#a9bbd0;
+	font-size:16px;
+}
+
+
+QLabel#AccountErrorLabel
+{
+	color:#C3D0DE;
+	font-size:18px;
+}
+
+
+
+QComboBox#CbigFileScanPage_partCombox,#CLocalAppRightView_combox,#CUserFilesMoveSelect_combox
+{
+	border-radius:4px;
+	border:solid 1px #3d506a;
+	background-color:#49556d;
+	height:40px;
+	color:#ffffff;
+	font-size:16px;
+	padding-left:12px;
+	max-width:1024px;
+	
+}
+
+
+QComboBox#CbigFileScanPage_partCombox QListView,#CLocalAppRightView_combox QListView,#CUserFilesMoveSelect_combox QListView
+{
+
+	outline:0px;
+	border: 1px solid #384a62;
+	border-radius:4px;
+
+}
+
+
+
+QComboBox#CbigFileScanPage_partCombox QAbstractItemView,#CLocalAppRightView_combox QAbstractItemView,#CUserFilesMoveSelect_combox QAbstractItemView
+{
+
+	outline:0px;
+	border: 1px solid #384a62;
+	border-radius:4px;
+
+}
+
+QComboBox#CbigFileScanPage_partCombox QListView:item,#CLocalAppRightView_combox QListView:item,#CUserFilesMoveSelect_combox QListView:item
+{
+	background:#384a62;
+	height:40px;
+	color:#ffffff;
+	font-size:16px;
+	padding-left:12px;
+}
+QComboBox#CbigFileScanPage_partCombox QListView:item:hover,#CLocalAppRightView_combox QListView:item:hover,#CUserFilesMoveSelect_combox QListView:item:hover
+{
+	background:#404f69;
+	height:40px;
+	color:#ffffff;
+	font-size:16px;
+	padding-left:12px;
+}
+
+
+QFrame#CleanBigFileHomePage_leftBase,#CAppManagementOperator_leftBase
+{
+	background:#192a40;
+	border:solid 1px #222a3e;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:0px;
+}
+
+QLabel#CleanBigFileHomePage_title
+{
+	font-size:26px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+}
+
+
+
+QLabel#CUserFilesMoveSelect_title,#CAppManagementOperator_maintitle
+{
+	font-size:22px;
+	color:#ffffff;
+	font-family:"Segoe UI light";
+}
+
+QLabel#CUserFilesMoveSelect_errorTips
+{
+	font-size:14px;
+	color:#e01b25;
+}
+
+QLabel#CUserFilesMoveSelect_selectFiles
+{
+	background:#293952;
+	padding-left:12px;
+	padding-right:12px;
+	border-radius:12px;
+	border:0px;
+}
+
+QPushButton#CUserFIleMoveAckPage_finish
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width  : 120px;
+	max-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#CUserFIleMoveAckPage_finish
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#CUserFIleMoveAckPage_finish
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 120px;
+	  min-height : 32px;
+	  max-width  : 120px;
+	  max-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#CUserFIleMoveAckPage_finish
+{
+	font-family: "Segoe UI Semibold";
+	background-color:"#49556d";
+	color: #7f8fa4;
+}
+
+QPushButton#CUserFIleMoveAckPage_cancle
+{
+	border:1px solid #1B9cff;
+    border-radius: 2px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#ffffff;
+	text-align :  center;
+	min-width  : 72px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#1b9cff;
+	
+}
+
+QPushButton:hover#CUserFIleMoveAckPage_cancle
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#CUserFIleMoveAckPage_cancle
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#CUserFIleMoveAckPage_cancle
+{
+	background-color: #EAEAF0;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+
+QWidget#CDiskLeftBar_diskWidget
+{
+	background:transparent;
+}
+
+
+QFrame#CoperListItem
+{
+	background-color:#1a2b41;
+}
+QFrame:hover#CoperListItem
+{
+	background-color:#263b57;
+}
+QFrame#CoperList
+{
+	background-color:#1a2b41;
+	border-radius: 4px;
+}
+
+QTableView#CAppSelectView
+{
+	background:#32435b;
+	border:solid 1px #3d506a;
+}
+
+
+QLabel#CoperListItem_textLabel
+{
+	font-size:14px;
+	color:#ffffff;
+}
+
+QLabel#lineLable
+{
+	background:#7f8fa4;
+}
+
+QLabel#verifiCodelable
+{
+	background:#24354f;
+	color:#ffffff;
+	border:1px solid #4d6483;
+	border-radius:4px;
+	font-size:28px;
+
+}
+QLabel:disabled#verifiCodelable
+{
+	background:transparent;
+	color:transparent;
+	border:1px solid transparent;
+	border-radius:4px;
+	font-size:28px;
+
+}
+
+QPushButton#CConnectRemotePC_addpcBtn
+{
+	border:1px solid #7E93B1;
+    border-radius: 4px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:transparent;
+	text-align :  center;
+	color:#7e93b1;
+	
+}
+
+QPushButton:hover#CConnectRemotePC_addpcBtn
+{
+	  background-color:rgba(126, 147, 177, 38);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#CConnectRemotePC_addpcBtn
+{
+	  background-color:rgba(126, 147, 177, 89);
+	  color:#7E93B1;
+	  border:1px solid #7E93B1;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#CConnectRemotePC_addpcBtn
+{
+	background-color: transparent;
+	border:1px solid #49556d;
+	color:#49556d;
+	font-family: "Segoe UI Semibold";
+
+}
+
+QLabel#CPCwidget_mainTitle
+{
+	background:transparent;
+	color:#ffffff;
+	font-size:36px;
+
+}
+
+QLabel#CPCwidget_subTitle
+{
+	background:transparent;
+	color:#ffffff;
+	font-size:20px;
+
+}
+
+QLabel#CRemoteCheck_line
+{
+	background:#222a3e;
+}
+
+QLabel#CDataSekectBtn_maintitle
+{
+	color:#a9bbd0;
+	font-size:16px;
+}
+
+QLabel#CDataSekectBtn_curNum
+{
+	color:#ffffff;
+	font-size:32px;
+}
+QLabel#CDataSekectBtn_totalNum
+{
+	color:#ffffff;
+	font-size:18px;
+}
+
+QLabel#CDataSekectBtn_sizeNum
+{
+	color:#ffffff;
+	font-size:14px;
+}
+
+QLabel#splitLineLabel
+{
+	background:#222a3e;
+}
+
+QLabel#totalSizeLabel
+{
+	color:#ffffff;
+}
+
+QComboBox#CPartitionWidgetItem_combox
+{
+	border-radius:4px;
+	border:solid 1px #3d506a;
+	background-color:rgba(27, 156, 255, 51);
+	height:40px;
+	color:#ffffff;
+	font-size:12px;
+	padding-left:12px;
+	max-width:1024px;
+	
+}
+
+
+QComboBox#CPartitionWidgetItem_combox QListView
+{
+
+	outline:0px;
+	border: 1px solid #384a62;
+	border-radius:4px;
+
+}
+
+
+
+QComboBox#CPartitionWidgetItem_combox QAbstractItemView
+{
+
+	outline:0px;
+	border: 1px solid #384a62;
+	border-radius:4px;
+
+}
+
+QComboBox#CPartitionWidgetItem_combox QListView:item
+{
+	background:#384a62;
+	height:20px;
+	color:#ffffff;
+	font-size:12px;
+	padding-left:12px;
+}
+QComboBox#CPartitionWidgetItem_combox QListView:item:hover
+{
+	background:#404f69;
+	height:20px;
+	color:#ffffff;
+	font-size:12px;
+	padding-left:12px;
+}
+
+QLabel#CTextTips_label
+{
+	color:"#ffffff";
+	font-size:14px;
+}
+
+  QLineEdit#batch_cmdLine,#batch_activeCmdLine 
+  {
+      border-radius: 4px;
+	  color:#ffffff;
+      padding: 0 12px;
+      background: #000000;
+	  font-size:16px;
+      selection-background-color: lightblue;
+  }
+  
+  QPushButton#Batch_updateButton
+{
+    border-radius: 4px;
+	font-size: 18px;
+	font-family: "Segoe UI";
+	font-weight:600;
+	background-color:#e4690d;
+	text-align : center;
+	color:#ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+
+QPushButton:hover#Batch_updateButton
+{
+	  background-color:#FC8226;
+	  color:#ffffff;
+	  font-family: "Segoe UI";
+	  font-weight:600;
+	  	padding-left:5px;
+	padding-right:5px;
+}
+
+QPushButton:pressed#Batch_updateButton
+{
+	  background-color:#C65209;
+	  color:#ffffff;
+	  font-family: "Segoe UI";
+	  font-weight:600;
+	  padding-left:5px;
+	  padding-right:5px;
+}
+
+QPushButton:disabled#Batch_updateButton
+{
+	background-color: #423432;
+	color:#ffffff;
+	font-family: "Segoe UI";
+	font-weight:600;
+	padding-left:5px;
+	padding-right:5px;
+
+}
+QLabel#batchsplieLine,#batchActivedSplitLine
+{
+	background:#576983;
+}
+
+QCheckBox#makesurePopWindow_checkBox
+{
+	font-size: 14px;
+	color: #273044;
+	spacing: 10px;
+}
+
+QCheckBox::indicator:unchecked#makesurePopWindow_checkBox
+{
+	image: url(../res/Common/active_checkbox-normal.png);
+}
+
+QCheckBox::indicator:checked#makesurePopWindow_checkBox
+{
+	image: url(../res/Common/check_sel.png);
+}
+
+
+QPushButton#guideOkButton
+{
+    border-radius: 4px;
+	font-size:16px;
+	background-color:#1b9cff;
+	text-align:center;
+	color:#ffffff
+	
+}
+
+
+QPushButton:hover#guideOkButton
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QPushButton:pressed#guideOkButton
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  background-color:#1677c1;
+	  text-align:center;
+	  color:#ffffff
+}
+
+QPushButton:disabled#guideOkButton
+{
+	background-color:"#49556d";
+	color: #7f8fa4;
+}
+
+
+QLabel#discount_title
+{
+	font-size:24px;
+	font-weight:700;
+	color:#ffffff;
+	font-style:italic;
+}
+
+QLabel#discount_rate
+{
+	font-size:68px;
+	font-weight:700;
+	background:transparent;
+}
+
+QLabel#discount_price
+{
+	font-size:16px;
+	font-weight:700;
+	color:#184277;
+}
+
+QLabel#discount_countdownDes
+{
+	font-size:14px;
+	font-weight:400;
+	color:#000000;
+}
+
+QLabel#discount_split1,#discount_split2,#discount_split3
+{
+	font-size:16px;
+	font-weight:400;
+	color:#000000;
+	padding-left:2px;
+	padding-right:2px;
+}
+QLabel#discount_countdownHour,#discount_countdownminute,#discount_countdownSecond,#discount_countdownmilliSecond
+{
+	font-size:14px;
+	font-weight:600;
+	background:#FADDE0;
+	color:#FF2121;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+
+QPushButton#mainDiscountCloseBtn
+{
+	border-image: url(../res/Common/close_normal.png);
+
+}
+
+
+QPushButton:hover#mainDiscountCloseBtn
+{
+	border-image: url(../res/Common/close_hover.png);
+
+}
+
+QPushButton:pressed#mainDiscountCloseBtn
+{
+	border-image: url(../res/Common/close_press.png);
+
+}
+
+
+QPushButton:disabled#mainDiscountCloseBtn
+{
+	border-image: url(../res/Common/close_disable.png);
+
+}
+
+
+
+
+QPushButton#pctopcVerificaSwitch
+{
+	border-image: url(../res/Common/icon_off.svg);
+}
+QPushButton:checked#pctopcVerificaSwitch
+{
+	border-image: url(../res/Common/ico_open.svg);
+}
+QPushButton:unchecked#pctopcVerificaSwitch
+{
+	border-image: url(../res/Common/icon_off.svg);
+}
+
+
+
+QLineEdit#SearchInputLineEdit
+{
+	border: 0px solid transparent;
+	background: transparent;
+	font-family: "Segoe UI Semibold";
+	font-size: 16px;
+	height: 40px;
+	font-weight:600;
+	color: white;
+}
+QPushButton#SearchInputClearBtn
+{
+	border-image: url(../res/Common/ico_delete.svg);
+}
+
+QLabel#CUIRemoteConnectState_thisPCIPLabel,#CUIRemoteConnectState_otherPCIPLabel
+{
+	font-size:12px;
+	font-weight:400;
+	color:#A9BBD0;
+}
+QPushButton#agreenButton
+{
+	border:none;
+	border-radius: 4px;
+	font-size:16px;
+	background: #1b9cff;
+	text-align:	center;
+	color:		#ffffff;
+	font-weight:600;
+		padding-left:5;
+	padding-right:5;
+}
+
+QPushButton#agreenButton:hover
+{
+	 background:#3aa7fb;
+	 font-weight:600;
+	 padding-left:5;
+	 padding-right:5;
+}
+
+QPushButton#agreenButton:pressed
+{
+	 background:#1677c1;
+	 font-weight:600;
+	 padding-left:5;
+	 padding-right:5;
+}
+
+QPushButton#refuseButton
+{
+	border:1px solid #1B9cff;
+    border-radius: 4px;
+	font-size: 16px;
+	background-color:#ffffff;
+	text-align :  center;
+	color:#1b9cff;
+	font-weight:600;
+	padding-left:5;
+	padding-right:5;
+	
+}
+
+QPushButton:hover#refuseButton
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-weight:600;
+	  padding-left:5;
+	  padding-right:5;
+
+}
+
+QPushButton:pressed#refuseButton
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-weight:600;
+	  padding-left:5;
+	 padding-right:5;
+}
+
+
+QLabel#PassivePage_TitleLabel
+{
+	font-size:28px;
+	font-weight:300;
+	color:#FFFFFF;
+}
+
+QLabel#PassivePage_InfoLabel
+{
+	font-size:18px;
+	font-weight:400;
+	color:#BED0E4;	
+}
+
+QLabel#PassivePage_userName
+{
+	font-size:20px;
+	font-weight:600;
+	color:#FFFFFF;	
+}
+
+QLabel#PassivePage_userIP
+{
+	font-size:20px;
+	font-weight:400;
+	color:#A9BBD0;	
+}
+
+QLabel#PassivePage_InstallIntroduce,#PassivePage_NetworkLabel
+{
+	font-size:14px;
+	font-weight:300;
+	color:#FFFFFF;	
+}
+
+QLabel#PassivePage_DownloadInfo,#PassivePage_NetworkInfo
+{
+	font-size:14px;
+	font-weight:300;
+	color:#A9BBD0;	
+}
+
+QFrame#PassivePage_ContentFrame
+{
+	background-color:#374A65;
+	border-radius: 4px;
+}
+
+
+
+QPushButton#PassivePage_SwitchWifiButton{
+	background : transparent;
+	font-size:14px;
+	color:#1B9CFF;
+	text-decoration: underline;
+}
+
+QPushButton:hover#PassivePage_SwitchWifiButton{
+	background : transparent;
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+
+QPushButton:pressed#PassivePage_SwitchWifiButton{
+	background : transparent;
+	font-size:14px;
+	color:#D3ECFF;
+	text-decoration: underline;
+}
+
+QFrame#ColdPCWaitConnectPage_rightFrame{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,stop: 0 #334157, stop : 1 #243142)
+}
+
+QPushButton#scanning_addpc,#scanning_morepc
+{
+	border:1px solid #536B8E;
+    border-radius: 10px;
+	font-size: 14px;
+	font-family: "Segoe UI";
+	background-color:#3F506B;
+	text-align :  center;
+	min-width  : 120px;
+	min-height : 22px;
+	max-height : 22px;
+	color:#D2E1F8;
+}
+
+QPushButton:hover#scanning_addpc,:hover#scanning_morepc
+{
+	  background-color:#536B8E;
+	  color:#FFFFFF;
+	  border:none;
+}
+
+QPushButton:pressed#scanning_addpc,:pressed#scanning_morepc
+{
+	  background-color:#536B8E;
+	  color:#D2E1F8;
+	  border:none;
+}
+
+QPushButton:disabled#scanning_addpc,:disabled#scanning_morepc
+{
+	background-color: #3F506B;
+	border:1px solid #536B8E;
+	color:#7A8AA4;
+}
+
+QPushButton:disabled:checked#scanning_addpc,:disabled:checked#scanning_morepc
+{
+	background-color: #3F506B;
+	border:1px solid #536B8E;
+	color:#7A8AA4;
+}
+
+QPushButton:checked#scanning_addpc,:checked#scanning_morepc
+{
+	background-color:#536B8E;
+	color:#FFFFFF;
+	border:none;
+}
+
+QPushButton#scanning_wizard_btn
+{
+	border:1px solid #1B9CFF;
+    border-radius: 4px;
+	font-size: 18px;
+	font-weight:600;
+	font-family: "Segoe UI Semibold";
+	background-color:#263244;
+	text-align :  center;
+	min-width  : 318px;
+	max-width  : 318px;
+	min-height : 32px;
+	max-height : 32px;
+	color:#FFFFFF;
+}
+
+QPushButton:hover#scanning_wizard_btn
+{
+	  background-color:#1B9CFF;
+	  color:#FFFFFF;
+	  border:none;
+}
+
+QPushButton:pressed#scanning_wizard_btn
+{
+	  background-color:#167DCC;
+	  color:#D0E5F5;
+	  border:none;
+}
+
+QPushButton:disabled#scanning_wizard_btn
+{
+	background-color: #23527C;
+	color:#7D848F;
+	border:none;
+}
+
+QPushButton#cable_complete_and_next
+{
+	border:none;
+    border-radius: 4px;
+	font-size: 18px;
+	font-weight:600;
+	font-family: "Segoe UI Semibold";
+	background-color:#1B9CFF;
+	text-align :  center;
+	min-width  : 240px;
+	max-width  : 240px;
+	min-height : 40px;
+	max-height : 40px;
+	color:#FFFFFF;
+}
+
+QPushButton:hover#cable_complete_and_next
+{
+	  background-color:#3AA7FB;
+	  border:none;
+}
+
+QPushButton:pressed#cable_complete_and_next
+{
+	  background-color:#1677C1;
+	  border:none;
+}
+
+QPushButton:disabled#cable_complete_and_next
+{
+	background-color: #49556D;
+	border:none;
+}
+
+QLabel#moreToolsLabel{
+	color:"#7E93B1";
+	font-size:12px;
+	font-weight:400;
+}
+
+
+QPushButton#newActiveBuyTech
+{
+	border:none;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	font-size:16px;
+	font-weight:600;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00A2FF, stop: 1 #0062FF);
+}
+
+
+QPushButton#newActiveBuyTech:hover
+{
+	color: white;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #34B4FF, stop: 1 #3481FF);
+}
+
+QPushButton#newActiveBuyTech:pressed
+{
+	color: #CCE1F5;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #0181CC, stop: 1 #014FCC);
+}
+
+QPushButton#newActiveBuyTech:disabled
+{
+	color: #7F8FA4;
+	background: #D5DAE0;
+}
+
+QPushButton#newActiveBuyPro
+{
+	border:none;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	font-size:16px;
+	font-weight:600;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #FF9500, stop: 1 #FF6A00);
+}
+
+
+QPushButton#newActiveBuyPro:hover
+{
+	color: white;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #FFAA34, stop: 1 #FF8834);
+}
+
+QPushButton#newActiveBuyPro:pressed
+{
+	color: #CCE1F5;
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #CC7701, stop: 1 #CC5601);
+}
+
+QPushButton#newActiveBuyPro:disabled
+{
+	color: #7F8FA4;
+	background: #D5DAE0;
+}
+
+
+QPushButton#newActiveSuccessOK
+{
+	border:none;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	font-size:16px;
+	font-weight:600;
+	background: #1B9CFF;
+}
+
+
+QPushButton#newActiveSuccessOK:hover
+{
+	color: white;
+	background: #3AA7FB;
+}
+
+QPushButton#newActiveSuccessOK:pressed
+{
+	color: #CCE1F5;
+	background: #1677C1;
+}
+
+QPushButton#newActiveSuccessOK:disabled
+{
+	color: #7F8FA4;
+	background: #49556D;
+}
+
+
+
+QPushButton#offlineBack
+{
+	border:1px solid #1B9CFF;
+    border-radius: 4px;
+	font-weight:600;
+	background-color:#FFFFFF;
+	text-align :  center;
+	color:#1B9CFF;
+}
+
+QPushButton:hover#offlineBack
+{
+	  background-color:#1B9CFF;
+	  border:none;
+	  color:#FFFFFF;
+}
+
+QPushButton:pressed#offlineBack
+{
+	  background-color:#167DCC;
+	  color:#FFFFFF;
+	  border:none;
+}
+
+QPushButton:disabled#offlineBack
+{
+	background-color: #FFFFFF;
+	color:#D5DAE0;
+	border:1px solid #D5DAE0;
+}

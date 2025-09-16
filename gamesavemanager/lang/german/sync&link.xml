@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link ermöglicht die Spielstände an einem von Ihnen gewünschten Ort zu speichern und erstellt beim Ursprungsort symbolische Links (ähnlich wie bei 'Steam Spreader').
+In Verbindung mit Dropbox, Google Drive oder SkyDrive kann daraus ein einfaches 'Saves-in-the-Cloud' ermöglicht werden. Das bedeutet, dass Sie auf jedem Rechner Ihre Spielstände synchronisiert werden oder auch bei  einer Formatierung der Festplatte erhalten bleiben.</Info>
+	<Detection>
+		<Title>Gefundene Einträge</Title>
+		<ListCheck width="140">Alle markieren / Markierung aufheben</ListCheck>
+		<Counter>%TOTAL% Spiel(e) gefunden / %SELECTED% Spiel(e) markiert</Counter>
+	</Detection>
+	<Options>
+		<Start>Starte Sync and Link für die markierten Einträge.</Start>
+		<Unlink>Sync and Link rückgängig machen (Standardzustand).</Unlink>
+		<Relink>Verbinde die bereits gesyncten Spielstände mit diesem System.</Relink>
+		<Rescan>System erneut nach unterstützte Einträge suchen.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Unlink</Header>
+		<Info>Bitte wählen Sie unten aus, welche Verzeichnisse Sie zurück in den Originalzustand versetzen möchten. Symbolische Links werden entfernt!</Info>
+		<ListCheck width="340">Alle markieren / Markierung aufheben</ListCheck>
+		<DupSaves>Spielstände kopieren, aber keine Quelldaten löschen!</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Success" width="350" height="110">Sync &amp; Link wurde erfolgreich ausgeführt.
+
+Es wurden keine Fehler gefunden.</Success>
+		<Failed title="Failure" width="420" height="110">Sync &amp; Link wurde erfolgreich ausgeführt.
+		
+Leider wurde mindestens einen Fehler gefunden!
+
+Ein Log wurde gespeichert. Möchte Sie ihn jetzt lesen?</Failed>
+		<NoEntries>GameSave Manager hat leider keine unterstützte Speicherstände auf Ihrem System gefunden.
+
+Möglicherweise ist ein Datenbank-Update verfügbar? 
+Sie könnten auch eine eigene Regel hinzufügen.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">Es wurde kein Spielstand ausgewählt.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

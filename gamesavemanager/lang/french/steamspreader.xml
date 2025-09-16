@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Décentraliseur Steam</Title>
+  <Info>Le décentraliseur Steam vous permet de décentraliser vos fichiers sur plusieurs disques durs et partitions grâce à l'utilisation de liens symboliques.
+
+La plupart des joueurs utilisent des liens symboliques pour déplacer leurs jeux favoris sur un SSD, tout en gardant le reste des jeux sur un disque dur mécanique.</Info>
+  <MoveDir>
+    <Header>Déplacer des dossiers</Header>
+    <Empty>Aucun dossier spécifié.
+
+Cliquez sur 'Ajouter' pour commencer.</Empty>
+    <DialogHeader>Décentraliseur Steam; Ajouter un dossier</DialogHeader>
+    <Steam>Déplacer un jeu Steam</Steam>
+    <Origin>Déplacer un jeu Origin</Origin>
+    <Specify>Laissez moi spécifier le chemin</Specify>
+    <MoveTo>Déplacer vers...</MoveTo>
+    <Move width="75">Déplacer</Move>
+    <Messages>
+      <NoneSelected title="Erreur:" width="350" height="110">Vous avez n'avez pas rempli complètement le formulaire.
+Veuillez réessayer.</NoneSelected>
+      <LinkError>
+        <SourceExists title="Erreur de lien:" width="350" height="110">Impossible de créer le lien car le dossier source n'a pas pu être supprimé.</SourceExists>
+      </LinkError>
+      <Success title="Succès" width="350" height="110">Tâche de décentralisation terminée.
+
+Aucune erreur n'a été détectée.</Success>
+      <Failed title="Échec" width="420" height="150">Tâche de décentralisation terminée.
+    
+Malheureusement, au moins 1 erreur a été détectée.
+
+Un journal des opérations a été sauvé. Voulez-vous l'afficher?</Failed>
+    </Messages>
+  </MoveDir>
+  <Undo>
+    <Header>Rétablir un dossier</Header>
+    <Source>Rétablir le dossier suivant...</Source>
+    <Destination>...qui est actuellement lié à:</Destination>
+    <Revert width="75">Rétablir</Revert>
+    <Messages>
+      <NoneSelected title="Erreur:" width="350" height="110">Vous n'avez pas rempli complètement le formulaire.
+Veuillez réessayer.</NoneSelected>
+      <NoLongerLinked title="Erreur de lien:" width="450" height="150">Impossible de trouver le 'lien' à défaire sur le système.
+
+Vous avez peut-être désinstallé un jeu, ce qui a pu casser le 'lien' en dehors de GameSave Manager.
+
+
+Supprimer de la liste?</NoLongerLinked>
+      <LinkRemovalFail title="Erreur:" width="450" height="150">GameSave Manager n'a pas pu supprimer le(s) lien(s) associé au chemin spécifié ci-dessous.
+
+  "%LINK%"</LinkRemovalFail>
+      <Success title="Succès" width="350" height="110">Tâche du décentralisateur terminée.
+
+Aucune erreur n'a été détectée.</Success>
+    </Messages>
+  </Undo>
+  <SteamRunning title="Warning:" width="450" height="200">GameSave Manager a détecté que Steam est actuellement en cours d'exécution sur votre machine.
+
+Bien que GameSave Manager n'intéragit pas directement avec Steam, il déplace les fichiers de jeu (dans les dossiers que vous avez spécifiés).
+De ce fait, Steam peut parfois détecter ces fichiers comme manquants et commencer à les télécharger.
+
+Continuer quand même?</SteamRunning>
+</GameSaveManager_Translation>

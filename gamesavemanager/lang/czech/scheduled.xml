@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Naplánované úlohy</Title>
+	<Info>GameSave Manager můžete nastavit tak, aby pravidelně zálohoval uložené hry.
+Pomocí naplánovaných úloh můžete zálohovat vybrané nebo všechny uložené hry a přepsat nastavení aplikace.</Info>
+	<List>
+		<Header>Existující úlohy</Header>
+		<NoEntries>Žádné naplánované úlohy.
+
+Pro zahájení klikněte na tlačítko 'Přidat.'</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Průvodce naplánovanou úlohou - krok %CURRENT% z %TOTAL%</Title>
+		<Header>Průvodce naplánovanou úlohou</Header>
+		<Step1>
+			<Info>Tento průvodce vás provede procesem vytvoření nebo upravení naplánované úlohy.
+
+Průvodce se vás postupně zeptá na detaily zálohy, četnost zálohování a několik nastavení aplikace.
+Tento proces by neměl trvat déle než 5 minut. Přesto jej můžete kdykoli přerušit.
+
+Začněme pojmenováním naplánované úlohy.
+Pojmenovat ji můžete, jak chcete, ale doporučujeme název volit tematicky, abyste v budoucnu věděli, co úloha dělá.</Info>
+			<Name>Název úlohy:</Name>
+			<Errors>
+				<InvalidName title="Neplatný název:" width="420" height="110">Zadaný název ('%NAME%') je již používán pro jinou úlohu.
+
+Prosím, zadejte jiný název a zkuste to znovu.</InvalidName>
+				<NoName title="Název nezadán:" width="420" height="110">Nevyplnili jste název úlohy.
+
+Prosím, zadejte název a zkuste to znovu.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Pomocí formuláře níže určete, co chcete zálohovat.</Info>
+			<AllDetected>Zálohovat všechny uložené hry</AllDetected>
+			<Specific>Zálohovat pouze vybrané</Specific>
+			<Rescan>Znovu prohledat systém před spuštěním úlohy</Rescan>
+			<Errors>
+				<NoFound>Nenalezeny žádné záznamy.
+
+Nové skenování systému může tento problém vyřešit, případně aktualizujte databázi aplikace nebo vytvořte vlastní záznamy a zkuste to znovu.</NoFound>
+				<NoSelected title="Chyba:" width="420" height="110">Nevybrali jste žádnou položku k zálohování.
+
+Pro pokračování musíte vybrat alespoň jednu.</NoSelected>
+				<ExclusionList>Chci definovat položky, které nebudou zálohovány (pouze pro tuto úlohu)</ExclusionList>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Prosím, nastavte, jak často chcete zálohování provádět.</Info>
+			<Type>
+				<Header>Typ úlohy:</Header>
+				<Daily>Denně</Daily>
+				<Weekly>Týdně</Weekly>
+				<Monthly>Měsíčně</Monthly>
+				<Minute>Minutová báze</Minute>
+				<Hourly>Každou hodinu</Hourly>
+				<OnIdle>Při nečinnosti</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Denně</Header>
+				<RunThisTaskAt>Spustit úlohu v</RunThisTaskAt>
+				<Every>každý</Every>
+				<Days>den.</Days>
+			</Daily>
+			<Weekly>
+				<Header>Týdně</Header>
+				<RunThisTaskAt>Spustit úlohu v</RunThisTaskAt>
+				<Every>každý</Every>
+				<Weeks>den.</Weeks>
+				<DaysHeader>Spustit úlohu v tyto dny:</DaysHeader>
+				<Days>
+					<Monday>Pondělí</Monday>
+					<Tuesday>Úterý</Tuesday>
+					<Wednesday>Středa</Wednesday>
+					<Thursday>Čtvrtek</Thursday>
+					<Friday>Pátek</Friday>
+					<Saturday>Sobota</Saturday>
+					<Sunday>Neděle</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Měsíčně</Header>
+				<RunThisTaskAt>Spustit úlohu v</RunThisTaskAt>
+				<Specific>
+					<Header>tyto dny:</Header>
+					<Last>poslední</Last>
+				</Specific>
+				<EveryOther>
+					<Header>on the</Header>
+					<Frequency>
+						<First>první</First>
+						<Second>druhý</Second>
+						<Third>třetí</Third>
+						<Last>poslední</Last>
+					</Frequency>
+					<Day>
+						<Monday>Pondělí</Monday>
+						<Tuesday>Úterý</Tuesday>
+						<Wednesday>Středa</Wednesday>
+						<Thursday>Čtvrtek</Thursday>
+						<Friday>Pátek</Friday>
+						<Saturday>Sobota</Saturday>
+						<Sunday>Neděle</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>v těchto měsících:</MonthHeader>
+				<Months>
+					<January>Leden</January>
+					<February>Únor</February>
+					<March>Březen</March>
+					<April>Duben</April>
+					<May>Květen</May>
+					<June>Červen</June>
+					<July>Červenec</July>
+					<August>Srpen</August>
+					<September>Září</September>
+					<October>Říjen</October>
+					<November>Listopad</November>
+					<December>Prosinec</December>
+				</Months>
+			</Monthly>
+			<Minute>
+				<Header>Minutová báze</Header>
+				<Every>Každých</Every>
+				<Minutes>minut</Minutes>
+				<StartingFromTasksCreation>začít od data vytvoření úlohy</StartingFromTasksCreation>
+				<StartingFrom>začít od</StartingFrom>
+			</Minute>
+			<Hourly>
+				<Header>Hodinová úloha</Header>
+				<Every>Každých</Every>
+				<Hours>hodin</Hours>
+				<StartingFromTasksCreation>začít od data vytvoření úlohy</StartingFromTasksCreation>
+				<StartingFrom>začít od</StartingFrom>
+			</Hourly>
+			<OnIdle>
+				<Header>Při nečinnosti</Header>
+				<WhenIdleFor>Pokud je systém nečinný více než</WhenIdleFor>
+				<Minutes>minut</Minutes>
+			</OnIdle>
+			<Errors>
+				<FormError title="Chybějící data formuláře:" width="420" height="110">Část nebo celý formulář není správně vyplněn.
+
+Prosím, vyplňte formulář a zkuste to znovu.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Již jsme téměř u konce.
+Pomocí níže uvedených možností nastavte, jak se má GameSave Manager chovat při provádění této úlohy.</Info>
+			<CreateSchedule>Přidat úlohu do Plánovače Windows</CreateSchedule>
+			<Shortcut>Vytvořit zástupce na Ploše a můžete ji spouštět ručně</Shortcut>
+			<SaveHeader>Uložit do:</SaveHeader>
+			<UseCloud>Použít nastavení můj cloud</UseCloud>
+			<SaveTo>Uložit do:</SaveTo>
+			<ArchiveSettings>Konfigurace archivu:</ArchiveSettings>
+			<SaveTo_Browse>Procházet</SaveTo_Browse>
+			<AutoGenerate>Automaticky generovat název souboru</AutoGenerate>
+			<Errors>
+				<CloudError title="Nedostupný" width="420" height="110">Pravděpodobně nemáte nastaveny informace o osobním cloudovém úložišti.
+				
+Prosím, konfigurujte tyto možnosti a zkuste to znovu.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Chyba:" width="420" height="110">Naplánovaná úloha není platná nebo nastala chyba při získávání požadovaných dat z databáze.
+
+Prosím, zkuste to znovu.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

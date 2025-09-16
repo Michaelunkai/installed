@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Menu Principale</Title>
+	<Backup>
+		<Header>Backup...</Header>
+		<Description>Esegui semplici backup dei tuoi salvataggi.</Description>
+		<Backup>Esegui Backup</Backup>
+		<Scheduled>Operazioni Programmate</Scheduled>
+		<Sync>Sincronizza &amp; Collega</Sync>
+		<GameplayBackup>Gameplay Backup</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Ripristino...</Header>
+		<Description>Ripristina i backup che hai già eseguito.</Description>
+		<Open>Apri Archivio</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Spreader</Header>
+		<Description>Sposta intere cartelle in un'altra partizione, creando Collegamenti Virtuali alla loro vera destinazione con estrema semplicità.</Description>
+		<GoTo>Steam Spreader</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Personalizza...</Header>
+		<Description>Personalizza GameSave Manager secondo le tue necessità.</Description>
+		<CustomEntries>Personalizza Salvataggi</CustomEntries>
+		<Variables>Modifica Variabili</Variables>
+		<Settings>Impostazioni Generali</Settings>
+	</Customise>
+	<Log>
+		<Header>Rapporti</Header>
+		<Description>Visualizza i rapporti delle operazioni eseguite in precedenza.</Description>
+		<GoTo>Visualizza Rapporti</GoTo>
+	</Log>
+</GameSaveManager_Translation>

@@ -1,0 +1,26 @@
+[
+	"See https://parsec.app/config for documentation and example. JSON must be valid before saving or file be will be erased.",
+	{
+		"app_changelog_ver": {
+			"value": 8
+		},
+		"app_channel": {
+			"value": "release9"
+		},
+		"app_run_level": {
+			"value": 1
+		},
+		"client_bad_decoders": {
+			"value": 2
+		},
+		"encoder_bitrate": {
+			"value": 30
+		},
+		"encoder_fps": {
+			"value": 100
+		},
+		"host_gamepad_type": {
+			"value": 2
+		}
+	}
+]

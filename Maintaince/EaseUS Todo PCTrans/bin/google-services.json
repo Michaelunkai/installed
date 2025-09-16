@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401207631355",
+    "project_id": "pctrans-82f19",
+    "storage_bucket": "pctrans-82f19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401207631355:android:1e02621ccaa83b1208bf5e",
+        "android_client_info": {
+          "package_name": "easeus_pct.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXXh4gUQ7_4eEmLLTtO2RBvM82gZLHWAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

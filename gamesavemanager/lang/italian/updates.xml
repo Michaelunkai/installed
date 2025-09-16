@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Controllo Aggiornamenti</Title>
+	<Info>Come tutti i software, anche GameSave Manager riceve regolarmente aggiornamenti.
+Questa pagina li elencherà, se disponibili.
+
+Clicca sull'icona a sinistra per eseguire una nuova ricerca.</Info>
+	<Recheck>Interroga nuovamente il server per informazioni sugli aggiornamenti.</Recheck>
+	<ProgramUpdate>
+		<Title>Aggiornamento Programma</Title>
+		<Info>È caldamente raccomandato l'utilizzo dell'ultima versione di GameSave Manager.
+Gli Aggiornamenti Programma aggiungono nuove funzionalità, risolvono bug e generalmente migliorano GameSave Manager.</Info>
+		<Download>Scarica</Download>
+		<ApplyUpdate>Scarica &amp; Applica</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Pacchetti Traduzione</Title>
+		<Info>Nessun Aggiornamento Programma rilevato.
+Tuttavia, l'autore della traduzione che stai utilizzando ha rilasciato una nuova revisione.</Info>
+		<Download>Scarica</Download>
+		<ApplyUpdate>Scarica &amp; Applica</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Aggiornamento Database</Title>
+		<Info>Anche se gli Aggiornamenti Database non sono importanti come gli Aggiornamenti Programma, aggiungono il supporto per altri giochi e correggono i problemi di rilevazione per gli elementi esistenti.
+Per questo, ti raccomandiamo di aggiornare il Database almeno una volta alla settimana.</Info>
+		<Download>Applica Aggiornamento</Download>
+	</DatabaseUpdate>
+	<Changelog>Visualizza Changelog</Changelog>
+	<DialogPrompt title="Update(s) available" width="500" height="110">Sembra che ci siano aggiornamenti disponibili.
+
+Vuoi visitare la pagina dei Download?</DialogPrompt>
+	<Errors>
+		<Checking>Controllo Aggiornamenti...</Checking>
+		<NoUpdates>Nessun aggiornamento disponibile</NoUpdates>
+		<LangPack>[Creato dalla Community] Aggiornamento Pacchetto Traduzione</LangPack>
+		<LangPack_Invalid>Errore Query: "PackID" specificato sconosciuto!</LangPack_Invalid>
+		<UpdateRequired>Aggiornamento Database disponibile; richiede un Aggiornamento Programma.</UpdateRequired>
+		<NoConnection>Impossibile contattare il server per le informazioni sulla versione. Ti preghiamo di riprovare più tardi.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

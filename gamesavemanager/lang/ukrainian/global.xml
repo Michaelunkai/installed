@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Файл</Title>
+			<Backup>Резервні копії збережень</Backup>
+			<ScheduledTasks>Заплановані завдання</ScheduledTasks>
+			<GameplayBackup>Резервне копіювання геймплею</GameplayBackup>
+			<SyncLink>Sync and Link</SyncLink>
+			<Restore>Відновлення збережень</Restore>
+			<Validate>Перевірка архіву</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>
+			<Exit>Вихід</Exit>
+		</File>
+		<Edit>
+			<Title>Редагування</Title>
+			<CustomEntries>Користувацькі записи</CustomEntries>
+			<Variables>Модифікація змінних</Variables>
+			<ProgSettings>Налаштування програми</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Допомога</Title>
+			<Help>Довідка GameSave Manager</Help>
+			<CommandlineHelp>Довідка з роботи у командному рядку</CommandlineHelp>
+			<TranslationFilter>Фільтр перекладу</TranslationFilter>
+			<ListEntries>Підтримувані на даний момент ігри</ListEntries>
+			<VisitWebsite>Домашня сторінка</VisitWebsite>
+			<Update>Перевірити оновлення</Update>
+			<ReleaseHistory>Історія релізів</ReleaseHistory>
+			<About>Про GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<Social>
+		<Facebook>Знайдіть нас на Facebook</Facebook>
+		<Twitter>Слідуйте за нами в Twitter</Twitter>
+		<GooglePlus>Ми в Google+</GooglePlus>
+		<Steam>Приєднуйтесь до нашої Steam спільноти</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Доступні нові оновлення</Title>
+		<InfoTip>Одне або декілька оновлень доступні.
+Натисніть тут для додаткової інформації.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Зачекайте, будь-ласка</Title>
+		<Info>GameSave Manager завантажує необхідні файли в пам'ять системи...</Info>
+		<Tasks>
+			<Dirs>Створення робочих каталогів...</Dirs>
+			<LoadDB>Завантаження бази даних...</LoadDB>
+			<Updates>Перевірка наявності оновлень...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Вітаємо!</Header>
+		<Welcome>Ласкаво просимо в GameSave Manager.
+Для початку, будь ласка, оберіть потрібну Вам мову нижче.
+
+Зауваження: Ви можете змінити мову (та інші налаштування) в будь-який момент в налаштуваннях програми.</Welcome>
+		<TranslationInfo>Усі мови, окрім англійської, підтримуються спільнотою,
+Тому їх переклад може бути неповним.</TranslationInfo>
+		<CustomCache width="400">Налаштувати каталог для кешування</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir width="400">Зберігати налаштування в одному каталозі з програмою</StoreWithinLaunchDir>
+		<SeparateDBPerUser width="400">Зберігати базу даних офіційних записів в AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Встановити?</Header>
+		<Info>Незважаючи на те, що GameSave Manager є портативною (portable) програмою, деякі користувачі все ж бажають її встановити. Для цього додано майстер встановлення.
+
+Бажаєте встановити програму GameSave Manager на цей ПК?</Info>
+		<Confirm width="400">Так, я хочу встановити цю програму</Confirm>
+		<Install>Інсталювати в каталог:</Install>
+		<DesktopShortcut width="400">Створити ярлик на робочому столі</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Модифікація змінних</ModifyVariables>
+	<CustomDynDir>Налаштувати динамічне виявлення змінних:</CustomDynDir>
+	<CustomCacheWarning>Після зміни цього параметру потрібно перезавантажити GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Повернутись в головне меню</BackToMainMenu>
+	<Unsupported title="Функція не підтримується:" width="430" height="125">Схоже на те, що ваша операційна система не підтримує дану функцію.
+
+Назва Вашої ОС:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Перевірити наявність оновлень?" width="430" height="110">Минуло 7 днів з часу останньої перевірки оновлень.
+
+Бажаєте перевірити наявність оновлень зараз?</UpdateReminder>
+	<UpdateReminder_First title="Перевірити наявність оновлень?" width="470" height="125">Ласкаво просимо в GameSave Manager.
+Програма GameSave Manager і база даних до неї постійно оновлюються.
+
+Бажаєте перевірити наявність оновлень зараз?</UpdateReminder_First>
+	<NoLogs title="Нічого показувати" width="430" height="110">На даний час немає журналів для показу.</NoLogs>
+	<RemoveLog>Видалити обраний журнал</RemoveLog>
+	<OpenLog>Переглянути обраний журнал в іншому додатку</OpenLog>
+	<GenericButtons>
+		<OK>ОК</OK>
+		<Yes>Так</Yes>
+		<No>Ні</No>
+		<Add>Додати</Add>
+		<Edit>Редагувати</Edit>
+		<Remove>Видалити</Remove>
+		<Back>&lt; Назад</Back>
+		<Next>Далі &gt;</Next>
+		<Cancel>Відмінити</Cancel>
+		<Finish>Завершити</Finish>
+		<Browse>Огляд</Browse>
+		<Close>Закрити</Close>
+		<Abort>Перервати</Abort>
+	</GenericButtons>
+	<true>true</true>
+	<false>false</false>
+	<Detection>
+		<Backup>Зачекайте будь ласка, поки ваша система сканується на наявність підтримуваних збережень...</Backup>
+		<Status>
+			<LookingIn>Шукаю в...</LookingIn>
+			<Found>Знайдено...</Found>
+			<Nothing>нічого :'(</Nothing>
+		</Status>
+		<Restore>Пошук збережень в архівах...</Restore>
+		<Error>Не вдалося виявити каталог.</Error>
+		<NoMsg>Зауважень немає.</NoMsg>
+	</Detection>
+	<Processing>
+		<Header>Журнал завдань:</Header>
+		<Info>GameSave менеджер виконує поставлене завдання.
+Час, необхідний для його виконання, залежить від конфігурації Вашої системи і поставленого завдання або завдань.</Info>
+	</Processing>
+	<IgnoreCommandline>
+		<AlreadyIgnored title="В чорному списку" width="430" height="110">Вказаний вами запис ("%NAME%") вже існує в чорному списку.</AlreadyIgnored>
+			<InvalidEntryName title="Неправильне ім'я запису" width="430" height="110">Не існує запису з назвою "%NAME%" у 'офіційній' або 'користувацькій' базах даних, тому запис не внесеться у чорний список.</InvalidEntryName>
+			<Success title="Success" width="500" height="150">Запис під назвою "%NAME%" успішно внесено у чорний список.
+
+Ви можете знову включити його виявлення в будь-який час через "Налаштування програми -> Налаштування сканування -> Чорний список".</Success>
+		</IgnoreCommandline>
+	</GameSaveManager_Translation>

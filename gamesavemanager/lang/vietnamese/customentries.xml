@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Mục Gamesave tùy chỉnh</Title>
+	<Info>Trong trang này, bạn có thể thêm Gamesave mới ở dưới cho GameSave Manager.
+Sửa đổi một mục chính theo nhu cầu của bạn, thêm một mục hoàn toàn mới, hoặc chỉ quản lý các mục hiện có.</Info>
+	<List>
+		<Header>Mục đang tồn tại</Header>
+		<NoEntries>Không có mục nào.
+
+Để bắt đầu, bấm "Thêm".</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Thuật sĩ Mục Gamesave tùy chỉnh; Bước %CURRENT% / %TOTAL%</Title>
+		<Header>Thuật sĩ Mục Gamesave tùy chỉnh</Header>
+		<Step1>
+			<Info>Thuật sĩ này sẽ hướng dẫn bạn thêm hoặc sửa đổi một "Mục Gamesave tùy chỉnh".
+
+Trong tiến trình. bạn sẽ được yêu cầu các thông tin dữ liệu khác nhau, nên hãy chuẩn bị sẵn để trả lời các câu hỏi.
+Tiến trình này không quá 5 phút. Và bạn có thể hủy bỏ bất kỳ lúc nào.
+
+Đầu tiên, hãy đặt tên cho Mục Gamesave tùy chỉnh.
+Bạn có thể nhập bất kỳ, tốt nhất là nó có ý nghĩa (chẳng hạn như tên đầy đủ của game).</Info>
+			<Name>Tên mục:</Name>
+			<Warning>LƯU Ý: 
+   Nếu bạn xác định lại đường dẫn tập tin, thư mục, registry cho "Mục Chính" đang tồn tại, hãy dùng tên theo ý bạn để ghi đè lên nó.
+
+Mục Gamesave tùy chỉnh sẽ xuất hiện cùng với dữ liệu của "Mục Chính" để bạn chỉnh sửa.</Warning>
+			<Errors>
+				<InvalidName title="Tên không hợp lệ:" width="420" height="110">Tên ('%NAME%') đã được dùng trong Mục Gamesave tùy chỉnh khác.
+
+Hãy đặt một tên khác và thử lại.</InvalidName>
+				<NoName title="Chưa có tên:" width="420" height="110">Bạn chưa đặt tên cho Mục Gamesave tùy chỉnh.
+
+Hãy đặt một tên và thử lại.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Hộp dưới đây cho phép bạn tạo Tin nhắn cảnh báo cho mục này.
+Một biểu tượng Dấu chấm than được dùng để báo cho bạn biết một Tin nhắn cảnh báo, và có thể chọn xem trong "Chi tiết Mục".
+
+Nếu bạn không muốn có Tin nhắn cảnh báo, hãy để trống hộp ở dưới và bấm "Tiếp theo"</Info>
+			<Backup>Cảnh báo Sao lưu</Backup>
+			<Restore>Cảnh báo Phục hồi</Restore>
+		</Step2>
+		<Step3>
+			<Info>Dùng hộp ở dưới, vui lòng ghi rõ các tập tin, thư mục và registry bạn muốn sao lưu cho mục này.
+Bạn có thể thêm nhiều mục nếu bạn muốn.</Info>
+			<DirTitle>Tập tin và thư mục để sao lưu:</DirTitle>
+			<RegTitle>Dữ liệu registry để sao lưu:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Lỗi:" width="420" height="110">Bạn chưa ghi mục này để sao lưu.
+
+Hãy ghi ít nhất 1 thư mục hoặc registry và thử lại.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Hoàn tất !
+Tất cả thông tin cần thiết đã được thu thập và sẵn sàng để sao lưu.
+
+Nếu bạn muốn thay đổi, bạn có thể thực hiện bây giờ, hoặc thực hiện sau bằng cách chỉnh sửa mục này.</Info>
+			<SubmitPanel>
+				<Header>Chia sẻ mục</Header>
+				<Info>Mục này được đưa ra để đáp ứng các tiêu chí để gửi đến máy chủ GameSave Manager để xem xét.
+Nếu được chấp thuận, mục "Cập nhật dữ liệu" sẽ được tích hợp trong tương lai, và hy vọng sẽ có thêm tiện ích cho cộng đồng.</Info>
+				<Submit>Vâng, tôi muốn chia sẻ mục này.</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Thuật sĩ Mục Gamesave tùy chỉnh; Bước %CURRENT% / %TOTAL%</Title>
+			<Header>Thuật sĩ Mục Gamesave tùy chỉnh: Thư mục</Header>
+			<Step1>
+				<Info>Thuật sĩ này sẽ hướng dẫn bạn thêm hoặc sửa đổi một thư mục chuẩn cho Mục Gamesave tùy chỉnh. Tiến trình này không quá 1 phút.
+
+Đầu tiên, bạn có muốn GameSave Manager tự động tìm kiếm đường dẫn thư mục này ?
+
+LƯU Ý:
+Nếu bạn chọn Thư mục chính chứa game (game có thư mục con chứa gamesave), thì trước đó, bạn phải xác định Thư mục chính chứa game tại "Thay đổi thư mục" để GameSave Manager tự động tìm kiếm.</Info>
+				<UseSpecialPaths>Có, hãy tự động tìm kiếm trong thư mục sau:</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>My Documents</DOCUMENTS>
+					<SHARED_DOCUMENTS>Shared Documents</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Steam Installation Directory</STEAM>
+					<STEAM_CACHE>Steam Cache</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay cache</UPLAY>
+					<FLASH>Macromedia Flash cache</FLASH>
+					<SAVED_GAMES>Thư mục chính chứa game</SAVED_GAMES>
+					<USER_PROFILE>Tùy người dùng</USER_PROFILE>
+					<REGISTRY>Từ giá trị Registry</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Hãy dùng hộp dưới đây để ghi giá trị registry có chứa thư mục bạn muốn tự động tìm kiếm.
+
+LƯU Ý: 
+Tên tập tin sẽ được tự động gỡ bỏ khỏi giá trị (ví dụ, "C:\Game\Launch.exe" trở thành "C:\Game").</Info>
+				<Hive>Nhóm Registry:</Hive>
+				<Path>Đường dẫn Registry:</Path>
+				<Value>Giá trị Registry:</Value>
+				<Test>Tìm kiếm</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Cần thiết phải nối thêm phần cuối của đường dẫn (thư mục con chứa gamesave) vào cuối thư mục chỉ định trước đó để tự động tìm kiếm.
+
+Để làm điều này, hãy nhập phần cuối đường dẫn thư mục vào ô dưới đây.
+Nếu bạn không cần nối thêm gì vào đường dẫn, hãy bỏ trống ô dưới và bấm "Tiếp theo".</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Nếu như bạn không chọn tự động tìm kiếm đường dẫn thư mục, bạn cần ghi đường dẫn đầy đủ vào dưới, sau đó bấm "Tiếp theo".
+
+Nếu bạn muốn quay lại để kích hoạt Tự động tìm kiếm, hãy bấm "Trở lại".</InfoWithoutSpecialPath>
+				<DynamicDetection width="110">Tự động tìm kiếm</DynamicDetection>
+				<Append>Thêm vào đây:</Append>
+				<Full>Thêm vào đây:</Full>
+				<Browse>Duyệt...</Browse>
+			</Step2>
+			<Step3>
+				<Info>Cuối cùng, cần xác định các tập tin để sao lưu.
+
+Bạn có thể dùng ký tự đại diện (*,\ và .) trong tên tập tin cần xác định.
+
+Ví dụ:
+	*.*		Tất cả tập tin
+	*.sav		Tất cả tập tin đuôi '.sav'
+	My*.sav 		Tất cả tập tin đuôi '.sav' bắt đầu bằng 'my'
+	MySave.sav	Tất cả tập tin 'MySave.sav' trong thư mục gốc
+	bin\MySave.sav	Tất cả tập tin 'MySave.sav' trong thư mục con 'bin'
+	bin\*.*		Tất cả tập tin trong thư mục con 'bin'</Info>
+				<Warning>LƯU Ý: Các tập tin cách nhau bằng | (ví dụ *.sav|*.ini)</Warning>
+				<IncludedFiles>Bao gồm tập tin</IncludedFiles>
+				<ExcludedFiles>Tập tin loại trừ</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Thuật sĩ Mục Gamesave tùy chỉnh; Bước %CURRENT% / %TOTAL%</Title>
+			<Header>Thuật sĩ Mục Gamesave tùy chỉnh: Registry</Header>
+			<Info>Hãy nhập chi tiết khóa Registry ở dưới để sao lưu.</Info>
+			<Hive>Nhóm Registry:</Hive>
+			<Path>Đường dẫn Registry:</Path>
+			<DefinedValues>
+				<Header>Giá trị Registry:</Header>
+				<EntireKey>Sao lưu toàn bộ khóa</EntireKey>
+				<Specific>Sao lưu các giá trị sau:</Specific>
+				<Values>Giá trị:</Values>
+				<Info>Từng giá trị riêng biệt với khoảng cách ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Tin nhắn</Header>
+		<Info>Bạn đang trình bản Mục Gamesave tùy chỉnh '%NAME%' tới máy chủ GameSave Manager để xem xét.
+
+Bạn có chỉ định tin nhắn ?</Info>
+		<NoMsg>Không, cám ơn, chỉ gửi mục của tôi</NoMsg>
+		<Msg>Có, tôi muốn chỉ định thêm một số thông tin</Msg>
+		<ReturnCodes>
+			<NoConnection title="Lỗi" width="420" height="110">Xảy ra lỗi khi đang cố gắng giao tiếp với máy chủ GameSave Manager.
+Có thể do nó đang tắt hoặc không có kết nối mạng?</NoConnection>
+			<DBUpdate title="Lỗi" width="420" height="110">Hình như đã có cập nhật dữ liệu.
+
+Vui lòng cập nhật và thử lại.</DBUpdate>
+			<DynError title="Lỗi" width="420" height="110">Mục không thể trình do có vấn đề với "Tự động tìm kiếm"</DynError>
+			<DupError title="Lỗi" width="420" height="110">Mục này đã từng được trình bởi chính bạn hoặc người khác.</DupError>
+			<Banned title="Lỗi" width="420" height="110">Chúng tôi đã nhận được quá nhiều thư rác từ địa chỉ IP của bạn.
+Vui lòng thử trình thông qua diễn đàn.</Banned>
+			<MissingData title="Lỗi" width="420" height="110">Mục đã trình bị mất một vài dữ liệu cần thiết.</MissingData>
+			<Update title="Lỗi" width="420" height="110">Phiên bản GameSave Manager này không còn được hỗ trợ từ máy chủ.
+Vui lòng cập nhật phiên bản mới nhất và thử lại.</Update>
+			<Maintenance title="Lỗi" width="420" height="110">Bạn sẽ được hỗ trợ từ hệ thống.
+Vui lòng thử lại sau, hoặc thử trình thông qua diễn đàn.</Maintenance>
+			<SubmitError title="Lỗi" width="420" height="110">Có lỗi không rõ khi trình mục.
+Vui lòng thử lại sau, hoặc thử trình thông qua diễn đàn.</SubmitError>
+			<Success title="Thành công" width="420" height="110">Mục tên '%NAME%' của bạn đã được trình và đang được xem xét.
+			
+			Cám ơn.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Lỗi:" width="420" height="110">"Mục Gamesave tùy chỉnh" đã chọn không hợp lệ, hoặc xảy ra lỗi trong khi truy cập dữ liệu cần thiết.
+
+Vui lòng thử lại sau.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

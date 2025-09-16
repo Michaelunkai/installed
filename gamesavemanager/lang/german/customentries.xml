@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Eigene Spielstände-Einträge</Title>
+	<Info>Auf dieser Seite können Sie eigene Ortungsregeln erstellen/hinzufügen.
+Ändere ein offizieller Eintrag auf Ihre Bedürfnisse, füge einen komplett neuen Eintrag ein oder managen Sie die existierende Einträge.</Info>
+	<List>
+		<Header>Existierender Eintrag</Header>
+		<NoEntries>Es wurde noch kein eigener Eintrag definiert.
+
+Klicken Sie auf 'Hinzufügen' um einen hinzuzufügen.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Custom Gamesave Entries Wizard; Schritt %CURRENT% con %TOTAL%</Title>
+		<Header>Custom Gamesave Entries Wizard</Header>
+		<Step1>
+			<Info>Dieser wizard wird Sie durch den Prozess von einem eigenen Eintrag hinzuzufügen oder modifizieren führen.
+
+Alle benötigten Informationen wird mit diesem Wizard gesammelt. Machen Sie sich für einige Fragen bereit!
+Dieser Prozess geht nicht länger als 5 Minuten. Sie können Ihn wann immer Sie wollen abbrechen.
+
+Wählen Sie für den Anfang einen Namen für diesen Zeitplan aus.
+Sie können es bennen wie Sie wollen. Empfohlen wird aber bedeutsamer Namen, damit Sie schnell wissen, was der Zeitplan macht.</Info>
+			<Name>Titel:</Name>
+			<Warning>Hinweis: Wenn Sie spezielle Daten, Pfade oder Registry-Einträge zu einem existierenden Eintrag erweitern, verwenden Sie bitte den gleichen Namen (überschreiben).
+
+Deine eigene Einträge werden dann unter 'offiziell Unterstützte' eingetragen.</Warning>
+			<Errors>
+				<InvalidName title="Invalid name:" width="420" height="110">Der eingegebener Name ('%NAME%') wird schon für eine andere Aufgabe verwendet.
+
+Geben Sie einen anderen Namen ein!</InvalidName>
+				<NoName title="No name specified:" width="420" height="110">Sie haben keinen Namen eingegeben!
+
+Geben Sie einen Namen ein!</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Das Formular unten erlaubt es Ihnen, Warnhinweise zu setzen.
+Ein Ausrufzeichen-Icon wird für ein Warnhinweise benutzt und können unter Eintrag-Details gelesen werden.
+
+Wenn Sie keine Warnhinweise setzen möchten, lassen Sie das Formular einfach leer und klicken Sie auf 'Weiter &gt;'</Info>
+			<Backup>Backup Warnung</Backup>
+			<Restore>Wiederherstellung-Warnung</Restore>
+		</Step2>
+		<Step3>
+			<Info>Benutze das untere Formular und geben Sie alle Dateien, Verzeichnisse und Registry-Werten an, die Sie backuppen möchten.
+Sie können soviele Dateien hinzufügen wie Sie möchten!</Info>
+			<DirTitle>Dateien & Verzeichnisse zum backuppen:</DirTitle>
+			<RegTitle>Registry-Data zum backuppen:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Error:" width="420" height="110">Sie haben nichts Ausgewählt!
+
+Bitte wählen Sie mind. ein Verzeichnis oder Registry-Eintrag aus!</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Fertig!
+Alle erforderliche Informationen wurden gesammelt und sind bereit, in die Datenbank eingespeist zu werden.
+
+Wenn Sie etwas ändern möchten, können Sie das jetzt oder später tun.</Info>
+			<SubmitPanel>
+				<Header>Eintrag teilen</Header>
+				<Info>Dieser Eintrag scheint die Kriterien vom GameSave Manager-Server zu erfüllen.
+Wenn dieser akzeptiert wird, wird der Eintrag in ein künftiges Datenbank-Update implementiert und die ganze Community profitiert davon!</Info>
+   <InfoScene>Obwohl Ihr Eintrag gültig ist, kann dieser nicht veröffentlich werden. Es scheint dass der Eintrag für ein 'Scene Release' ist (gecracktes Spiel).
+Solche Spielstände werden von GameSave Manger nicht offiziell unterstützt und können somit nicht eingesandt werden.
+
+Falls das eine Fehlermeldung sein sollte, dann schreiben Sie bitte Ihre Regel ins Forum.</InfoScene>
+				<Submit width="175">Ja, Ich möchte diesen Eintrag veröffentlichen!</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Custom Gamesave Entries: Verzeichnis-Wizard; Schritt %CURRENT% von %TOTAL%</Title>
+			<Header>Custom Gamesave Entries: Verzeichnis-Wizard</Header>
+			<Step1>
+				<Info>Dieser wizard wird Sie durch den Prozess von eine eigene Verzeichnisregel hinzuzufügen oder modifizieren, führen.
+
+This process shouldn't take longer than a minute.
+
+Möchten Sie dass GameSave Manager den Pfad dynamisch für Sie findet?</Info>
+				<UseSpecialPaths width="300">Ja gerne, finde die folgende Verzeichnisse</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Meine Dokumente</DOCUMENTS>
+					<SHARED_DOCUMENTS>Gemeinsame Dokumente</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Steam Installationsverzeichnis</STEAM>
+					<STEAM_CACHE>Steam Cache</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay cache</UPLAY>
+					<FLASH>Macromedia Flash cache</FLASH>
+					<SAVED_GAMES>Spielstände</SAVED_GAMES>
+					<USER_PROFILE>User Home</USER_PROFILE>
+					<REGISTRY>Vom Registry-Wert</REGISTRY>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Bitte benutzen Sie das Formular unten, um ein Registry-Wert einzutragen, der den gewünschten Pfad angibt.
+
+Hinweis: Dateinamen wird beim Wert automatisch entfernt (z.B. "C:\Game\Launch.exe" wird zu "C:\Game").</Info>
+				<Hive>Registry Hive:</Hive>
+				<Path>Registry Pfad:</Path>
+				<Value>Registry Wert:</Value>
+				<Test>Pfad Test</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Wir müssen jetzt noch das Unterverzeichnis (falls benötigt) für den Pfad einfügen.
+
+Schreibe einfach den Rest des Pfades in das untere Feld.
+Falls kein weiterer Eintrag benötigt wird, lasse das Feld leer und klicke auf 'Weiter &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Falls kein dynamischer Pfad eingegeben wurde, müssen Sie jetzt den vollständigen Pfad eingeben.
+
+Falls Sie zurückkehren möchten um ein dynamischen Pfad zu erstellen, klicken Sie auf "&lt; Zurück".</InfoWithoutSpecialPath>
+				<DynamicDetection width="110">Dynamische Ortung</DynamicDetection>
+				<Append>Füge folgendes ein</Append>
+				<Full>Gehen Sie in das Verzeichnis</Full>
+			</Step2>
+			<Step3>
+				<Info>Zuletzt muss angegeben werden, welche Dateien gesichert werden müssen.
+
+Sie können auch 'Platzhalter' (* und ?) im Dateinamen setzen.
+
+Beispiele:
+	*.* - alle Dateien
+	*.sav - alle Dateien, die auf '.sav' enden
+	My*.sav - alle Dateien, die auf '.sav' enden und mit 'my' beginnen
+	MySave.sav - Die Datei, die genau 'MySave.sav' heisst
+	bin\MySave.sav - Die Datei, die genau 'MySave.sav' heisst und sich im Unterordner 'bin' befindet
+	bin\*.* - alle Dateien im Unterordner 'bin'</Info>
+				<Warning>Hinweis: Separiere die Regel mit einem Pipex (z.B. *.sav|*.ini)</Warning>
+				<IncludedFiles>einbeziehende Dateien</IncludedFiles>
+				<ExcludedFiles>auszuschliessende Dateien</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Custom Gamesave-Einträge: Registry Wizard</Title>
+			<Header>Custom Gamesave-Einträge: Registry Wizard</Header>
+			<Info>Bitte geben Sie den Registry-Key unten für den Backup ein.</Info>
+			<Hive>Registry Hive:</Hive>
+			<Path>Registry Pfad:</Path>
+			<DefinedValues>
+				<Header>Registry Werte:</Header>
+				<EntireKey width="117">Ganzen Key backuppen</EntireKey>
+				<Specific>Folgende Werte backuppen:</Specific>
+				<Values>Werte:</Values>
+				<Info>Separiere Wertnamen mit einem Pipex ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Einreich-Nachricht</Header>
+		<Info>Sie sind dabei, den Eintrag '%NAME%' in den GameSave Manager-Server einzureichen.
+
+Möchten Sie eine Nachricht hinzufügen?</Info>
+		<NoMsg width="185">Nein danke, nur senden</NoMsg>
+		<Msg width="317">Ja bitte, ich möchte eine Info mitsenden</Msg>
+		<ReturnCodes>
+			<NoConnection title="Error" width="420" height="110">Ein Fehler ist aufgetreten. Konnte nicht mit dem Server verbinden.
+Eventuell ist der Server offline oder Sie haben keine Internetverbindung</NoConnection>
+			<DBUpdate title="Error" width="420" height="110">Es scheint als gäbe es ein Datenbank-Update für Sie.
+
+Bitte versuchen Sie es nochmals.</DBUpdate>
+			<DynError title="Error" width="520" height="110">Der Eintrag konnte nicht übermittel werden, wegen einem Fehler bei der 'dynamischen Ortung'</DynError>
+			<DupError title="Error" width="420" height="110">Der Eintrag wurde schon von Ihnen oder jemand anderen eingereicht.</DupError>
+			<Banned title="Error" width="420" height="110">Wir haben schon zuviele Spams von Ihrer IP-Adresse bekommen!
+Bitte senden Sie den Eintrag via Forum</Banned>
+			<MissingData title="Error" width="420" height="110">Benötigte Informationen vom Eintrag existiert nicht</MissingData>
+			<Update title="Error" width="420" height="110">Diese Version vom GameSave Manager wird nicht länger vom Server supportet.
+Bitte führen Sie ein Update durch.</Update>
+			<Maintenance title="Error" width="420" height="110">Der Server ist scheinbar wegen Wartung offline.
+Bitte senden Sie den Eintrag via Forum</Maintenance>
+			<SubmitError title="Error" width="420" height="110">Ein unbekannter Fehler tritt auf!
+Bitte senden Sie den Eintrag via Forum</SubmitError>
+			<Success title="Success" width="420" height="110">Dein Eintrag mit dem Namen '%NAME%' wurde erfolgreich eingereicht und wartet auf eine Genehmigung.
+			
+			Vielen Dank.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">Der gewählte 'Custom Gamesave-Eintrag' scheint ungültig zu sein oder ein Fehler bei der Datenbankabfrage trat auf.
+
+Versuchen Sie es nochmals!</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

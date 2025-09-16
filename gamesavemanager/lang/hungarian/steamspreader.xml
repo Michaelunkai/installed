@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Steam-mozgató</Title>
+	<Info>A Steam-mozgató lehetõvé teszi, hogy a fájljaidat több merevlemezen és partíción helyezd el 'szimbolikus linkek' segítségével.
+
+A legtöbb játékos a 'szimbolikus linkeket' a kedvenc játékaik SSD-re való átmozgatásához használja, miközben a többit az általános HDD-t tárolja.</Info>
+	<MoveDir>
+		<Header>Mappák mozgatása</Header>
+		<Empty>Nem adtál meg mappát.
+
+Kattints a 'Hozzáad' gombra a kezdéshez.</Empty>
+		<DialogHeader>Steam-mozgató; Elem sorbaállítása</DialogHeader>
+		<Steam>Steam játék mozgatása</Steam>
+		<Origin>Origin játék mozgatása</Origin>
+		<Specify>Hadd adjam meg én az útvonalat</Specify>
+		<MoveTo>Mozgatás ide...</MoveTo>
+		<Move width="75">Mozgatás</Move>
+		<Messages>
+			<NoneSelected title="Hiba:" width="350" height="110">Nem töltötted ki az egész ûrlapot.
+				Kérlek próbáld újra.</NoneSelected>
+			<NoLongerLinked title="Link error:" width="450" height="150">Nem található a kívánt 'link' a rendszereden a visszavonáshoz.
+
+Lehet, hogy eltávolítottad a játékot vagy elrontottad a 'linket' a GameSave Manageren kívüli mûvelet során.
+
+
+Eltávolítod a listából?</NoLongerLinked>
+			<LinkRemovalFail title="Error:" width="450" height="150">A GameSave Manager nem tudta eltávolítani az alábbi útvonalhoz tartozó linkeket.
+
+   "%LINK%"</LinkRemovalFail>
+			<LinkError>
+				<SourceExists title="Link hiba:" width="350" height="110">Nem sikerült létrehozni a linket, mert a forrásmappa nem távolítható el a rendszerrõl.</SourceExists>
+			</LinkError>
+			<Success title="Siker" width="350" height="110">A Steam-mozgató feladat befejezõdött.
+
+Szerencsére nem történt hiba.</Success>
+			<Failed title="Sikertelen" width="420" height="110">A Steam-mozgató feladat befejezõdött.
+		
+Sajnos legalább 1 hiba történt.
+
+Egy napló került elmentésre. Szeretnéd ezt most megtekinteni?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Egy mappa visszaállítása</Header>
+		<Source>A feladat visszavonása a következõ mappa esetében...</Source>
+		<Destination>...amely jelenleg ide mutat:</Destination>
+		<Revert width="75">Visszavon</Revert>
+	</Undo>
+	<SteamRunning title="Figyelmeztetés:" width="450" height="200">A GameSave Manager észlelte, hogy a Steam jelenleg fut a gépeden.
+
+Habár a GameSave Manager nem lép kapcsolatba közvetlenül a Steam-mel, de átmozgatja annak fájljait (a meghatározott mappán belül).
+Emiatt a Steam néha 'hiányzóként' érzékelheti a fájlokat és elindíthatja azok újraletöltését.
+
+Mindenképpen folytatod?</SteamRunning>
+</GameSaveManager_Translation>

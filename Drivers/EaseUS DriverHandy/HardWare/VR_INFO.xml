@@ -1,0 +1,78 @@
+<hardware_info>
+       <CPU_modle>core i5-2500k</CPU_modle>
+	   <CPU_modle>core i5-4590</CPU_modle>
+	   <CPU_modle>core i5-3550</CPU_modle>
+	   <CPU_modle>core i5-2550k</CPU_modle>
+	   <CPU_modle>core i7-870</CPU_modle>
+	   <CPU_modle>core i7-940</CPU_modle>
+	   <CPU_modle>core i5-3570</CPU_modle>
+	   <CPU_modle>core i5-6500</CPU_modle>
+	   <CPU_modle>core i5-3570k</CPU_modle>
+	   <CPU_modle>core i7-960</CPU_modle>
+	   <CPU_modle>core i5-4670k</CPU_modle>
+	   <CPU_modle>xeon E3-1230</CPU_modle> 
+	   <CPU_modle>core i7-2600k</CPU_modle>
+	   <CPU_modle>core i5-4690k</CPU_modle>
+	   <CPU_modle>xeon E3-1230V2</CPU_modle>
+	   <CPU_modle>core i7-2700k</CPU_modle>
+	   <CPU_modle>core i7-3770k</CPU_modle>
+	   <CPU_modle>core i5-6600k</CPU_modle>
+	   <CPU_modle>xeon E3-1230V3</CPU_modle>
+	   <CPU_modle>core i7-3820</CPU_modle>
+	   <CPU_modle>core i7-970</CPU_modle>
+	   <CPU_modle>xeon E3-1231V3</CPU_modle>
+	   <CPU_modle>core i7-980x</CPU_modle>
+	   <CPU_modle>core i7-990x</CPU_modle>
+	   <CPU_modle>xeon E5-2699 V3</CPU_modle>
+	   <CPU_modle>xeon E5-2697 V3</CPU_modle>
+	   <CPU_modle>xeon E5-2695 V3</CPU_modle>
+	   <CPU_modle>xeon E5-2687W</CPU_modle>
+	   <CPU_modle>xeon E5-2650 V3</CPU_modle>
+	   <CPU_modle>xeon E5-2680</CPU_modle>
+	   <CPU_modle>xeon E5-2690</CPU_modle>
+	   <CPU_modle>core i7-4960X</CPU_modle>
+	   <CPU_modle>core i7-4930K</CPU_modle>
+	   <CPU_modle>core i7-4790K</CPU_modle>
+	   <CPU_modle>core i7-4770K</CPU_modle>
+	   <CPU_modle>core i7-4820K</CPU_modle>
+	   <CPU_modle>xeon E3-1230V5</CPU_modle>
+	   <CPU_modle>core i7-6700K</CPU_modle>
+	   <CPU_modle>core i7 6700K</CPU_modle>
+	   <CPU_modle>core i7-5820K</CPU_modle>
+	   <CPU_modle>core i7-5930K</CPU_modle>
+	   <CPU_modle>core i7-5960X</CPU_modle>
+	   <CPU_modle>FX-8300</CPU_modle>
+	   <CPU_modle>FX-8320</CPU_modle>
+	   <CPU_modle>FX-8350</CPU_modle>
+	   <CPU_modle>FX-9590</CPU_modle>
+	   <CPU_modle>FX-8170</CPU_modle>
+	   <CPU_modle>FX-8150</CPU_modle>
+	   <CPU_modle>Phenom II X6 1100T</CPU_modle>
+	   
+	   <Display_modle>GTX 780GHZ</Display_modle>
+	   <Display_modle>GTX 970</Display_modle>
+	   <Display_modle>R9 290X</Display_modle>
+	   <Display_modle>GTX 690</Display_modle>
+	   <Display_modle>GTX TITAN B</Display_modle>
+	   <Display_modle>GTX 780Ti</Display_modle>
+	   <Display_modle>R9 390</Display_modle>
+	   <Display_modle>R9 390X</Display_modle>
+	   <Display_modle>GTX 980</Display_modle>
+	   <Display_modle>GTX 980Ti</Display_modle>
+	   <Display_modle>GTX Titan X</Display_modle>
+	   <Display_modle>GTX Titan Z</Display_modle>
+	   <Display_modle>R9 Fury X</Display_modle>
+	   <Display_modle>R9 295x2</Display_modle>
+	   <Display_modle>HD 7990</Display_modle>
+	   <Display_modle>R9 380</Display_modle>
+	   <Display_modle>GTX 780Ti</Display_modle>
+	   <Display_modle>GTX 960 SLi</Display_modle>
+	   <Display_modle>HD 7970x2</Display_modle>
+	   <Display_modle>Fiji XT</Display_modle>
+	   <Display_modle>R9 295 X2</Display_modle>
+	   <Display_modle>GTX 970 SLi</Display_modle>
+	   <Display_modle>GTX 980 SLi</Display_modle>
+	   <Display_modle>Fiji VR</Display_modle>
+	   <Display_modle>GTX 980 SLix3</Display_modle>
+	   <Display_modle>GTX 980 SLix4</Display_modle>
+</hardware_info>

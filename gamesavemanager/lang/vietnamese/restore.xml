@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Phục hồi Gamesave</Title>
+	<Detection>
+		<Title>Mục tìm thấy</Title>
+		<ListCheck>Chọn Tất cả / Bỏ chọn Tất cả</ListCheck>
+		<Counter>Tìm thấy %TOTAL% mục / Đã chọn %SELECTED% mục</Counter>
+		<Legend>
+			<Title>Ghi chú</Title>
+			<Files>Tập tin sẽ được phục hồi</Files>
+			<Registry>Dữ liệu Registry sẽ được phục hồi</Registry>
+			<Warning>Mục có "Tin nhắn cảnh báo"</Warning>
+			<Unrestorable>Không tìm thấy đường dẫn để phục hồi hoặc một giá trị registry bị lỗi</Unrestorable>
+			<EntireEntry>Toàn bộ mục sẽ được phục hồi</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Bắt đầu Phục hồi.</Start>
+		<Open>Mở một Sao lưu đã tạo trước đây để phục hồi.</Open>
+	</Options>
+	<Details>
+		<Title>Chi tiết Mục</Title>
+		<NoneSelected>Không có mục nào được chọn.
+
+Hãy chọn một mục từ danh sách bên trái.</NoneSelected>
+		<Unrestorable>Mục đã chọn không thể phục hồi.
+
+Có thể do:
+1. Cấu hình "Cài đặt" là ngăn chặn tìm kiếm (xem "Cấu hình tìm kiếm")
+2. Đường dẫn "Tự động tìm kiếm" đã lưu là một giá trị Registry nhưng hiện tại không có trong hệ thống.
+
+Nếu nguyên nhân là số 2, hãy cài đặt lại game. Điều này là cần thiết.</Unrestorable>
+		<UnrestorableEntry>Tất cả dữ liệu sao lưu của mục này là không thể phục hồi do GameSave Manager không tìm thấy đường dẫn.
+
+Hãy chọn một trong các mục thư mục đó để biết thêm thông tin, cũng như các biện pháp xử lí.</UnrestorableEntry>
+		<Entry>
+			<Name>Tên mục:</Name>
+			<VerInfo>Phiên bản:</VerInfo>
+			<IsOfficial>Tên chính:</IsOfficial>
+			<Size>Dung lượng:</Size>
+			<Warning>Cảnh báo:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Thư mục:</Directory>
+			<Size>Dung lượng:</Size>
+			<Files>Tập tin:</Files>
+		</Directory>
+		<Registry>
+			<Key>Khóa Registry:</Key>
+			<Values>Giá trị:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Thành công" width="350" height="110">Phục hồi hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+		<Failed title="Thất bại" width="420" height="110">Phục hồi thất bại.
+		
+Rất tiếc, đã phát hiện lỗi.
+
+Đã lưu Ghi chép. Bạn có muốn xem nó ?</Failed>
+		<NoArchive>Hiện tại không có Sao lưu.
+
+Để bắt đầu, hãy bấm "Mở".</NoArchive>
+		<InvalidFile>Tập tin đó không dùng được, nó không được hỗ trợ bởi GameSave Manager.</InvalidFile>
+		<Incompatible>Sao lưu chỉ định không được hỗ trợ bởi phiên bản GameSave Manager này.
+
+Hãy thử lại.</Incompatible>
+		<NoneSelected title="Lỗi:" width="350" height="110">Không có Gamesave chỉ định để phục hồi.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

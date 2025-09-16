@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Faire une sauvegarde</Title>
+  <Detection>
+    <Title>Sauvegardes détectées</Title>
+    <ListCheck>Tout sélectionner / déselectionner</ListCheck>
+    <Counter>%TOTAL% sauv. détectée(s) / %SELECTED% sauv. sélectionnée(s)</Counter>
+    <Legend>
+      <Title>Légende</Title>
+      <Files>Les fichiers seront sauvegardés</Files>
+      <Registry>Les informations du registre seront sauvegardées</Registry>
+      <Warning>La sauvegarde possède un message d'avertissement</Warning>
+      <EntireEntry>L'ensemble des données seront sauvegardées</EntireEntry>
+    </Legend>
+  </Detection>
+  <Options>
+    <Start>Commencer la sauvegarde maintenant.</Start>
+    <Delete>Supprimer les sauvegardes sélectionnées de l'ordinateur.</Delete>
+    <Rescan>Rescanner le système pour de nouvelles sauvegardes.</Rescan>
+  </Options>
+  <Details>
+    <Title>Détails de la sauvegarde</Title>
+    <NoneSelected>Aucune sauvegarde sélectionnée.
+
+Veuillez sélectionner une sauvegarde dans liste à gauche.</NoneSelected>
+    <Entry>
+      <Name>Nom de la sauvegarde:</Name>
+      <IsOfficial>Officiellement supportée:</IsOfficial>
+      <Size>Taille sur le disque:</Size>
+      <Warning>Avertissement:</Warning>
+    </Entry>
+    <Directory>
+      <Directory>Dossier:</Directory>
+      <Size>Taille sur le disque:</Size>
+      <Files>Fichiers:</Files>
+    </Directory>
+    <Registry>
+      <Key>Clés du registre:</Key>
+      <Values>Valeurs:</Values>
+    </Registry>
+  </Details>
+  <GameplayBackup>
+      <Title>Sauvegarde en jeu</Title>
+      <Info>Jouez à un jeu pendant que GameSave Manager sauvegarde votre progression régulièrement en arrière-plan.
+Afin de réduire le temps d'exécution et les lags en jeu, vous ne devriez sélectionner que les jeux auxquels vous jouez en ce moment.
+
+Pour plus de possibilités de sauvegardes, jetez un oeil aux Tâches planifiées.</Info>
+      <Interval>
+         <RunEvery>Lancer toutes les...</RunEvery>
+         <minutes>minutes</minutes>
+         <hour>heure</hour>
+         <hours>heures</hours>
+      </Interval>
+      <Processing>
+         <Title>Sauvegarde en jeu (en cours d'exécution)</Title>
+         <Info>GameSave Manager fait maintenant des sauvegardes en arrière-plan pour les jeux que vous avez sélectionnés toutes les %INTERVAL%.
+
+Vous pouvez minimiser cette fenêtre et commencer à jouer.
+Note: Dépendant de votre sélection et de la performance du système, il se peut que vous rencontriez de légers lags lorsque les sauvegardes sont créées.
+
+
+Pour terminer cette tâche, cliquez sur le bouton 'Fermer' de cette fenêtre (X dans le coin en haut à droite).</Info>
+         <Interval>Interval:</Interval>
+         <TimesRan>Nombre de lancements:</TimesRan>
+         <DetectedErrors>Erreurs détectées:</DetectedErrors>
+         <ProcessingBackup>En train de sauvegarder...</ProcessingBackup>
+         <Stopping>Opération en cours d'arrêt, cela peut prendre un instant...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Erreur:" width="350" height="110">Veuillez sélectionner au moins un jeu à sauvegarder ainsi qu'une destination où stocker les sauvegardes.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+  <Errors>
+    <Rescan title="Effectuer un scan?" width="450" height="170">GameSave Manager utilise les résultats d'un scan d'une session précédente et n'affiche pas les sauvegardes faites depuis.
+Pour les détecter, vous devez refaire un scan de votre système.
+
+Voulez-vous effectuer un scan complet maintenant?</Rescan>
+    <Success title="Succès" width="350" height="110">La sauvegarde a été effectuée.
+
+Aucune erreur n'a été détectée! Youpi!</Success>
+    <Failed title="Échec" width="420" height="150">La sauvegarde a été effectuée.
+    
+Malheureusement, au moins 1 erreur a été détectée.
+
+Un journal des opérations a été sauvé. Voulez-vous l'afficher?</Failed>
+    <Overwrite title="Le fichier existe déjà..." width="450" height="125">Le fichier que vous avez spécifié existe déjà.
+Si vous continuez, GameSave Manager écrasera le fichier avec la sauvegarde en cours.
+
+Voulez-vous continuer et écraser le fichier existant?</Overwrite>
+    <NoEntries>GameSave Manager n'a trouvé aucune sauvegarde sur votre système.
+
+Peut-être y a-t-il une mise à jour de la base de donnée de disponible?
+Vous pouvez aussi créer une sauvegarde personnalisée.</NoEntries>
+    <NoneSelected title="Erreur:" width="350" height="110">Aucune sauvegarde n'a été sélectionnée.</NoneSelected>
+    <Delete>
+      <NoneSelected title="Erreur:" width="350" height="110">Aucune sauvegarde n'a été sélectionnée pour suppression.</NoneSelected>
+      <Warning title="Attention!" width="500" height="190">Veuillez vérifier les points ci-dessous avant de continuer...
+
+1. Seuls les fichiers listés pour chaque sauvegarde sélectionnée seront supprimés
+2. Il est grandement recommandé de faire une copie de vos sauvegardes avant de continuer
+3. Cette opération est irréversible, sauf si vous possédez déjà une sauvegarde!
+
+Continuer?</Warning>
+      <Success title="Succès" width="350" height="110">La suppression a été effectuée.
+
+Aucune erreur n'a été détectée.</Success>
+      <Failed title="Échec" width="420" height="150">La suppression a été effectuée.
+    
+Malheureusement, au moins 1 erreur a été détectée.
+
+Un journal des opérations a été sauvé. Voulez-vous l'afficher?</Failed>
+    </Delete>
+  </Errors>
+</GameSaveManager_Translation>

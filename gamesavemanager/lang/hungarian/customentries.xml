@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Egyéni játékmentés bejegyzések</Title>
+	<Info>Ezen az oldalon új észlelési szabályokat adhatsz a GameSave Managerhez.
+Szerkessz át egy hivatalos bejegyzést az ízlésed szerint, adj hozzá egy teljesen új bejegyzést vagy kezeld a létezõ egyéni játékmentés bejegyzéseket.</Info>
+	<List>
+		<Header>Létezõ bejegyzések</Header>
+		<NoEntries>Jelenleg nincsenek 'Egyéni játékmentés bejegyzések' meghatározva.
+
+Az indításhoz kattints az alábbi 'Hozzáad' gombra.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Egyéni játékmentés bejegyzés varázsló; %CURRENT%. / %TOTAL%. lépés</Title>
+		<Header>Egyéni játékmentés bejegyzés varázsló</Header>
+		<Step1>
+			<Info>Ez a varázsló végigvezet az 'Egyéni játékmentés bejegyzések' hozzáadásának--vagy szerkesztésének--folyamatán.
+
+A varázsló során több kérdésre kell válaszolnod a menteni kívánt adatokról, ezért kérlek készülj fel a válaszadásra.
+Ez a folyamat általában nem tart 5 percnél tovább. Ne feledd, a mûveletet bármikor megszakíthatod.
+
+A kezdéshez adj nevet az egyéni játékmentés bejegyzésednek.
+Bárhogyan elnevezheted ezt a bejegyzést, de ajánlott következetesnek lenni ezügyben (például a játék teljes neve).</Info>
+			<Name>Bejegyzés neve:</Name>
+			<Warning>FIGYELEM: Ha további fájlokat, útvonalakt vagy rendszerleíró adatokat adsz hozzá egy létezõ 'Hivatalosan támogatott bejegyzéshez', kérlek használd az említett bejegyzés nevét, amikor felülírod azt a saját adataiddal.
+
+A te egyéni játékmentés bejegyzésed ezután tartalmazni fogja a 'Hivatalosan támogatott' bejegyzés adatait, amit szerkeszthetsz is.</Warning>
+			<Errors>
+				<InvalidName title="Érvénytelen név:" width="420" height="110">A megadott nevet('%NAME%') már egy másik egyéni játékmentés bejegyzés használja.
+
+Kérlek adj meg egy másik nevet és próbáld újra.</InvalidName>
+				<NoName title="Nincs név megadva:" width="420" height="110">Nem adtál nevet az egyéni játékmentés bejegyzésednek.
+
+Kérlek adj meg egy nevet és próbáld újra.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Az alábbi ûrlap lehetõvé teszi, hogy figyelmeztetõ üzenetet adj meg ehhez a bejegyzéshez.
+Egy felkiáltójel fogja figyelmeztetni a felhasználót az üzenetrõl és kijelöléskor a 'Bejegyzés részletek' panelen megtekinthetõ.
+
+Ha nem kívánsz megadni semmilyen figyelmeztetést, egyszerûen hagyd üresen az alábbi ûrlapot és kattints a 'Következõre &gt;'</Info>
+			<Backup>Mentési figyelmeztetés</Backup>
+			<Restore>Helyreállítási figyelmeztetés</Restore>
+		</Step2>
+		<Step3>
+			<Info>Az alábbi ûrlapot használva add meg az összes menteni kívánt fájlt, mappát és rendszerleíró adatot ehhez a bejegyzéshez.
+Annyi elemet adhatsz meg, amennyit csak akarsz.</Info>
+			<DirTitle>Menteni kívánt fájlok és mappák:</DirTitle>
+			<RegTitle>Menteni kívánt rendszerleíró adatok:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Hiba:" width="420" height="110">Nem határoztál meg elmentenivaló adatokat ehhez a bejegyzéshez.
+
+Kérlek adj meg legalább 1 mappát vagy 1 rendszerleíró bejegyzést és próbáld újra.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Készen is vagyunk!
+Az összes szükséges információ összegyûjtésre került és készen állunk elmenteni az adatbázisba.
+
+Ha szeretnél változtatni valamin, most vagy akár késõbb is megteheted a bejegyzés szerkesztésével.</Info>
+			<SubmitPanel>
+				<Header>Bejegyzés megosztása</Header>
+				<Info>Úgy tûnik a bejegyzés megfelel a feltételeknek és elküldhetõ a GameSave Manager szerverére megerõsítésre.
+Ha elfogadásra kerül, ez a bejegyzés bekerül a jövõbeli 'Adatbázis frissítésbe' és a teljes közösség hozzá fog férni.</Info>
+				<Submit>Igen, szeretném megosztani ezt a bejegyzést</Submit>
+				<InfoScene>Annak ellenére, hogy a bejegyzésed megfelel a beküldés követelményeinek, úgy tûnik emellett tartalmaz egy vagy több 'tört verzió' specifikus mentési helyet.
+Ezek nem támogatottak és emiatt nem küldhetõ be a bejegyzés érvényesítésre.
+
+Ha szerinted ez hiba, manuálisan is beküldheted a bejegyzésedet a fórumunkon.
+Ettõl függetlenül az Egyéni játékmentési bejegyzésedre ez nincs hatással.</InfoScene>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Egyéni játékmentés bejegyzések: Mappa varázsló; %CURRENT%. lépés a(z) %TOTAL% lépésbõl</Title>
+			<Header>Egyéni játékmentés bejegyzések: Mappa varázsló</Header>
+			<Step1>
+				<Info>Ez a varázsló végigvezet a mappaszabály hozzáadásán vagy módosításán az egyéni játékmentés bejegyzésedhez.
+
+Ez a folyamat általában nem tart 1 percnél tovább.
+
+A kezdéshez válaszd ki, hogy szeretnéd-e, ha a GameSave Manager dinamikusan észlelné a következõ mappákat?</Info>
+				<UseSpecialPaths>Igen, észlelje dinamikusan a következõ mappát</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Dokumentumok</DOCUMENTS>
+					<SHARED_DOCUMENTS>Megosztott dokumentumok</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Közös</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Helyi</APPDATA_LOCAL>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Steam telepítési könyvtár</STEAM>
+					<STEAM_CACHE>Steam gyorsítótár</STEAM_CACHE>
+					<STEAM_CLOUD>Steam felhõ</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay gyorsítótár</UPLAY>
+					<FLASH>Macromedia Flash gyorsítótár</FLASH>
+					<SAVED_GAMES>Mentett játékok</SAVED_GAMES>
+					<USER_PROFILE>Felhasználói otthon</USER_PROFILE>
+					<REGISTRY>Rendszerleíró értékbõl</REGISTRY>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Kérlek használd az alábbi ûrlapot 'rendszerleíró érték' meghatározásához, amely tartalmazza a mappát, amit szeretnél dinamikusan észleltetni.
+
+FIGYELEM: Az értéket automatikusan megfosztja a fájlnevektõl (például "C:\Game\Launch.exe"-bõl "C:\Game" lesz).</Info>
+				<Hive>Rendszerleíró kaptár:</Hive>
+				<Path>Rendszerleíró útvonal:</Path>
+				<Value>Rendszerleíró érték:</Value>
+				<Test>Észlelés tesztelése</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Most hozzá kell csatolnunk az útvonal maradékát az elõbb dinamikus észlelésre beállított mappa végére.
+
+Ehhez egyszerûen add meg a mappa útvonalának maradékát az alábbi mezõben.
+Ha nem szükséges hozzáadni semmit a dinamikusan észlelt útvonalhoz, hagyd üresen a mezõt és kattints a 'Következõre &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Mivel nem dinamikusan szeretnéd észleltetni egy mappát, alább meg kell adnod a teljes útvonalat.
+
+Ha szeretnél visszalépni és engedélyezni a dinamikus észlelést, kattints a "&lt; Vissza" gombra.</InfoWithoutSpecialPath>
+				<DynamicDetection>Dinamikus észlelés</DynamicDetection>
+				<Append>Csatlakoztassa a következõket</Append>
+				<Full>Nézzen be a következõ mappába</Full>
+			</Step2>
+			<Step3>
+				<Info>Végül meg kell határoznod, mely fájlokról szeretnél biztonsági mentést készíteni.
+
+Használhatsz helyettesítõ karaktereket (* és ?) az általad megadott fájlneveken belül.
+
+Példák:
+	*.* - Minden fájlt feldolgoz
+	*.sav - Minden '.sav' típusú fájlt feldolgoz
+	My*.sav - Minden olyat '.sav' típusú fájlt feldolgoz, ami 'my'-jal kezdõdik
+	MySave.sav - Feldolgozza a 'MySave.sav' nevû fájlt a gyökérkönyvtárban
+	bin\MySave.sav - Feldolgozza a 'MySave.sav' nevû fájlt a 'bin' alkönyvtárban
+	bin\*.* - Feldolgozza az összes fájlt a 'bin' alkönyvtárban</Info>
+				<Warning>FIGYELEM: A fájlokat ( | ) karakterrel válaszd el (például *.sav|*.ini)</Warning>
+				<IncludedFiles>Tartalmazni kívánt fájlok</IncludedFiles>
+				<ExcludedFiles>Kihagyni kívánt fájlok</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Egyéni játékmentés bejegyzések: Rendszerleíró varázsló</Title>
+			<Header>Egyéni játékmentés bejegyzések: Rendszerleíró varázsló</Header>
+			<Info>Kérlek add meg a menteni kívánt rendszerleírókulcs részleteit alább.</Info>
+			<Hive>Rendszerleíró kaptár:</Hive>
+			<Path>Rendszerleíró útvonal:</Path>
+			<DefinedValues>
+				<Header>Rendszerleíró értékek:</Header>
+				<EntireKey>Teljes kulcs mentése</EntireKey>
+				<Specific>A következõ érték(ek) biztonsági mentése:</Specific>
+				<Values>Értékek:</Values>
+				<Info>Az értékek neveit ( | ) karakterrel válaszd el.</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Beküldési üzenet</Header>
+		<Info>Most fogod beküldeni a(z) '%NAME%' nevû egyéni játékmentés bejegyzésedet a GameSave Manager szerverre elfogadásra.
+
+Szeretnél megadni egy beküldési üzenetet?</Info>
+		<NoMsg>Nem, csak szeretném beküldeni a bejegyzésemet</NoMsg>
+		<Msg>Igen, szeretnék megadni további információkat is</Msg>
+		<ReturnCodes>
+			<NoConnection title="Hiba" width="420" height="110">Hiba történt a GameSave Manager szerverrel való kommunikáció közben.
+Lehetséges, hogy nem mûködik vagy talán nem rendelkezel aktív internetkapcsolattal?</NoConnection>
+			<DBUpdate title="Hiba" width="420" height="110">Úgy tûnik adatbázis frissítés érhetõ el a számodra.
+
+Érvényesítsd a frissítést és próbáld újra.</DBUpdate>
+			<DynError title="Hiba" width="420" height="110">Nem sikerült beküldeni a bejegyzést egy 'dinamikus észleléssel' kapcsolatos hiba miatt.</DynError>
+			<DupError title="Hiba" width="420" height="110">Ezt a bejegyzést te vagy valaki más már beküldte.</DupError>
+			<Banned title="Hiba" width="420" height="110">Túl sok spam beküldést kaptunk errõl az IP-címrõl.
+Kérlek küldd el a bejegyzést manuálisan a fórumunkon keresztül</Banned>
+			<MissingData title="Hiba" width="420" height="110">Úgy tûnik szükséges adatok hiányoznak a bejegyzésbõl.</MissingData>
+			<Update title="Hiba" width="420" height="110">A GameSave Manager ezen verzióját már nem támogatja a szerver.
+Kérlek frissíts a legfrissebb verzióra és próbáld újra.</Update>
+			<Maintenance title="Hiba" width="420" height="110">A beküldõ rendszer karbantartás miatt jelenleg nem mûködik.
+Kérlek próbáld újra késõbb vagy küldd el a bejegyzést manuálisan a fórumunkon keresztül.</Maintenance>
+			<SubmitError title="Hiba" width="420" height="110">Ismeretlen hiba történt a lekérdezés során.
+Kérlek próbáld újra késõbb vagy küldd el a bejegyzést manuálisan a fórumunkon keresztül.</SubmitError>
+			<Success title="Siker" width="420" height="110">A(z) '%NAME%' nevû bejegyzés sikeresen beküldésre került és jelenleg elfogadásra vár.
+			
+			Köszönjük.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Hiba:" width="420" height="110">A kiválasztott 'Egyéni játékmentés bejegyzés' nem tûnik érvényesnek vagy hiba történt az adatbázis lekérdezésekor.
+
+Kérlek próbáld újra.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

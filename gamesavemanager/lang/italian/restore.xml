@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Ripristina Salvataggi</Title>
+	<Detection>
+		<Title>Elementi Trovati</Title>
+		<ListCheck>Seleziona/Deseleziona tutto</ListCheck>
+		<Counter>%TOTAL% elemento/i trovato/i / %SELECTED% elemento/i selezionato/i</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>I file verranno ripristinati</Files>
+			<Registry>Gli elementi del registro verranno ripristinati</Registry>
+			<Warning>L'elemento ha un "Avvertimento" che dovresti leggere</Warning>
+			<Unrestorable>Impossibile trovare il percorso per il ripristino a causa delle impostazioni o di una chiave di registro mancante</Unrestorable>
+			<EntireEntry>L'intero elemento verrà ripristinato</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Inizia il ripristino.</Start>
+		<Open>Apri un archivio precedentemente creato per il ripristino.</Open>
+	</Options>
+	<Details>
+		<Title>Dettagli Elemento</Title>
+		<NoneSelected>Nessun elemento selezionato.
+
+Selezionare un elemento dall'elenco a sinistra.</NoneSelected>
+		<Unrestorable>L'elemento selezionato non è ripristinabile.
+
+Ci sono varie cause per questo problema, ma queste sono le più comuni:
+1. Nelle "Impostazioni Generali" viene impedita la rilevazione (vedi "Configurazione Rilevazione")
+2. Il percorso del salvataggio è rilevato dinamicamente tramite una chiave di registro che non è presente nel tuo sistema.
+
+Se la causa è la numero 2, ti preghiamo di reinstallare il gioco. Potrebbe essere necessario eseguirlo almeno una volta.</Unrestorable>
+		<UnrestorableEntry>Tutti i dati salvati per questo elemento non sono ripristinabili perchè GameSave Manager non riesce a trovare i loro percorsi.
+
+Ti preghiamo di selezionare una delle cartelle di questo elemento per maggiori informazioni, e per poter trovare una soluzione.</UnrestorableEntry>
+		<Entry>
+			<Name>Nome Elemento:</Name>
+			<VerInfo>Creato con:</VerInfo>
+			<IsOfficial>Elemento Ufficiale:</IsOfficial>
+			<Size>Dimensioni su Disco:</Size>
+			<Warning>Avvertimenti:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Percorso:</Directory>
+			<Size>Dimensioni su Disco:</Size>
+			<Files>File:</Files>
+		</Directory>
+		<Registry>
+			<Key>Chiave di Registro:</Key>
+			<Values>Valore:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Success" width="350" height="110">Ripristino completato.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+		<Failed title="Failure" width="420" height="110">Ripristino completato.
+		
+Sfortunatamente, è stato rilevato almeno un errore.
+
+È stato creato un rapporto. Vuoi leggerlo?</Failed>
+		<NoArchive>Nessun archivio attualmente caricato.
+
+Per iniziare, clicca sul pulsante "Apri" nell'angolo in alto a destra di questa finestra.</NoArchive>
+		<InvalidFile>Questo file sembra utile, peccato che non sia supportato da GameSave Manager.</InvalidFile>
+		<Incompatible>L'archivio che hai selezionato non sembra essere supportato da questa versione di GameSave Manager.
+
+Ti preghiamo di riprovare.</Incompatible>
+		<NoneSelected title="Error:" width="350" height="110">Nessun salvataggio selezionato per il ripristino.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

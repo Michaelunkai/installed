@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Nach neue Updates suchen</Title>
+	<Info>Es werden regelmässig neue Updates für GameSave Manager angeboten.
+Diese Seite zeigt Ihnen alle verfügbaren Updates für Sie an.
+
+Klicken Sie auf das Welt-Symbol links, um die Suche erneut zu starten.</Info>
+	<Recheck>Nochmal nach Update-Informationen suchen.</Recheck>
+	<ProgramUpdate>
+		<Title>Programm Update</Title>
+		<Info>Es wird empfohlen, immer die letzte Version von GameSave Manager zu verwenden.
+Programm-Updates bieten neue Features, beheben Bugs und verbessert GameSave Manager allgemein immer mehr.</Info>
+		<Download>Download</Download>
+		<ApplyUpdate>Download &amp; durchführen</ApplyUpdate>
+	</ProgramUpdate>
+	<DatabaseUpdate>
+		<Title>Datenbank-Update</Title>
+		<Info>Datenbank-Updates sind nicht so wichtig wie Programm-Updates, sie fügen lediglich neue Unterstützungen für Spiele hinzu und/oder beheben fehlerhafte Ortungsregeln.
+Es wird empfohlen, mind. 1 mal in der Woche das Update durchzuführen.</Info>
+		<Download>Update Ausführen</Download>
+	</DatabaseUpdate>
+	<Changelog>Siehe Changelog</Changelog>
+	<DialogPrompt title="Update(s) available" width="500" height="110">Es scheint, als gäbe es ein Programm- oder Datenbank-Update für Sie.
+
+Möchten Sie die Update-Seite besuchen?</DialogPrompt>
+<LangPack>
+      <Title>Übersetzungs-Paket</Title>
+      <Info>Kein 'Programm-Update' gefunden.
+		Aber für Ihre verwendete Sprache giebt es vom Autor ein Update.</Info>
+      <Download>Download</Download>
+      <ApplyUpdate>Download &amp; starten</ApplyUpdate>
+   </LangPack>
+	<Errors>
+		<Checking>Suche nach Updates...</Checking>
+		<NoUpdates>Keine neuen Updates verfügbar</NoUpdates>
+		<UpdateRequired>Datenbank-Update verfügbar; ein Programm-Update wird vorausgesetzt!</UpdateRequired>
+		<LangPack>[Community-Erweiterung] Übersetzungspack updaten</LangPack>
+        <LangPack_Invalid>Anfragefehler: Unbekanntes 'PackID' angegeben!</LangPack_Invalid>
+  		<NoConnection>Leider konnte keine Verbindung zum Webserver hergestellt werden. Versuchen Sie es später wieder!</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

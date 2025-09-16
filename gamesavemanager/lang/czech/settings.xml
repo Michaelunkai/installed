@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Nastavení aplikace</Title>
+	<RestoreSettings>
+		<Title>Výchozí nastavení</Title>
+		<Confirm title="Potvrdit:" width="500" height="110">Jste si jistý, že chcete obnovit nastavení GameSave Manager na výchozí hodnoty?
+
+POZNÁMKA: Nedojde ke změně vlastních záznamů.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Kategorie</Title>
+		<List>
+			<General>Hlavní nastavení</General>
+			<Cloud>Možnosti cloudu</Cloud>
+			<Update>Změnit chování</Update>
+			<Task>
+				<Header>Specifické úlohy</Header>
+				<Backup>
+					<Header>Nastavení zálohování</Header>
+					<ExternalScripts>Externí skripty</ExternalScripts>
+					<SepArchives>Rozdělit úlohy</SepArchives>
+				</Backup>
+				<SyncLink>Sync &amp; Link</SyncLink>
+				<Spreader>Steam Spreader</Spreader>
+			</Task>
+			<SevZip>Předvolby 7zip</SevZip>
+			<Detection>Konfigurace detekce</Detection>
+			<SortEntries>Řazení záznamů</SortEntries>
+			<IgnoredEntries>Ignorované záznamy</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header>Asociace souborů</Header>
+			<gsba>Asociovat s .gsba soubory</gsba>
+			<gsdu>Asociovat s .gsdu soubory</gsdu>
+			<gsms>Asociovat s .gsms soubory</gsms>
+			<AutoCheck>Zkontrolovat asociace souborů při startu</AutoCheck>
+			<ContextMenu>Přidat položku 'GameSave Manager' do kontextové nabídky podporovaných souborů</ContextMenu>
+		</Associations>
+		<Lang>Jazyk</Lang>
+		<Startup>
+			<Header>Spuštění</Header>
+			<ScanOnStartup>Prohledat systém a najít podporované hry</ScanOnStartup>
+			<UpdateCheckOnStartup>Zkontrolovat aktualizace programu i databáze</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks>Provést úlohy při vypnutí (doporučeno)</ShutdownTasks>
+		<SaveLogs>Automaticky ukládat záznamy úloh</SaveLogs>
+		<ShowVerInTitle>Zobrazit informaci o verzi v záhlaví okna</ShowVerInTitle>
+		<MessageSounds>Zvukové upozornění při zobrazení dialogových hlášení</MessageSounds>
+		<RunAsAdmin>Vždy použít režim kompatibility pro spuštění s administrátorským oprávněním</RunAsAdmin>
+		<RunAsAdmin_Question title="Restart?" width="500" height="110">GameSave Manager není spuštěn s administrátorským oprávněním.
+
+Chcete nyní restartovat pro získání administrátorského oprávnění?</RunAsAdmin_Question>
+	</General>	
+	<Cloud>
+		<Info>Pro zajištění bezpečnosti vašich záloh, GameSave Manager spolupracuje s aplikacemi třetích stran.</Info>
+		<Subfolder>Podsložka:</Subfolder>
+		<BoxSync>
+         <Header>Box.net</Header>
+         <Enable>Povolit podporu Box.net</Enable>
+         <Error title="Funkce nedostupná:" width="500" height="110">GameSave Manager nenašel ve vašem systému klienta Box.net.
+
+Proto nemůže být tato funkce zapnuta.</Error>
+         <ManuallySpecify>Synchronizační složka nebyla nenalezena.
+Prosím, vyberte jej ručně.</ManuallySpecify>
+        </BoxSync>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable>Povolit podporu DropBox</Enable>
+			<Error title="Funkce nedostupná:" width="500" height="110">GameSave Manager nenašel ve vašem systému DropBox.
+
+Proto nemůže být tato funkce zapnuta.</Error>
+			<ManuallySpecify>Synchronizační složka nebyla nenalezena.
+Prosím, vyberte jej ručně.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable>Zapnout podporu Google Drive</Enable>
+			<Error title="Funkce nedostupná:" width="500" height="110">GameSave Manager nenašel ve vašem systému Google Drive.
+
+Proto nemůže být tato funkce zapnuta.</Error>
+			<ManuallySpecify>Synchronizační složka nebyla nenalezena.
+Prosím, vyberte jej ručně.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable>Zapnout podporu SkyDrive</Enable>
+			<Error title="Funkce nedostupná:" width="500" height="110">GameSave Manager nenašel ve vašem systému Microsoft SkyDrive.
+
+Proto nemůže být tato funkce zapnuta.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Soukromý FTP server</Header>
+			<Enable>Zapnout podporu FTP</Enable>
+			<Host>Host:</Host>
+			<User>Uživ. jméno:</User>
+			<Pass>Heslo:</Pass>
+			<Dir>Složka:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header>Aktualizace programu</Header>
+			<None>Chci stáhnout aktualizace, prosím, přesměrujte mě na stránku ke stažení</None>
+			<DirectLinks>Pokud jsou dostupné, použít 'Přímé odkazy ke stažení,' ale aktualizaci nainstaluji ručně</DirectLinks>
+			<ProgDownload>Stáhnout aktualizace a navést na jejich instalaci</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting>Seznam dostupných Beta, Alpha a vývojových vydání</ListTesting>
+		<UpdateCheckOnLogin>Zkontrolovat aktualizace databáze při startu Windows</UpdateCheckOnLogin>
+		<UpdateCheckOnStartup>Zkontrolovat aktualizace programu a databáze při startu Windows</UpdateCheckOnStartup>
+		<AutoUpdate>Automaticky instalovat aktualizace databáze</AutoUpdate>
+		<IncrementalUpdates>Nestahovat celou databázi, pouze přírustkové aktualizace</IncrementalUpdates>
+		<RemindCheckUpdates>Jednou týdně připomenout kontrolu aktualizací</RemindCheckUpdates>
+		<PromptUser>Zobrazit dialog při dostupnosti aktualizací</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header>Rozdělit archivy</Header>
+			<Enable>Vytvořit samostatný archiv pro každou zálohovanou položku</Enable>
+			<TimeStamp>Přidat časové razítko do názvu archivu</TimeStamp>
+			<OnChange>Vytvořit nový archiv při každé změně souboru (ovlivní výkon)</OnChange>
+			<SepSubFolders>Organizovat zálohy pro každou položku do samostatné složky</SepSubFolders>
+			<PurgeCount>Spojit archivy, když počet záloh dosáhne...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation>Provést kontrolu archivu okamžitě po vytvoření</ValidateOnArchiveCreation>
+		<DuplicateArchives>Kopírovat všechny zálohy do jiné složky, kterou vytvořím</DuplicateArchives>
+		<DefaultBackupDir>Nastavit výchozí složka pro zálohování (přepíše nastavení cloudu)</DefaultBackupDir>
+		<RescanReminder>Pokud jsou dostupné výsledky poslední kontroly, připomenout novou kontrolu při každé relaci</RescanReminder>
+		<ConfirmChecksumResponse>Potvrdit kontrolní součty a přeskočit neplatné záznamy</ConfirmChecksumResponse>
+		<RememberBackupSelection>Zapamatovat si mezi relacemi záznamy, které vyberu</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Pomocí formuláře níže určíte, které chcete označit časovým razítkem.
+
+Na všechny neoznačené položky vlevo se použije nastavení aplikace z 'Specifické úlohy->Nastavení zálohování'.</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Pro úsporu místa ve vašem cloudovém úložišti Sync &amp; Link zobrazuje pouze složky odpovídající nastaveným kritériím.
+
+Podle svých potřeb můžete ovlivnit, které složky má GameSave Manager zobrazovat.</Info>
+		<IgnoreExclusionRules>Seznam složek, které chcete vyloučit</IgnoreExclusionRules>
+		<ShowSteamCloud>Zobrazit 'Steam Cloud' uložené hry</ShowSteamCloud>
+		<ShowUplayCache>Zobrazit 'Uplay Cache' uložené hry</ShowUplayCache>
+		<WaitAfterEachLink>Po vytvoření odkazu vyčkat na interakci uživatele před zpracováním dalšího záznamu</WaitAfterEachLink>
+		<CustomSubfolder>Sám určím, které podsložky zahrnout</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header>Typ odkazu</Header>
+			<SymLink>Použít symbolické odkazy</SymLink>
+			<Junction>Použít 'NTFS Junctions'</Junction>
+		</Link>
+		<SteamRunningCheck>Upozornit, pokud je vyžadován běh Steamu</SteamRunningCheck>
+		<HideXCOPY>Skrýt okno příkazu XCOPY</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header>Tvorba archivu</Header>
+			<Use7zFormat>Použít '7z' formát (lepší komprese)</Use7zFormat>
+			<LZMA2>Použít LZMA2 metodu (vylepšená vícevláknová podpora)</LZMA2>
+			<UseCompression>Použít maximální možnou kompresi (dramaticky ovlivní výkon)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow>Skrýt okno konzole</HideWindow>
+		<UseLargePages>Použít 'velké stránky' pro teoretický rychlejší kompresisi</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header>Detekce Steamu</Header>
+			<Enable>Povolit podporu Steamu</Enable>
+			<Cache>Zahrnout 'Steam Cache' složkay</Cache>
+			<Cloud>Zahrnout 'Steam Cloud' složky</Cloud>
+		</Steam>
+		<Uplay>
+			<Header>Ubisoft uPlay</Header>
+			<Enable>Povolit detekci 'uPlay cache' uložených her</Enable>
+		</Uplay>
+		<Flash>
+			<Header>Macromedia Flash cache</Header>
+			<Enable>Hledat uložené hry ve 'Flash cache'</Enable>
+		</Flash>
+		<SaveScanResults>Uložit výsledky detekce pro rychlejší hledání v budoucnu</SaveScanResults>
+		<DetectSize>Zkusit detekovat velikost uložených her</DetectSize>
+		<CheckForDupDirs>Zabránit zobrazování duplicitních složek</CheckForDupDirs>
+		<RescanOnIdle>Při nečinnosti systému znovu zkontrolovat podporované hry</RescanOnIdle>
+		<ShowStatusInfo>Zobrazit podrobné informace během kontroly (může zpomalit rychlost na rychlost kontroly)</ShowStatusInfo>
+		<QuickExclusionRuleset>Použít vylepšenou 'sadu výjimek'</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header>Seřadit podle</Header>
+		<SortByName>Seřadit detekované záznamy podle názvu</SortByName>
+		<SortByDate>Seřadit detekované záznamy podle poslední úpravy</SortByDate>
+		<SortBySize>Seřadit detekované záznamy podle velikosti souboru</SortBySize>
+		<SortByCustomEntries>Seřadit podle stavu; Nejprve vlastní záznamy</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Vyberte záznamy, které nechcete příště zobrazovat ve vyhledávání.
+
+POZNÁMKA: Změny se projeví až při úplném znovu skenování.</Info>
+	</IgnoredEntries>
+	<ExternalScripts>
+		<Info>Externí skripty mohou rozšířit způsoby zálohování.
+
+Zde můžete zapnout/vypnout skripty a konfigurovat jejich možnosti.</Info>
+		<ScriptName>Správa skriptu pro...</ScriptName>
+		<ScriptMETA>Autor: %AUTHOR%
+Verze: %VERSION%			|		Je oficiální: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Povolit tento skript</EnableScript>
+		<ScriptOptions>
+			<Header>Možnosti skriptu:</Header>
+			<Value>Hodnota (stiskněte [enter] pro uložení):</Value>
+			<Enable>Možnost zapnutí</Enable>
+			<Saved>Hodnota uložena!</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+      <LaunchButton>Importovat a exportovat nastavení</LaunchButton>
+      <Title>Importovat / Exportovat nastavení</Title>
+      <Intro>
+         <Info>Co chcete udělat?</Info>
+         <Import>Importovat nastavení a vlastní záznamy</Import>
+         <Export>Exportovat existující nastavení a vlastní záznamy</Export>
+      </Intro>
+      <Import>
+         <Step1>
+            <Info>Pomocí níže zobrazeného formuláře vyberte zálohu, kterou chcete obnovit.
+Pro zahájení klikněte na tlačítko 'Další &gt;'.</Info>
+            <Open>Otevřít...</Open>
+         </Step1>
+         <Step2>
+            <Loading>Prosím čekejte, než GameSave Manager načte vámi vybraný archiv.
+To může chvíli trvat.</Loading>
+            <Info>Pomocí níže zobrazených možností vyberte, co chcete importovat.</Info>
+            <Settings>Obnovit nastavení programu</Settings>
+            <IgnoreList>Obnovit 'Seznam ignorovaných'</IgnoreList>
+            <SteamSpreader>Přepsat historii Steam Spreader</SteamSpreader>
+            <Logs>Obnovit protokoly úloh</Logs>
+            <CustomEntries>Obnovit následující vlastní uložené hry...</CustomEntries>
+            <SelectAll>Vybrat vše / Zrušit výběr</SelectAll>
+         </Step2>
+         <Step3>
+            <Success>Vámi vybrané položky byly úspěšně obnoveny z následující zálohy...
+
+
+
+%FILE%</Success>
+            <Failed>Bohužel nastala chyba při obnovování ze zálohy.
+
+
+
+
+Detaily chyby:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Import>
+      <Export>
+         <Step1>
+            <Info>Pomocí níže zobrazených možností vyberte, co chcete exportovat.</Info>
+            <Settings>Nastavení programu</Settings>
+            <IgnoreList>Seznam ignorovaných</IgnoreList>
+            <SteamSpreader>Steam Spreader history</SteamSpreader>
+            <Logs>Všechny protokoly úloh</Logs>
+            <CustomEntries>Následující vlastní uložené hry...</CustomEntries>
+            <SelectAll>Vybrat vše / Zrušit výběr</SelectAll>
+         </Step1>
+         <Step2>
+            <Info>Prosím, vyberte umístění, kam chcete zálohovat nastavení.
+Pro zahájení klikněte na tlačítko 'Další &gt;'.</Info>
+            <SaveAs>Uložit jako...</SaveAs>
+         </Step2>
+         <Step3>
+            <Success>Vámi vybrané položky byly úspěšně zálohovány do následujícího umístění...
+
+
+
+%FILE%</Success>
+            <Failed>Bohužel nastala chyba při vytváření zálohy.
+
+
+
+
+Detaily chyby:
+---
+   %ERROR%</Failed>
+         </Step3>
+      </Export>
+      <Errors>
+         <InvalidFile title="Neplatná záloha" width="500" height="110">Vybraný archiv nevypadá jako platný archiv se zálohou nastavení.</InvalidFile>
+         <NothingSelected title="Chyba:" width="500" height="110">Pro pokračování vyberte alespoň jednu možnost.</NothingSelected>
+         <NoFile title="Chyba:" width="500" height="110">Nevybrán žádný soubor.
+
+Prosím, vyberte archiv zálohy a zkuste to znovu.</NoFile>
+      </Errors>
+   </ImportExport>
+</GameSaveManager_Translation>

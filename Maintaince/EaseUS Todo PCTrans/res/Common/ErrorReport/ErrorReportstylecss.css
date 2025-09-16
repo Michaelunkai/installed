@@ -1,0 +1,389 @@
+
+*{
+	font-family: "Segoe UI";
+	font-size : 14px;
+	color: #2c364c;
+}
+QFrame#CFrameTitle
+{
+	background-color:#19273a;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+QLabel#lableChebox
+{
+	color:#273044;
+	font-size:14px;
+	font-family: "Segoe UI";
+}
+
+
+
+
+
+QLabel#LabelTitle
+{
+	color:#273044;
+	font-size:24px;
+	font-family: "Segoe UI Semibold";
+}
+
+QLabel#CFrameTitle_textTitle
+{
+	color:#7f8fa4;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	
+}
+
+QLabel#messageLable
+{
+	color:#273044;
+	font-size:16px;
+	min-width:443px;
+	max-width:460px;
+}
+
+
+QLabel#LabelNote,#LabelInfo,#labelDoubleclick,#labelNameDec,#labelDecinfo,#labeldec,#labelname,#selectFilesTitle
+{
+	color:#273044;
+	font-size:16px;
+}
+
+
+QPushButton#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/close_normal.png);
+
+}
+
+
+QPushButton:hover#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/ico_guanbi_hover.png);
+
+}
+
+QPushButton:pressed#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/ico_guanbi_press.png);
+
+}
+
+
+QPushButton:disabled#CFrameTitle_CloseBtn
+{
+	border-image: url(../res/Common/ErrorReport/close_disable.png);
+
+}
+
+
+
+QPushButton#BtnSaveAs,#BtnDoNotSend,#btnSelectFiles
+{
+	border:1px solid #1B9cff;
+    border-radius: 4px;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#ffffff;
+	text-align :  center;
+	min-width  : 120px;
+	min-height : 30px;
+	max-height : 30px;
+	color:#1b9cff
+	
+}
+
+QPushButton:hover#BtnSaveAs,:hover#BtnDoNotSend,:hover#btnSelectFiles
+{
+	  background-color:#e8f5ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:pressed#BtnSaveAs,:pressed#BtnDoNotSend,:pressed#btnSelectFiles
+{
+	  background-color:#bae1ff;
+	  color:#1b9cff;
+	  border:1px solid #1B9cff;
+	  font-family: "Segoe UI Semibold";
+}
+
+QPushButton:disabled#BtnSaveAs,:disabled#BtnDoNotSend,:disabled#btnSelectFiles
+{
+	background-color: #EAEAF0;
+	border:1px solid #EAEAF0;
+	font-family: "Segoe UI Semibold";
+	color:#7f8fa4;
+}
+
+QPushButton#BtnSendError
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 160px;
+	min-height : 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#BtnSendError
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	  min-width  : 160px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#BtnSendError
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	  min-width  : 160px;
+	  min-height : 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#BtnSendError
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+}
+
+QPushButton#MessageBtnOk
+{
+    border-radius: 4px;
+	font-size:16px;
+	font-family: "Segoe UI Semibold";
+	background-color:#1b9cff;
+	text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width:120px;
+	max-height: 32px;
+	color:#ffffff
+	
+}
+
+QPushButton:hover#MessageBtnOk
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#3aa7fb;
+	  text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width:120px;
+	max-height: 32px;
+	  color:#ffffff
+}
+
+QPushButton:pressed#MessageBtnOk
+{
+      border-radius: 4px;
+	  font-size:16px;
+	  font-family: "Segoe UI Semibold";
+	  background-color:#1677c1;
+	  text-align:center;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width:120px;
+	max-height: 32px;
+	  color:#ffffff
+}
+
+QPushButton:disabled#MessageBtnOk
+{
+	font-family: "Segoe UI Semibold";
+	background-color: #7f8fa4;
+	min-width  : 120px;
+	min-height : 32px;
+	max-width:120px;
+	max-height: 32px;
+}
+
+
+
+
+
+
+QPushButton#BtnClickHere
+{
+	font-family: "Segoe UI";
+	background-color:transparent;
+	text-decoration:underline;
+	font-size:16px;
+	color:#1b9cff;
+}
+
+QTextEdit#textEdit
+{
+	font-size:16px;
+	background-color:#ffffff;
+	color:#273044;
+	border-radius:4px;
+	border:1px solid #e1e4e7;
+}
+
+
+
+QTextEdit#textEditSelectFiles
+{
+	font-size:14px;
+	background-color:#ffffff;
+	color:#273044;
+	border-radius:4px;
+	border:1px solid  #e1e4e7;
+}
+
+
+
+QTableWidget#tablewidget
+{
+	background-color:#dde2eb;
+	border-radius:4px;
+	border: 0px ;
+	outline:0px;
+	
+}
+
+
+
+
+QScrollBar:horizontal
+{
+    height:6px;
+    background:transparent;
+    margin:0px,0px,0px,0px;
+    padding-left:0px;  
+    padding-right:0px;
+}
+
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal
+{
+  background: transparent;
+  width:0px;
+	
+}
+
+QScrollBar::handle:horizontal
+{
+    height:6px;
+    background:#d1dbe9;
+    min-width: 20px;
+    border-radius : 3px;
+}
+QScrollBar::handle:horizontal:hover
+{
+    height:6px;
+    background:#d1dbe9;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:pressed
+{
+	background:#263954;
+}
+
+QScrollBar::handle:horizontal:disabled
+{
+	background:transparent;
+}
+
+QScrollBar::add-line:horizontal
+{
+	border : none;
+	background: none;
+	width:0px;
+	 subcontrol-position:-180;
+}
+
+QScrollBar::sub-line:horizontal 
+{
+	border : none;
+	background: none;
+	width:0px;
+	 subcontrol-position:-180;
+}
+
+
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:  #e3ebf6/*rgb(51, 67, 92)*/;
+    margin: 0px, 0px, 0px, 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+	
+}
+
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background: #d1dbe9;
+    min-height:20px;
+	border-radius : 4px;
+	border: 0px solid transparent;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background: #e3ebf6;
+	border: 0px ;
+	
+}
+QScrollBar::up-arrow:vertical,QScrollBar::down-arrow:vertical
+{
+	border: 0px solid transparent;
+    width: 0px;
+    height: 0px;
+	background: transparent;
+}
+
+QScrollBar::handle:vertical:hover
+{
+	border: 0px solid transparent;
+	background:#d9e5f6;
+}
+
+QScrollBar::handle:vertical:pressed
+{
+	border: 0px solid transparent;
+	background:#bec7d3;
+}
+
+
+QScrollBar::sub-line:vertical /*三角箭头*/
+{
+	border: 0px;
+	background: transparent;
+	subcontrol-position:0;
+	height: 0px;
+	width:0px;
+}
+
+QScrollBar::add-line:vertical
+{
+	border: 0px;
+	background: transparent;
+	subcontrol-position:-0;
+	height: 0px;
+	border: 0px 
+}

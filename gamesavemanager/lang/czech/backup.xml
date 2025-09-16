@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Zálohovat uložené hry</Title>
+	<Detection>
+		<Title>Detekované položky</Title>
+		<ListCheck>Vybrat vše / Zrušit výběr</ListCheck>
+		<Counter>Detekováno %TOTAL% položek / Vybráno %SELECTED% položek</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>Soubory byly zálohovány</Files>
+			<Registry>Data registru budou zálohována</Registry>
+			<Warning>Položka vygenerovala upozornění, které byste si měli přečíst.</Warning>
+			<EntireEntry>Celý záznam bude zálohován</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Spustit zálohování.</Start>
+		<Delete>Odebrat vybrané zálohy ze systému.</Delete>
+		<Rescan>Znovu skenovat systém na podporované hry.</Rescan>
+	</Options>
+	<Details>
+		<Title>Detaily</Title>
+		<NoneSelected>Nevybrána žádná položka.
+
+Prosím, vyberte položku ze seznamu vlevo.</NoneSelected>
+		<Entry>
+			<Name>Položka:</Name>
+			<IsOfficial>Oficiální záznam:</IsOfficial>
+			<Size>Velikost na disku:</Size>
+			<Warning>Varování:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Složka:</Directory>
+			<Size>Velikost na disku:</Size>
+			<Files>Souborů:</Files>
+		</Directory>
+		<Registry>
+			<Key>Klíč registru:</Key>
+			<Values>Hodnoty:</Values>
+		</Registry>
+	</Details>
+	<GameplayBackup>
+      <Title>Zálohovat postup ve hře</Title>
+      <Info>Hrajte hry a přitom nechte plně automaticky a na pozadí GameSave Manager zálohovat váš aktuální postup ve hře.
+Pro snížení potřebného času a minimalizaci propadu výkonu doporučujeme vybrat pouze hry, které právě hrajete.
+
+Pro pravidelné zálohování přejděte do sekce Naplánované úlohy.</Info>
+      <Interval>
+         <RunEvery>Spustit každých...</RunEvery>
+         <minutes>minut</minutes>
+         <hour>hodin</hour>
+         <hours>hodin</hours>
+      </Interval>
+      <Processing>
+         <Title>Zálohovat postup ve hře (běžící úloha)</Title>
+         <Info>GameSave Manager bude nyní na pozadí zálohovat vybrané položky každých %INTERVAL%.
+
+Toto okno můžete nyní minimalizovat a začít hrát.
+Poznámka: V závislosti na vašem nastavení a parametrům systému může při zálohování docházet k drobným propadům výkonu.
+
+
+Pro ukončení této úlohy klikněte na tlačítko 'Zavřít' (X v pravo nahoře).</Info>
+         <Interval>Interval:</Interval>
+         <TimesRan>Kolikrát spuštěno:</TimesRan>
+         <DetectedErrors>Počet zjištěných chyb:</DetectedErrors>
+         <ProcessingBackup>Právě probíhá zálohování...</ProcessingBackup>
+         <Stopping>Zastavování aktuální operace. Může to chvíli trvat...</Stopping>
+      </Processing>
+      <Messages>
+         <MissingInfo title="Chyba:" width="350" height="110">Prosím, ujistěte se, že jste vybrali alespoň jednu položku a místo, kam se má zálohovat.</MissingInfo>
+      </Messages>
+   </GameplayBackup>
+	<Errors>
+		<Rescan title="Provést novou kontrolu?" width="450" height="170">GameSave Manager použil výsledky získané při posledním skenování systému, proto nejnovější uložené hry nejsou zobrazeny.
+Pro vyřešení tohoto problému musíte provést kompletní sken systému.
+
+Chcete provést nový kompletní sken?</Rescan>
+		<Success title="Úspěšné" width="350" height="110">Zálohování dokončeno.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+		<Failed title="Neúspěšné" width="420" height="110">Zálohování dokončeno.
+		
+Bohužel byla zjištěna 1 chyba.
+
+Záznam byl uložen. Chcete jej zobrazit?</Failed>
+		<Overwrite title="Soubor již existuje..." width="450" height="125">Vámi zadaný soubor již existuje.
+Pokud budete pokračovat, GameSave Manager jej přepíše touto zálohou.
+
+Pokračovat a přepsat soubor?</Overwrite>
+		<NoEntries>GameSave Manager nenalezl žádnou podporovanou hru ve vašem systému.
+
+Pravděpodobně bude dostupná aktualizace databáze!
+Můžete také vytvořit vlastní záznam uložené hry.</NoEntries>
+		<NoneSelected title="Chyba:" width="350" height="110">Při zálohování nebyly vybrány žádné uložené hry.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Chyba:" width="350" height="110">Pro odstranění nebyly vybrány žádné uložené hry.</NoneSelected>
+			<Warning title="Upozornění!" width="500" height="170">Máme pro vás několik informací, které byste měli vidět před pokračováním...
+
+1. Odstraněny budou pouze soubory zobrazené související s danou položkou
+2. Před pokračováním důrazně doporučujeme zálohovat uložené pozice
+3. Pokud potvrdíte tuto operaci, již ji nebudete moci vrátit bez vytvořené zálohy!
+
+Přesto pokračovat?</Warning>
+			<Success title="Success" width="350" height="110">Odstranění dokončeno.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+			<Failed title="Failure" width="420" height="110">Odstranění dokončeno.
+		
+Bohužel byla zjištěna 1 chyba.
+
+Záznam byl uložen. Chcete jej zobrazit?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

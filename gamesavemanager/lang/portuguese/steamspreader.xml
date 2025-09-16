@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Steam Spreader</Title>
+	<Info>Steam Spreader permite a você distribuir seus arquivos em múltiplos discos rígidos e partições utilizando 'Links Simbólicos'.
+
+A maioria dos gamers usa 'links simbólicos' para mover seus games favoritos para um drive SSD, enquanto mantêm grande parte de seus games em um drive mecânico.</Info>
+	<MoveDir>
+		<Header>Mover diretórios</Header>
+		<Empty>Nenhum diretório especificado.
+
+Clique 'Adicionar' para começar.</Empty>
+		<DialogHeader>Steam Spreader; Item da fila</DialogHeader>
+		<Steam width="130">Mover um game Steam</Steam>
+		<Origin>Mover um game Origin</Origin>
+		<Specify width="140">Deixe-me especificar o caminho</Specify>
+		<MoveTo>Mover para...</MoveTo>
+		<Move width="75">Mover</Move>
+		<Messages>
+			<NoneSelected title="Erro:" width="350" height="110">Você se esqueceu de preencher todo o formulário.
+Por favor tente novamente.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Falha de link:" width="350" height="110">Não é possível criar o link pois o diretório de origem do sistema não pode ser removido.</SourceExists>
+			</LinkError>
+			<Success title="Sucesso" width="350" height="110">Tarefa concluída.
+
+Felizmente, não foram detectados erros.</Success>
+			<Failed title="Falha" width="420" height="110">Tarefa concluída.
+		
+Infelizmente, pelo menos 1 erro foi detectado.
+
+Um registro foi salvo. Você gostaria de vê-lo?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Restaurar um diretório</Header>
+		<Source>Desfazer a tarefa para o seguinte diretório...</Source>
+		<Destination>...que atualmente está vinculado a:</Destination>
+		<Revert width="75">Reverter</Revert>
+		<Messages>
+			<NoneSelected title="Erro:" width="350" height="110">Você se esqueceu de preencher todo o formulário.
+Por favor tente novamente.</NoneSelected>
+			<NoLongerLinked title="Erro de link:" width="450" height="150">O link solicitado não foi encontrado no seu sistema.
+
+Você pode ter desinstalado o jogo ou danificado o 'link' de alguma forma fora do GameSave Manager.
+
+
+Remover da listagem?</NoLongerLinked>
+			<LinkRemovalFail title="Erro:" width="450" height="150">GameSave Manager não pode remover o link associado ao caminho especificado.
+
+	"%LINK%"</LinkRemovalFail>
+			<Success title="Sucesso" width="350" height="110">Tarefa Steam Spreader completada.
+
+Felizmente, não foram detectados erros.</Success>
+		</Messages>
+	</Undo>
+	<SteamRunning title="Aviso:" width="450" height="200">GameSave Manager detectou que o Steam está em execução na sua máquina no momento.
+
+Como GameSave Manager não interage diretamente com o Steam ele move os arquivos dos jogos (para dentro do diretório especificado).
+Desta forma, Steam pode, algumas vezes, detectar estes arquivos como 'faltando' e proceder o download deles novamente.
+
+Continuar mesmo assim?</SteamRunning>
+</GameSaveManager_Translation>

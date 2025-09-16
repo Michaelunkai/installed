@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Gerenciar Backups dos seus Saves(s)</Title>
+	<Detection>
+		<Title>Entradas Detectadas</Title>
+		<ListCheck width="210">Selecionar Tudo / Deselecionar Tudo</ListCheck>
+		<Counter>%TOTAL% item(s) detectados / %SELECTED% item(s) selecionados</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>Arquivos que serão salvos</Files>
+			<Registry>Entradas de registro que serão salvas</Registry>
+			<Warning>Entrada possui "Mensagem de Alerta", talvez você queira ler</Warning>
+			<EntireEntry>Entrada completa será salva</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Iniciar as tarefas de backups agora.</Start>
+		<Delete>Remover os saves selecionados do sistema.</Delete>
+		<Rescan>Reescanear seu sistema à procura de jogos suportados.</Rescan>
+	</Options>
+	<Details>
+		<Title>Detalhes da entrada</Title>
+		<NoneSelected>Nenhuma entrada selecionada.
+
+Por favor selecione uma entrada da lista à esquerda.</NoneSelected>
+		<Entry>
+			<Name>Nome da entrada:</Name>
+			<IsOfficial>Entrada Oficial:</IsOfficial>
+			<Size>Tamanho em Disco:</Size>
+			<Warning>Alerta:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Pasta:</Directory>
+			<Size>Tamanho em Disco:</Size>
+			<Files>Arquivos:</Files>
+		</Directory>
+		<Registry>
+			<Key>Chave de Registro:</Key>
+			<Values>Valores:</Values>
+		</Registry>
+	</Details>
+	<GameplayBackup>
+		<Title>Gameplay Backup</Title>
+		<Info>Jogue um jogo enquanto o GameSave Manager silenciosamente realiza o backup do seu progresso a cada dois minutos com Gameplay Backup.
+Para reduzir o tempo de processamento e picos de lag no jogo, você deve selecionar somente o jogo que está ativo no momento.
+
+Para mais rotinas de backup, por favor, veja a opção Tarefas Agendadas.</Info>
+		<Interval>
+			<RunEvery>Executar a cada...</RunEvery>
+			<minutes>minutos</minutes>
+			<hour>hora</hour>
+			<hours>horas</hours>
+		</Interval>
+		<Processing>
+			<Title>Gameplay Backup (tarefa em execução)</Title>
+			<Info>GameSave Manager irá agora proceder silenciosamente o backup das entradas que você selecionou a cada %INTERVAL%.
+
+Você pode agora minimizar esta janela e começar a jogar.
+Nota: Dependendo de ambos, da sua seleção e das especificações do sistema, você pode experimentar alguns picos de lag moderados enquanto os backups são processados.
+
+
+Para encerrar esta tarefa, clique no botão 'Fechar' desta janela (X no canto superior direito).</Info>
+			<Interval>Intervalo:</Interval>
+			<TimesRan>Vezes que ocorreu:</TimesRan>
+			<DetectedErrors>Erros Detectados:</DetectedErrors>
+			<ProcessingBackup>Realizado no momento...</ProcessingBackup>
+			<Stopping>Parando operação atual, isto pode levar um tempo...</Stopping>
+		</Processing>
+		<Messages>
+			<MissingInfo title="Erro:" width="350" height="110">Por favor, certifique-se de selecionar pelo menos uma entrada para processar, além da localização para armazenar o backup.</MissingInfo>
+		</Messages>
+	</GameplayBackup>
+	<Errors>
+		<Rescan title="Realizar reescaneamento?" width="450" height="170">GameSave Manager está usando o resultado de um escaneamento anterior, portanto, games salvos após este período não estão listados.
+Para resolver isto, você precisará reescanear seu computador por completo novamente.
+
+Você gostaria de reescanear seu sistema novamente?</Rescan>
+		<Success title="Sucesso" width="350" height="110">Tarefa de Backup completa.
+
+Felizmente, nenhum erro foi detectado.</Success>
+		<Failed title="Falha" width="420" height="110">Tarefa de Backup completa.
+		
+Infelizmente, pelo menos 1 erro foi detectado.
+
+Um relatório foi salvo. Gostaria de vê-lo?</Failed>
+		<Overwrite title="Arquivo já existe..." width="450" height="125">O arquivo especificado já existe.
+Se você continuar, GameSave Manager irá sobrescreve-lo com os dados deste backup.
+
+Continuar e sobrescrever arquivos existentes?</Overwrite>
+		<NoEntries>GameSave Manager não conseguiu achar nenhum game suportado em seu sistema.
+
+Talvez haja uma atualização da base de dados?
+Você também pode criar uma Entrada Customizada.</NoEntries>
+		<NoneSelected title="Erro:" width="350" height="110">Nenhum save foi especificado para ser incluído no backup.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Erro:" width="350" height="110">Nenhum gamesave foi especificado para ser incluído na tarefa de remoção.</NoneSelected>
+			<Warning title="Atenção!" width="500" height="200">Existem algumas coisas que você deve observar antes de continuar...
+
+1. Apenas os arquivos listados para cada entrada selecionada será removido
+2. É altamente recomendado que você faça backup de seus saves antes de prosseguir
+3. Uma vez que você pratique esta operação, ela não poderá ser desfeita sem um backup criado anteriormente!
+
+Continuar mesmo assim?</Warning>
+			<Success title="Sucesso" width="350" height="110">A tarefa de remoção foi concluída.
+
+Felizmente, nenhum erro foi detectado.</Success>
+			<Failed title="Falha" width="420" height="110">A tarefa de remoção foi concluída.
+
+Infelizmente, pelo menos 1 erro foi detectado.
+
+Um registro foi salvo. Gostaria de vê-lo?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

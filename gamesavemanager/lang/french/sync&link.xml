@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Synchronisation &amp; Lien</Title>
+  <Info>Synchronisation &amp; Lien vous permet de déplacer certaines de vos sauvegardes dans un dossier choisi via des liens symboliques (similaire à la façon dont le décentraliseur Steam fonctionne).
+
+Utilisé en conjonction avec Dropbox, Google Drive ou SkyDrive, c'est une solution simple et rapide pour faire des sauvegardes 'dans le cloud'.</Info>
+  <Detection>
+    <Title>Sauvegardes supportées</Title>
+    <ListCheck>Sélectionner / Déselectionner tout</ListCheck>
+    <Counter>%TOTAL% item(s) detected / %SELECTED% item(s) selected</Counter>
+  </Detection>
+  <Options>
+    <Start>Commencer la tâche de synchronisation et liage maintenant.</Start>
+    <Unlink>Délier toutes les sauvegardes faites précédemment dans un dossier choisi.</Unlink>
+    <Relink>Relier toutes les sauvegardes faites précédemment dans un dossier choisi.</Relink>
+    <Rescan>Rescanner le système pour des sauvegardes supportées.</Rescan>
+  </Options>
+  <Unlink>
+    <Header>Synchronisation &amp; Lien; Déliage</Header>
+    <Info>Veuillez sélectionner les dosiers à délier dans la liste ci-dessous.</Info>
+    <ListCheck>Sélectionner / Déselectionner tout</ListCheck>
+    <DupSaves>Copier les sauvegardes; ne pas supprimer les fichiers source</DupSaves>
+  </Unlink>
+  <Errors>
+    <Success title="Succès" width="350" height="110">La tâche de Synchronisation &amp; Lien est terminée.
+
+Aucune erreur n'a été détectée.</Success>
+    <Failed title="Échec" width="420" height="150">La tâche de Synchronisation &amp; Lien est terminée.
+    
+Malheureusement, au moins 1 erreur a été détectée.
+
+Un journal des opérations a été sauvé. Voulez-vous l'afficher?</Failed>
+    <NoEntries>GameSave Manager n'a pas pu trouver de sauvegarde supportée sur votre système.
+
+Peut-être y a-t-il une mise à jour de la base de donnée de disponible?
+Vous pouvez aussi créer une sauvegarde personnalisée.</NoEntries>
+    <NoneSelected title="Erreur:" width="350" height="110">Aucune sauvegarde n'a été sélectionnée pour être inclue dans la tâche.</NoneSelected>
+  </Errors>
+</GameSaveManager_Translation>

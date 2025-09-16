@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Sao lưu theo lịch trình</Title>
+	<Info>Bạn có thể thiết lập cho GameSave Manager thực hiện sao lưu theo mốc thời gian ấn định.
+"Sao lưu theo lịch trình" có thể được thiết lập để sao lưu từng mục hoặc tất cả, và sẽ được ghi đè, giúp bạn kiểm soát tốt hơn và linh hoạt hơn.</Info>
+	<List>
+		<Header>Lịch trình đang tồn tại</Header>
+		<NoEntries>Không có "Sao lưu theo lịch trình" nào.
+
+Để bắt đầu, bấm "Thêm" ở dưới.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Thuật sĩ Sao lưu theo lịch trình; Bước %CURRENT% / %TOTAL%</Title>
+		<Header>Thuật sĩ Sao lưu theo lịch trình</Header>
+		<Step1>
+			<Info>Thuật sĩ này sẽ giúp bạn thêm, sửa đổi một "Sao lưu theo lịch trình".
+
+Trong tiến trình. bạn sẽ được yêu cầu những gì bạn muốn sao lưu, khi thực hiện sao lưu và cài đặt một vài chương trình, bạn có muốn ghi đè.
+Tiến trình này không quá 5 phút. Và bạn có thể hủy bỏ bất kỳ lúc nào.
+
+Đầu tiên, hãy đặt tên cho "Sao lưu theo lịch trình".
+Bạn có thể nhập bất kỳ, tốt nhất là nó có ý nghĩa.</Info>
+			<Name>Tên lịch trình:</Name>
+			<Errors>
+				<InvalidName title="Tên không hợp lệ:" width="420" height="110">Tên ('%NAME%') đã được dùng trong "Sao lưu theo lịch trình" khác.
+
+Hãy đặt một tên khác và thử lại.</InvalidName>
+				<NoName title="Chưa có tên:" width="420" height="110">Bạn chưa đặt tên cho "Sao lưu theo lịch trình".
+
+Hãy đặt một tên và thử lại.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Dùng hộp ở dưới, vui lòng đánh dấu mục bạn muốn sao lưu theo lịch trình này.</Info>
+			<AllDetected>Sao lưu tất cả Gamesave tìm thấy</AllDetected>
+			<Specific>Chỉ sao lưu mục đánh dấu</Specific>
+			<Detected>Chọn mục:</Detected>
+			<Errors>
+				<NoFound>Không tìm thấy mục hiện tại trong cơ sở dữ liệu.
+
+Hãy quét lại hệ thống để sửa lỗi, nếu không được hãy cập nhật dữ liệu hoặc tạo Mục Gamesave tùy chỉnh và thử lại.</NoFound>
+				<NoSelected title="Lỗi:" width="420" height="110">Bạn không đánh dấu mục nào để sao lưu.
+
+Để tiếp tục, bạn phải chọn ít nhất một mục.</NoSelected>
+			</Errors>
+                                          <Rescan>Quét lại hệ thống trước khi bắt đầu tác vụ</Rescan>
+		</Step2>
+		<Step3>
+			<Info>Hãy chọn kiểu thực hiện ở dưới.</Info>
+			<Type>
+                                                        <Minute>Theo phút</Minute>
+                                                        <Hourly>Theo giờ</Hourly>
+                                                        <OnIdle>Khi hệ thống nhàn rỗi</OnIdle>
+				<Header>Kiểu thực hiện:</Header>
+				<Daily>Theo ngày</Daily>
+				<Weekly>Theo tuần</Weekly>
+				<Monthly>Theo tháng</Monthly>
+                                                        <Minute>Theo phút</Minute>
+                                                        <Hourly>Theo giờ</Hourly>
+                                                        <OnIdle>Khi hệ thống nhàn rỗi</OnIdle>
+			</Type>
+                                          <Minute>
+                                                        <Header>Theo phút:</Header>
+                                                        <Every>mỗi</Every>
+                                                        <Minutes>phút, và...</Minutes>
+                                                        <StartingFromTasksCreation>bắt đầu khi xong tác vụ này</StartingFromTasksCreation>
+                                                        <StartingFrom>bắt đầu lúc</StartingFrom>
+                                          </Minute>
+                                          <Hourly>
+                                                        <Header>Theo giờ:</Header>
+                                                        <Every>mỗi</Every>
+                                                        <Hours>giờ, và...</Hours>
+                                                        <StartingFromTasksCreation>bắt đầu khi xong tác vụ này</StartingFromTasksCreation>
+                                                        <StartingFrom>bắt đầu lúc</StartingFrom>
+                                          </Hourly>
+                                          <OnIdle>
+                                                        <Header>Thực hiện khi:</Header>
+                                                        <WhenIdleFor>Hệ thống nhàn rỗi được</WhenIdleFor>
+                                                        <Minutes>phút</Minutes>
+                                          </OnIdle>
+			<Daily>
+				<Header>Theo ngày:</Header>
+				<RunThisTaskAt>Thực hiện lúc</RunThisTaskAt>
+				<Every>mỗi</Every>
+				<Days>ngày</Days>
+			</Daily>
+			<Weekly>
+				<Header>Theo tuần:</Header>
+				<RunThisTaskAt>Thực hiện lúc</RunThisTaskAt>
+				<Every>mỗi</Every>
+				<Weeks>tuần</Weeks>
+				<DaysHeader>vào ngày:</DaysHeader>
+				<Days>
+					<Monday>Thứ Hai</Monday>
+					<Tuesday>Thứ Ba</Tuesday>
+					<Wednesday>Thứ Tư</Wednesday>
+					<Thursday>Thứ Năm</Thursday>
+					<Friday>Thứ Sáu</Friday>
+					<Saturday>Thứ Bảy</Saturday>
+					<Sunday>Chủ Nhật</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Theo tháng:</Header>
+				<RunThisTaskAt>Thực hiện lúc</RunThisTaskAt>
+				<Specific>
+					<Header>vào ngày:</Header>
+					<Last>hôm sau</Last>
+				</Specific>
+				<EveryOther>
+					<Header>mỗi:</Header>
+					<Frequency>
+						<First>tuần đầu</First>
+						<Second>tuần thứ hai</Second>
+						<Third>tuần thứ ba</Third>
+						<Last>tuần cuối</Last>
+					</Frequency>
+					<Day>
+						<Monday>Thứ Hai</Monday>
+						<Tuesday>Thứ Ba</Tuesday>
+						<Wednesday>Thứ Tư</Wednesday>
+						<Thursday>Thứ Năm</Thursday>
+						<Friday>Thứ Sáu</Friday>
+						<Saturday>Thứ Bảy</Saturday>
+						<Sunday>Chủ Nhật</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>của tháng:</MonthHeader>
+				<Months>
+					<January>tháng Một</January>
+					<February>tháng Hai</February>
+					<March>tháng Ba</March>
+					<April>tháng Tư</April>
+					<May>tháng Năm</May>
+					<June>tháng Sáu</June>
+					<July>tháng Bảy</July>
+					<August>tháng Tám</August>
+					<September>tháng Chín</September>
+					<October>tháng Mười</October>
+					<November>tháng Mười Một</November>
+					<December>tháng Mười Hai</December>
+				</Months>
+			</Monthly>
+			<Errors>
+				<FormError title="Lỗi nhập dữ liệu:" width="420" height="110">Một phần, hoặc tất cả các ô cần thiết chưa được nhập đầy đủ.
+
+Hãy đánh dấu vào ô muốn chọn và thử lại.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Đã gần hoàn tất.
+Sử dụng các tùy chọn ở dưới, cấu hình tùy theo ý bạn để GameSave Manager xử lí khi thực hiện.</Info>
+			<CreateSchedule>Thêm tác vụ vào "Sao lưu theo lịch trình"</CreateSchedule>
+			<Shortcut>Tạo biểu tượng ở Desktop để thực hiện nhanh</Shortcut>
+			<SaveHeader>Nơi lưu:</SaveHeader>
+			<UseCloud>Dùng cài đặt "Điện toán đám mây"</UseCloud>
+			<SaveTo>Lưu vào:</SaveTo>
+			<ArchiveSettings>Cấu hình lưu trữ:</ArchiveSettings>
+			<SaveTo_Browse>Duyệt...</SaveTo_Browse>
+			<AutoGenerate>Tự động tạo tên tập tin</AutoGenerate>
+			<SaveAs>Lưu là:</SaveAs>
+			<Errors>
+				<CloudError title="Lỗi:" width="420" height="110">Bạn chưa đánh dấu chọn trong thẻ "Cài đặt/Cài đặt chung/Điện toán đám mây".
+
+Hãy cấu hình lại tùy chọn này và thử lại.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Lỗi:" width="420" height="110">"Sao lưu theo lịch trình" đã chọn không hợp lệ, hoặc xảy ra lỗi trong khi truy cập dữ liệu cần thiết.
+
+Hãy thử lại.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

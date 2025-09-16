@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Menu Principal</Title>
+	<Backup>
+		<Header>Fazendo Backup...</Header>
+		<Description>Faça o backup dos saves de seus games facilmente.</Description>
+		<Backup>Realizar um backup</Backup>
+		<Scheduled>Agendar Backups</Scheduled>
+		<Sync>Sync &amp; Link</Sync>
+		<GameplayBackup>Gameplay Backup</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Restaurando dados...</Header>
+		<Description>Restaurar saves feitos anteriormente com o GameSave Manager.</Description>
+		<Open>Abrir Arquivo(s)</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Spreader</Header>
+		<Description>Mova diretórios inteiros para outra partição criando links simbólicos para facilitar sua localização.</Description>
+		<GoTo>Ir para Steam Spreader</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Customizar...</Header>
+		<Description>Customizar GameSave Manager para se adequar às sua necessidades pessoais.</Description>
+		<CustomEntries>Entradas customizadas de saves</CustomEntries>
+		<Variables>Modificar Variáveis</Variables>
+		<Settings>Configurações do Programa</Settings>
+	</Customise>
+	<Log>
+		<Header>Relatório de Tarefas</Header>
+		<Description>Ver o relatório de tarefas processadas anteriormente.</Description>
+		<GoTo>Ver relatório de tarefas</GoTo>
+	</Log>
+</GameSaveManager_Translation>

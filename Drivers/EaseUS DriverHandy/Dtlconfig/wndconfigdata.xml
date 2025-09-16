@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wnds>
+	<wnd title="找到新的硬件向导" btn="取消"/>
+	<wnd title="系统设置改变" btn="否(&N)"/>
+	<wnd title="Found New Hardware Wizard" btn="Cancel"/>
+	<wnd title="System Settings Change" btn="&No"/>
+	<wnd title="尋找新增硬體精靈" btn="取消"/>
+	<wnd title="系統設定變更" btn="否(&N)"/>
+	<wnd title="Microsoft Windows" btn="稍后重新启动(&L)"/>
+	<wnd title="Microsoft Windows" btn="&Restart Later"/>
+	<wnd title="Microsoft Windows" btn="稍後重新啟動(&L)"/>
+  	<wnd title="Windows 安全" btn="始终安装此驱动程序软件(&I)"/>
+	<wnd title="Windows Security" btn="&Install this driver software anyway"/>
+	<wnd title="Windows 安全" btn="仍然安裝此驅動程式軟體(&I)"/>
+	<wnd title="Windows 安全" btn="安装(&I)"/>
+	<wnd title="Windows Security" btn="&Install"/>
+	<wnd title="Windows 安全" btn="安装(&I)"/>
+</wnds>

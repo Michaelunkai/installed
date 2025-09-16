@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Archivo</Title>
+			<Backup>Backup GameSave</Backup>
+			<ScheduledTasks>Tareas programadas</ScheduledTasks>
+			<SyncLink>Sync and Link</SyncLink>
+			<Restore>Restaurar GameSave</Restore>
+			<Validate>Validar Archivo</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>
+			<Exit>Salir</Exit>
+			<GameplayBackup>Gameplay Backup</GameplayBackup>
+		</File>
+		<Edit>
+			<Title>Editar</Title>
+			<CustomEntries>Entrada GameSave personalizada</CustomEntries>
+			<Variables>Modificar Variables</Variables>
+			<ProgSettings>Configuración del programa</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Ayuda</Title>
+			<Help>Ayuda GameSave Manager</Help>
+			<CommandlineHelp>Ayuda linea de comandos</CommandlineHelp>
+			<TranslationFilter>Filtro de traducción</TranslationFilter>
+			<ListEntries>¿Qué juegos son compatibles actualmente?</ListEntries>
+			<VisitWebsite>Página Principal</VisitWebsite>
+			<Update>Buscar actualizaciones</Update>
+			<ReleaseHistory>Historial de versiones</ReleaseHistory>
+			<About>Sobre GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<OpenLog>Ver el log seleccionado con una aplicación externa</OpenLog>
+	<Social>
+		<Facebook>Encuentranos en Facebook</Facebook>
+		<Twitter>Síguenos en Twitter</Twitter>
+		<GooglePlus>Estamos en Google+</GooglePlus>
+		<Steam>Únete a nosotros en Steam</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Actualización disponible</Title>
+		<InfoTip>Una o más actualizaciones están disponibles para usted.
+Haga clic aquí para obtener más información.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Por favor, espere</Title>
+		<Info>GameSave Manager cargando los archivos necesarios en memoria...</Info>
+		<Tasks>
+			<Dirs>Generando directorios de trabajo...</Dirs>
+			<LoadDB>Cargando Databases...</LoadDB>
+			<Updates>Comprobar si hay actualizaciones disponibles...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Saludos</Header>
+		<Welcome>Bienvenido a GameSave Manager.
+Para comenzar, especifique el idioma de su preferencia a continuación.
+
+Nota: Usted puede cambiar este valor (y mucho más) en cualquier momento en la página 'Configuración del programa'.</Welcome>
+		<TranslationInfo>Excluyendo el lenguaje 'Inglés', todos los idiomas son mantenidos por la comunidad.
+Como tal, la traducción puede estar incompleta.</TranslationInfo>
+		<CustomCache>Personalizar 'directorio caché'</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Guardar configuración del programa dentro del directorio de inicio</StoreWithinLaunchDir>
+		<SeparateDBPerUser>Almacen 'Entradas Oficiales' Database en AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>¿Instalar?</Header>
+		<Info>A pesar que GameSave Manager es totalmente portátil, algunos usuarios prefieren 'instalar' la misma. Como tal, se ha introducido este asistente.
+
+¿Te gustaría 'instalar' GameSave Manager?</Info>
+		<Confirm>Sí por favor, me gustaría 'instalar'</Confirm>
+		<Install>Instalar en:</Install>
+		<DesktopShortcut>También crear acceso directo en Escritorio</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Modificar Variables</ModifyVariables>
+	<CustomDynDir>Personalizar variables 'Detectado Dinámico':</CustomDynDir>
+	<CustomCacheWarning>Cambiar esta variable requiere reiniciar GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Regresar al 'Menú Principal'</BackToMainMenu>
+	<Unsupported title="Función no soportada:" width="430" height="125">Parece que está ejecutando un sistema operativo que no es compatible con esta característica en este momento.
+
+Nombre OS:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="¿Comprobar si hay actualizaciones?" width="440" height="110">Ha pasado más de 7 días desde la última vez que se realizo una busca de actualizaciones.
+
+¿Quieres comprobar si hay actualizaciones ahora?</UpdateReminder>
+	<UpdateReminder_First title="Comprobar actualizaciones?" width="470" height="125">Bienvenido a GameSave Manager.
+GameSave Manager está en continua evolución a través de programas y actualizaciones de bases de datos.
+
+¿Quieres comprobar si hay actualizaciones ahora?</UpdateReminder_First>
+	<NoLogs title="Nada para mostrar" width="430" height="110">No hay registros actualmente para mostrar.</NoLogs>
+	<RemoveLog>Eliminar registro seleccionado</RemoveLog>
+	<GenericButtons>
+		<OK>OK</OK>
+		<Yes>Si</Yes>
+		<No>No</No>
+		<Add>Añadir</Add>
+		<Edit>Editar</Edit>
+		<Remove>Quitar</Remove>
+		<Back>&lt; Atrás</Back>
+		<Next>Siguiente &gt;</Next>
+		<Cancel>Cancelar</Cancel>
+		<Finish>Finalizar</Finish>
+		<Browse>Examinar</Browse>
+		<Close>Cerrar</Close>
+		<Abort>Abortar</Abort>
+	</GenericButtons>
+		<true>verdadero</true>
+		<false>falso</false>
+	<Detection>
+		<Backup>Espere mientras el sistema es analizado en busca de GameSave compatibles...</Backup>
+		<Status>
+			<LookingIn>Buscando...</LookingIn>
+			<Found>Encontrado...</Found>
+			<Nothing>nada :'(</Nothing>
+		</Status>
+		<Restore>Escaneando archivos para guardar...</Restore>
+		<Error>No se ha podido detectar directorio actualmente.</Error>
+		<NoMsg>Ninguna advertencia disponible.</NoMsg>
+	</Detection>
+	<Processing>
+		<Header>Registro de tareas:</Header>
+		<Info>Ahora puede sentarse y relajarse mientras que GameSave Manager realiza la tarea solicitada.
+El tiempo necesario varía de sistema a sistema y qué tarea(s) hay que realizar.</Info>
+	</Processing>
+	<IgnoreCommandline>
+		<AlreadyIgnored title="Ya ignorado" width="430" height="110">La entrdada que has especificado("%NAME%") está ya ignorada.</AlreadyIgnored>
+		<InvalidEntryName title="Entrada de nombre inválida" width="430" height="110">No hay entrada nombrada "%NAME%" en la 'official' o 'custom' basededatos, no hay nada que ignorar.</InvalidEntryName>
+		<Success title="Completado" width="500" height="150">Esta entrada llamada "%NAME%" ha sido satisfactoriamente marcada como ignorada.
+
+Puedes reactivar esta detección otra vez por el camino'Configuración del programa -> Configuración de detección -> Entradas ignoradas'.</Success>
+	</IgnoreCommandline>
+</GameSaveManager_Translation>

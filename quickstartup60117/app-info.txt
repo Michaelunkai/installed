@@ -1,0 +1,7 @@
+﻿App Name: Quick Startup 6 0 1 17
+Original File: quick-startup-6-0-1-17.exe
+File Type: EXECUTABLE
+Source Path: F:\downloads\quick-startup-6-0-1-17.exe
+Processed: 07/13/2025 10:39:06
+File Size: 11.1 MB
+Auto-Installed: True

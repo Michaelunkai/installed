@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link le permite mover partidas especificas en un directorio personalizado a través de Symbolic Links (similar al modo 'Steam Spreader').
+
+Se utiliza junto con Dropbox, Google Drive o SkyDrive es una solución rápida y sencilla para guardar 'en la nube'.</Info>
+	<Detection>
+		<Title>Entradas detectadas</Title>
+		<ListCheck>Seleccionar todo / Deseleccionar todo</ListCheck>
+		<Counter>%TOTAL% partida(s) detectada / %SELECTED% partida(s) seleccionada</Counter>
+	</Detection>
+	<Options>
+		<Start>Iniciar la tarea Sync and Link ahora.</Start>
+		<Unlink>Desvincular todo procesado previamente guardado de un directorio especificado.</Unlink>
+		<Relink>Reenlazar todo procesado previamente guardado de un directorio especificado.</Relink>
+		<Rescan>Volver a analizar el sistema para buscar GameSaves compatibles.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Desvincular</Header>
+		<Info>Por favor, seleccione qué directorios desea 'desvincular' de los detectados y listados a continuación.</Info>
+		<ListCheck>Seleccionar todo / Deseleccionar todo</ListCheck>
+		<DupSaves>Copia guardada; no quite los archivos del origen</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Éxito" width="350" height="110">La tarea Sync &amp; Link se ha completado.
+
+Afortunadamente, no hay errores detectados.</Success>
+		<Failed title="Falló" width="420" height="110">La tarea Sync &amp; Link se ha completado.
+		
+Desafortunadamente, al menos 1 error fue detectado.
+
+Se ha guardado un registro. ¿Quieres verlo?</Failed>
+		<NoEntries>GameSave Manager no ha podido encontrar ningún GameSaves soportados en el sistema.
+
+Tal vez haya una actualización de base de datos disponibles?
+También puede crear una entrada de GameSave personalizada.</NoEntries>
+		<NoneSelected title="Error:" width="420" height="110">No se ha especificado GameSaves para ser incluido en la tarea.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Szinkronizáció és link</Title>
+	<Info>A Szinkronizáció és link lehetõvé teszi, hogy meghatározott mentéseket mozgass egy egyéni mappába, szimbolikus linkek segítségével (hasonlóan a 'Steam-mozgató' mûködéséhez).
+
+A Dropbox, Google Drive vagy SkyDrive-val együtt használva gyors és egyszerû megoldás a 'felhõben tárolt' mentések számára.</Info>
+	<Detection>
+		<Title>Támogatott bejegyzések</Title>
+		<ListCheck>Mindet kijelöl / Egyiket sem</ListCheck>
+		<Counter>%TOTAL% elem észlelve / %SELECTED% elem kijelölve</Counter>
+	</Detection>
+	<Options>
+		<Start>Szinkronizáció és link feladat azonnali indítása.</Start>
+		<Unlink>Minden korábban feldolgozott játékmentés linkjének eltávolítása egy meghatározott mappából.</Unlink>
+		<Relink>Minden korábban feldolgozott játékmentés újralinkelése egy meghatározott mappából.</Relink>
+		<Rescan>Rendszer újraellenõrzése támogatott játékmentések után.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Szinkronizáció és link; Link törlése</Header>
+		<Info>Kérlek add meg, mely mappák 'linkjét' szeretnéd törölni az alább észlelt és kilistázottak közül.</Info>
+		<ListCheck>Mindet kijelöl / Egyiket sem</ListCheck>
+		<DupSaves>Mentések másolása; ne törölje a forrásfájlokat</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Sikerült" width="350" height="110">A Szinkronizáció és link feladat befejezõdött.
+
+Szerencsére nem találhatóak hibák.</Success>
+		<Failed title="Sikertelen" width="420" height="110">A Szinkronizáció és link feladat befejezõdött.
+		
+Sajnos legalább egy hiba történt.
+
+A napló mentésre került. Szeretnéd most megtekinteni?</Failed>
+		<NoEntries>A GameSave Manager nem talált támogatott játékmentéseket a rendszereden.
+
+Talán már elérhetõ egy új adatbázis frissítés?
+Emellett létrehozhatsz Egyéni játékmentés bejegyzést is.</NoEntries>
+		<NoneSelected title="Hiba:" width="350" height="110">Nincsenek játékmentések meghatározva a feladathoz.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

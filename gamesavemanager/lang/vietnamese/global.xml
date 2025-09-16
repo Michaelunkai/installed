@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Tập tin</Title>
+			<Backup>Sao lưu</Backup>
+			<ScheduledTasks>Sao lưu theo lịch trình</ScheduledTasks>
+			<SyncLink>Đồng bộ và Liên kết</SyncLink>
+			<Restore>Phục hồi</Restore>
+			<Validate>Tìm Lưu trữ hợp lệ</Validate>
+			<SteamSpreader>Di chuyển Steam</SteamSpreader>
+			<Exit>Thoát</Exit>
+		</File>
+		<Edit>
+			<Title>Chỉnh sửa</Title>
+			<CustomEntries>Mục Gamesave tùy chỉnh</CustomEntries>
+			<Variables>Thay đổi thư mục</Variables>
+			<ProgSettings>Cài đặt</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Trợ giúp</Title>
+			<Help>Trợ giúp</Help>
+			<TranslationFilter>Dịch lọc</TranslationFilter>
+			<ListEntries>Game gì hiện được hỗ trợ ?</ListEntries>
+			<VisitWebsite>Trang chủ</VisitWebsite>
+			<Update>Kiểm tra cập nhật</Update>
+			<ReleaseHistory>Lịch sử phiên bản</ReleaseHistory>
+			<About>Thông tin</About>
+                                          <CommandlineHelp>Dòng lệnh Trợ giúp</CommandlineHelp>
+		</Help>
+	</FileMenu>
+              <RemoveLog>Xóa Ghi chép đã chọn</RemoveLog>
+              <IgnoreCommandline>
+                            <AlreadyIgnored title="Đã loại trừ" width="430" height="110">Mục bạn chọn ("%NAME%") đã được loại trừ.</AlreadyIgnored>
+                            <InvalidEntryName title="Tên mục không đúng" width="430" height="110">Không có mục tên "%NAME%" trong cơ sở dữ liệu, nên không có gì để loại trừ.</InvalidEntryName>
+                            <Success title="Hoàn tất" width="500" height="150">Mục tên "%NAME%" đã được chọn để loại trừ.
+
+Bạn có thể kích hoạt lại nó bất kỳ lúc nào trong "Cài đặt -> Cấu hình tìm kiếm -> Mục Loại trừ".</Success>
+              </IgnoreCommandline>
+	<Social>
+		<Facebook>Tìm trên Facebook</Facebook>
+		<Twitter>Tìm trên Twitter</Twitter>
+		<GooglePlus>Tìm trên Google+</GooglePlus>
+		<Steam>Kết nối trên Steam</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Cập nhật đã có</Title>
+		<InfoTip>Bản cập nhật đã có.
+Bấm ở đây để biết thêm thông tin.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Xin chờ...</Title>
+		<Info>GameSave Manager đang tải các tập tin cần thiết...</Info>
+		<Tasks>
+			<Dirs>Đang tạo thư mục...</Dirs>
+			<LoadDB>Đang tải cơ sở dữ liệu...</LoadDB>
+			<Updates>Đang kiểm tra cập nhật...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Chào mừng</Header>
+		<Welcome>Chào mừng tới GameSave Manager.
+Để bắt đầu, xin chọn ngôn ngữ bạn thích.
+
+Lưu ý: Bạn có thể thay đổi bất kỳ lúc nào trong mục "Cài đặt".</Welcome>
+		<TranslationInfo>Ngoại trừ ngôn ngữ "English", các ngôn ngữ khác được tạo bởi cộng đồng.
+Do đó, bản dịch có thể không được đầy đủ.</TranslationInfo>
+		<CustomCache>Thay đổi "Thư mục tạm"</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Lưu các cài đặt của chương trình trong thư mục khởi động</StoreWithinLaunchDir>
+		<SeparateDBPerUser>Lưu trữ dữ liệu "Mục chính" trong AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Cài đặt?</Header>
+		<Info>Mặc dù GameSave Manager là phiên bản portable, một số người vẫn thích dùng bản "Cài đặt". Do đó, thuật sĩ này được giới thiệu.
+
+Bạn có muốn "Cài đặt" GameSave Manager ?</Info>
+		<Confirm>Vâng, tôi muốn "Cài đặt"</Confirm>
+		<Install>Cài đặt vào:</Install>
+		<DesktopShortcut>Tạo shortcut trên desktop</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Thay đổi thư mục</ModifyVariables>
+	<CustomDynDir>Tùy chỉnh mục "Tự động tìm kiếm":</CustomDynDir>
+	<CustomCacheWarning>Thay đổi thư mục này cần phải khởi động lại GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Trở lại "Menu Chính"</BackToMainMenu>
+	<Unsupported title="Tính năng không được hỗ trợ:" width="430" height="125">Hệ điều hành đang chạy không hỗ trợ tính năng này trong thời điểm hiện tại.
+
+Hệ điều hành:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Kiểm tra cập nhật ?" width="430" height="110">Đã hơn 7 ngày kể từ lần kiểm tra cập nhật cuối.
+
+Bạn có muốn kiểm tra cập nhật bây giờ ?</UpdateReminder>
+	<UpdateReminder_First title="Kiểm tra cập nhật ?" width="470" height="125">Chào mừng tới GameSave Manager.
+GameSave Manager liên tục hoàn thiện thông qua cập nhật chương trình và cơ sở dữ liệu.
+
+Bạn có muốn kiểm tra cập nhật bây giờ ?</UpdateReminder_First>
+	<GenericButtons>
+		<OK>Đồng ý</OK>
+		<Yes>Có</Yes>
+		<No>Không</No>
+		<Add>Thêm</Add>
+		<Edit>Chỉnh sửa</Edit>
+		<Remove>Xóa</Remove>
+		<Back>Trở lại</Back>
+		<Next>Tiếp theo</Next>
+		<Cancel>Hủy bỏ</Cancel>
+		<Finish>Hoàn tất</Finish>
+		<Browse>Duyệt...</Browse>
+		<Close>Đóng</Close>
+		<Abort>Bỏ qua</Abort>
+	</GenericButtons>
+	<true>true</true>
+	<false>false</false>
+	<Detection>
+		<Backup>Xin chờ, hệ thống đang được quét để kiểm tra tập tin Gamesave được hỗ trợ...</Backup>
+		<Restore>Đang quét Lưu trữ tìm tập tin đã lưu...</Restore>
+		<Error>Hiện giờ không tìm thấy thư mục.</Error>
+		<NoMsg>Không có cảnh báo.</NoMsg>
+	</Detection>
+	<Processing>
+		<Header>Nhật ký ghi chép:</Header>
+		<Info>Bây giờ bạn có thể thư giãn trong khi GameSave Manager thực hiện nhiệm vụ.
+Thời gian thực hiện có thể khác nhau với mỗi nhiệm vụ và với mỗi hệ thống máy tính.</Info>
+	</Processing>
+              <NoLogs title="Không có gì cả" width="430" height="110">Không có ghi chép để hiển thị.</NoLogs>
+</GameSaveManager_Translation>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Scheduled Tasks</Title>
+	<Info>Here you can setup GameSave Manager to run backups at times you specify.
+'Scheduled Tasks' can be configured to backup specific--or all detected--saves and overwrite various Program Settings, giving you greater control and flexibility.</Info>
+	<List>
+		<Header>Existing Tasks</Header>
+		<NoEntries>No 'Scheduled Tasks' currently defined.
+
+To begin, click the 'Add' button below.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Scheduled Task Wizard; Step %CURRENT% of %TOTAL%</Title>
+		<Header>Scheduled Task Wizard</Header>
+		<Step1>
+			<Info>This wizard will guide you through the process of adding--or modifying--a 'Scheduled Task'.
+
+Throughout this wizard, you'll be asked to specify what you wish to backup, when to perform the backup and a few program settings you may wish to overwrite.
+This process shouldn't take longer than 5 minutes. Remember, you can cancel at any time.
+
+To begin, let's name our Scheduled Task.
+You can call this entry anything you wish, but it's recommended that you call it something meaningful for future reference.</Info>
+			<Name>Task Title:</Name>
+			<Errors>
+				<InvalidName title="Invalid name:" width="420" height="110">The name specified ('%NAME%') is already in use for another Scheduled Task.
+
+Please specify a different name and try again.</InvalidName>
+				<NoName title="No name specified:" width="420" height="110">You've neglected to name your Scheduled Task.
+
+Please specify a name and try again.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Using the form below, please specify what you'd like to backup when running this task.</Info>
+			<AllDetected>Backup all detected saves</AllDetected>
+			<Specific>Only backup the following</Specific>
+			<Rescan>Rescan system before starting task</Rescan>
+			<ExclusionList>I'd like to specify entries to ignore (for this task only)</ExclusionList>
+			<Errors>
+				<NoFound>No entries that are currently within the database could be found.
+
+Rescanning your system may fix this, otherwise please either update the database or create some Custom Gamesave Entries and try again.</NoFound>
+				<NoSelected title="Error:" width="420" height="110">You haven't specified any entries to backup.
+
+In order to proceed, you must select at least one entry.</NoSelected>
+			</Errors>
+			 <ExclusionList>Ich möchte einige Einträge ignorieren (nur für diesen Task)</ExclusionList>
+		</Step2>
+		<Step3>
+			<Info>Please specify below when this task should be performed.</Info>
+			<Type>
+				<Header>Task Type:</Header>
+				<Daily>Daily</Daily>
+				<Weekly>Weekly</Weekly>
+				<Monthly>Monthly</Monthly>
+				<Minute>Minute basis</Minute>
+				<Hourly>Hourly</Hourly>
+				<OnIdle>On system idle</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Daily Task</Header>
+				<RunThisTaskAt>Run this task at</RunThisTaskAt>
+				<Every>every</Every>
+				<Days>day(s).</Days>
+			</Daily>
+			<Weekly>
+				<Header>Weekly Task</Header>
+				<RunThisTaskAt>Run this task at</RunThisTaskAt>
+				<Every>every</Every>
+				<Weeks>week(s).</Weeks>
+				<DaysHeader>Run on the following day(s):</DaysHeader>
+				<Days>
+					<Monday>Monday</Monday>
+					<Tuesday>Tuesday</Tuesday>
+					<Wednesday>Wednesday</Wednesday>
+					<Thursday>Thursday</Thursday>
+					<Friday>Friday</Friday>
+					<Saturday>Saturday</Saturday>
+					<Sunday>Sunday</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Monthly Task</Header>
+				<RunThisTaskAt>Run this task at</RunThisTaskAt>
+				<Specific>
+					<Header>on the following day:</Header>
+					<Last>last day</Last>
+				</Specific>
+				<EveryOther>
+					<Header>on the</Header>
+					<Frequency>
+						<First>first</First>
+						<Second>second</Second>
+						<Third>third</Third>
+						<Last>last</Last>
+					</Frequency>
+					<Day>
+						<Monday>Monday</Monday>
+						<Tuesday>Tuesday</Tuesday>
+						<Wednesday>Wednesday</Wednesday>
+						<Thursday>Thursday</Thursday>
+						<Friday>Friday</Friday>
+						<Saturday>Saturday</Saturday>
+						<Sunday>Sunday</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>of the following month(s):</MonthHeader>
+				<Months>
+					<January>January</January>
+					<February>February</February>
+					<March>March</March>
+					<April>April</April>
+					<May>May</May>
+					<June>June</June>
+					<July>July</July>
+					<August>August</August>
+					<September>September</September>
+					<October>October</October>
+					<November>November</November>
+					<December>December</December>
+				</Months>
+			</Monthly>
+			<Minute>
+				<Header>Minute basis Task</Header>
+				<Every>Every</Every>
+				<Minutes>minute(s)</Minutes>
+				<StartingFromTasksCreation>starting from task's creation time</StartingFromTasksCreation>
+				<StartingFrom>starting from</StartingFrom>
+			</Minute>
+			<Hourly>
+				<Header>Hourly Task</Header>
+				<Every>Every</Every>
+				<Hours>hour(s)</Hours>
+				<StartingFromTasksCreation>starting from task's creation time</StartingFromTasksCreation>
+				<StartingFrom>starting from</StartingFrom>
+			</Hourly>
+			<OnIdle>
+				<Header>On Idle Task</Header>
+				<WhenIdleFor>When system is idle for</WhenIdleFor>
+				<Minutes>minute(s)</Minutes>
+			</OnIdle>
+			<Errors>
+				<FormError title="Missing form data:" width="420" height="110">Part, or all, of the current form hasn't been correctly filled in.
+
+Please fill the form in and try again.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>We're almost finished.
+Using the options below, please configure how you want GameSave Manager to behave while performing this task.</Info>
+			<CreateSchedule>Add task to Windows Task Scheduler</CreateSchedule>
+			<Shortcut>Create desktop shortcut for this task so I can forcibly start it</Shortcut>
+			<SaveHeader>Save Location:</SaveHeader>
+			<UseCloud>Use my 'Cloud' settings</UseCloud>
+			<SaveTo>Save to:</SaveTo>
+			<ArchiveSettings>Archive Configuration:</ArchiveSettings>
+			<SaveTo_Browse>Browse</SaveTo_Browse>
+			<AutoGenerate>Automatically generate file-name</AutoGenerate>
+			<Errors>
+				<CloudError title="Unavailable" width="420" height="110">You don't appeared to of configured 'Cloud Options' within the Program Settings.
+
+Please configure these options and try again.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">The 'Scheduled Task' selected doesn't appear to be valid, or an error occured while querying the database for required data.
+
+Please try again.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

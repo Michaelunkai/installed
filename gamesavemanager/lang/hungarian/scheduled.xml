@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Ütemezett feladatok</Title>
+	<Info>Itt beállíthatod a GameSave Manager-t, hogy mely idõpontokban futtassa a biztonsági mentéseket.
+Az'Ütemezett feladatokat' beállíthatod meghatározott--vagy az összes észlelt--mentés biztonsági mentésére és számos programbeállítás felülírására, ezáltal jobb irányítást és rugalmasságot adva.</Info>
+	<List>
+		<Header>Létezõ feladatok</Header>
+		<NoEntries>Jelenleg nincsenek 'Ütemezett feladatok' megadva.
+
+A kezdéshez kattints alább a 'Hozzáad' gombra.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Ütemezett feladat varázsló; %CURRENT%. lépés a(z) %TOTAL% lépésbõl</Title>
+		<Header>Ütemezett feladat varázsló</Header>
+		<Step1>
+			<Info>Ez a varázsló átvezet az 'Ütemezett feladatok' hozzáadásán vagy módosításán.
+
+A varázslóban meg kell határoznod, hogy mirõl és mikor szeretnél biztonsági mentést készíteni, valamint mely programbeállításokat szeretnéd felülírni.
+Ez a folyamat általában nem tart 5 percnél tovább. Ne feledd, a mûveletet bármikor megszakíthatod.
+
+Kezdésnek adj nevet az ütemezett feladatnak.
+Bárhogyan elnevezheted ezt a bejegyzést, de ajánlott következetesnek lenni ezügyben.</Info>
+			<Name>Feladat neve:</Name>
+			<Errors>
+				<InvalidName title="Érvénytelen név:" width="420" height="110">A megadott nevet ('%NAME%') már egy másik ütemezett feladat használja.
+
+Kérlek adj meg egy másik nevet és próbáld újra.</InvalidName>
+				<NoName title="Nincs név megadva:" width="420" height="110">You've neglected to name your Ütemezett feladat.
+
+Kérlek adj meg egy másik nevet és próbáld újra.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Az alábbi ûrlapot használva kérlek határozd meg, hogy mit szeretnél menteni ennek a feladatnak a futtatásakor.</Info>
+			<AllDetected>Minden észlelt játékmentés mentése</AllDetected>
+			<Specific>Csak a következõk mentése</Specific>
+			<Errors>
+				<NoFound>Jelenleg nem találhatók adatbázishoz tartozó bejegyzések.
+
+A rendszer újraellenõrzése megoldhatja ezt a problémát, egyéb esetben frissítsd az adatbázist vagy hozz létre egyéni játékmentés bejegyzéseket és próbáld újra.</NoFound>
+				<NoSelected title="Hiba:" width="420" height="110">Nem adtál meg menteni kívánt bejegyzéseket.
+
+A folytatáshoz ki kell jelölnöd legalább egy bejegyzést.</NoSelected>
+			</Errors>
+			<Rescan>Rendszer újraellenõrzése a feladat elindítása elõtt</Rescan>
+			<ExclusionList>Szeretném meghatározni a kihagyandó bejegyzéseket (csak ehhez a feladathoz)</ExclusionList>
+		</Step2>
+		<Step3>
+			<Info>Kérlek határozd meg alább, hogy mikor hajtsa végre ezt a feladatot.</Info>
+			<Type>
+				<Header>Feladat típusa:</Header>
+				<Daily>Naponta</Daily>
+				<Weekly>Hetente</Weekly>
+				<Monthly>Havonta</Monthly>
+				<Minute>Perc alapú</Minute>
+				<Hourly>Óránként</Hourly>
+				<OnIdle>Üresjáratban</OnIdle>
+			</Type>
+			<Minute>
+            <Header>Perc alapú feladat</Header>
+            <Every>Minden</Every>
+            <Minutes>percben</Minutes>
+            <StartingFromTasksCreation>kezdve a feladat létrehozásának idejétõl</StartingFromTasksCreation>
+            <StartingFrom>kezdve</StartingFrom>
+			</Minute>
+			<Hourly>
+            <Header>Óránkénti feladat</Header>
+            <Every>Minden</Every>
+            <Hours>órában</Hours>
+            <StartingFromTasksCreation>kezdve a feladat létrehozásának idejétõl</StartingFromTasksCreation>
+            <StartingFrom>kezdve</StartingFrom>
+			</Hourly>
+			<OnIdle>
+            <Header>Üresjáratban</Header>
+            <WhenIdleFor>Amikor a rendszer több mint</WhenIdleFor>
+            <Minutes>percig üresjáratban van</Minutes>
+			</OnIdle>
+			<Daily>
+				<Header>Napi feladat</Header>
+				<RunThisTaskAt>Futtassa ezt a feladatot</RunThisTaskAt>
+				<Every>minden</Every>
+				<Days>nap.</Days>
+			</Daily>
+			<Weekly>
+				<Header>Heti feladat</Header>
+				<RunThisTaskAt>Futtassa ezt a feladatot</RunThisTaskAt>
+				<Every>minden</Every>
+				<Weeks>héten.</Weeks>
+				<DaysHeader>Futtassa a következõ nap(ok)on:</DaysHeader>
+				<Days>
+					<Monday>Hétfõ</Monday>
+					<Tuesday>Kedd</Tuesday>
+					<Wednesday>Szerda</Wednesday>
+					<Thursday>Csütörtök</Thursday>
+					<Friday>Péntek</Friday>
+					<Saturday>Szombat</Saturday>
+					<Sunday>Vasárnap</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Havi feladat</Header>
+				<RunThisTaskAt>Futtassa ezt a feladatot</RunThisTaskAt>
+				<Specific>
+					<Header>a következõ napon:</Header>
+					<Last>utolsó nap</Last>
+				</Specific>
+				<EveryOther>
+					<Header>a(z)</Header>
+					<Frequency>
+						<First>elsõ</First>
+						<Second>második</Second>
+						<Third>harmadik</Third>
+						<Last>utolsó</Last>
+					</Frequency>
+					<Day>
+						<Monday>Hétfõn</Monday>
+						<Tuesday>Kedden</Tuesday>
+						<Wednesday>Szerdán</Wednesday>
+						<Thursday>Csütörtökön</Thursday>
+						<Friday>Pénteken</Friday>
+						<Saturday>Szombaton</Saturday>
+						<Sunday>Vasárnapon</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>a következõ hónap(ok)ban:</MonthHeader>
+				<Months>
+					<January>Január</January>
+					<February>Február</February>
+					<March>Március</March>
+					<April>Április</April>
+					<May>Május</May>
+					<June>Június</June>
+					<July>Július</July>
+					<August>Augusztus</August>
+					<September>Szeptember</September>
+					<October>Október</October>
+					<November>November</November>
+					<December>December</December>
+				</Months>
+			</Monthly>
+			<Errors>
+				<FormError title="Hiányzó ûrlap adat:" width="420" height="110">A jelenlegi ûrlap egy része vagy egésze nincs megfelelõen kitöltve.
+
+Kérlek töltsd ki az ûrlapot és próbáld újra.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Már majdnem végeztünk.
+Az alábbi beállításokat használva kérlek állítsd be a GameSave Manager mûködését ennek a feladatnak a végrehajtása közben.</Info>
+			<CreateSchedule>Feladat hozzáadása a Windows Feladatütemezõhöz</CreateSchedule>
+			<Shortcut>Asztali parancsikon létrehozása ehhez a feladathoz, hogy kényszeríteni tudjam az indítását</Shortcut>
+			<SaveHeader>Mentés helye:</SaveHeader>
+			<UseCloud>Használja a 'Felhõ' beállításaimat</UseCloud>
+			<SaveTo>Mentés ide:</SaveTo>
+			<ArchiveSettings>Archívum beállítások:</ArchiveSettings>
+			<SaveTo_Browse>Tallózás</SaveTo_Browse>
+			<AutoGenerate>Fájlnév automatikus generálása</AutoGenerate>
+			<Errors>
+				<CloudError title="Nem elérhetõ" width="420" height="110">Úgy tûnik nem állítottad be a 'Felhõ beállításokat' a programbeállításokon belül.
+
+Kérlek szabd testre ezeket a beállításokat és próbáld újra.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Hiba:" width="420" height="110">A kiválasztott 'Ütemezett feladat' nem tûnik érvényesnek vagy egy hiba történt a szükséges adatok lekérése közben az adatbázisból.
+
+Kérlek próbáld újra.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

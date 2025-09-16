@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Spielstände wiederherstellen</Title>
+	<Detection>
+		<Title>Gefundene Einträge</Title>
+		<ListCheck width="140">Alle markieren / Markierung aufheben</ListCheck>
+		<Counter>%TOTAL% Einträge gefunden / %SELECTED% Einträge markiert</Counter>
+		<Legend>
+			<Title>Legende</Title>
+			<Files>Daten werden wiederhergestellt</Files>
+			<Registry>Registry-Daten werden wiederhergestellt</Registry>
+			<Warning>Der Eintrag hat ein Warnhinweis, welches Sie lesen sollten</Warning>
+			<Unrestorable>Wiederherstellungspfad wurde nicht gefunden. Mögliche Gründe wären fehlende Registry-Einträge oder andere Einstellungen</Unrestorable>
+			<EntireEntry>Alle Einträge werden wiederhergestellt</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Wiederherstellung starten!</Start>
+		<Open>Öffnet ein altes Backup Archiv zum Wiederherstellen</Open>
+	</Options>
+	<Details>
+		<Title>Details</Title>
+		<NoneSelected>Keine Auswahl.
+
+Bitte wählen Sie einen Eintrag von der Liste links.</NoneSelected>
+		<Unrestorable>Dieser Eintrag ist nicht wiederherstellbar!
+
+Mehrere Gründe könnten die Ursachen sein. Womöglich:
+1. In der Programmeinstellung verhindert womöglich eine Einstellung die Ortung
+2. Der Pfad des Spielstands wurde via Registry zu ermitteln versucht, aber es scheint, dass der Registry-Eintrag nicht vorhanden ist.
+
+Falls Nr. 2 eintrifft, sollten Sie versuchen das Spiel neu zu installieren und/oder ein Speicherstand zu erstellen.</Unrestorable>
+		<UnrestorableEntry>Wiederherstellung konnte nicht durchgeführt werden, da der Pfad nicht gefunden werden konnte.
+
+Siehe einen Eintrag für weitere Informationen, evtl. wird die Lösung ersichtlich.</UnrestorableEntry>
+		<Entry>
+			<Name>Eintragsname:</Name>
+			<VerInfo>Hergestellt mit:</VerInfo>
+			<IsOfficial>Offizieler Name:</IsOfficial>
+			<Size>Grösse:</Size>
+			<Warning>Warnung:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Verzeichnis:</Directory>
+			<Size>Grösse:</Size>
+			<Files>Dateien:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Wert:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Success" width="350" height="110">Die Wiederherstellung wurde erfolgreich durchgeführt!
+
+Es wurden keine Fehler gefunden.</Success>
+		<Failed title="Failure" width="420" height="110">Die Wiederherstellung wurde erfolgreich durchgeführt!
+		
+Leider wurde mind. einen Fehler gefunden!
+
+Ein Log wurde gespeichert. Möchten Sie diesen jetzt lesen?</Failed>
+		<NoArchive>Es wurde noch kein Archiv geladen.
+
+Klicke Sie rechts oben auf das Ordner-Symbol, um ein Archiv zu laden.</NoArchive>
+		<InvalidFile>Dieses File sieht nützlich aus! Schande über GameSave Manager, dass dieses nicht Unterstützt wird!</InvalidFile>
+		<Incompatible>Dieses Backup Archiv wird nicht für diese Version von GameSave Manager unterstützt.
+
+Bitte probieren Sie es nochmals!.</Incompatible>
+		<NoneSelected title="Error:" width="350" height="110">Keine Speicherstände wurden zum Wiederherstellen markiert.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

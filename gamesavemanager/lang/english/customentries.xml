@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Custom Gamesave Entries</Title>
+	<Info>From this page, you can add new detection rules for GameSave Manager to follow.
+Modify an officially supported entry to meet your own needs, add an entirely new entry or just manage existing Custom Gamesave Entries right here.</Info>
+	<List>
+		<Header>Existing entries</Header>
+		<NoEntries>No 'Custom Gamesave Entries' currently defined.
+
+To begin, click the 'Add' button below.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Custom Gamesave Entries Wizard; Step %CURRENT% of %TOTAL%</Title>
+		<Header>Custom Gamesave Entries Wizard</Header>
+		<Step1>
+			<Info>This wizard will guide you through the process of adding--or modifying--a 'Custom Gamesave Entry'.
+
+Throughout this wizard, you'll be asked for various information about the data to backup so please be prepared to answer a few questions.
+This process shouldn't take longer than 5 minutes. Remember, you can cancel at any time.
+
+To begin, let's name our Custom Gamesave Entry.
+You can call this entry anything you wish, but it's recommended that you call it something meaningful (such as the game's full title).</Info>
+			<Name>Entry Title:</Name>
+			<Warning>NOTE: If you are defining extra files, paths or registry data to an existing 'Officially Supported Entry', please use the name of said entry to overwrite it with your own definitions.
+
+Your Custom Gamesave Entry will then be populated with the 'Officially Supported' entry's data for you to edit.</Warning>
+			<Errors>
+				<InvalidName title="Invalid name:" width="420" height="110">The name specified ('%NAME%') is already in use for another Custom Gamesave Entry.
+
+Please specify a different name and try again.</InvalidName>
+				<NoName title="No name specified:" width="420" height="110">You've neglected to name your Custom Gamesave Entry.
+
+Please specify a name and try again.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>The form below allows you to specify any warning messages for this entry.
+An exclamation icon is used to notify the user of a warning message, and can be viewed via the 'Entry Details' panel upon selection.
+
+If you do not wish to specify any warnings, simply leave the form below blank and click 'Next &gt;'</Info>
+			<Backup>Backup warning</Backup>
+			<Restore>Restore warning</Restore>
+		</Step2>
+		<Step3>
+			<Info>Using the form below, please specify all files, directories and registry data you wish to backup for this entry.
+You may add as many items as you wish.</Info>
+			<DirTitle>Files & directories to backup:</DirTitle>
+			<RegTitle>Registry data to backup:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Error:" width="420" height="110">You've neglected to specify anything for this entry to backup.
+
+Please specify at least 1 directory or 1 registry entry and try again.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>We're finished!
+All the required information has been collected and we're ready to save it to the database.
+
+If you wish to change anything, you may do so now or at a later date by editing this entry.</Info>
+			<SubmitPanel>
+				<Header>Share Entry</Header>
+				<Info>This entry appears to meet the criteria to be sent to the GameSave Manager servers for approval.
+If approved, this entry will be implemented in a future 'Database Update' and thus benefit the community as a whole.</Info>
+				<InfoScene>Despite your entry meeting the criteria for submission, it also appears to contain one or more 'Scene Release' specific save locations.
+Such locations are not supported, thus you cannot submit this entry for approval.
+
+If you feel this is a mistake, you may manually submit your entry on our Forums.
+Regardless, your Custom Gamesave Entry is completely unaffected.</InfoScene>
+				<Submit>Yes, I'd like to share this entry</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Custom Gamesave Entries: Directory Wizard; Step %CURRENT% of %TOTAL%</Title>
+			<Header>Custom Gamesave Entries: Directory Wizard</Header>
+			<Step1>
+				<Info>This wizard will guide you through the process of adding--or modifying-- a directory rule for your Custom Gamesave Entry.
+
+This process shouldn't take longer than a minute.
+
+To begin, would you like GameSave Manager to dynamically detect part of this directory for you?</Info>
+				<UseSpecialPaths>Yes please, dynamically detect the following directory</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>My Documents</DOCUMENTS>
+					<SHARED_DOCUMENTS>Shared Documents</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Steam Installation Directory</STEAM>
+					<STEAM_CACHE>Steam Cache</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay cache</UPLAY>
+					<FLASH>Macromedia Flash cache</FLASH>
+					<SAVED_GAMES>Saved Games</SAVED_GAMES>
+					<USER_PROFILE>User Home</USER_PROFILE>
+					<REGISTRY>From Registry Value</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Please use the form below to specify the 'registry value' which contains the directory you wish to dynamically detect.
+
+NOTE: Filenames are automatically stripped from the value (for example, "C:\Game\Launch.exe" becomes "C:\Game").</Info>
+				<Hive>Registry Hive:</Hive>
+				<Path>Registry Path:</Path>
+				<Value>Registry Value:</Value>
+				<Test>Test Detection</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>We now need to append the remainder of the path to the end of the directory we've previously specified to dynamically detect.
+
+To do this, simply enter the remainder of the directory path in the field below.
+If you do not need to append anything to the dynamically detected path, leave the field blank and click 'Next &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>As you've chosen not to dynamically detect a directory, you now need to specify the full path below.
+
+If you wish to go back and enable Dynamic Detection, feel free to click "&lt; Back".</InfoWithoutSpecialPath>
+				<DynamicDetection>Dynamic Detection</DynamicDetection>
+				<Append>Append the following</Append>
+				<Full>Look in the following directory</Full>
+			</Step2>
+			<Step3>
+				<Info>Finally, we need to specify what files to backup.
+
+You can use 'wildcards' (* and ?) within filenames you specify.
+
+Examples:
+	*.* - Processes all files
+	*.sav - Processes all '.sav' file types
+	My*.sav - Processes all '.sav' file types that begin with 'my'
+	MySave.sav - Processes the file 'MySave.sav' within the root directory
+	bin\MySave.sav - Processes the file 'MySave.sav' within the 'bin' sub-folder
+	bin\*.* - Processes all files within the 'bin' sub-folder</Info>
+				<Warning>NOTE: Separate files with a pipex (for example *.sav|*.ini)</Warning>
+				<IncludedFiles>Files to include</IncludedFiles>
+				<ExcludedFiles>Files to exclude</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Custom Gamesave Entries: Registry Wizard</Title>
+			<Header>Custom Gamesave Entries: Registry Wizard</Header>
+			<Info>Please enter the Registry Key details below to backup.</Info>
+			<Hive>Registry Hive:</Hive>
+			<Path>Registry Path:</Path>
+			<DefinedValues>
+				<Header>Registry Values:</Header>
+				<EntireKey>Backup entire key</EntireKey>
+				<Specific>Backup the following value(s):</Specific>
+				<Values>Values:</Values>
+				<Info>Separate value names with a pipex ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Submission Message</Header>
+		<Info>You're about to submit your Custom Gamesave Entry titled '%NAME%' to the GameSave Manager server for approval.
+
+Would you like to specify a submission message?</Info>
+		<NoMsg>No thanks, just submit my entry</NoMsg>
+		<Msg>Yes please, I'd like to specify some additional information</Msg>
+		<ReturnCodes>
+			<NoConnection title="Error" width="420" height="110">There was an error when trying to communicate with the GameSave Manager server.
+Perhaps it's offline or you don't have an active internet connection?</NoConnection>
+			<DBUpdate title="Error" width="420" height="110">There appears to be a Database Update for you.
+
+Please apply the update and try again.</DBUpdate>
+			<DynError title="Error" width="420" height="110">The entry was unable to be submitted due to an issue with it's 'Dynamic Detection'</DynError>
+			<DupError title="Error" width="420" height="110">This entry already appears to of been submitted by yourself or someone else.</DupError>
+			<Banned title="Error" width="420" height="110">We've recieved too many spam submissions from your IP address.
+Please try submitting manually via our Forums</Banned>
+			<MissingData title="Error" width="420" height="110">Entry appears to be missing some required data.</MissingData>
+			<Update title="Error" width="420" height="110">This version of GameSave Manager is no longer supported by the server.
+Please update to the latest version and try again.</Update>
+			<Maintenance title="Error" width="420" height="110">The submission system appears to be down for maintenance.
+Please try again later, or submit the entry manually via our Forums</Maintenance>
+			<SubmitError title="Error" width="420" height="110">There was an unknown error when submitting the entry.
+Please try again later, or submit the entry manually via our Forums</SubmitError>
+			<Success title="Success" width="420" height="110">Your entry titled '%NAME%' has successfully been submitted and is now awaiting approval.
+			
+			Thank you.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">The 'Custom Gamesave Entry' selected doesn't appear to be valid, or an error occured while querying the database for required data.
+
+Please try again.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

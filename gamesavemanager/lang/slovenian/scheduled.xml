@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Razporejena opravila</Title>
+	<Info>Tukaj lahko nastavite GameSave Manager, da zažene varnostno kopiranje ob èasu, ki ga sami podate.
+'Razporejena opravila' lahko nastavite tako, da se varnostno kopirajo doloèene ali vse zaznane shranjene igre, prepišete pa lahko tudi nekatere 'nastavitve programa' in tako dobite veè nadzora.</Info>
+	<List>
+		<Header>Obstojeèa opravila</Header>
+		<NoEntries>Trenutno ni doloèenih nobenih 'razporejenih opravil'.
+
+Da zaènete, kliknite spodnji gumb 'Dodaj'.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Èarovnik za razporejena opravila; korak %CURRENT% od %TOTAL%</Title>
+		<Header>Èarovnik za razporejena opravila</Header>
+		<Step1>
+			<Info>Ta èarovnik vas bo vodil skozi opravilo dodajanja ali spreminjanja 'razporejenih opravil'.
+
+Èarovnik vas bo vprašal kaj želite varnostno kopirati, kdaj želite to storiti in katere nastavitve programa bi morda želeli prepisati.
+To opravilo ne bi smelo trajati veè kot 5 minut. Zapomnite si, da ga lahko kadarkoli preklièete.
+
+Da zaènete, morate razporejeno opravilo poimenovati.
+Ime je lahko poljubno, ampak je priporoèeno, da ga poimenujete smiselno, da ga boste laže prepoznali.</Info>
+			<Name>Ime opravila:</Name>
+			<Errors>
+				<InvalidName title="Neveljavno ime:" width="420" height="110">Podano ime ('%NAME%') je že v uporabi za drugo razporejeno opravilo.
+
+Podajte drugaèno ime in poskusite znova.</InvalidName>
+				<NoName title="Ime ni podano:" width="420" height="110">Niste poimenovali vašega razporejenega opravila.
+
+Podajte ime in poskusite znova.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Z uporabo spodnjega obrazca podajte kaj bi radi varnostno kopirali ob zagonu tega opravila.</Info>
+			<AllDetected>Varnostno kopiraj vse zaznane shranjene igre</AllDetected>
+			<Specific>Varnostno kopiraj samo naslednje</Specific>
+			<Rescan>Preden se opravilo zažene, znova zaženi sistem</Rescan>
+			<ExclusionList>Rad bi navedel vnose, ki naj bodo prezrti (samo za to opravilo)</ExclusionList>
+			<Errors>
+				<NoFound>Ni bilo najdenih vnosov, ki so trenutno znotraj podatkovne zbirke.
+
+Ponovno preiskovanje vašega sistema bo to morda rešilo, v nasprotnem primeru pa posodobite podatkovno zbirko ali pa ustvarite vnose shranjenih iger po meri in poskusite znova.</NoFound>
+				<NoSelected title="Napaka:" width="420" height="110">Niste podali nobenih vnosov za varnostno kopiranje.
+
+Da nadaljujete, morate izbrati vsaj en vnos.</NoSelected>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Spodaj izberite kdaj naj bo to opravilo izvedeno.</Info>
+			<Type>
+				<Header>Vrsta opravila:</Header>
+				<Daily>Dnevno</Daily>
+				<Weekly>Tedensko</Weekly>
+				<Monthly>Meseèno</Monthly>
+				<Minute>Minutno</Minute>
+				<Hourly>Urno</Hourly>
+				<OnIdle>Ob nedejavnosti sistema</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Dnevno opravilo</Header>
+				<RunThisTaskAt>Zaženi to opravilo</RunThisTaskAt>
+				<Every>vsakih</Every>
+				<Days>dni.</Days>
+			</Daily>
+			<Weekly>
+				<Header>Tedensko opravilo</Header>
+				<RunThisTaskAt>Zaženi to opravilo</RunThisTaskAt>
+				<Every>vsakih</Every>
+				<Weeks>tednov.</Weeks>
+				<DaysHeader>Zaženi ob naslednjih dnevih:</DaysHeader>
+				<Days>
+					<Monday>Ponedeljek</Monday>
+					<Tuesday>Torek</Tuesday>
+					<Wednesday>Sreda</Wednesday>
+					<Thursday>Èetrtek</Thursday>
+					<Friday>Petek</Friday>
+					<Saturday>Sobota</Saturday>
+					<Sunday>Nedelja</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Meseèno opravilo</Header>
+				<RunThisTaskAt>Zaženi to opravilo</RunThisTaskAt>
+				<Specific>
+					<Header>na naslednji dan:</Header>
+					<Last>zadnji dan</Last>
+				</Specific>
+				<EveryOther>
+					<Header>na</Header>
+					<Frequency>
+						<First>prvi</First>
+						<Second>drugi</Second>
+						<Third>tretji</Third>
+						<Last>zadnji</Last>
+					</Frequency>
+					<Day>
+					      <Monday>Ponedeljek</Monday>
+					      <Tuesday>Torek</Tuesday>
+					      <Wednesday>Sreda</Wednesday>
+					      <Thursday>Èetrtek</Thursday>
+					      <Friday>Petek</Friday>
+					      <Saturday>Sobota</Saturday>
+					      <Sunday>Nedelja</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>naslednjih mesecev:</MonthHeader>
+				<Months>
+					<January>Januar</January>
+					<February>Februar</February>
+					<March>Marec</March>
+					<April>April</April>
+					<May>Maj</May>
+					<June>Junij</June>
+					<July>Julij</July>
+					<August>Avgust</August>
+					<September>September</September>
+					<October>Oktober</October>
+					<November>November</November>
+					<December>December</December>
+				</Months>
+			</Monthly>
+			<Minute>
+			<Header>Minutno opravilo</Header>
+			  <Every>Vsakih</Every>
+			  <Minutes>minut</Minutes>
+			  <StartingFromTasksCreation>zaèeto od èasa ustvaritve opravila</StartingFromTasksCreation>
+			  <StartingFrom>zaèeto od</StartingFrom>
+		      </Minute>
+		      <Hourly>
+			  <Header>Urno opravilo</Header>
+			  <Every>Vsakih</Every>
+			  <Hours>ur</Hours>
+			  <StartingFromTasksCreation>zaèeto od èasa ustvaritve opravila</StartingFromTasksCreation>
+			  <StartingFrom>zaèeto od</StartingFrom>
+		      </Hourly>
+		      <OnIdle>
+			  <Header>Opravilo ob nedejavnosti</Header>
+			  <WhenIdleFor>Ko je sistem nedejaven</WhenIdleFor>
+			  <Minutes>minut</Minutes>
+		      </OnIdle>
+			<Errors>
+				<FormError title="Manjkajo podatki obrazca:" width="420" height="110">Niste pravilno izpolnili dela ali celotnega obrazca.
+
+Izpolnite obrazec in poskusite znova.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Skoraj smo konèali.
+Z uporabo spodnjih možnosti nastavite kako želite, da se GameSave Manager obnaša med izvajanjem tega opravila.</Info>
+			<CreateSchedule>Dodaj opravilo v razporejevalnik opravil za Windows </CreateSchedule>
+			<Shortcut>Ustvari bližnjico na namizju za to opravilo, da ga lahko prisilno zaženem</Shortcut>
+			<SaveHeader>Mesto shranjevanja:</SaveHeader>
+			<UseCloud>Uporabi nastavitve za 'oblak'</UseCloud>
+			<SaveTo>Shrani v:</SaveTo>
+			<ArchiveSettings>Nastavitev arhivov:</ArchiveSettings>
+			<SaveTo_Browse>Brskaj</SaveTo_Browse>
+			<AutoGenerate>Samodejno ustvari ime datoteke</AutoGenerate>
+			<Errors>
+				<CloudError title="Ni na voljo" width="420" height="110">Izgleda, da niste nastavili 'možnosti oblaka' znotraj nastavitev programa.
+
+Nastavite te možnosti in poskusite znova.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Napaka:" width="420" height="110">'Razporejeno opravilo' ni veljavno ali pa je med poizvedovanjem po podatkovni zbirki, da bi pridobili zahtevane podatke, prišlo do napake.
+
+Poskusite znova.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

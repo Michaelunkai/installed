@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Steam Dağıtıcı</Title>
+	<Info>Steam Dağıtıcı 'Simgesel Bağlantılar' kullanarak dosyalarınızı birden fazla sabit disk ve bölüme dağıtmanızı sağlar.
+
+Çoğu oyuncu 'simgesel bağlantıları' diğer bütün oyunlarını mekanik sürücüde tutarken, sevdiği oyunları SSD taşımak için kullanır.</Info>
+	<MoveDir>
+		<Header>Taşıma Klasörleri</Header>
+		<Empty>Belirlenmiş bir klasör yok.
+
+Başlamak için 'Ekle' tıklayın.</Empty>
+		<DialogHeader>Steam Dağıtıcı; Sıradaki Öğe</DialogHeader>
+		<Steam>Steam oyununu taşı</Steam>
+		<Origin>Origin oyununu taşı</Origin>
+		<Specify>Yolu belirteyim</Specify>
+		<MoveTo>Taşıma yeri...</MoveTo>
+		<Move width="75">Taşı</Move>
+		<Messages>
+			<NoneSelected title="Hata:" width="350" height="110">Formu doldurmadınız.
+Lütfen tekrar deneyin.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Bağlantı Hatası:" width="350" height="110">Kaynak klasör sistemden kaldırılamadığından bağlantı oluşturulamıyor.</SourceExists>
+			</LinkError>
+			<Success title="Başarılı" width="350" height="110">Steam Dağıtıcı Görevi Tamamlandı.
+
+Hiç bir hata oluşmadı.</Success>
+			<Failed title="Başarısız" width="420" height="110">Steam Dağıtıcı Görevi Tamamlandı.
+		
+En az bir hata oluştu.
+
+Günlük kaydedildi. Görüntülemek ister misiniz?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Klasörü geri yükle</Header>
+		<Source>Aşağıdaki klasör için görevi geri al...</Source>
+		<Destination>...şu anda buraya bağlı:</Destination>
+		<Revert width="75">Geri Al</Revert>
+		<Messages>
+         <NoneSelected title="Hata:" width="350" height="110">Tüm formu doldurmadınız.
+Lütfen tekrar deneyin.</NoneSelected>
+         <NoLongerLinked title="Link Hatası:" width="450" height="150">Kaldırılacak link sisteminizde bulunamıyor.
+
+Oyun kaldırılmış veya GameSave Manager dışında bir yöntemle link bozulmuş olabilir.
+
+
+Listeden kaldırılsın mı?</NoLongerLinked>
+         <LinkRemovalFail title="Hata:" width="450" height="150">GameSave Manager aşağıda belirtilen yolla ilişkili linkleri kaldıramıyor.
+
+   "%LINK%"</LinkRemovalFail>
+         <Success title="Başarılı" width="350" height="110">Steam Spreader görevi tamamlandı.
+
+Hiç bir hata oluşmadı.</Success>
+      </Messages>
+	</Undo>
+	<SteamRunning title="Uyarı:" width="450" height="200">GameSave Manager makinenizde Steam halen çalıştığını tespit etti.
+
+GameSave Manager Steam'i doğrudan etkilemese de, oyun dosyalarını (belirtilen klasöre) taşır.
+Steam bazen bu dosyaları 'kayıp' olarak algılar ve onları tekrar indirmeye çalışır.
+
+Yinede devam edilsin mi?</SteamRunning>
+</GameSaveManager_Translation>

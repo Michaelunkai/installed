@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Datei</Title>
+			<Backup>Backup erstellen</Backup>
+			<ScheduledTasks>Backup-Zeitplan erstellen</ScheduledTasks>
+			<GameplayBackup>Gameplay Backup</GameplayBackup>
+			<SyncLink>Sync Link</SyncLink>
+			<Restore>Daten wiederherstellen...</Restore>
+			<Validate>Archive validieren</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>
+			<Exit>Verlassen</Exit>
+		</File>
+		<Edit>
+			<Title>Bearbeiten</Title>
+			<CustomEntries>Eigene Spielstand-Einträge</CustomEntries>
+			<Variables>Standardpfade ändern</Variables>
+			<ProgSettings>Einstellungen</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Hilfe</Title>
+			<Help>GameSave Manager Hilfe</Help>
+			<TranslationFilter>Übersetzungsfilter</TranslationFilter>
+			<ListEntries>Liste von unterstützen Spiele</ListEntries>
+			<VisitWebsite>Homepage</VisitWebsite>
+			 <CommandlineHelp>Befehlszeilen-Hilfe</CommandlineHelp>
+			<Update>Nach Updates suchen</Update>
+			<ReleaseHistory>Release History</ReleaseHistory>
+			<About>Über GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<OpenLog>Öffne den Log in einer externen Anwendung</OpenLog>
+	<RemoveLog>Lösche den selektierten Log</RemoveLog>
+	<IgnoreCommandline>
+      <AlreadyIgnored title="Already ignored" width="430" height="110">Der ausgewählte Eintrag ("%NAME%") ist schon in der Ignorierliste.</AlreadyIgnored>
+      <InvalidEntryName title="Invalid entry name" width="430" height="110">Es gibt keinen Eintrag "%NAME%" weder in der 'offiziellen' noch in der 'Benutzerdefinierten' Datenbank.</InvalidEntryName>
+      <Success title="Success" width="500" height="150">Der Eintrag "%NAME%" wurde erfolgreich auf die Ignorierliste gesetzt.
+
+Sie können die Erkennung jederzeit wieder unter 'Einstellungen -> Ortungs-Konfiguration -> Ingorierte Einträge'.</Success>
+   </IgnoreCommandline>
+	<Social>
+		<Facebook>Finde uns auf Facebook</Facebook>
+		<Twitter>Folge uns auf Twitter</Twitter>
+		<GooglePlus>Wir sind auf Google+</GooglePlus>
+		<Steam>Tritt unsere Gruppe bei Steam bei</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Update(s) verfügbar</Title>
+		<InfoTip>Ein oder mehrere Updates sind für Sie verfügbar.
+Klicken Sie hier für weitere Informationen.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Bitte warten</Title>
+		<Info>GameSave Manager lädt die erforderliche Dateien in den Systemspeicher...</Info>
+		<Tasks>
+			<Dirs>Arbeitsverzeichnisse werden generiert...</Dirs>
+			<LoadDB>Lade Datenbanken...</LoadDB>
+			<Updates>Suche nach verfügbaren Updates...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Willkommen</Header>
+		<Welcome>Willkommen bei GameSave Manager.
+Wählen Sie Ihre bevorzugte Sprache aus.
+
+Hinweis: Unter Einstellungen kann die Sprache problemlos geändert werden.</Welcome>
+		<TranslationInfo>Ausser'English' wurden alle anderen Sprachen von der Community erstellt.
+Daher könnte die Übersetzung unvollständig sein.</TranslationInfo>
+		<CustomCache width="192">Das 'Cache'-Verzeichnis anpassen</CustomCache>
+	</FirstRun>
+	  <GlobalSettings>
+      <StoreWithinLaunchDir width="265">Speichere die Programmeinstellungen im Startverzeichnis</StoreWithinLaunchDir>
+      <SeparateDBPerUser width="250">Speichere die offiziellen Einträge der Datenkbank unter "AppData"</SeparateDBPerUser>
+   </GlobalSettings>
+	<Installer>
+		<Header>Installieren?</Header>
+		<Info>Obwohl GameSave Manager vollständig 'portable' (ohne Installation lauffähig) ist, bevorzugen einige User eine installierte version.
+
+Möchten Sie GameSave Manager installieren?</Info>
+		<Confirm width="168">Ja, Ich möchte GSM installieren</Confirm>
+		<Install>Installiere nach:</Install>
+		<DesktopShortcut width="180">Desktopverknüpfung erstellen?</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Pfade ändern</ModifyVariables>
+	<CustomDynDir>Passe die dynamische geortete Pfade an:</CustomDynDir>
+	<CustomCacheWarning>Bei einer Änderung der Werte wird ein Neustart des Programms nötig.</CustomCacheWarning>
+	<BackToMainMenu>Zurück ins Hauptmenü</BackToMainMenu>
+	<Unsupported title="Feature unsupported:" width="430" height="125">Es scheint, als ob Ihr Betriebssystem dieses Programm oder Feature noch nicht unterstützt.
+
+Betriebssystem:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Check for updates?" width="430" height="110">Seit 7 Tagen wurde nicht nach Updates geprüft.
+
+Möchten Sie nach neue Updates suchen?</UpdateReminder>
+	<UpdateReminder_First title="Check for updates?" width="470" height="125">Willkommen bei GameSave Manager!
+GameSave Manager wird stetig via Programm- und Datenbankupdates erweitert.
+
+Möchten Sie jetzt nach neue Updates suchen?</UpdateReminder_First>
+	<GenericButtons>
+		<OK>OK</OK>
+		<Yes>Ja</Yes>
+		<No>Nein</No>
+		<Add>Hinzufügen</Add>
+		<Edit>Ändern</Edit>
+		<Remove>Entfernen</Remove>
+		<Back>&lt; Zurück</Back>
+		<Next>Vorwärts &gt;</Next>
+		<Cancel>Abbrechen</Cancel>
+		<Finish>Fertigstellen</Finish>
+		<Browse>Browse</Browse>
+		<Close>Schliessen</Close>
+		<Abort>Abbrechen</Abort>
+	</GenericButtons>
+	
+	<true>richtig</true>
+	<false>falsch</false>
+<Detection>
+	<Backup>Bitte warten Sie, das System wird nach unterstützten Spielständen gescannt...</Backup>
+	<Restore>Scanne Archive nach Spielstände...</Restore>
+	<Error>Das Verzeichnis konnte nicht gefunden werden.</Error>
+	<NoMsg>Kein Warnungshinweis verfügbar.</NoMsg>
+		 <Status>
+         <LookingIn>Suche in...</LookingIn>
+         <Found>Gefunden...</Found>
+         <Nothing>Nichts :'(</Nothing>
+      </Status>
+</Detection>
+<Processing>
+<Header>Task Log:</Header>
+<Info>Sie können sich zurücklehnen und entspannen, während GameSave Manager die angeforderte Aufgabe erledigt.
+Die benötigte Zeit kann vom Unfang der Aufgabe sowie von System zu System varieren.</Info>
+</Processing>
+<NoLogs title="Nothing to display" width="430" height="110">Zurzeit existieren keine Logs.</NoLogs>
+</GameSaveManager_Translation>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Tarea Programada</Title>
+	<Info>Aquí puede configurar GameSave Manager para ejecutar Backups en momentos especificos.
+'Tareas Programadas' puede ser configurado para realizar Backups específicos--o todo lo detecta--guarda y sobrescribe varios ajustes del programa, que le da un mayor control y flexibilidad.</Info>
+	<List>
+		<Header>Tareas Existentes</Header>
+		<NoEntries>No hay 'Tareas Programadas' definido actualmente.
+
+Para comenzar, haga clic en el botón 'Añadir'.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Asistente Tarea Programada; Etapa %CURRENT% de %TOTAL%</Title>
+		<Header>Asistente Tarea Programada</Header>
+		<Step1>
+			<Info>Este asistente le guiará a través del proceso de añadir--o modificar--'Tareas Programadas'.
+
+A lo largo de este asistente, se le pedirá que especifique lo que desea hacer Backups, cuándo realizar el Backups y opciones de configuración del programa que usted desee sobrescribir.
+Este proceso no debe tardar más de 5 minutos. Recuerde, usted puede cancelar en cualquier momento.
+
+Para empezar, vamos a nombrar nuestra tarea programada.
+Usted puede llamar a esta entrada cualquier cosa que desee, pero se recomienda que lo llames con un nombre significativo para futuras consultas.</Info>
+			<Name>Título de la Tarea:</Name>
+			<Errors>
+				<InvalidName title="Nombre inválido:" width="420" height="110">El nombre especificado ('%NAME%') ya está en uso por otra tarea programada.
+
+Por favor, especifique un nombre diferente y vuelva a intentarlo.</InvalidName>
+				<NoName title="Nombre no especificado:" width="420" height="110">Usted ha olvidado colocar el nombrar a su tarea programada.
+
+Por favor, especifique un nombre y vuelva a intentarlo.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Usando el siguiente formulario, por favor especifique lo que desea hacer Backup cuando se ejecute esta tarea.</Info>
+			<AllDetected>Backup de todos los detectados por ahorra</AllDetected>
+			<Specific>Sólo Backup de los siguientes</Specific>
+			<Rescan>Reexplorar sistema antes de iniciar la tarea</Rescan>
+			<ExclusionList>Me gustaría especificar entradas a ignorar (sólo para esta tarea)</ExclusionList>
+			<Errors>
+				<NoFound>No hay entradas que se encuentran actualmente en la base de datos.
+
+Nuevo análisis de su sistema puede solucionar este problema, de lo contrario por favor actualice la base de datos o crear algunas entradas GameSave personalizados y vuelva a intentarlo.</NoFound>
+				<NoSelected title="Error:" width="420" height="110">No ha especificado ninguna entrada para el Backup.
+
+Para continuar, debe seleccionar por lo menos una entrada.</NoSelected>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Por favor especifique cuando la tarea debe ser realizada.</Info>
+			<Type>
+				<Header>Tipo de tarea:</Header>
+				<Daily>Diario</Daily>
+				<Weekly>Semanal</Weekly>
+				<Monthly>Mensual</Monthly>
+				<Minute>Base minuto</Minute>
+				<Hourly>Cada hora</Hourly>
+				<OnIdle>Sistemas inactivos</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Tareas Diarias</Header>
+				<RunThisTaskAt>Ejecutar esta tarea a la</RunThisTaskAt>
+				<Every>cada</Every>
+				<Days>día(s).</Days>
+			</Daily>
+			<Weekly>
+				<Header>Tarea Semanal</Header>
+				<RunThisTaskAt>Ejecutar esta tarea a la</RunThisTaskAt>
+				<Every>cada</Every>
+				<Weeks>semana(s).</Weeks>
+				<DaysHeader>Ejecutar el siguiente día(s):</DaysHeader>
+				<Days>
+					<Monday>Lunes</Monday>
+					<Tuesday>Martes</Tuesday>
+					<Wednesday>Miércoles</Wednesday>
+					<Thursday>Jueves</Thursday>
+					<Friday>Viernes</Friday>
+					<Saturday>Sábado</Saturday>
+					<Sunday>Domingo</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Tarea Mensual</Header>
+				<RunThisTaskAt>Ejecutar esta tarea a la</RunThisTaskAt>
+				<Specific>
+					<Header>en el día siguiente</Header>
+					<Last>último día</Last>
+				</Specific>
+				<EveryOther>
+					<Header>en el</Header>
+					<Frequency>
+						<First>primer</First>
+						<Second>segundo</Second>
+						<Third>tercer</Third>
+						<Last>último</Last>
+					</Frequency>
+					<Day>
+						<Monday>Lunes</Monday>
+						<Tuesday>Martes</Tuesday>
+						<Wednesday>Miércoles</Wednesday>
+						<Thursday>Jueves</Thursday>
+						<Friday>Viernes</Friday>
+						<Saturday>Sábado</Saturday>
+						<Sunday>Domingo</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>el mes siguiente(s):</MonthHeader>
+				<Months>
+					<January>Enero</January>
+					<February>Febrero</February>
+					<March>Marzo</March>
+					<April>Abril</April>
+					<May>Mayo</May>
+					<June>Junio</June>
+					<July>Julio</July>
+					<August>Agosto</August>
+					<September>Septiembre</September>
+					<October>Octubre</October>
+					<November>Noviembre</November>
+					<December>Diciembre</December>
+				</Months>
+			</Monthly>
+			<Minute>
+				<Header>Tarea por Minutos</Header>
+				<Every>Nunca</Every>
+				<Minutes>minuto(s)</Minutes>
+				<StartingFromTasksCreation>desde la hora de creación de la tarea</StartingFromTasksCreation>
+				<StartingFrom>a partir de</StartingFrom>
+			</Minute>
+			<Hourly>
+				<Header>Tarea por Hora</Header>
+				<Every>Nunca</Every>
+				<Hours>hora(s)</Hours>
+				<StartingFromTasksCreation>desde la hora de creación de la tarea</StartingFromTasksCreation>
+				<StartingFrom>a partir de</StartingFrom>
+			</Hourly>
+			<OnIdle>
+				<Header>Tarea inactivo</Header>
+				<WhenIdleFor>Cuando el sistema está inactivo por</WhenIdleFor>
+				<Minutes>minuto(s)</Minutes>
+			</OnIdle>
+			<Errors>
+				<FormError title="Faltan los datos del formulario:" width="420" height="110">Parte o la totalidad de la forma actual no ha sido llenado correctamente.
+
+Por favor rellene el formulario y vuelva a intentarlo.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Ya casi hemos terminado.
+Uso de las opciones siguientes, por favor configure cómo desea que el Administrador GameSave se comporte en el desempeño de esta tarea.</Info>
+			<CreateSchedule>Agregar al Programador de Tareas de Windows</CreateSchedule>
+			<Shortcut>Crear acceso directo en escritorio para esta tarea, así puede iniciarlo a la fuerza</Shortcut>
+			<SaveHeader>Guardar:</SaveHeader>
+			<UseCloud>Usar mi configuración 'Cloud'</UseCloud>
+			<SaveTo>Guardar en:</SaveTo>
+			<ArchiveSettings>Configuración archivo:</ArchiveSettings>
+			<SaveTo_Browse>Examinar</SaveTo_Browse>
+			<AutoGenerate>Generar automáticamente nombre de archivo</AutoGenerate>
+			<Errors>
+				<CloudError title="No disponible" width="420" height="110">No parece configurada la 'Opción Cloud' dentro de los parámetros del programa.
+
+Por favor, configure estas opciones y vuelva a intentarlo.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">La "tarea programada" seleccionada no parece ser válida, o ha ocurrido un error al consultar en la base de datos para los datos requeridos.
+
+Por favor, inténtelo de nuevo.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

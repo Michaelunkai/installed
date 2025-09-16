@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Главное меню</Title>
+	<Backup>
+		<Header>Резервное копирование...</Header>
+		<Description>Можно легко сделать резервную копию игрового сохранения на этом компьютере.</Description>
+		<Backup>Сделать резервную копию</Backup>
+		<Scheduled>Запланированные задания</Scheduled>
+		<Sync>Sync &amp; Link</Sync>
+		<GameplayBackup>Резервное копирование геймплея</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Восстановление сохранений...</Header>
+		<Description>Восстановление сохранений, созданных ранее в GameSave Manager.</Description>
+		<Open>Открыть архив(ы)</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Spreader</Header>
+		<Description>Можно легко перемещать каталоги из раздела в раздел при помощи символических ссылок.</Description>
+		<GoTo>Открыть Steam Spreader</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Настроить...</Header>
+		<Description>Настроить GameSave Manager под ваши личные потребности.</Description>
+		<CustomEntries>Настроить пользовательские записи</CustomEntries>
+		<Variables>Модификация переменных</Variables>
+		<Settings>Настройки программы</Settings>
+	</Customise>
+	<Log>
+		<Header>Журналы операций</Header>
+		<Description>Посмотреть журналы ранее обработанных задач.</Description>
+		<GoTo>Посмотреть журналы операций</GoTo>
+	</Log>
+</GameSaveManager_Translation>

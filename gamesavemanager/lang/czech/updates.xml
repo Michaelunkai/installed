@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Aktualizace</Title>
+	<Info>Stejně jako ostatní software, také GameSave je pravidelně aktualizován.
+Na této stránce se zobrazí seznam dostupných aktualizací.
+
+Klikněte na ikonku vlevo pro znovu zkontrolování aktualizací.</Info>
+	<Recheck>Dotazování se serverů na aktualizace.</Recheck>
+	<ProgramUpdate>
+		<Title>Aktualizace programu</Title>
+		<Info>Důrazně doporučujeme používat nejnovější verzi GameSave Manager.
+Aktualizace přidávají nové funkce, opravují známé problémy a vylepšují GameSave Manager.</Info>
+		<Download>Stáhnout</Download>
+		<ApplyUpdate>Stáhnout &amp; nainstalovat</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Lokalizační balíček</Title>
+		<Info>Nenalezeny žádné aktualizace.
+Přesto autor lokalizace vydal aktualizaci.</Info>
+		<Download>Stáhnout</Download>
+		<ApplyUpdate>Stáhnout &amp; nainstalovat</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Aktualizace databáze</Title>
+		<Info>Aktualizace databáze sice není tolik důležitá jako aktualizace programu, přesto přidává podporu nových her a opravu detekce stávajících.
+Proto doporučujeme aktualizaci databáze instalovat alespoň jednou týdně.</Info>
+		<Download>Nainstalovat aktualizaci</Download>
+	</DatabaseUpdate>
+	<Changelog>Zobrazit seznam změn</Changelog>
+	<DialogPrompt title="Jsou dostupné aktualizace" width="500" height="110">Připravili jsme pro vás aktualizaci aplikace nebo databáze.
+
+Chcete zobrazit seznam aktualizací?</DialogPrompt>
+	<Errors>
+		<Checking>Kontrolování aktualizací...</Checking>
+		<NoUpdates>Nenalezeny žádné aktualizace</NoUpdates>
+		<LangPack>[Komunita] Aktualizovaný jazykový balíček</LangPack>
+		<LangPack_Invalid>Chybný dotaz: Neznámé  ID balíčku!</LangPack_Invalid>
+		<UpdateRequired>Dostupná aktualizace databáze vyžaduje nejnovější aktualizaci aplikace.</UpdateRequired>
+		<NoConnection>Nelze zjistit informace o vydání. Prosím, zkuste to později.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

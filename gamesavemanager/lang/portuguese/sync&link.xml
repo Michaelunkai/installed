@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link permite que você mova saves especificados para um diretório personalizado atraves de Links simbólicos (similar a maneira que o 'Steam Spreader' atua).
+
+Usado em conjunto com Dropbox, Google Drive ou o SkyDrive é uma solução rápida e simples para saves nas 'nuvens'.</Info>
+	<Detection>
+		<Title>Entradas Suportadas</Title>
+		<ListCheck width="140">Selecionar tudo / Deselecionar tudo</ListCheck>
+		<Counter>%TOTAL% item(s) detectado(s) / %SELECTED% item(s) selecionado(s)</Counter>
+	</Detection>
+	<Options>
+		<Start>Iniciar a tarefa do Sync and Link agora.</Start>
+		<Unlink>Desvincular todos os saves previamente processados a partir de um diretório especificado.</Unlink>
+		<Relink>Vincular novamente todos os saves anteriormente processados de um diretório especificado.</Relink>
+		<Rescan>Verificar novamente o seu sistema para entradas suportadas.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Desvincular</Header>
+		<Info>Por favor especifique quais diretórios você deseja 'desvincular' dos detectados e listados abaixo.</Info>
+		<ListCheck width="140">Selecionar tudo / Deselecionar tudo</ListCheck>
+		<DupSaves>Copiar os saves; não remover arquivos de origem</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Sucesso" width="350" height="110">O Sync &amp; Link completou sua tarefa.
+
+Felizmente, não foram detectados erros.</Success>
+		<Failed title="Falha" width="420" height="110">O Sync &amp; Link completou sua tarefa.
+		
+Infelizmente, pelo menos 1 erro foi detectado.
+
+Um registro foi salvo. Você gostaria de vê-lo?</Failed>
+		<NoEntries>GameSave Manager não encontrou nenhum save suportado em sua máquina.
+
+Talvez haja uma atualização de banco de dados disponível!
+Você também pode criar uma Entrada Customizada de Saves.</NoEntries>
+		<NoneSelected title="Erro:" width="350" height="110">Nenhum save foi especificado para ser incluído na tarefa.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

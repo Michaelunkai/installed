@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Salvataggi Personalizzati</Title>
+	<Info>In questa pagina, puoi creare nuove regole di rilevazione per GameSave Manager.
+Modifica un elemento già esistente nell'elenco ufficiale, crea un nuovo elemento o gestisci gli elementi personalizzati già creati.</Info>
+	<List>
+		<Header>Elementi Esistenti</Header>
+		<NoEntries>Nessun Salvataggio Personalizzato presente.
+
+Per iniziare, clicca sul pulsante "Aggiungi" qui sotto.</NoEntries>
+	</List>
+	<Wizard>
+		<DirWizard>
+         <Step1>
+            <SpecialPaths>
+               <APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+            </SpecialPaths>
+         </Step1>
+        </DirWizard>
+		<Title>Wizard Salvataggio Personalizzato; Fase %CURRENT% di %TOTAL%</Title>
+		<Header>Wizard Salvataggio Personalizzato</Header>
+		<Step1>
+			<Info>Questo wizard ti guiderà attraverso il processo di creazione (o di modifica) di un Salvataggio Personalizzato.
+
+Durante questo wizard, ti verranno richieste varie informazioni riguardanti i dati da salvare, quindi preparati a rispondere ad alcune domande.
+Questo processo non dovrebbe durare più di 5 minuti; ricorda, puoi annullarlo in ogni momento.
+
+Per iniziare, diamo un nome al tuo Salvataggio Personalizzato.
+Puoi dare il nome che preferisci, ma ti raccomandiamo di utilizzarne uno significativo (tipo il titolo del gioco).</Info>
+			<Name>Nome Elemento:</Name>
+			<Warning>NOTA: Se stai aggiungendo file, percorsi o chiavi di registro ad un "Elemento Ufficiale" esistente, ti preghiamo di utilizzare il nome di questo elemento per poterlo sovrascrivere.
+
+Il tuo Salvataggio Personalizzato sarà così riempito con i dati dell'Elemento Ufficiale che potrai poi modificare.</Warning>
+			<Errors>
+				<InvalidName title="Invalid name:" width="420" height="110">Il nome specificato ('%NAME%') è già utilizzato da un Salvataggio Personalizzato.
+
+Ti preghiamo di specificare un nome diverso e riprovare.</InvalidName>
+				<NoName title="No name specified:" width="420" height="110">Hai dimenticato il nome del tuo Salvataggio Personalizzato.
+
+Ti preghiamo di specificare un nome e riprovare.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Il modulo in basso ti permette di specificare un messaggio d'avvertimento per il tuo elemento.
+Un'icona esclamativa verrà utilizzata per notificare questo messaggio, che potrà essere letto tramite il pannello "Dettagli Elemento" una volta selezionato.
+
+Se non desideri specificare alcun avvertimento, lascia semplicemente vuoto il modulo e clicca su "Avanti &gt;"</Info>
+			<Backup>Avvertimento backup</Backup>
+			<Restore>Avvertimento ripristino</Restore>
+		</Step2>
+		<Step3>
+			<Info>Utilizzando il modulo qui sotto, specifica tutti i file, le cartelle e le chiavi di registro che desideri salvare.
+Puoi aggiungere tutti gli elementi che desideri.</Info>
+			<DirTitle>File & cartelle da salvare:</DirTitle>
+			<RegTitle>Chiavi di registro da salvare:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Error:" width="420" height="110">Hai dimenticato di specificare dei dati da salvare.
+
+Ti preghiamo di specificare almeno una cartella o una chiave di registro e riprovare.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Abbiamo finito!
+Tutte le informazioni necessarie sono state salvate e siamo pronti ad aggiungerle al database.
+
+Se vuoi modificare qualcosa, puoi farlo ora o più tardi modificando questo elemento.</Info>
+			<SubmitPanel>
+			<InfoScene>Nonostante il tuo elemento corrisponda ai criteri per l'invio, sembra contenere uno o più destinazioni specifiche per salvataggi "Scene Release".
+Queste destinazioni non sono supportate, quindi non puoi inviare questo elemento.
+
+Se pensi che questo sia un errore, puoi inviare manualmente il tuo elemento sul nostro Forum.
+Indipendentemente da ciò, il tuo Salvataggio Personalizzato è completamente inalterato.</InfoScene>
+				<Header>Condividi Elemento</Header>
+				<Info>Questo elemento sembra possedere i criteri per essere inviato ai server di GameSave Manager per l'approvazione.
+Se approvato, questo elemento verrà aggiunto in un prossimo "Aggiornamento Database" e porterà benefici a tutta la community.</Info>
+				<Submit>Si, voglio condividere questo elemento</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Salvataggio Personalizzato: Wizard Cartelle; Fase %CURRENT% di %TOTAL%</Title>
+			<Header>Salvataggio Personalizzato: Wizard Cartelle</Header>
+			<Step1>
+				<Info>Questo wizard ti guiderà attraverso il processo di aggiunta (o modifica) di una cartella per il tuo Salvataggio Personalizzato.
+
+Questo processo non dovrebbe durare più di un minuto.
+
+Per inizare, vuoi che GameSave Manager individui dinamicamente alcune di queste cartelle per te?</Info>
+				<UseSpecialPaths>Si grazie, individua dinamicamente questa cartella</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Documenti</DOCUMENTS>
+					<SHARED_DOCUMENTS>Documenti Condivisi</SHARED_DOCUMENTS>
+					<APPDATA>Application Data</APPDATA>
+					<APPDATA_COMMON>Application Data - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+					<PROG_FILES_86>Programmi (x86)</PROG_FILES_86>
+					<STEAM>Cartella Installazione Steam</STEAM>
+					<STEAM_CACHE>Cache Steam</STEAM_CACHE>
+					<STEAM_CLOUD>Cloud Steam</STEAM_CLOUD>
+					<UPLAY>Cache Ubisoft uPlay</UPLAY>
+					<FLASH>Cache Macromedia Flash</FLASH>
+					<SAVED_GAMES>Partite Salvate</SAVED_GAMES>
+					<USER_PROFILE>Cartella Utente</USER_PROFILE>
+					<REGISTRY>Da Chiave di Registro</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Utilizza il modulo qui sotto per specificare la chiave di registro in cui è contenuta la cartella che desideri individuare dinamicamente.
+
+NOTA: I nomi dei file verranno automaticamente eliminati dalla chiave (per esempio, "C:\Game\Launch.exe" diventerà "C:\Game").</Info>
+				<Hive>Sezione Registro:</Hive>
+				<Path>Percorso Registro:</Path>
+				<Value>Valore Registro:</Value>
+				<Test>Prova Individuazione</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Ora dobbiamo aggiungere il resto del percorso alla fine della cartella che abbiamo precedentemente specificato per la rilevazione dinamica.
+
+Per far questo, inserisci il resto del percorso nel campo qui sotto.
+Se non hai bisogno di aggiungere nulla, lascia il campo vuoto e clicca su "Avanti &gt;".</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Se hai deciso di non utilizzare la rilevazione dinamica, devi indicare il percorso completo qui sotto.
+
+Se desideri tornare indietro ed abilitare la Rilevazione Dinamica, clicca pure su "&lt; Indietro".</InfoWithoutSpecialPath>
+				<DynamicDetection>Rilevazione Dinamica</DynamicDetection>
+				<Append>Aggiungi alla fine del percorso</Append>
+				<Full>Cerca nella seguente cartella</Full>
+			</Step2>
+			<Step3>
+				<Info>Infine, dobbiamo specificare i file da salvare.
+
+Puoi utilizzare i caratteri jolly (* e ?) all'interno dei nomi dei file che specifichi.
+
+Esempi:
+	*.* - Seleziona tutti i file
+	*.sav - Seleziona tutti i file di tipo ".sav"
+	Mio*.sav - Seleziona tutti i file di tipo ".sav" che iniziano con "Mio"
+	MioSalvataggio.sav - Seleziona il file "MioSalvataggio.sav" all'interno della cartella principale
+	bin\MioSalvataggio.sav - Seleziona il file "MioSalvataggio.sav" all'interno della sotto-cartella "bin"
+	bin\*.* - Seleziona tutti i file all'interno della sotto-cartella "bin"</Info>
+				<Warning>NOTA: Separa i file con una barra verticale (per esempio *.sav|*.ini)</Warning>
+				<IncludedFiles>File da includere</IncludedFiles>
+				<ExcludedFiles>File da escludere</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Salvataggio Personalizzato: Wizard Registro</Title>
+			<Header>Salvataggio Personalizzato: Wizard Registro</Header>
+			<Info>Inserisci i dettagli della Chiave di registro da salvare.</Info>
+			<Hive>Sezione Registro:</Hive>
+			<Path>Percorso Registro:</Path>
+			<DefinedValues>
+				<Header>Valore Registro:</Header>
+				<EntireKey>Salva chiave intera</EntireKey>
+				<Specific>Salva i seguenti valori:</Specific>
+				<Values>Valori:</Values>
+				<Info>Separa i nomi dei valori con una barra vericale ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Allega Messaggio</Header>
+		<Info>Stai per inviare il tuo Salvataggio Personalizzato chiamato "%NAME%" ai server di GameSave Manager per l'approvazione.
+
+Vuoi specificare un messaggio da allegare?</Info>
+		<NoMsg>No grazie, invia solo il mio elemento</NoMsg>
+		<Msg>Si grazie, vorrei aggiungere alcune informazioni</Msg>
+		<ReturnCodes>
+			<NoConnection title="Error" width="420" height="110">Si è verificato un errore durante la comunicazione con il server di GameSave Manager.
+Forse il server è offline, oppure non hai una connessione internet attiva.</NoConnection>
+			<DBUpdate title="Error" width="420" height="110">Sembra essere disponibile un Aggiornamento del Database.
+
+Applica l'aggiornamento e riprova.</DBUpdate>
+			<DynError title="Error" width="420" height="110">Impossibile inviare l'elemento a causa di un problema con la Rilevazione Dinamica.</DynError>
+			<DupError title="Error" width="420" height="110">Questo elemento sembra già essere stato inviato da te o da qualcun altro.</DupError>
+			<Banned title="Error" width="420" height="110">Abbiamo ricevuto troppi invii di spam dal tuo indirizzo IP.
+Ti preghiamo di inviare il tuo elemento manualmente tramite il nostro Forum.</Banned>
+			<MissingData title="Error" width="420" height="110">Sembra che all'elemento manchino alcuni dati necessari.</MissingData>
+			<Update title="Error" width="420" height="110">Questa versione di GameSave Manager non è più supportata dal server.
+Ti preghiamo di aggiornare il programma e riprovare.</Update>
+			<Maintenance title="Error" width="420" height="110">Il sistema di invio sembra essere offline per manutenzione.
+Ti preghiamo di riprovare più tardi, o di inviare il tuo elemento manualmente tramite il nostro Forum.</Maintenance>
+			<SubmitError title="Error" width="420" height="110">Si è verificato un errore sconosciuto durante l'invio dell'elemento.
+Ti preghiamo di riprovare più tardi, o di inviare il tuo elemento manualmente tramite il nostro Forum.</SubmitError>
+			<Success title="Success" width="420" height="110">Il tuo elemento chiamato "%NAME%" è stato inviato con successo ed è ora in fase di approvazione.
+			
+			Grazie.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">Il Salvataggio Personalizzato non sembra essere valido, o si è verificato un errore interrogando il database per i dati necessari.
+
+Ti preghiamo di riprovare.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

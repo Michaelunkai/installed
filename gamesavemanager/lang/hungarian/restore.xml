@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Játékmentések visszaállítása</Title>
+	<Detection>
+		<Title>Észlelt bejegyzések</Title>
+		<ListCheck>Mindet kijelöl / Egyiket sem</ListCheck>
+		<Counter>%TOTAL% elem észlelve / %SELECTED% elem kijelölve</Counter>
+		<Legend>
+			<Title>Magyarázat</Title>
+			<Files>Fájl kerül visszaállításra</Files>
+			<Registry>Rendszerleíró adat kerül visszaállításra</Registry>
+			<Warning>Bejegyzés rendelkezik 'Figyelmeztetõ üzenettel', amit ajánlott elolvasni</Warning>
+			<Unrestorable>Nem sikerült a visszaállítási útvonal észlelése egy beállítás miatt vagy hiányzik egy rendszerleíró érték</Unrestorable>
+			<EntireEntry>Teljes bejegyzés kerül visszaállításra</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Visszaállítási feladat indítása most.</Start>
+		<Open>Megnyitja a korábban létrehozott mentési archívumot visszaállításra.</Open>
+	</Options>
+	<Details>
+		<Title>Bejegyzés részletei</Title>
+		<NoneSelected>Nincs bejegyzés kijelölve.
+
+Kérlek válassz ki egy bejegyzést a bal oldali listából.</NoneSelected>
+		<Unrestorable>A kiválasztott bejegyzés nem állítható vissza.
+
+Sokféle oka lehet ennek, de a legvalószínûbbek a következõk:
+1. A 'Programbeállítások' megakadályozzák az észlelést (lásd 'Észlelési beállítások')
+2. A mentés útvonalát dinamikus észleléssel állapítja meg egy olyan rendszerleíró értékbõl, ami jelenleg nem létezik a rendszeren.
+
+Ha a 2. ok a hibás, kérlek telepítsd újra a játékot. Esetleg még annak futtatása is szükséges lehet.</Unrestorable>
+		<UnrestorableEntry>Az összes elmentett adat ennél a bejegyzésnél nem állítható vissza, mivel a GameSave Manager nem képes észlelni azok útvonalát.
+
+Kérlek további információkért és lehetséges megoldásokért válassz ki egyet a mappa bejegyzései közül.</UnrestorableEntry>
+		<Entry>
+			<Name>Bejegyzés neve:</Name>
+			<VerInfo>Létrehozva ezzel:</VerInfo>
+			<IsOfficial>Hivatalos bejegyzés:</IsOfficial>
+			<Size>Méret a merevlemezen:</Size>
+			<Warning>Figyelmeztetés:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Mappa:</Directory>
+			<Size>Méret a merevlemezen:</Size>
+			<Files>Fájlok:</Files>
+		</Directory>
+		<Registry>
+			<Key>Rendszerleíró kulcs:</Key>
+			<Values>Értékek:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Siker" width="350" height="110">A visszaállítási feladat befejezõdött.
+
+Szerencsére nem történt hiba.</Success>
+		<Failed title="Sikertelen" width="420" height="110">A visszaállítási feladat befejezõdött.
+		
+Sajnos legalább 1 hiba történt.
+
+Egy napló került elmentésre. Szeretnéd ezt most megtekinteni?</Failed>
+		<NoArchive>Jelenleg nincs mentett archívum betöltve.
+
+A kezdéshez kattints a 'Megnyitás' gombra az ablak jobbfelsõ részén.</NoArchive>
+		<InvalidFile>Ez a fájl hasznosnak tûnik, kár, hogy a GameSave Manager nem támogatja.</InvalidFile>
+		<Incompatible>Az általad megadott mentett archívumot úgy tûnik nem támogatja a GameSave Manager jelen verziója.
+
+Kérlek próbáld újra.</Incompatible>
+		<NoneSelected title="Hiba:" width="350" height="110">Nem adtál meg visszaállítani kívánt játékmentéseket.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

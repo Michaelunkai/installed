@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Menu Chính</Title>
+	<Backup>
+		<Header>Sao lưu...</Header>
+		<Description>Dễ dàng tạo bản Sao lưu game đã chơi trên máy tính.</Description>
+		<Backup>Tạo bản Sao lưu</Backup>
+		<Scheduled>Sao lưu theo lịch trình</Scheduled>
+		<Sync>Đồng bộ &amp; Liên kết</Sync>
+	</Backup>
+	<Restore>
+		<Header>Phục hồi...</Header>
+		<Description>Phục hồi thư mục, tập tin đã sao lưu bằng GameSave Manager.</Description>
+		<Open>Mở Thư mục lưu trữ</Open>
+	</Restore>
+	<Spreader>
+		<Header>Di chuyển Steam</Header>
+		<Description>Di chuyển toàn bộ thư mục tới phân vùng khác, đồng thời tạo biểu tượng liên kết tới vị trí mới rất dễ dàng.</Description>
+		<GoTo>Di chuyển Steam</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Tùy chỉnh...</Header>
+		<Description>Tùy chỉnh GameSave Manager theo yêu cầu của bạn.</Description>
+		<CustomEntries>Tùy chỉnh Mục</CustomEntries>
+		<Variables>Thay đổi thư mục</Variables>
+		<Settings>Cài đặt</Settings>
+	</Customise>
+	<Log>
+		<Header>Ghi chép</Header>
+		<Description>Xem Ghi chép các tiến trình.</Description>
+		<GoTo>Xem Ghi chép</GoTo>
+	</Log>
+</GameSaveManager_Translation>

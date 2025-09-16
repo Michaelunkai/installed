@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Varnostno kopiraj shranjene igre</Title>
+	<Detection>
+		<Title>Zaznani vnosi</Title>
+		<ListCheck>Izberi vse / odstrani izbor</ListCheck>
+		<Counter>zaznanih predmetov: %TOTAL% / izbranih predmetov: %SELECTED%</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>Datoteke bodo varnostno kopirane</Files>
+			<Registry>Podatki iz registra bodo varnostno kopirani</Registry>
+			<Warning>Vnos ima 'opozorilno sporoèilo', ki bi ga morda želeli prebrati</Warning>
+			<EntireEntry>Celoten vnos bo varnostno kopiran</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Zaèni opravilo varnostnega kopiranja zdaj.</Start>
+		<Delete>Odstrani izbrane shranjene igre iz sistema.</Delete>
+		<Rescan>Znova preišèi sistem za podprtimi shranjenimi igrami.</Rescan>
+	</Options>
+	<Details>
+		<Title>Podrobnosti vnosa</Title>
+		<NoneSelected>Noben vnos ni izbran.
+
+Izberite vnos iz seznama na levi.</NoneSelected>
+		<Entry>
+			<Name>Ime vnosa:</Name>
+			<IsOfficial>Uraden vnos:</IsOfficial>
+			<Size>Velikost na disku:</Size>
+			<Warning>Opozorilo:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Mapa:</Directory>
+			<Size>Velikost na disku:</Size>
+			<Files>Datoteke:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registrski kljuè:</Key>
+			<Values>Vrednosti:</Values>
+		</Registry>
+	</Details>
+	<GameplayBackup>
+		<Title>Varnostno kopiranje med igranjem</Title>
+		<Info>Med igranjem igre bo GameSave Manager potihoma shranjeval vaš napredek vsakih nekaj minut. 
+Da se izognete porabi sredstev, izberite le igro, ki jo trenutno igrate.
+
+Za bolj vsakdanje varnostne kopije, si oglejte možnost Razporejena opravila.</Info>
+		<Interval>
+			<RunEvery>Zaženi vsakih ...</RunEvery>
+			<minutes>minut</minutes>
+			<hour>uro</hour>
+			<hours>ur</hours>
+		</Interval>
+		<Processing>
+			<Title>Varnostno kopiranje med igranjem (opravilo zagnano)</Title>
+			<Info>GameSave Manager bo sedaj potihoma varnostno kopiral izbrane vnose na vsakih %INTERVAL%.
+
+Sedaj lahko to okno skrèite in zaènete z igranjem.
+Opomba: glede na vašo izbiro in hitrost delovanja raèunalnika, lahko doživite tudi manjše upoèasnitve med varnostnim kopiranjem.
+
+
+Da zakljuèite z opravilom, kliknite gumb 'Zapri' v tem oknu (X zgoraj desno).</Info>
+			<Interval>Razmik:</Interval>
+			<TimesRan>Št. izvedenih:</TimesRan>
+			<DetectedErrors>Zaznane napake:</DetectedErrors>
+			<ProcessingBackup>Poteka varnostno kopiranje ...</ProcessingBackup>
+			<Stopping>Zaustavljanje trenutnega opravila, to lahko traja nekaj èasa ...</Stopping>
+		</Processing>
+		<Messages>
+			<MissingInfo title="Napaka:" width="350" height="110">Preprièajte se, da je izbran vsaj en vnos, navedite pa tudi mesto kamor se bodo varnostne kopije shranile.</MissingInfo>
+		</Messages>
+	</GameplayBackup>	
+	<Errors>
+		<Rescan title="Izvedem ponovno preiskovanje?" width="450" height="170">GameSave Manager je uporabil rezultate preiskovanja iz prejšnje seje in zato na seznamu ni shranjenih iger, ki so bile ustvarjene vmes.
+Da to rešite, morate izvesti ponovno polno preiskovanje vašega sistema.
+
+Ali bi želeli to storiti zdaj?</Rescan>
+		<Success title="Uspeh" width="350" height="110">Opravilo varnostnega kopiranja je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+		<Failed title="Neuspeh" width="420" height="110">Opravilo varnostnega kopiranja je bilo konèano.
+		
+Žal je bila zaznana vsaj 1 napaka.
+
+Shranjen je bil dnevnik. Ali bi si ga želeli ogledati?</Failed>
+		<Overwrite title="Datoteka že obstaja ..." width="450" height="125">Podana datoteka že obstaja.
+Èe boste nadaljevali, jo bo GameSave Manager prepisal z rezultati te varnostne kopije.
+
+Nadaljujem in prepišem obstojeèo datoteko?</Overwrite>
+		<NoEntries>GameSave Manager ni mogel najti podprtih shranjenih iger na vašem sistemu.
+
+Morda obstaja posodobitev podatkovne zbirke?
+Lahko pa ustvarite vnos shranjene igre po meri.</NoEntries>
+		<NoneSelected title="Napaka:" width="350" height="110">V varnostno kopijo ni bila vkljuèena nobena shranjena igra.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Napaka:" width="350" height="110">V opravilo odstranjevanja ni bila vkljuèena nobena shranjena igre.</NoneSelected>
+			<Warning title="Pozor!" width="500" height="170">Preden nadaljujete, bi morali vedeti nekaj stvari ...
+
+1. Odstranjene bodo le datoteke, ki so na seznamu vsakega izbranega vnosa
+2. Priporoèamo, da napravite varnostno kopijo shranjenih iger preden nadaljujete
+3. Ko uveljavite to opravilo, ga ne bo mogoèe razveljaviti s predhodno ustvarjeno varnostno kopijo!
+
+Vseeno nadaljujem?</Warning>
+<Success title="Uspeh" width="350" height="110">Opravilo odstranjevanja je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+			<Failed title="Failure" width="420" height="110">Opravilo odstranjevanja je bilo konèano.
+		
+Žal je bila zaznana vsaj 1 napaka.
+
+Shranjen je bil dnevnik. Ali bi si ga želeli ogledati?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

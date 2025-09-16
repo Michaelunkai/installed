@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Zamanlanmış Görevler</Title>
+	<Info>Burada GameSave Manager'ı belirlediğiniz zamanlarda çalışması için kurabilirsiniz.
+'Zamanlanmış Görevler' belirli --yada tüm bulunan-- kayıtları yedekleyecek şekilde ayarlanabilir ve  çeşitli Program Ayarlarının üstüne yazabilir. Size iyi bir denetim ve esneklik sunar.</Info>
+	<List>
+		<Header>Mevcut Görevler</Header>
+		<NoEntries>Şu anda tanımlı 'Zamanlanmış Görev' yok.
+
+Başlamak için, aşağıdaki 'Ekle' düğmesine tıklayın.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Zamanlanmış Görev Sihirbazı; Adım %CURRENT% / %TOTAL%</Title>
+		<Header>Zamanlanmış Görev Sihirbazı</Header>
+		<Step1>
+			<Info>Bu sihirbaz size 'Zamanlanmış Görev' ekleme--yada değiştirme--işleminde rehberlik edecektir.
+
+Bu süreçte sihirbaz, neyi yedeklemek istediğiniz, ne zaman yedeklemeye başlanacağı ve üzerine yazmak isteyebileceğiniz bir kaç program ayarını soracak.
+Bu işlem 5 dakikadan uzun sürmeyecektir. Herhangi bir zamanda iptal edebileceğinizi unutmayın.
+
+Başlangıç olarak, Zamanlanmış Görevimize bir ad verelim.
+Bu girişe istediğiniz bir adı verebilirsiniz, ama anlamlı bir ad kullanmanız ileride de başvurmak üzere önerilir</Info>
+			<Name>Görev Başlığı:</Name>
+			<Errors>
+				<InvalidName title="Geçersiz Ad:" width="420" height="110">Belirttiğiniz isim ('%NAME%') başka bir Zamanlanmış Görevde kullanılıyor..
+
+Başka bir isim seçip tekrar deneyin.</InvalidName>
+				<NoName title="İsim belirtilmedi:" width="420" height="110">Zamanlanmış Görevinize bir ad vermediniz..
+
+Lütfen bir ad belirtin ve tekrar deneyin.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Aşağıdan görev çalıştırılınca neyi yedeklemek istediğinizi seçin.</Info>
+			<AllDetected>Bulunan tüm kayıtları yedekle</AllDetected>
+			<Specific>Sadece aşağıdakileri yedekle</Specific>
+			<Errors>
+				<NoFound>Veritabanındaki hiç bir girdi bulunamadı.
+
+Sistemi yeniden taratmak bu durumu düzeltebilir, bunun dışında veritabanını güncelleştirin veya birkaç Özel Oyun Kaydı Girişi oluşturun ve tekrar deneyin.</NoFound>
+				<NoSelected title="Hata:" width="420" height="110">Yedeklemek için herhangi bir girdi belirtmediniz..
+
+Devam etmek için, en az bir girdi seçmelisiniz.</NoSelected>
+			</Errors>
+			<Rescan>Görevi başlatmadan önce sistemi tarat</Rescan>
+			<ExclusionList>Yoksayılacak girdileri belirlemek istiyorum. (Sadece bu görev için)</ExclusionList>
+		</Step2>
+		<Step3>
+			<Info>Aşağıdan bu görevin ne zaman çalıştırılacağını seçin lütfen.</Info>
+			<Type>
+				<Header>Görev Türü:</Header>
+				<Daily>Günlük</Daily>
+				<Weekly>Haftalık</Weekly>
+				<Monthly>Aylık</Monthly>
+				<Minute>Dakika olarak</Minute>
+				<Hourly>Saatlik</Hourly>
+				<OnIdle>Sistem boşta olduğunda</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Günlük Görev</Header>
+				<RunThisTaskAt>Bu görevi saat</RunThisTaskAt>
+				<Every>de her</Every>
+				<Days>günde bir çalıştır.</Days>
+			</Daily>
+			<Weekly>
+				<Header>Haftalık Görev</Header>
+				<RunThisTaskAt>Bu görevi saat</RunThisTaskAt>
+				<Every>de her</Every>
+				<Weeks>haftada bir çalıştır.</Weeks>
+				<DaysHeader>Aşağıdaki günlerde çalıştır:</DaysHeader>
+				<Days>
+					<Monday>Pazartesi</Monday>
+					<Tuesday>Salı</Tuesday>
+					<Wednesday>Çarşamba</Wednesday>
+					<Thursday>Perşembe</Thursday>
+					<Friday>Cuma</Friday>
+					<Saturday>Cumartesi</Saturday>
+					<Sunday>Pazar</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Aylık Görev</Header>
+				<RunThisTaskAt>Bu görevi saat</RunThisTaskAt>
+				<Specific>
+					<Header>ayın:</Header>
+					<Last>son günü</Last>
+				</Specific>
+				<EveryOther>
+					<Header>ayın</Header>
+					<Frequency>
+						<First>ilk</First>
+						<Second>ikinci</Second>
+						<Third>üçüncü</Third>
+						<Last>son</Last>
+					</Frequency>
+					<Day>
+						<Monday>Pazartesi</Monday>
+						<Tuesday>Salı</Tuesday>
+						<Wednesday>Çarşamba</Wednesday>
+						<Thursday>Perşembe</Thursday>
+						<Friday>Cuma</Friday>
+						<Saturday>Cumartesi</Saturday>
+						<Sunday>Pazar</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>aşağıdaki aylarda çalıştır:</MonthHeader>
+				<Months>
+					<January>Ocak</January>
+					<February>Şubat</February>
+					<March>Mart</March>
+					<April>Nisan</April>
+					<May>Mayıs</May>
+					<June>Haziran</June>
+					<July>Temmuz</July>
+					<August>Ağustos</August>
+					<September>Eylül</September>
+					<October>Ekim</October>
+					<November>Kasım</November>
+					<December>Aralık</December>
+				</Months>
+			</Monthly>
+			<Minute>
+            <Header>Dakika olarak görev</Header>
+            <Every>Her</Every>
+            <Minutes>dakika</Minutes>
+            <StartingFromTasksCreation>görevin oluşturulma zamanından itibaren başlat</StartingFromTasksCreation>
+            <StartingFrom>buradan başlat</StartingFrom>
+         </Minute>
+         <Hourly>
+            <Header>Saatlik Görev</Header>
+            <Every>Her</Every>
+            <Hours>saat</Hours>
+            <StartingFromTasksCreation>görevin oluşturulma zamanından itibaren başlat</StartingFromTasksCreation>
+            <StartingFrom>buradan başlat</StartingFrom>
+         </Hourly>
+         <OnIdle>
+            <Header>Boşta görev</Header>
+            <WhenIdleFor>Sistemi boşta olduğunda</WhenIdleFor>
+            <Minutes>dakika</Minutes>
+         </OnIdle>
+			<Errors>
+				<FormError title="Kayıp form verisi:" width="420" height="110">Formun bir kısmı yada tamamı düzgün bir şekilde doldurulmadı.
+
+Lütfen formu doldurup tekrar deneyin.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Neredeyse bitirdik.
+Aşağıdaki seçeneklerle, GameSave Manager'ın bu görevi çalıştırırken nasıl davranması gerektiğini ayarlayın.</Info>
+			<CreateSchedule>Görevi Windows Görev Zamanlayıcıya ekleyin</CreateSchedule>
+			<Shortcut>Görev için masaüstü kısayolu oluştur böylece istediğim zaman başlatabilirim</Shortcut>
+			<SaveHeader>Kayıt Konumu:</SaveHeader>
+			<UseCloud>'Cloud' ayarlarımı kullan</UseCloud>
+			<SaveTo>Kayıt Yeri:</SaveTo>
+			<ArchiveSettings>Arşiv Yapılandırması:</ArchiveSettings>
+			<SaveTo_Browse>Gözat</SaveTo_Browse>
+			<AutoGenerate>Otomatik dosya adı oluştur</AutoGenerate>
+			<Errors>
+				<CloudError title="Kullanılamaz" width="420" height="110">Program Ayarlarından 'Cloud Seçenekleri' yapılandırılmamış.
+
+Lütfen bu seçenekeri yapılandırın ve tekrar deneyin.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Hata:" width="420" height="110">Seçilen 'Zamanlanmış Görev' geçerli görünmüyor, yada veritabanını gerekli veri için sorgularken bir hata oluştu.
+
+Tekrar deneyin lütfen.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

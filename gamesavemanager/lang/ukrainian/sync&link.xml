@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link дозволяє перемістити обрані збереження в користувацький каталог за допомогою символьних посилань (до речі, "Steam Spreader" працює за тим же принципом).
+
+Може працювати в поєднанні з Dropbox, Google Drive або OneDrive. Це швидке і просте рішення для зберігання своїх збережень ігор в "хмарному сховищі".</Info>
+	<Detection>
+		<Title>Підтримувані записи</Title>
+		<ListCheck width="240">Вибрати все / Зняти виділення з усіх</ListCheck>
+		<Counter>Знайдено елементів: %TOTAL% / Обрано елементів: %SELECTED%</Counter>
+	</Detection>
+	<Options>
+		<Start>Запустити Sync and Link.</Start>
+		<Unlink>Відв'язати всі попередні збереження від вказаної директорії.</Unlink>
+		<Relink>Відв'язати і прив'язати всі попередні збереження для вказаної директорії.</Relink>
+		<Rescan>Повторити сканування системи для пошуку підтримуваних збережень.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Розірвати зв'язок</Header>
+		<Info>Будь ласка, вкажіть з якими директоріями ви бажаєте "розірвати зв'язок" зі списку нижче.</Info>
+		<ListCheck width="140">Вибрати все / Зняти виділення з усіх</ListCheck>
+		<DupSaves>Копіювати збереження; не видаляти вихідних файлів</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Успіх" width="350" height="110">Всі завдання Sync &amp; Link завершені.
+
+На щастя, помилок не виявлено.</Success>
+		<Failed title="Невдача" width="420" height="110">Всі завдання Sync &amp; Link завершені.
+		
+На жаль, виявлена принаймні 1 помилка.
+
+Журнал було збережено. Бажаєте його переглянути?</Failed>
+		<NoEntries>GameSave Manager не зміг знайти підтримувані збереження у вашій системі.
+
+Можливо, доступні нові оновлення бази даних?
+Можна також створити користувацькі записи збережень.</NoEntries>
+		<NoneSelected title="Помилка:" width="350" height="110">Для створення посилання не було вибрано жодного збереження.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

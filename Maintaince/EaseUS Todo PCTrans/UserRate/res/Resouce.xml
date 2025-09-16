@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<Resource name="UserRateUI">
+    <UIControl type="MainWind">
+        <mac_show_normal>0</mac_show_normal>
+                <width>800</width>
+		<height>540</height>
+		<backgroundcolor>238,242,249</backgroundcolor>
+                <bordercolor>238,242,249</bordercolor>
+                <borderwidth>1</borderwidth>
+                <!-- window_layout value: 0 - screen_center/ 1 - center in the parent window rect -->
+                <window_layout>1</window_layout>
+                <user_rate_default_value>0</user_rate_default_value>
+				<!-- 窗口相对于父窗口的位置,在 window_layout > 0的条件下,设施该坐标有效, x,y<=0 居中对齐 -->
+				<window_show_pos_x>100</window_show_pos_x>
+				<window_show_pos_y>70</window_show_pos_y>
+	</UIControl>
+	<UIControl type="TitleBar">
+                <top>0</top>
+                <left>0</left>
+                <right>0</right>
+		<bottom>0</bottom>
+		<backgroundcolor>255,255,255</backgroundcolor>
+	</UIControl>
+	<UIControl type="TitleLogo">
+                <top>0</top>
+                <left>0</left>
+                <right>0</right>
+		<bottom>0</bottom>
+		<normal_skin>logo.png</normal_skin>
+	</UIControl>
+	<UIControl type="ProductName">
+                <top>0</top>
+                <left>0</left>
+                <right>0</right>
+		<bottom>0</bottom>
+		<!--是否显示产品名字-->
+		<show_product_name>0</show_product_name>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+                <fontsize_japanese>12</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>12</fontsize>
+		<font_color_normal>51,51,51</font_color_normal>
+		<font_color_hover>51,51,51</font_color_hover>
+		<font_color_press>51,51,51</font_color_press>
+		<font_color_disable>51,51,51</font_color_disable>
+	</UIControl>
+	<UIControl type="CloseButton">
+                <rect_normal_left>756</rect_normal_left>
+                <rect_normal_top>12</rect_normal_top>
+                <rect_normal_right>788</rect_normal_right>
+                <rect_normal_bottom>43</rect_normal_bottom>
+                <rect_hover_left>756</rect_hover_left>
+                <rect_hover_top>12</rect_hover_top>
+                <rect_hover_right>788</rect_hover_right>
+                <rect_hover_bottom>43</rect_hover_bottom>
+		<normal_skin>close_normal.png</normal_skin>
+		<hover_skin>close_hover.png</hover_skin>
+		<press_skin>close_press.png</press_skin>
+		<disable_skin>close_disable.png</disable_skin>
+	</UIControl>
+	<UIControl type="MainTtile">
+                <top>66</top>
+                <left>130</left>
+                <right>676</right>
+		<bottom>100</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>24</fontsize_japanese>
+                <font_weight>Bold</font_weight>
+                <fontsize>24</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Main_Title</text>
+	</UIControl>
+	<UIControl type="SubTitle">
+                <top>98</top>
+                <left>140</left>
+                <right>656</right>
+		<bottom>146</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Sub_Title</text>
+	</UIControl>
+	<UIControl type="TerribleButton">
+                <rect_normal_left>80</rect_normal_left>
+                <rect_normal_top>172</rect_normal_top>
+                <rect_normal_right>155</rect_normal_right>
+                <rect_normal_bottom>247</rect_normal_bottom>
+                <rect_hover_left>80</rect_hover_left>
+                <rect_hover_top>162</rect_hover_top>
+                <rect_hover_right>155</rect_hover_right>
+                <rect_hover_bottom>237</rect_hover_bottom>
+		<normal_skin>terrible.png</normal_skin>
+		<hover_skin>terrible_sel.png</hover_skin>
+		<press_skin>terrible_sel.png</press_skin>
+		<disable_skin>terrible.png</disable_skin>
+	</UIControl>
+	<UIControl type="PoorButton">
+                <rect_normal_left>221</rect_normal_left>
+                <rect_normal_top>172</rect_normal_top>
+                <rect_normal_right>296</rect_normal_right>
+                <rect_normal_bottom>247</rect_normal_bottom>
+                <rect_hover_left>221</rect_hover_left>
+                <rect_hover_top>162</rect_hover_top>
+                <rect_hover_right>296</rect_hover_right>
+                <rect_hover_bottom>237</rect_hover_bottom>
+		<normal_skin>poor.png</normal_skin>
+		<hover_skin>poor_sel.png</hover_skin>
+		<press_skin>poor_sel.png</press_skin>
+		<disable_skin>poor.png</disable_skin>
+	</UIControl>
+	<UIControl type="GoodButton">
+                <rect_normal_left>362</rect_normal_left>
+                <rect_normal_top>172</rect_normal_top>
+                <rect_normal_right>437</rect_normal_right>
+                <rect_normal_bottom>247</rect_normal_bottom>
+                <rect_hover_left>362</rect_hover_left>
+                <rect_hover_top>162</rect_hover_top>
+                <rect_hover_right>437</rect_hover_right>
+                <rect_hover_bottom>237</rect_hover_bottom>
+		<normal_skin>good.png</normal_skin>
+		<hover_skin>good_sel.png</hover_skin>
+		<press_skin>good_sel.png</press_skin>
+		<disable_skin>good.png</disable_skin>
+	</UIControl>
+	<UIControl type="GreatButton">
+                <rect_normal_left>504</rect_normal_left>
+                <rect_normal_top>172</rect_normal_top>
+                <rect_normal_right>579</rect_normal_right>
+                <rect_normal_bottom>247</rect_normal_bottom>
+                <rect_hover_left>504</rect_hover_left>
+                <rect_hover_top>162</rect_hover_top>
+                <rect_hover_right>579</rect_hover_right>
+                <rect_hover_bottom>237</rect_hover_bottom>
+		<normal_skin>great.png</normal_skin>
+		<hover_skin>great_sel.png</hover_skin>
+		<press_skin>great_sel.png</press_skin>
+		<disable_skin>great.png</disable_skin>
+	</UIControl>
+	<UIControl type="ExcellentButton">
+                <rect_normal_left>645</rect_normal_left>
+                <rect_normal_top>172</rect_normal_top>
+                <rect_normal_right>720</rect_normal_right>
+                <rect_normal_bottom>247</rect_normal_bottom>
+                <rect_hover_left>645</rect_hover_left>
+                <rect_hover_top>162</rect_hover_top>
+                <rect_hover_right>720</rect_hover_right>
+                <rect_hover_bottom>237</rect_hover_bottom>
+		<normal_skin>excellent.png</normal_skin>
+		<hover_skin>excellent_sel.png</hover_skin>
+		<press_skin>excellent_sel.png</press_skin>
+		<disable_skin>excellent.png</disable_skin>
+	</UIControl>
+	<UIControl type="TerribleStatic">
+                <top>266</top>
+                <left>70</left>
+                <right>165</right>
+		<bottom>287</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Terrible</text>
+	</UIControl>
+	<UIControl type="PoorStatic">
+                <top>266</top>
+                <left>211</left>
+                <right>306</right>
+		<bottom>287</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Poor</text>
+	</UIControl>
+	<UIControl type="GoodStatic">
+                <top>266</top>
+                <left>352</left>
+                <right>447</right>
+		<bottom>287</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Good</text>
+	</UIControl>
+	<UIControl type="GreatStatic">
+                <top>266</top>
+                <left>489</left>
+                <right>594</right>
+		<bottom>287</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Great</text>
+	</UIControl>
+	<UIControl type="ExcellentStatic">
+                <top>266</top>
+                <left>635</left>
+                <right>730</right>
+		<bottom>287</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>39,48,68</font_color_normal>
+		<font_color_hover>39,48,68</font_color_hover>
+		<font_color_press>39,48,68</font_color_press>
+		<font_color_disable>39,48,68</font_color_disable>
+                <text>Excellent</text>
+	</UIControl>
+	<UIControl type="FeedbackEditFrame">
+                <top>307</top>
+                <left>48</left>
+                <right>752</right>
+		<bottom>437</bottom>
+                <border_color>238,242,249</border_color>
+                <background_color>255,255,255</background_color>
+                <borderwidth>1</borderwidth>
+                <borderradius>4</borderradius>
+	</UIControl>
+	<UIControl type="FeedbackEditText">
+                <top>317</top>
+                <left>60</left>
+                <right>740</right>
+		<bottom>427</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+                <font_color_normal>39,48,68</font_color_normal> 
+                <text_length_limit>500</text_length_limit>
+	</UIControl>
+	<UIControl type="FeedbackTextTips">
+                <top>317</top>
+                <left>60</left>
+                <right>740</right>
+		<bottom>340</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>16</fontsize>
+                <font_color_normal>127,143,164</font_color_normal> 
+                <text>Feedback_Text_Tips</text>
+	</UIControl>
+	<UIControl type="FeedbackErrorIco">
+                <top>443</top>
+                <left>149</left>
+                <right>163</right>
+		<bottom>457</bottom>
+		<normal_skin>feedback_errors.png</normal_skin>
+	</UIControl>
+	<UIControl type="FeedbackErrorTips">
+                <top>443</top>
+                <left>165</left>
+                <right>752</right>
+		<bottom>457</bottom>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>12</fontsize_japanese>
+                <font_weight>Normal</font_weight>
+                <fontsize>12</fontsize>
+                <font_color_normal>224,27,37</font_color_normal> 
+                <font_color_hover>224,27,37</font_color_hover> 
+                <font_color_press>224,27,37</font_color_press> 
+                <font_color_disable>224,27,37</font_color_disable> 
+                <text>Feedback_Length_Tips</text>
+	</UIControl>
+	<UIControl type="NeverAskButton">
+                <top>468</top>
+                <left>164</left>
+                <right>404</right>
+		<bottom>500</bottom>
+                <background_color_normal>255,255,255</background_color_normal>
+                <background_color_hover>232,245,255</background_color_hover>
+                <background_color_press>186,225,255</background_color_press>
+                <background_color_disable>229,234,240</background_color_disable>
+		<border_color_normal>27,166,255</border_color_normal>
+		<border_color_hover>27,166,255</border_color_hover>
+	        <border_color_press>27,166,255</border_color_press>
+	        <border_color_disable>229,234,240</border_color_disable>
+                <alignment>right</alignment>
+                <borderwidth>1</borderwidth>
+                <borderradius>2</borderradius>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Bold</font_weight>
+                <fontsize>16</fontsize>
+		<fontcolor>27,166,255</fontcolor>
+		<font_color_normal>27,166,255</font_color_normal>
+                <font_color_hover>27,166,255</font_color_hover>
+                <font_color_press>27,166,255</font_color_press>
+                <font_color_disable>229,234,240</font_color_disable>
+                <text>Never_Ask_Again</text>
+	</UIControl>
+	<UIControl type="RateNowButton">
+                <top>468</top>
+                <left>420</left>
+                <right>660</right>
+		<bottom>500</bottom>
+                <background_color_normal>27,166,255</background_color_normal>
+                <background_color_hover>58,167,251</background_color_hover>
+                <background_color_press>22,119,183</background_color_press>
+                <background_color_disable>229,234,240</background_color_disable>
+		<border_color_normal>27,166,255</border_color_normal>
+		<border_color_hover>58,167,251</border_color_hover>
+	        <border_color_press>22,119,183</border_color_press>
+	        <border_color_disable>229,234,240</border_color_disable>
+		<alignment>left</alignment>
+                <borderwidth>1</borderwidth>
+                <borderradius>2</borderradius>
+		<font>Segoe UI</font>
+		<font_mac>Helvetica Neue</font_mac>
+		<font_japanese>Meiryo</font_japanese>
+		<fontsize_japanese>16</fontsize_japanese>
+                <font_weight>Bold</font_weight>
+                <fontsize>16</fontsize>
+		<font_color_normal>255,255,255</font_color_normal>
+                <font_color_hover>255,255,255</font_color_hover>
+                <font_color_press>255,255,255</font_color_press>
+                <font_color_disable>187,187,187</font_color_disable>
+                <text>Rate_Now</text>
+	</UIControl>
+</Resource>

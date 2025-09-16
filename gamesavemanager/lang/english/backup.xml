@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Backup Gamesave(s)</Title>
+	<Detection>
+		<Title>Detected Entries</Title>
+		<ListCheck>Select all / De-select all</ListCheck>
+		<Counter>%TOTAL% item(s) detected / %SELECTED% item(s) selected</Counter>
+		<Legend>
+			<Title>Legend</Title>
+			<Files>Files will be backed up</Files>
+			<Registry>Registry Data will be backed up</Registry>
+			<Warning>Entry has a 'Warning Message' you may wish to read</Warning>
+			<EntireEntry>Entire entry will be backed up</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Start the Backup Task now.</Start>
+		<Delete>Remove selected saves from system.</Delete>
+		<Rescan>Rescan your system for supported gamesaves.</Rescan>
+	</Options>
+	<Details>
+		<Title>Entry Details</Title>
+		<NoneSelected>No entry selected.
+
+Please select an entry from the list on the left.</NoneSelected>
+		<Entry>
+			<Name>Entry Name:</Name>
+			<IsOfficial>Official Entry:</IsOfficial>
+			<Size>Size on disk:</Size>
+			<Warning>Warning:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Directory:</Directory>
+			<Size>Size on disk:</Size>
+			<Files>Files:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Values:</Values>
+		</Registry>
+	</Details>
+	<GameplayBackup>
+		<Title>Gameplay Backup</Title>
+		<Info>Play a game, while GameSave Manager silently backs up your progress every couple minutes with Gameplay Backup.
+To reduce processing times, and lag spikes in-game, you should only select the game you're actively playing.
+
+For more routine backups, please see the Scheduled Task option.</Info>
+		<Interval>
+			<RunEvery>Run every...</RunEvery>
+			<minutes>minutes</minutes>
+			<hour>hour</hour>
+			<hours>hours</hours>
+		</Interval>
+		<Processing>
+			<Title>Gameplay Backup (running task)</Title>
+			<Info>GameSave Manager will now silently perform backups on the entries you selected every %INTERVAL%.
+
+You may now minimize this window and start playing.
+Note: Depending on both your selection and system specs, you may experience some mild lag spikes while backups are processed.
+
+
+To end this task, click the 'Close' button of this window (X in the upper right).</Info>
+			<Interval>Interval:</Interval>
+			<TimesRan>Times ran:</TimesRan>
+			<DetectedErrors>Detected errors:</DetectedErrors>
+			<ProcessingBackup>Currently performing backup(s)...</ProcessingBackup>
+			<Stopping>Stopping current operation, this may take a while...</Stopping>
+		</Processing>
+		<Messages>
+			<MissingInfo title="Error:" width="350" height="110">Please be sure to select at least one entry to process, plus a location to store the backups to.</MissingInfo>
+		</Messages>
+	</GameplayBackup>
+	<Errors>
+		<Rescan title="Perform rescan?" width="450" height="170">GameSave Manager has used a previous session's scan results and, as such, game saves made since then aren't listed.
+To solve this, you'd need to perform a full rescan of your system.
+
+Would you like to perform a full rescan now?</Rescan>
+		<Success title="Success" width="350" height="110">The Backup Task has completed.
+
+Thankfully, no errors were detected.</Success>
+		<Failed title="Failure" width="420" height="110">The Backup Task has completed.
+		
+Unfortunately, at least 1 error was detected.
+
+A log has been saved. Would you like to view it?</Failed>
+		<Overwrite title="File already exists..." width="450" height="125">The file you specified already exists.
+If you continue, GameSave Manager will overwrite it with the results of this backup.
+
+Continue and overwrite existing file?</Overwrite>
+		<NoEntries>GameSave Manager was unable to find any supported gamesaves on your system.
+
+Perhaps there's a database update available?
+You could also create a Custom Gamesave Entry.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">No gamesaves have been specified to be included in the backup.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Error:" width="350" height="110">No gamesaves have been specified to be included in the Removal Task.</NoneSelected>
+			<Warning title="Attention!" width="500" height="170">There are a few things you should note before continuing...
+
+1. Only the files listed for each entry selected will be removed
+2. It's highly recommended that you backup your saves before proceeding
+3. Once you commit to this operation, it cannot be undone without a previously-created backup!
+
+Continue anyway?</Warning>
+			<Success title="Success" width="350" height="110">The Removal Task has completed.
+
+Thankfully, no errors were detected.</Success>
+			<Failed title="Failure" width="420" height="110">The Removal Task has completed.
+		
+Unfortunately, at least 1 error was detected.
+
+A log has been saved. Would you like to view it?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

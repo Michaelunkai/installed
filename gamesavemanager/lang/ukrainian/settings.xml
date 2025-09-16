@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Налаштування програми</Title>
+	<RestoreSettings>
+		<Title>Скинути налаштування</Title>
+		<Confirm title="Підтвердити:" width="500" height="110">Ви впевнені, що хочете скинути всі налаштування GameSave Manager?
+
+Примітка: Користувацькі записи збережень не будуть видалені.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Категорії</Title>
+		<List>
+			<General>Основні налаштування</General>
+			<Cloud>Налаштування "хмарного сховища"</Cloud>
+			<Update>Налаштування оновлень</Update>
+			<Task>
+				<Header>Специфічні налаштування</Header>
+				<Backup>
+					<Header>Налаштування резервного копіювання</Header>
+					<ExternalScripts>Зовнішні скрипти</ExternalScripts>
+					<SepArchives>Відокремлені архіви</SepArchives>
+				</Backup>
+				<SyncLink>Sync &amp; Link</SyncLink>
+				<Spreader>Steam Spreader</Spreader>
+			</Task>
+			<SevZip>Налаштування 7zip</SevZip>
+			<Detection>Налаштування сканування</Detection>
+			<SortEntries>Сортування записів</SortEntries>
+			<IgnoredEntries>Чорний список</IgnoredEntries>
+			<IgnoreSteam>Steam Cloud і кеш користувача в Steam</IgnoreSteam>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header width="95">Асоціації файлів</Header>
+			<gsba width="152">Асоціювати з файлами *.gsba</gsba>
+			<gsdu width="152">Асоціювати з файлами *.gsdu</gsdu>
+			<gsms width="152">Асоціювати з файлами *.gsms</gsms>
+			<AutoCheck width="210">Перевіряти асоціацію файлів при запуску програми</AutoCheck>
+			<ContextMenu>Додати запис "GameSave Manager" в контекстне меню підтримуваних файлів</ContextMenu>
+		</Associations>
+		<Lang width="60">Мова</Lang>
+		<Startup>
+			<Header width="90">Параметри запуску</Header>
+			<ScanOnStartup width="190">Сканувати систему для пошуку підтримуваних збережень</ScanOnStartup>
+			<UpdateCheckOnStartup width="240">Перевіряти оновлення програми і бази даних</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks width="240">Виконувати завдання перед закриттям (рекомендується)</ShutdownTasks>
+		<SaveLogs width="180">Вести журнал завдань автоматично</SaveLogs>
+		<ShowVerInTitle width="310">Показувати інформацію про версію програми в заголовку вікна</ShowVerInTitle>
+		<MessageSounds width="195">Діалоги повідомлень супроводжуються звуками</MessageSounds>
+		<RunAsAdmin width="375">Завжди запускати програму з правами адміністратора</RunAsAdmin>
+		<RunAsAdmin_Question title="Перезавантажити?" width="500" height="110">GameSave Manager зараз не запущена з правами адміністратора.
+
+Бажаєте перезавантажити програму з такими правами?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>Для зберігання ваших збережень в безпеці, GameSave Manager може використовувати безліч сторонніх додатків і зберігати дані в "хмарному сховищі".</Info>
+		<Subfolder>Підкаталог:</Subfolder>
+		<BoxSync>
+			<Header>Box.net</Header>
+			<Enable>Увімкнути підтримку Box.net</Enable>
+			<Error title="Функція недоступна:" width="500" height="110">GameSave Manager не знайшов програму-клієнт Box.net Sync в Вашій системі.
+
+Тому таку підтримку неможливо увімкнути.</Error>
+			<ManuallySpecify>Папку Sync не знайдено.
+Вкажіть шлях до папки вручну.</ManuallySpecify>
+		</BoxSync>
+		<Dropbox>
+			<Header>Dropbox</Header>
+			<Enable width="150">Увімкнути підтримку Dropbox</Enable>
+			<Error title="Функція недоступна:" width="500" height="110">GameSave Manager не виявив у вашій системі запущений Dropbox.
+
+Тому цю функцію неможливо увімкнути.</Error>
+			<ManuallySpecify>Каталог для синхронізації не знайдено.
+Будь ласка, вкажіть його вручну.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable width="175">Увімкнути підтримку Google Drive</Enable>
+			<Error title="Функція недоступна:" width="500" height="110">GameSave Manager не виявив у вашій системі запущений Google Drive (Диск Google).
+
+Тому цю функцію неможливо увімкнути.</Error>
+			<ManuallySpecify>Каталог для синхронізації не знайдено.
+Будь ласка, вкажіть його вручну.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable width="150">Увімкнути підтримку SkyDrive</Enable>
+			<Error title="Функція недоступна:" width="500" height="110">GameSave Manager не виявив у вашій системі запущений Microsoft OneDrive.
+
+Тому цю функцію неможливо увімкнути.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Приватний сервер через FTP</Header>
+			<Enable width="125">Увімкнути підтримку FTP</Enable>
+			<Host>Хост:</Host>
+			<User>Логін:</User>
+			<Pass>Пароль:</Pass>
+			<Dir>Каталог:</Dir>
+		</FTP>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header width="550">Оновлення програми</Header>
+			<None width="400">Я буду застосовувати оновлення сам, будь ласка, відкрийте сторінку завантажень</None>
+			<DirectLinks width="385">Використ. прямі посилання, де можливо, але оновлення застосовувати вручну</DirectLinks>
+			<ProgDownload width="305">Завантажувати оновлення і застосовувати їх автоматично</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting width="255">Список доступних бета, альфа і концепт версій</ListTesting>
+		<UpdateCheckOnStartup width="310">Перевіряти оновлення для програми і бази даних під час запуску програми</UpdateCheckOnStartup>
+		<UpdateCheckOnLogin>Перевіряти оновлення для програми і бази даних під час запуску Windows</UpdateCheckOnLogin>
+		<AutoUpdate width="295">Автоматично застосовувати будь-які доступні оновлення для бази даних</AutoUpdate>
+		<IncrementalUpdates width="295">Не перебудовувати базу даних, використовувати інкрементальні оновлення</IncrementalUpdates>
+		<RemindCheckUpdates width="255">Нагадувати мені перевіряти оновлення раз на тиждень</RemindCheckUpdates>
+		<PromptUser width="310">Відображати діалог підтвердження, коли доступні нові оновлення</PromptUser>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header width="102">Окремі архіви</Header>
+			<Enable width="315">Створювати окремий архів для кожної резервної копії</Enable>
+			<TimeStamp width="253">Додавати часову позначку до назви файлу кожного архіву</TimeStamp>
+			<OnChange width="325">Створити новий архів, якщо файли були змінені (впливає на продуктивність )</OnChange>
+			<SepSubFolders>Зберігання архівів для кожного запису в своїх підпапках</SepSubFolders>
+			<PurgeCount>Об'єднання резервних архівів, коли лічильник досягає...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation width="378">Виконувати перевірку архівів відразу ж після їх створення</ValidateOnArchiveCreation>
+		<DuplicateArchives width="300">Скопіювати всі резервні копії, після їх створення, в інший каталог</DuplicateArchives>
+		<DefaultBackupDir width="345">Задати папку за замовч. для всіх резервних копій (не для "хмарного сховища")</DefaultBackupDir>
+		<RescanReminder width="395">Нагадувати про повторне скан. системи (якщо поточні результати застаріли)</RescanReminder>
+		<ConfirmChecksumResponse>Підтверджувати контрольну відповідь і пропускати невдалі записи</ConfirmChecksumResponse>
+		<RememberBackupSelection>Пам'ятати відмічені між сесіями елементи</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Використовуйте форму нижче, щоб вибрати записи (якщо такі є), для яких ви б хотіли додавати часову позначку до назви файлу.
+
+Всі невідмічені записи будуть використовувати ваші настройки, виставлені в пункті меню "Специфічні налаштування -> Налаштування резервного копіювання".</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Щоб заощадити місце обраного вами "хмарного сховища", в Sync & Link будуть перераховані тільки ті каталоги, які відповідають певним критеріям.
+
+Тут ви можете перевизначити налаштування сканування збережень GameSave Manager у відповідності з вашими потребами.</Info>
+		<IgnoreExclusionRules width="335">Список каталогів незалежно від правил виключення файлів</IgnoreExclusionRules>
+		<ShowSteamCloud width="160">Показувати збереження з "Steam Cloud"</ShowSteamCloud>
+		<ShowUplayCache width="160">Показувати збереження з "кешу Ubisoft Connect"</ShowUplayCache>
+		<WaitAfterEachLink width="390">Після створення символічного посилання, чекати команди від користувача</WaitAfterEachLink>
+		<CustomSubfolder width="210">Дозвольте мені вказати назву для підкаталогу</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header width="60">Тип посилання</Header>
+			<SymLink width="125">Використовувати символьні посилання</SymLink>
+			<Junction width="128">Використовувати "NTFS Junctions"</Junction>
+		</Link>
+		<SteamRunningCheck width="260">Попереджати, коли запущений Steam, якщо необхідно</SteamRunningCheck>
+		<HideXCOPY width="255">Приховувати вікно команд XCOPY</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header width="95">Створення архіву</Header>
+			<Use7zFormat width="255">Використовувати тип архіву "7z" (краще стиснення)</Use7zFormat>
+			<LZMA2>Використовувати метод стиснення LZMA2 (поліпшена багатопотоковість)</LZMA2>
+			<UseCompression width="600">Використовувати максимальний ступінь стиснення (впливає на продуктивність)</UseCompression>
+		</ArchiveCreation>
+		<HideWindow width="190">Приховувати консольне вікно команд</HideWindow>
+		<UseLargePages width="295">Використовувати "великі сторінки" для теоретично швидшого стиснення</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header width="95">Сканування Steam</Header>
+			<Enable width="140">Включити підтримку Steam</Enable>
+			<Cache width="195">Включити каталоги "кешу Steam"</Cache>
+			<Cloud width="195">Включити каталоги "Steam Cloud"</Cloud>
+		</Steam>
+		<Uplay>
+			<Header width="80">Ubisoft Connect</Header>
+			<Enable width="250">Включити виявлення збережень з "кешу Ubisoft Connect"</Enable>
+		</Uplay>
+		<Flash>
+			<Header width="135">Кеш Macromedia Flash</Header>
+			<Enable width="210">Пошук збережень у "кеші Flash"</Enable>
+		</Flash>
+		<SaveScanResults width="290">Зберегти результати сканування для швидкого сканування в майбутньому</SaveScanResults>
+		<DetectSize width="188">Намагатися визначати розмір файлів збережень</DetectSize>
+		<CheckForDupDirs>Запобігання дублюванню каталогів в списку</CheckForDupDirs>
+		<RescanOnIdle>Повторне сканування підтримуваних збережень при простої системи</RescanOnIdle>
+		<ShowStatusInfo>Показувати дод. інформацію при скануванні (може вплинути на шв. сканування)</ShowStatusInfo>
+		<QuickExclusionRuleset>Використовувати оптимізований набір правил виключення</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header width="45">Сортувати знайдені записи за</Header>
+		<SortByName width="205">назвою</SortByName>
+		<SortByDate width="247">датою останньої зміни</SortByDate>
+		<SortBySize width="225">розміром файлів збереження</SortBySize>
+		<SortByCustomEntries>статусом; Користув. записи показувати першими</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Відмітьте ті записи, які ви не хочете більше шукати.
+
+Зауваження: Потрібно повне повторне сканування для застосування змін.</Info>
+	</IgnoredEntries>
+	<IgnoreSteam>
+		<Info>Вкажіть Steam Cloud IDs і кеш користувача Ви бажаєте виключити з результатів пошуку.
+
+Примітка: Це тільки впливає на сканування файлів збереження / Sync & Link.</Info>
+		<SteamCloud>Steam Cloud</SteamCloud>
+		<SteamCache>Steam User Cache</SteamCache> <!-- Залишив оригінал через баг в UI | Кеш користувача в Steam -->
+		<NoneFound>N/A - not applicable (none found)</NoneFound> <!-- Залишив оригінал через баг в UI | Н/Д - недоступний (нічого не знайдено) -->
+	</IgnoreSteam>
+	<ExternalScripts>
+		<Info>Використання зовнішніх скриптів може допомогти знайти більше видів збережень ігор.
+
+Тут Ви можете включити / відключити скрипти, а також змінити будь-які доступні для них налаштування.</Info>
+		<ScriptName>Управління скриптом для...</ScriptName>
+		<ScriptMETA>Автор: %AUTHOR%
+Версія: %VERSION%				|			Офіційний: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Задіяти цей скрипт</EnableScript>
+		<ScriptOptions>
+			<Header>Налаштування скрипта:</Header>
+			<Value>Значення (натисніть [enter] для зберігання):</Value>
+			<Enable>Увімкнути налашт.</Enable>
+			<Saved>Значення збережено</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+		<LaunchButton>Налаштування імпорту / експорту налаштувань</LaunchButton>
+		<Title>Імпорт / експорт налаштувань</Title>
+		<Intro>
+			<Info>Що Ви бажаєте зробити?</Info>
+			<Import>Імпортувати налаштування і користувацькі записи збережень</Import>
+			<Export>Експортувати налаштування і користувацькі записи збережень</Export>
+		</Intro>
+		<Import>
+			<Step1>
+				<Info>Викор. форму нижче, вкажіть файл резервного копіювання, з якого Ви хочете почати відновлення.
+Натисніть 'Далі &gt;' для початку.</Info>
+				<Open>Відкрити...</Open>
+			</Step1>
+			<Step2>
+				<Loading>Зачекайте поки GameSave Manager прочитає вказаний архів.
+Це може зайняти певний час.</Loading>
+				<Info>Оберіть опції, які потрібно імпортувати.</Info>
+				<Settings>Налаштування програми</Settings>
+				<IgnoreList>Чорний список</IgnoreList>
+				<SteamSpreader>Перезаписати історію Steam Spreader</SteamSpreader>
+				<Logs>Журнали завдань</Logs>
+				<CustomEntries>Користувацькі записи збережень...</CustomEntries>
+				<SelectAll>Вибрати все / Зняти виділення з усіх</SelectAll>
+			</Step2>
+			<Step3>
+				<Success>Обрані опції успішено відновлені з файлу резервного копіювання...
+
+
+
+%FILE%</Success>
+				<Failed>Сталася помилка при спробі відновлення.
+
+
+
+
+Деталі помилки:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Import>
+		<Export>
+			<Step1>
+				<Info>Вкажіть опції для експорту.</Info>
+				<Settings>Налаштування програми</Settings>
+				<IgnoreList>Список ігнорованих збережень (Ignore List)</IgnoreList>
+				<SteamSpreader>Історія Steam Spreader</SteamSpreader>
+				<Logs>Усі журнали завдань</Logs>
+				<CustomEntries>Користувацькі записи збережень...</CustomEntries>
+				<SelectAll>Вибрати все / Зняти виділення з усіх</SelectAll>
+			</Step1>
+			<Step2>
+				<Info>Вкажіть шлях для збереження файлу резервного копіювання з опціями.
+Натисніть 'Далі &gt;' для початку процесу.</Info>
+			<SaveAs>Зберегти як...</SaveAs>
+			</Step2>
+			<Step3>
+				<Success>Опції були успішно збережені у файлі резервного копіювання за вказаною шляхом...
+
+
+
+%FILE%</Success>
+				<Failed>Не вдалося правильно згенерувати файлі резервного копіювання.
+
+
+
+
+Деталі помилки:
+---
+	%ERROR%</Failed>
+			</Step3>
+		</Export>
+		<Errors>
+			<InvalidFile title="Файл резервного копіювання невалідний" width="500" height="110">Обраний файл резервного копіювання не містить коректних параметрів опцій.</InvalidFile>
+			<NothingSelected title="Помилка:" width="500" height="110">Для продовження Ви повинні вказати хоча б одну опцію.</NothingSelected>
+			<NoFile title="Помилка:" width="500" height="110">Не вказано файлу резервного копіювання.
+
+Вкажіть файл резервного копіювання і спробуйте ще раз.</NoFile>
+		</Errors>
+	</ImportExport>
+</GameSaveManager_Translation>

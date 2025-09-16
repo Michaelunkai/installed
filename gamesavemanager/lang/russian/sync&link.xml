@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link позволяет переместить выбранные сохранения в пользовательский каталог с помощью символических ссылок (кстати, "Steam Spreader" работает по тому же принципу).
+
+Может работать в сочетании с Dropbox, Google Drive или SkyDrive. Это быстрое и просто решения для хранения своих сохранений в "облаке".</Info>
+	<Detection>
+		<Title>Поддерживаемые записи</Title>
+		<ListCheck width="240">Выбрать все / Снять выделение со всех</ListCheck>
+		<Counter>Найденных элементов: %TOTAL% / Выбранных элементов: %SELECTED%</Counter>
+	</Detection>
+	<Options>
+		<Start>Запустить Sync and Link.</Start>
+		<Unlink>Отвязать все предыдущие сохранения из указанной директории.</Unlink>
+		<Relink>Перепривязать все предыдущие сохранения из указанной директории.</Relink>
+		<Rescan>Повторить сканирование системы для поиска поддерживаемых сохранений.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Разорвать связь</Header>
+		<Info>Пожалуйста укажите с какими директориями вы желаете "разорвать связь" из списка ниже.</Info>
+		<ListCheck width="140">Выбрать все / Снять выделение со всех</ListCheck>
+		<DupSaves>Копировать сохранения; не удалять исходные файлы</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Успех" width="350" height="110">Все задачи Sync &amp; Link завершены.
+
+К счастью, ошибок не обнаружено.</Success>
+		<Failed title="Неудача" width="420" height="110">Все задачи Sync &amp; Link завершены.
+		
+К сожалению, по крайней мере 1 ошибка была обнаружена.
+
+Журнал был сохранен. Желаете посмотреть его?</Failed>
+		<NoEntries>GameSave Manager не смог найти поддерживаемые сохранения в вашей системе.
+
+Может быть доступны обновления базы данных?
+Можно также создать пользовательские записи сохранений.</NoEntries>
+		<NoneSelected title="Ошибка:" width="350" height="110">Для создания ссылки не было выбрано ни одного сохранения.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

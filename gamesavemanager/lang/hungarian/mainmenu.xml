@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Fõ‘menü</Title>
+	<Backup>
+		<Header>Biztonsági mentés...</Header>
+		<Description>Készíts könnyedén biztonsági mentést a számítógépen található játékaid mentéseirõl.</Description>
+		<Backup>Mentés készítése</Backup>
+		<Scheduled>Ütemezett feladat</Scheduled>
+		<Sync>Szinkronizáció és link </Sync>
+		<GameplayBackup>Játékmenet elmentése</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Adatok helyreállítása...</Header>
+		<Description>Állítsd vissza a GameSave Managerrel korábban elmentett mentéseidet.</Description>
+		<Open>Archívumok megnyitása</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam-mozgató</Header>
+		<Description>Mozgass át mappákat egy másik partícióra, majd hozz létre szimbolikus linkeket az új célpontokhoz.</Description>
+		<GoTo>Irány a Steam-mozgató</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Testreszabás...</Header>
+		<Description>Szabd testre a GameSave Managert.</Description>
+		<CustomEntries>Egyéni játékmentés bejegyzések</CustomEntries>
+		<Variables>Változók módosítása</Variables>
+		<Settings>Program beállítások</Settings>
+	</Customise>
+	<Log>
+		<Header>Feladatnaplók</Header>
+		<Description>Tekintsd meg a korábban feldolgozott feladatok naplóit.</Description>
+		<GoTo>Feladatnaplók megtekintése</GoTo>
+	</Log>
+</GameSaveManager_Translation>

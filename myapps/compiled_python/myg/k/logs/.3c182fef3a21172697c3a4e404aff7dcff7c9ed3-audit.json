@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\backup\\windowsapps\\installed\\myapps\\compiled_python\\myg\\k\\logs\\.3c182fef3a21172697c3a4e404aff7dcff7c9ed3-audit.json",
+    "files": [
+        {
+            "date": 1757868200290,
+            "name": "F:\\backup\\windowsapps\\installed\\myapps\\compiled_python\\myg\\k\\logs\\mcp-puppeteer-2025-09-14.log",
+            "hash": "ff1506e75d84f96dc683f478e95f37a70220194755563767ee0b199772414bce"
+        }
+    ],
+    "hashType": "sha256"
+}

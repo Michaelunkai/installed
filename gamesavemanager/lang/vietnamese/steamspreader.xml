@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Di chuyển Steam</Title>
+	<Info>Di chuyển Steam Spreader cho phép bạn di chuyển các tập tin qua các ổ cứng và phân vùng khác bằng cách dùng "Liên kết biểu tượng".
+
+Đa số game thủ sử dụng "Liên kết biểu tượng" để di chuyển các game yêu thích vào 1 ổ cứng SSD, trong khi vẫn giữ lại phần lớn game trong ổ cứng cơ thường.</Info>
+	<MoveDir>
+		<Header>Di chuyển thư mục</Header>
+		<Empty>Không có thư mục chỉ định.
+
+Bấm "Thêm" để bắt đầu.</Empty>
+		<DialogHeader>Mục Steam đang chờ</DialogHeader>
+		<Steam>Di chuyển một Steam game</Steam>
+		<Origin>Di chuyển một game gốc</Origin>
+		<Specify>Chọn đường dẫn:</Specify>
+		<MoveTo>Di chuyển tới ...</MoveTo>
+		<Move width="75">Di chuyển</Move>
+		<Messages>
+			<NoneSelected title="Lỗi:" width="350" height="110">Bạn chưa nhập vào ô.
+Hãy thử lại.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Liên kết thất bại:" width="350" height="110">Không thể tạo liên kết do không thể gỡ bỏ thư mục nguồn khỏi hệ thống.</SourceExists>
+			</LinkError>
+			<Success title="Thành công !" width="350" height="110">Di chuyển Steam hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+			<Failed title="Thất bại" width="420" height="110">Di chuyển Steam thất bại.
+		
+Rất tiếc, đã phát hiện lỗi.
+
+Đã lưu Ghi chép. Bạn có muốn xem nó?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Phục hồi một thư mục</Header>
+		<Source>Quay lại tác vụ cho thư mục dưới...</Source>
+		<Destination>...mà hiện đang liên kết tới:</Destination>
+		<Revert width="75">Quay lại</Revert>
+                            <Messages>
+                                          <NoneSelected title="Lỗi:" width="350" height="110">Bạn chưa nhập vào ô.
+Hãy thử lại.</NoneSelected>
+                                          <NoLongerLinked title="Lỗi liên kết:" width="450" height="150">Không tìm thấy "Liên kết" yêu cầu trong hệ thống để quay lại.
+
+Bạn có thể gỡ bỏ game hoặc xóa "Liên kết" khỏi danh sách của GameSave Manager.
+
+
+Xóa khỏi danh sách?</NoLongerLinked>
+                                          <LinkRemovalFail title="Lỗi:" width="450" height="150">GameSave Manager không thể xóa liên kết yêu cầu với đường dẫn bên dưới.
+
+   "%LINK%"</LinkRemovalFail>
+                                          <Success title="Thành công" width="350" height="110">Di chuyển Steam hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+                            </Messages>
+
+	</Undo>
+	<SteamRunning title="Cảnh báo:" width="450" height="200">GameSave Manager phát hiện Steam đang chạy trên máy tính.
+
+Do GameSave Manager không tiếp xúc trực tiếp với Steam, nên nó không thể di chuyển tập tin game (trong thư mục chỉ định).
+Vì vậy, đôi khi Steam có thể xem các tập tin này là "bị mất" và tiến hành tải chúng.
+
+Vẫn tiếp tục?</SteamRunning>
+</GameSaveManager_Translation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Razpršilnik za Steam</Title>
+	<Info>Razpršilnik za Steam vam omogoèa, da razpršite vaše datoteke na veè diskov in razdelkov z uporabo 'simbolnih povezav'.
+
+Veèina igralcev uporablja 'simbolne povezave' za premik njihovih priljubljenih iger na SSD, medtem ko ohranijo veèino njihovih iger na mehanskem disku.</Info>
+	<MoveDir>
+		<Header>Premakni mape</Header>
+		<Empty>Ni podanih map.
+
+Da zaènete, kliknite 'Dodaj'.</Empty>
+		<DialogHeader>Razpršilnik za Steam; dodaj predmet v èakalno vrsto</DialogHeader>
+		<Steam>Premakni igro iz Steama</Steam>
+		<Origin>Premakni igro iz Origina</Origin>
+		<Specify>Dovoli mi podati pot</Specify>
+		<MoveTo>Premakni v ...</MoveTo>
+		<Move width="75">Premakni</Move>
+		<Messages>
+			<NoneSelected title="Napaka:" width="350" height="110">Niste izpolnili celotnega obrazca.
+Poskusite znova.</NoneSelected>
+			<LinkError>
+				<SourceExists title="Napaka povezave:" width="350" height="110">Ni bilo mogoèe ustvariti povezave, saj ni bilo mogoèe odstraniti izvorne mape iz sistema.</SourceExists>
+			</LinkError>
+			<Success title="Uspeh" width="350" height="110">Opravilo razpršilnika za Steam je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+			<Failed title="Neuspeh" width="420" height="110">Opravilo razpršilnika za Steam je bilo konèano.
+		
+Žal je bila zaznana vsaj 1 napaka.
+
+Shranjen je bil dnevnik. Ali bi si ga želeli ogledati?</Failed>
+		</Messages>
+	</MoveDir>
+	<Undo>
+		<Header>Obnovi mapo</Header>
+		<Source>Razveljavi opravilo za naslednjo mapo ...</Source>
+		<Destination>..., ki je trenutno povezana na:</Destination>
+		<Revert width="75">Povrni</Revert>
+		<Messages>
+			<NoneSelected title="Napaka:" width="350" height="110">Niste izpolnili celotnega obrazca.
+Poskusite znova.</NoneSelected>
+			<NoLongerLinked title="Napaka povezave:" width="450" height="150">Ni bilo mogoèe razveljaviti, saj ni bilo mogoèe najti zahtevane 'povezave' na vašem sistemu.
+
+Lahko, da ste igro odstranili ali pa 'povezavo' pokvarili na kak drug naèin zunaj GameSave Manager-ja.
+
+
+Odstranim iz seznama?</NoLongerLinked>
+			<LinkRemovalFail title="Napaka:" width="450" height="150">GameSave Manager ni mogel odstraniti povezav povezanih s spodaj podano potjo.
+
+	"%LINK%"</LinkRemovalFail>
+			<Success title="Uspeh" width="350" height="110">Opravilo razpršilnika za Steam je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+		</Messages>
+	</Undo>
+	<SteamRunning title="Opozorilo:" width="450" height="200">GameSave Manager je zaznal, da je trenutno zagnan Steam.
+
+Èeprav GameSave Manager s Steamom ne interagira neposredno, pa vseeno premika datoteke iger (znotraj podane mape).
+Steam lahko vèasih te datoteke zazna kot 'manjkajoèe' in jih zaène znova prejemati.
+
+Vseeno nadaljujem?</SteamRunning>
+</GameSaveManager_Translation>

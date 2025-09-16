@@ -1,0 +1,29 @@
+==================================
+|| GameSave Manager 3.x		||
+||		Known Issues	||
+==================================
+
+Issue 1:
+--------
+
+While a lot of changes have been made to GameSave Manager since v2, UAC (User Account Control) can still cause issues.
+It's therefore recommended that you disable it where possible.
+
+Issue 2:
+--------
+
+Backup Archives created with the 'first generation' of GameSave Manager (i.e v1.x) aren't compatible with v3.
+
+Please note that you can still download the last v1.x release made from our Download section - http://www.gamesave-manager.com/?s=download&t=archive
+
+Issue 3:
+--------
+
+As the Backup Archive structure has altered, backups made with v2.x releases will not be 'read' correctly when performing a backup.
+As such, all older backups will be seen as containing out-dated files to the ones currently on your system. This will cause GameSave Manager to re-create those archives in the v3.x format.
+
+Issue 4:
+--------
+
+Due to a limitation in the language GameSave Manager is coded in (i.e LUA), some languages cannot be fully supported (such as Russian).
+Having said this, we've made some progress on the subject. More information can be found here: http://www.gamesave-manager.com/forum/viewtopic.php?f=12&t=1400

@@ -1,0 +1,90 @@
+
+{
+	"pricelist": [
+		{
+			"price": "$8.99",
+			"product_name": "1-month License",
+			"pcs": "1 PC",
+			"buy_url": "https://order.shareit.com/cart/add?vendorid=200252026&PRODUCT[300943274]=1",
+			"hot": 0,
+			"isnew": 1
+		},
+		{
+			"price": "$19.95",
+			"product_name": "Lifetime License",
+			"pcs": "1 PC",
+			"buy_url": "https://order.shareit.com/cart/add?vendorid=200252026&PRODUCT[300696607]=1",
+			"ishot": 1,
+			"isnew": 0
+		},
+		{
+			"price": "$12.95",
+			"product_name": "1-year License",
+			"pcs": "1 PC",
+			"buy_url": "https://order.shareit.com/cart/add?vendorid=200252026&PRODUCT[300768763]=1",
+			"ishot": 0,
+			"isnew": 0
+		}
+    
+	],
+    
+	"download_pricelist": [
+		{
+			"price": "$19.95",
+			"product_name": "Lifetime License",
+			"pcs": "1 PC",
+			"buy_url": "https://order.shareit.com/cart/add?vendorid=200252026&PRODUCT[300696607]=1",
+			"ishot": 1,
+			"isnew": 0
+		},
+		{
+			"price": "$12.95",
+			"product_name": "1-year License",
+			"pcs": "1 PC",
+			"buy_url": "https://order.shareit.com/cart/add?vendorid=200252026&PRODUCT[300768763]=1",
+			"ishot": 0,
+			"isnew": 0
+		}
+	],
+    
+    "active_list": 
+    [
+		{
+			"price": "0",
+			"product_name": "",
+			"pcs": "",
+			"buy_url": "",
+            "active_name": "blackfive",
+            "click_url": "https://www.drivethelife.com/activity/2021/merry-christmas-activity.html",
+            "pic_icon_url": "",
+            "pic_tip_url": "",
+            "visible": 0
+		},
+		{
+			"price": "0",
+			"product_name": "",
+			"pcs": "",
+			"buy_url": "",
+            "active_name": "chirstmas",
+            "click_url": "https://www.drivethelife.com/activity/2020/black-friday-activity.html",
+            "pic_icon_url": "",
+            "pic_tip_url": "",
+            "visible": 0
+		},
+		{
+			"price": "0",
+			"product_name": "",
+			"pcs": "",
+			"buy_url": "",
+            "active_name": "newyear",
+            "click_url": "https://www.drivethelife.com/activity/2020/black-friday-activity.html",
+            "pic_icon_url": "",
+            "pic_tip_url": "",
+            "visible": 0
+		}   
+        
+	]
+    
+    
+    
+}

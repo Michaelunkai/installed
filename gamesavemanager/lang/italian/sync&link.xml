@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Sincronizza &amp; Collega</Title>
+	<Info>Sincronizza &amp; Collega ti permette di spostare specifici salvataggi in una cartella a tua scelta tramite Link Virtuali (in modo simile a "Steam Spreader").
+
+Utilizzato assieme a Dropbox, Google Drive o SkyDrive è una soluzione semplice e veloce per i backup in Cloud.</Info>
+	<Detection>
+		<Title>Elementi Supportati</Title>
+		<ListCheck>Seleziona/Deseleziona tutto</ListCheck>
+		<Counter>%TOTAL% elemento/i rilevato/i / %SELECTED% elemento/i selezionato/i</Counter>
+	</Detection>
+	<Options>
+		<Start>Inizia la Sincronizzazione.</Start>
+		<Unlink>De-Sincronizza tutti i salvataggi presenti in una cartella.</Unlink>
+		<Relink>Sincronizza nuovamente tutti i salvataggi presenti in una cartella.</Relink>
+		<Rescan>Scansiona nuovamente il tuo sistema per salvataggi supportati.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sincronizza & Collega; De-Sincronizza</Header>
+		<Info>Specifica quale cartella desideri de-sincronizzare tra quelle elencate qui sotto.</Info>
+		<ListCheck>Seleziona/Deseleziona tutto</ListCheck>
+		<DupSaves>Copia i salvataggi; non eliminare i file originali</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Success" width="350" height="110">Operazione completata.
+
+Per fortuna, nessun errore è stato rilevato.</Success>
+		<Failed title="Failure" width="420" height="110">Operazione completata.
+		
+Sfortunatamente, è stato rilevato almeno un errore.
+
+È stato creato un rapporto. Vuoi leggerlo?</Failed>
+		<NoEntries>GameSave Manager non riesce a trovare alcun salvataggio supportato nel tuo sistema.
+
+Forse devi aggiornare il database?
+Puoi anche creare un elemento personalizzato.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">Nessun salvataggio specificato per l'operazione.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Verificando atualizações</Title>
+	<Info>Tal como acontece com todos os softwares, GameSave Manager possui atualizações regulares.
+Esta página lista todas as atualizações disponíveis para você.
+
+Clique no ícone à esquerda para verificar atualizações.</Info>
+	<Recheck>Consulte os servidores novamente para atualizar as informações.</Recheck>
+	<ProgramUpdate>
+		<Title>Atualizações de Programa</Title>
+		<Info>É altamente recomendável que você execute a versão mais recente do GameSave Manager.
+Atualizações de Programa adicionam novos recursos, consertam bugs conhecidos e geralmente otimizam o GameSave Manager.</Info>
+		<Download>Download</Download>
+		<ApplyUpdate>Baixar &amp; Aplicar</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Pacote de Tradução</Title>
+		<Info>Nenhuma 'Atualização de Programa' detectada.
+Entretanto, o autor do Pacote de Tradução que você está usando publicou uma atualização.</Info>
+		<Download>Download</Download>
+		<ApplyUpdate>Baixar &amp; Aplicar</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Atualização de banco de dados</Title>
+		<Info>Enquanto atualizações de banco de dados não são tão importantes quanto atualizações do programa, elas adicionam suporte para mais jogos e corrigem problemas de detecção com entradas existentes.
+Portanto, recomendamos que você atualize seu banco de dados pelo menos uma vez por semana.</Info>
+		<Download>Aplicar Atualização</Download>
+	</DatabaseUpdate>
+	<Changelog>Ver Mudanças</Changelog>
+	<DialogPrompt title="Atualização Disponível" width="500" height="110">Parece haver uma 'Atualização de Programa' ou 'Atualização de banco de dados' disponíveis para você.
+
+Gostaria de visitar a página de atualizações?</DialogPrompt>
+	<Errors>
+		<Checking>Verificando atualizações...</Checking>
+		<NoUpdates>Nenhuma atualização disponível</NoUpdates>
+		<LangPack>[Feito pela comunidade] Atualização do Pacote de Tradução</LangPack>
+		<LangPack_Invalid>Erro na consulta: 'Pacote de ID' desconhecido especificado!</LangPack_Invalid>
+		<UpdateRequired>Atualização de banco de dados disponível; requer a última atualização do programa.</UpdateRequired>
+		<NoConnection>Não é possível consultar o site para informações de lançamento. Por favor, tente novamente mais tarde.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

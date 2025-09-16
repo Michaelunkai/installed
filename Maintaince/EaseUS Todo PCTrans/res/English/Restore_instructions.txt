@@ -1,0 +1,8 @@
+
+In order to restore data more safely and completely, please read the following instructions carefully:
+1. After you have finished backing up your data, you will see the PCTrans_Setup file and the data backup file (.PCT).
+2. You need to copy PCTrans_Setup and the data backup file to the target machine using an external storage device or cloud storage. (It is very important.)
+3. After copying to the target machine, you can double-click PCTrans_Setup to start restoring the data backup file.
+4. If PCTrans program is already installed on the target machine, you can double-click the data backup file to restore the data.
+----------------------EaseUS Todo PCTrans-------------------------
+----------------------https://www.easeus.com----------------------

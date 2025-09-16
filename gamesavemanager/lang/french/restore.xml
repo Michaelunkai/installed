@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Restaurer des sauvegardes</Title>
+  <Detection>
+    <Title>Sauvegardes détectées</Title>
+    <ListCheck>Sélectionner / Déselectionner tout</ListCheck>
+    <Counter>%TOTAL% sauv. détectée(s) / %SELECTED% sauv. sélectionnée(s)</Counter>
+    <Legend>
+      <Title>Légende</Title>
+      <Files>Les fichiers seront restaurés</Files>
+      <Registry>Les informations du registre seront restaurées</Registry>
+      <Warning>La sauvegarde possède un message d'avertissement</Warning>
+      <Unrestorable>Chemin de restauration indétectable à cause d'un paramètre manquant</Unrestorable>
+      <EntireEntry>L'ensemble des données seront restaurées</EntireEntry>
+    </Legend>
+  </Detection>
+  <Options>
+    <Start>Démarrer la restauration maintenant.</Start>
+    <Open>Ouvrir une sauvegarde préalablement effectuée pour restauration.</Open>
+  </Options>
+  <Details>
+    <Title>Détails de la sauvegarde</Title>
+    <NoneSelected>Aucune sauvegarde sélectionnée.
+
+Veuillez sélectionner une sauvegarde dans liste à gauche.</NoneSelected>
+    <Unrestorable>La sauvegarde sélectionnée ne peut pas être restaurée.
+
+Plusieurs causes peuvent expliquer la raison de cet échec, les plus communes étant:
+1. La configuration empêche la détection (voir 'Configuration de la détection')
+2. Le chemin de restauration est détectée dynamiquement via une valeur du registre qui n'est pas présente sur votre système.
+
+Si l'échec provient de la cause 2, veuillez réinstaller le jeu. Il est possible que deviez le lancer.</Unrestorable>
+    <UnrestorableEntry>Toutes les données de cette sauvegarde ne peuvent pas être restaurées car GameSave Manager ne peut pas détecter le chemin de sauvegarde.
+
+Veuillez sélectionner un des répertoires pour avoir plus d'informations et des solutions potentielles.</UnrestorableEntry>
+    <Entry>
+      <Name>Nom de la sauvegarde:</Name>
+      <VerInfo>Créée avec:</VerInfo>
+      <IsOfficial>Officiellement supportée:</IsOfficial>
+      <Size>Taille sur le disque:</Size>
+      <Warning>Avertissement:</Warning>
+    </Entry>
+    <Directory>
+      <Directory>Dossier:</Directory>
+      <Size>Taille sur le disque:</Size>
+      <Files>Fichiers:</Files>
+    </Directory>
+    <Registry>
+      <Key>Clé du registre:</Key>
+      <Values>Valeurs:</Values>
+    </Registry>
+  </Details>
+  <Errors>
+    <Success title="Succès" width="350" height="110">La sauvegarde a été restaurée.
+
+Aucune erreur n'a été détectée.</Success>
+    <Failed title="Failure" width="420" height="150">La sauvegarde a été restaurée.
+    
+Malheureusement, au moins 1 erreur a été détectée.
+
+Un journal des opérations a été sauvé. Voulez-vous l'afficher?</Failed>
+    <NoArchive>Aucune sauvegarde n'est actuellement chargée.
+
+Pour commencer, cliquez sur le bouton 'Ouvrir' en haut à droite de cette fenêtre.</NoArchive>
+    <InvalidFile>Ce fichier semble utile, dommage qu'il ne soit pas supporté par GameSave Manager :(</InvalidFile>
+    <Incompatible>La sauvegarde que vous avez sélectionnez n'est pas supportée par cette version de GameSave Manager.
+
+Veuillez réessayer.</Incompatible>
+    <NoneSelected title="Erreur:" width="350" height="110">Aucune sauvegarde n'a été sélectionnée pour la restauration.</NoneSelected>
+  </Errors>
+</GameSaveManager_Translation>

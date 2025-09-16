@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Sync &amp; Link</Title>
+	<Info>Sync &amp; Link umožňuje přesunout vybrané uložené pozice her do jiné složky pomocí symbolických odkazů podobně jako 'Steam Spreader.'
+
+Při použití s Dropbox, Google Drive nebo SkyDrive se jedná o rychlé a jednoduché řešení, jak zálohovat do cloudu.</Info>
+	<Detection>
+		<Title>Podporované záznamy</Title>
+		<ListCheck>Vybrat vše/Zrušit výběr</ListCheck>
+		<Counter>Detekováno %TOTAL% položek / Vybráno %SELECTED% položek</Counter>
+	</Detection>
+	<Options>
+		<Start>Spustit Sync &amp; Link</Start>
+		<Unlink>Zrušit odkazy všech dříve zpracovaných uložených her ve vybrané složce.</Unlink>
+		<Relink>Znovu vytvořit odkaz všech dříve zpracovaných uložených her ve vybrané složce.</Relink>
+		<Rescan>Znovu prohledat systém a najít podporované hry.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Sync & Link; Zrušit odkaz</Header>
+		<Info>Prosím, vyberte složky, u kterých chcete zrušit odkaz.</Info>
+		<ListCheck>Vybrat vše/Zrušit výběr</ListCheck>
+		<DupSaves>Kopírovat uložené hry; ponechat zdrojové soubory</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Úpsěšné" width="350" height="110">Úloha Sync &amp; Link dokončena.
+
+Naštěstí nebyly zjištěny žádné chyby.</Success>
+		<Failed title="Neúspěšné" width="420" height="110">Úloha Sync &amp; Link dokončena.
+		
+Bohužel byla zjištěna 1 chyba.
+
+Záznam byl uložen. Chcete jej zobrazit?</Failed>
+		<NoEntries>GameSave Manager nenalezl žádnou podporovanou hru ve vašem systému.
+
+Pravděpodobně bude dostupná aktualizace databáze!
+Můžete také vytvořit vlastní záznam uložené hry.</NoEntries>
+		<NoneSelected title="Chyba:" width="350" height="110">Pro úlohu nebyly vybraný žádné uložené hry.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

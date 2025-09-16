@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Obnovi shranjene igre</Title>
+	<Detection>
+		<Title>Zaznani vnosi</Title>
+		<ListCheck>Izberi vse / odstrani izbor</ListCheck>
+		<Counter>zaznanih predmetov: %TOTAL% / izbranih predmetov: %SELECTED%</Counter>
+		<Legend>
+			<Title>Legenda</Title>
+			<Files>Datoteke bodo obnovljene</Files>
+			<Registry>Podatki iz registra bodo obnovljeni</Registry>
+			<Warning>Vnos ima 'opozorilno sporoèilo', ki bi ga morda želeli prebrati</Warning>
+			<Unrestorable>Ni bilo mogoèe zaznati poti za obnovitev zaradi nastavitev ali manjkajoèe registrske vrednosti</Unrestorable>
+			<EntireEntry>Celoten vnos bo obnovljen</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Zaèni opravilo obnovitve zdaj.</Start>
+		<Open>Odpre predhodno ustvarjen arhiv z varnostno kopijo in jo obnovi.</Open>
+	</Options>
+	<Details>
+		<Title>Podrobnosti vnosa</Title>
+		<NoneSelected>Noben vnos ni izbran.
+
+Izberite vnos iz seznama na levi.</NoneSelected>
+		<Unrestorable>Izbranega vnosa ni mogoèe obnoviti.
+
+Razlogov za to je veè, naslednji so najbolj verjetni:
+1. Vaše 'nastavitve programa' prepreèujejo zaznavo (oglejte si 'nastavitve zaznave')
+2. Pot za shranjevanje je dinamièno zaznana preko registrske vrednosti, ki trenutno ni prisotna na vašem sistemu.
+
+Èe je za napako kriv vzrok 2, morate ponovno namestiti igro in jo morda tudi zagnati.</Unrestorable>
+		<UnrestorableEntry>Vse shranjene varnostne kopije za ta vnos niso obnovljive, ker GameSave Manager ne more zaznati njihovih poti.
+
+Izberite enega izmed vnosov mape za veè podrobnosti kot tudi morebitne rešitve.</UnrestorableEntry>
+		<Entry>
+			<Name>Ime vnosa:</Name>
+			<VerInfo>Ustvarjeno z:</VerInfo>
+			<IsOfficial>Uraden vnos:</IsOfficial>
+			<Size>Velikost na disku:</Size>
+			<Warning>Opozorilo:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Mapa:</Directory>
+			<Size>Velikost na disku:</Size>
+			<Files>Datoteke:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registrski kljuè:</Key>
+			<Values>Vrednosti:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Uspeh" width="350" height="110">Opravilo obnovitve je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+		<Failed title="Neuspeh" width="420" height="110">Opravilo obnovitve je bilo konèano.
+		
+Žal je bila zaznana vsaj 1 napaka.
+
+Shranjen je bil dnevnik. Ali bi si ga želeli ogledati?</Failed>
+		<NoArchive>Trenutno ni naložen noben arhiv z varnostno kopijo.
+
+Da zaènete, kliknite na gumb 'Odpri' zgoraj desno v tem oknu.</NoArchive>
+		<InvalidFile>Ta datoteka izgleda uporabna, ampak žal je GameSave Manager ne podpira.</InvalidFile>
+		<Incompatible>Arhiv z varnostno kopijo, ki ste ga podali, ne izgleda združljiv s to razlièico programa GameSave Manager.
+
+Poskusite znova.</Incompatible>
+		<NoneSelected title="Napaka:" width="350" height="110">Ni bilo podanih shranjenih iger za obnovitev.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

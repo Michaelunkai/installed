@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<GameSaveManager_Translation>
+	<Title>Sao lưu Gamesave</Title>
+	<Detection>
+		<Title>Mục tìm thấy</Title>
+		<ListCheck>Chọn Tất cả / Bỏ chọn Tất cả</ListCheck>
+		<Counter>Tìm thấy %TOTAL% mục / Đã chọn %SELECTED% mục</Counter>
+		<Legend>
+			<Title>Chú thích</Title>
+			<Files>Tập tin sẽ được sao lưu</Files>
+			<Registry>Dữ liệu Registry sẽ được sao lưu</Registry>
+			<Warning>Mục có "Tin nhắn cảnh báo"</Warning>
+			<EntireEntry>Toàn bộ mục sẽ được sao lưu</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Bắt đầu Sao lưu</Start>
+		<Delete>Xóa Sao lưu đã chọn khỏi hệ thống.</Delete>
+		<Rescan>Quét lại hệ thống để tìm Gamesave</Rescan>
+	</Options>
+	<Details>
+		<Title>Chi tiết mục</Title>
+		<NoneSelected>Không có mục được chọn.
+
+Hãy chọn một mục từ danh sách bên trái.</NoneSelected>
+		<Entry>
+			<Name>Tên mục:</Name>
+			<IsOfficial>Tên chính:</IsOfficial>
+			<Size>Dung lượng:</Size>
+			<Warning>Cảnh báo:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Thư mục:</Directory>
+			<Size>Dung lượng:</Size>
+			<Files>Tập tin:</Files>
+		</Directory>
+		<Registry>
+			<Key>Khóa Registry:</Key>
+			<Values>Giá trị:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Rescan title="Thực hiện quét lại ?" width="450" height="170">GameSave Manager đang sử dụng kết quả quét lần trước, vì không có danh sách mới hơn.
+Để khắc phục, bạn cần quét lại đầy đủ hệ thống.
+
+Bạn có muốn quét lại đầy đủ bây giờ ?</Rescan>
+		<Success title="Thành công" width="350" height="110">Sao lưu hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+		<Failed title="Thất bại" width="420" height="110">Sao lưu thất bại.
+		
+Rất tiếc, đã phát hiện lỗi.
+
+Đã lưu Ghi chép. Bạn có muốn xem nó ?</Failed>
+		<Overwrite title="Tập tin đã tồn tại" width="450" height="125">Tập tin chỉ định đã tồn tại.
+Nếu tiếp tục, GameSave Manager sẽ ghi đè lên nó.
+
+Tiếp tục và ghi đè ?</Overwrite>
+		<NoEntries>GameSave Manager không tìm thấy Gamesave nào trong hệ thống.
+
+Hình như đang có sẵn dữ liệu ?
+Bạn có thể tạo một Mục Gamesave tùy chỉnh.</NoEntries>
+		<NoneSelected title="Lỗi:" width="350" height="110">Không có Gamesave chỉ định chứa trong Sao lưu.</NoneSelected>
+		<Delete>
+			<NoneSelected title="Lỗi:" width="350" height="110">Không có Sao lưu được chỉ định.</NoneSelected>
+			<Warning title="Chú ý !" width="500" height="170">Có vài điều cần lưu ý trước khi tiếp tục...
+
+1. Chỉ danh sách tập tin mỗi mục lựa chọn được xóa.
+2. Nên sao lưu lại trước khi thực hiện.
+3. Sau khi thực hiện, không thể quay trở lại tình trạng ban đầu nếu không có Sao lưu trước đó.
+
+Vẫn tiếp tục ?</Warning>
+			<Success title="Thành công" width="350" height="110">Xóa hoàn tất.
+
+Tuyệt vời, không tìm thấy lỗi nào.</Success>
+			<Failed title="Thất bại" width="420" height="110">Xóa thất bại.
+		
+Rất tiếc, đã phát hiện lỗi.
+
+Đã lưu Ghi chép. Bạn có muốn xem nó?</Failed>
+		</Delete>
+	</Errors>
+</GameSaveManager_Translation>

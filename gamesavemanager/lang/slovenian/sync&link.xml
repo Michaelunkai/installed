@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO 8859-2"?>
+<GameSaveManager_Translation>
+	<Title>Uskladi in poveži</Title>
+	<Info>Uskladi in poveži vam omogoèa premakniti podane shranjene igre v mapo po meri preko simbolnih povezav (podobno kot deluje 'razpršilnik za Steam').
+
+V povezavi z Dropboxom, Google Drive ali SkyDrive je hitra in preprosta rešitev za shranjene igre v 'oblaku'.</Info>
+	<Detection>
+		<Title>Podprti vnosi</Title>
+		<ListCheck>Izberi vse / odstrani izbor</ListCheck>
+		<Counter>zaznanih predmetov: %TOTAL% / izbranih predmetov: %SELECTED%</Counter>
+	</Detection>
+	<Options>
+		<Start>Zaženi opravilo 'uskladi in poveži' zdaj.</Start>
+		<Unlink>Odstrani povezave vseh predhodno obdelanih shranjenih iger iz podane mape.</Unlink>
+		<Relink>Ponovno ustvari povezave vseh predhodno obdelanih shranjenih iger v podani mapi.</Relink>
+		<Rescan>Znova preišèi sistem za podprtimi shranjenimi igrami.</Rescan>
+	</Options>
+	<Unlink>
+		<Header>Uskladi in poveži; odstrani povezave</Header>
+		<Info>Podajte za katere mape od spodaj zaznanih in podanih bi radi 'odstranili povezavo'.</Info>
+		<ListCheck>Izberi vse / odstrani izbor</ListCheck>
+		<DupSaves>Kopiraj shranjene igre; ne odstrani izvornih datotek</DupSaves>
+	</Unlink>
+	<Errors>
+		<Success title="Uspeh" width="350" height="110">Opravilo uskladi in poveži je bilo konèano.
+
+Na sreèo ni bilo zaznanih napak.</Success>
+		<Failed title="Neuspeh" width="420" height="110">Opravilo uskladi in poveži je bilo konèano.
+		
+Žal je bila zaznana vsaj 1 napaka.
+
+Shranjen je bil dnevnik. Ali bi si ga želeli ogledati?</Failed>
+		<NoEntries>GameSave Manager ni mogel najti podprtih shranjenih iger na vašem sistemu.
+
+Morda obstaja posodobitev podatkovne zbirke?
+Lahko pa ustvarite vnos shranjene igre po meri.</NoEntries>
+		<NoneSelected title="Error:" width="350" height="110">V opravilo ni bila vkljuèena nobena shranjena igre.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

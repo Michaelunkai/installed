@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Sauvegardes personnalisées</Title>
+  <Info>Sur cette page, vous pouvez ajouter de nouvelles règles de détection que GameSave Manager prendra en compte.
+Vous pouvez modifier une sauvegarde officiellement supportée afin de satisfaire vos besoins, ajouter une nouvelle sauvegarde, ou simplement éditer une de vos sauvegardes personnalisées.</Info>
+  <List>
+    <Header>Sauvegardes personnalisées existantes</Header>
+    <NoEntries>Aucune sauvegarde personnalisée n'a été définie.
+
+Pour commencer, cliquez sur le bouton 'Ajouter' ci-dessous.</NoEntries>
+  </List>
+  <Wizard>
+    <Title>Assistant de sauvegarde personnalisée; Étape %CURRENT% sur %TOTAL%</Title>
+    <Header>Assistant de sauvegarde personnalisée</Header>
+    <Step1>
+      <Info>Cet assistant va vous guider dans l'ajout ou la modification d'une sauvegarde personnalisée.
+
+Dans cet asisstant, vous devrez spécifier diverses informations sur les données qui devront être sauvegardées, donc soyez prêt à répondre à quelques questions!
+L'opération ne devrait pas prendre plus de 5 minutes. Vous pourrez annuler à tout moment.
+
+Pour commencer, donnez un nom à la sauvegarde personnalisée.
+Vous pouvez lui donner n'importe quel nom, mais il est préférable de choisir un nom significatif (comme le nom complet du jeu).</Info>
+      <Name>Titre de la sauvegarde:</Name>
+      <Warning>NOTE: Si vous ajoutez des fichiers, chemins ou données de registre à une sauvegarde officiellement supportée, merci d'utiliser le même nom que cette dernière afin de la remplacer avec vos propres définitions.
+
+Votre sauvegarde personnalisée sera alors préremplie avec les données de la sauvegarde officiellement supportée.</Warning>
+      <Errors>
+        <InvalidName title="Nom invalide:" width="420" height="110">Le nom spécifié ('%NAME%') est déjà utilisé par une autre sauvegarde personnalisée.
+
+Merci d'utiliser un nom différent, puis réessayez.</InvalidName>
+        <NoName title="Pas de nom spécifié:" width="420" height="110">Vous avez oublié de donner un nom à votre sauvegarde personnalisée.
+
+Veuillez spécifier un nom et réessayer.</NoName>
+      </Errors>
+    </Step1>
+    <Step2>
+      <Info>Le formulaire ci-dessous vous permet d'ajouter un avertissement à la sauvegarde personnalisée.
+Une icône en forme de point d'exclamation sera affichée pour notifier l'utilisateur qu'un message d'avertissement existe, ce dernier pouvant être visionné via la fenêtre de détails.
+
+Si vous ne désirez pas spécifier d'avertissement, laissez le formulaire tel quel et cliquez sur 'Suivant &gt;'</Info>
+      <Backup>Avertissement lors de la sauvegarde</Backup>
+      <Restore>Avertissement lors de la restauration</Restore>
+    </Step2>
+    <Step3>
+      <Info>Dans le formulaire ci-dessous, spécifiez tous les fichiers, dossier et données du registre que vous souhaitez sauvegarder pour ce jeu.
+Vous pouvez ajouter autant d'entrèes que vous le souhaitez.</Info>
+      <DirTitle>Fichiers &amp; dossiers à sauvegarder:</DirTitle>
+      <RegTitle>Données du registre à sauvegarder:</RegTitle>
+      <Errors>
+        <NothingSpecified title="Erreur:" width="420" height="110">Vous n'avez rien ajouté à cette sauvegarde!
+
+Veuillez spécifier au moins un dossier ou une donnée du registre, puis réessayez.</NothingSpecified>
+      </Errors>
+    </Step3>
+    <Step4>
+      <Info>Et voilà!
+Toutes les informations nécessaires ont été récupérées et il est possible de les sauver dans la base de données.
+
+Si vous souhaitez changer les informations, vous pouvez le faire maintenant ou plus tard en éditant cette sauvegarde.</Info>
+      <SubmitPanel>
+        <Header>Partager la sauvegarde</Header>
+        <Info>Cette sauvegarde respecte les critères de soumission aux serveurs de GameSave Manager pour validation.
+Si elle est validée, cette sauvegarde sera disponible dans une future mise à jour de la base de donnée et profitera à l'ensemble de la communauté.</Info>
+        <InfoScene>Bien que votre sauvegarde respecte les critères de soumission, elle semble contenir un dossier de sauvegarde pour un jeu piraté.
+Ces dossiers ne sont pas supportés, il ne vous est donc pas possible de soumettre cette sauvegarde pour validation.
+
+Si vous pensez que ceci est une erreur, vous pouvez ajouter votre sauvegarde sur nos Forums.
+Quoi qu'il en soit, votre sauvegarde personnalisée n'est en rien affectée par cet avertissement.</InfoScene>
+        <Submit>Oui, soumettre cette sauvegarde!</Submit>
+      </SubmitPanel>
+    </Step4>
+    <DirWizard>
+      <Title>Sauvegarde personnalisée: Ajout de dossier; Étape %CURRENT% sur %TOTAL%</Title>
+      <Header>Sauvegarde personnalisée: Ajout de dossier</Header>
+      <Step1>
+        <Info>Cet assistant va vous guider dans l'ajout --ou la modification-- d'un dossier à votre sauvegarde personnalisée.
+
+Cette opération ne devrait pas prendre plus d'une minute.
+
+Pour commencer, voulez-vous que GameSave Manager détecte dynamiquement une partie du chemin du dossier pour vous?</Info>
+        <UseSpecialPaths>Oui, détectez dynamiquement le dossier suivant</UseSpecialPaths>
+        <SpecialPaths>
+          <DOCUMENTS>Mes documents</DOCUMENTS>
+          <SHARED_DOCUMENTS>Documents partagés</SHARED_DOCUMENTS>
+          <APPDATA>Application Data</APPDATA>
+          <APPDATA_COMMON>Application Data - Commun</APPDATA_COMMON>
+          <APPDATA_LOCAL>Application Data - Local</APPDATA_LOCAL>
+          <PROG_FILES_86>Programmes (x86)</PROG_FILES_86>
+          <STEAM>Dossier d'installation de Steam</STEAM>
+          <STEAM_CACHE>Cache de Steam</STEAM_CACHE>
+          <STEAM_CLOUD>Sauvegarde de Steam sur le cloud</STEAM_CLOUD>
+          <UPLAY>Cache de Ubisoft uPlay</UPLAY>
+          <FLASH>Cache de Macromedia Flash</FLASH>
+          <SAVED_GAMES>Parties enregistrées</SAVED_GAMES>
+          <USER_PROFILE>Dossier utilisateur</USER_PROFILE>
+          <REGISTRY>Venant d'une valeur du registry</REGISTRY>
+        </SpecialPaths>
+      </Step1>
+      <Reg>
+        <Info>Utilisez le formulaire ci-dessous pour spécifier une valeur du registre qui contient le dossier que vous souhaitez détecter automatiquement.
+
+NOTE: Les noms de fichier sont automatiquement supprimés du chemin (par exemple, "C:\Jeu\Lancer.exe" deviendra "C:\Jeu").</Info>
+        <Hive>Hkey de base:</Hive>
+        <Path>Chemin de la clé:</Path>
+        <Value>Valeur:</Value>
+        <Test>Tester la détection</Test>
+      </Reg>
+      <Step2>
+        <InfoWithSpecialPath>Il ne reste plus qu'à compléter le chemin détécté préalablement.
+
+Pour cela, entrez le reste du chemin dans le champ ci-dessous.
+Si vous n'avez pas besoin de compléter le chemin détecté, laissez le champ vide et cliquez sur 'Suivant &gt;'.</InfoWithSpecialPath>
+        <InfoWithoutSpecialPath>Comme vous avez choisi de ne pas détecter un dossier dynamiquement, vous devez spécifier le chemin complet ci-dessous.
+
+Si vous désirez revenir en arrière pour activer la détection dynamique, cliquez sur "&lt; Retour".</InfoWithoutSpecialPath>
+        <DynamicDetection>Détection dynamique</DynamicDetection>
+        <Append>Compléter par ce qui suit</Append>
+        <Full>Lire le contenu du dossier suivant</Full>
+      </Step2>
+      <Step3>
+        <Info>Enfin, il faut spécifier les fichiers à sauvegarder.
+
+Vous pouvez utiliser des 'jokers' (* and ?) dans les noms de fichier que vous spécifiez.
+
+Exemples:
+  *.* - Traiter tous les fichiers
+  *.sav - Traiter tous les fichiers se terminant par '.sav'
+  Sa*.sav - Traiter tous les fichiers commençant par 'sa' et se terminant par '.sav'
+  Sauvegarde.sav - Traiter le fichier 'Sauvegarde.sav' dans le dossier parent
+  bin\Sauvegarde.sav - Traiter le fichier 'Sauvegarde.sav' dans le sous-dossier 'bin'
+  bin\*.* - Traiter tous les fichiers dans le sous-dossier 'bin'</Info>
+        <Warning>NOTE: Séparez les fichiers par un pipe (par exemple *.sav|*.ini)</Warning>
+        <IncludedFiles>Fichiers à inclure</IncludedFiles>
+        <ExcludedFiles>Fichiers à exclure</ExcludedFiles>
+      </Step3>
+    </DirWizard>
+    <RegWizard>
+      <Title>Sauvegarde personnalisée: Ajout d'une donnée du registre</Title>
+      <Header>Sauvegarde personnalisée: Ajout d'une donnée
+du registre</Header>
+      <Info>Veuillez entrer la clé à enregistrer ci-dessous.</Info>
+      <Hive>Hkey de base:</Hive>
+      <Path>Chemin de la clé:</Path>
+      <DefinedValues>
+        <Header>Valeurs du registre:</Header>
+        <EntireKey>Sauvegarder toute la clé</EntireKey>
+        <Specific>Sauvegarder les valeurs suivantes:</Specific>
+        <Values>Valeurs:</Values>
+        <Info>Séparez les valeurs par un pipe ( | ).</Info>
+      </DefinedValues>
+    </RegWizard>
+  </Wizard>
+  <SubmissionMessage>
+    <Header>Message aux validateurs</Header>
+    <Info>Vous êtes sur le point de soumettre la sauvegarde nommée '%NAME%' aux serveurs de GameSave Manager pour validation.
+
+Voulez-vous spécifier un message aux validateurs?</Info>
+    <NoMsg>Non merci, soumettez juste la sauvegarde</NoMsg>
+    <Msg>Oui, je voudrais entrer des informations supplémentaires</Msg>
+    <ReturnCodes>
+      <NoConnection title="Erreur" width="420" height="110">Une erreur est survenue en contactant les serveurs de GameSave Manager.
+Peut-être sont-ils indisponibles ou vous êtes déconnecté d'internet?</NoConnection>
+      <DBUpdate title="Erreur" width="420" height="110">Une mise à jour de la base de donnée est disponible.
+
+Veuillez installer la mise à jour et réessayer.</DBUpdate>
+      <DynError title="Erreur" width="420" height="110">La sauvegarde n'a pas pu être partagée à cause d'un problème avec sa détection dynamique</DynError>
+      <DupError title="Erreur" width="420" height="110">Cette sauvegarde a déjà été partagée par vous ou quelqu'un d'autre.</DupError>
+      <Banned title="Erreur" width="420" height="110">Nous avons reçu un trop grand nombre de tentatives de partage depuis votre IP.
+Veuillez partager votre sauvegarde sur nos Forums</Banned>
+      <MissingData title="Erreur" width="420" height="110">Des données obligatoires manquent à la sauvegarde.</MissingData>
+      <Update title="Erreur" width="420" height="110">Cette version de GameSave Manager n'est plus supportée par le serveur.
+Merci de mettre à jour l'application et de réessayer.</Update>
+      <Maintenance title="Erreur" width="420" height="110">Le système de partage est désactivé pour cause de maintenance.
+Veuillez essayer plus tard ou partager votre sauvegarde sur nos Forums</Maintenance>
+      <SubmitError title="Erreur" width="420" height="110">Une erreur inconnue est survenue pendant le partage de la sauvegarde.
+Veuillez essayer plus tard ou partager votre sauvegarde sur nos Forums</SubmitError>
+      <Success title="Succès" width="420" height="110">Votre sauvegarde nommée '%NAME%' a été partagée avec succès et est en attente de validation.
+      
+      Merci.</Success>
+    </ReturnCodes>
+  </SubmissionMessage>
+  <Errors>
+    <InvalidEntry title="Erreur:" width="420" height="110">La sauvegarde sélectionnée n'est pas valide, ou une erreur est survenue à l'appel de la base de données.
+
+Veuillez réessayer.</InvalidEntry>
+  </Errors>
+</GameSaveManager_Translation>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Soubor</Title>
+			<Backup>Zálohovat uložené pozice</Backup>
+			<ScheduledTasks>Naplánované úlohy</ScheduledTasks>
+			<SyncLink>Sync &amp; Link</SyncLink>
+			<GameplayBackup>Zálohovat postup hrou</GameplayBackup>
+			<Restore>Obnovit uložené pozice</Restore>
+			<Validate>Ověřit archiv</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>			
+			<Exit>Konec</Exit>
+		</File>
+		<Edit>
+			<Title>Úpravy</Title>
+			<CustomEntries>Vlastní uložené pozice</CustomEntries>
+			<Variables>Upravit proměnné</Variables>
+			<ProgSettings>Nastavení programu</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Nápověda</Title>
+			<Help>Nápověda GameSave Manager</Help>
+			<CommandlineHelp>Nápověda Příkazového řádku</CommandlineHelp>
+			<TranslationFilter>Filtrování překladu</TranslationFilter>
+			<ListEntries>Které hry jsou podporovány?</ListEntries>
+			<VisitWebsite>Homepage</VisitWebsite>
+			<Update>Zkontrolovat aktualizace</Update>
+			<ReleaseHistory>Historie vydání</ReleaseHistory>
+			<About>O aplikaci GameSave Manager</About>
+		</Help>
+	</FileMenu>
+	<Social>
+		<Facebook>Připojit se na Facebook</Facebook>
+		<Twitter>Sledovat na Twitteru</Twitter>
+		<GooglePlus>Připojit se do kruhu na Google+</GooglePlus>
+		<Steam>Připojit se ke skupině na Steam Community</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Je dostupná aktualizace</Title>
+		<InfoTip>Máme pro vás aktualizaci.
+Klikněte sem pro více informací.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Prosím čekejte</Title>
+		<Info>GameSave Manager načítá požadované soubory do systémové paměti...</Info>
+		<Tasks>
+			<Dirs>Generování pracovních složek...</Dirs>
+			<LoadDB>Načítání databáze...</LoadDB>
+			<Updates>Kontrolování aktualizací...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Uvítání</Header>
+		<Welcome>Vítejte v GameSave Manager.
+Na úvod si vyberte jazyk, ve kterém chcete aplikaci používat.
+
+Poznámka: Toto a spoustu dalších možností můžete kdykoli změnit v 'Nastavení aplikace'.</Welcome>
+		<TranslationInfo>Kromě angličtiny jsou ostatní jazyky spravovány komunitou.
+Proto nemusejí být kompletní.</TranslationInfo>
+		<CustomCache>Přizpůsobit 'složku s cache'</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir>Uložit nastavení aplikace do složky s programem</StoreWithinLaunchDir>
+		<SeparateDBPerUser>Uložit 'Oficiální záznamy' databáze do AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Instalovat?</Header>
+		<Info>Přesto, že GameSave Manager je plně portable, někteří uživatelé preferují instlaci. Tento průvodce vás instalací provede.
+
+Chcete nainstalovat GameSave Manager?</Info>
+		<Confirm>Ano, prosím nainstalovat</Confirm>
+		<Install>Instalovat do:</Install>
+		<DesktopShortcut>Vytvořit zástupce na Ploše</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Upravit proměnné</ModifyVariables>
+	<CustomDynDir>Přizpůsobit dynamicky detekované proměnné:</CustomDynDir>
+	<CustomCacheWarning>Změna této proměnné vyžaduje restart GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Zpět do hlavního menu</BackToMainMenu>
+	<Unsupported title="Nepodporovaná funkce:" width="430" height="125">Používáte operační systém, ve kterém není tato funkce zatím podporována.
+
+Operační systém:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Zkontrolovat aktualizace?" width="430" height="110">Aktualizace byly naposledky úspěšně zkontrolovány před více než 7 dny.
+
+Chcete je zkontrolovat nyní?</UpdateReminder>
+	<UpdateReminder_First title="Zkontrolovat aktualizace?" width="470" height="125">Vítejte v GameSave Manager.
+GameSave Manager se neustále vyvíjí stejně jako jeho databáze.
+
+Chcte nyní zkontrolovat aktualizace?</UpdateReminder_First>
+<NoLogs title="Není, co zobrazit" width="430" height="110">Žádné protokoly k prohlížení.</NoLogs>
+<RemoveLog>Vymazat vybraný protokol</RemoveLog>
+<OpenLog>Zobrazit vybraný protokol v externí aplikaci</OpenLog>
+	<GenericButtons>
+		<OK>OK</OK>
+		<Yes>Ano</Yes>
+		<No>Ne</No>
+		<Add>Přidat</Add>
+		<Edit>Upravit</Edit>
+		<Remove>Odebrat</Remove>
+		<Back>&lt; Zpět</Back>
+		<Next>Další &gt;</Next>
+		<Cancel>Zrušit</Cancel>
+		<Finish>Dokončit</Finish>
+		<Browse>Procházet</Browse>
+		<Close>Zavřít</Close>
+		<Abort>Přerušit</Abort>
+	</GenericButtons>
+	<true>true</true>
+	<false>false</false>
+	<Detection>
+		<Backup>Prosím, čekejte než se dokončí hledání uložených pozic...</Backup>		
+		<Status>
+         <LookingIn>Vyhledávání...</LookingIn>
+         <Found>Nalezeno...</Found>
+         <Nothing>Nic nenalezeno :'(</Nothing>
+      </Status>
+	  <Restore>Skenování archivů pro uložení...</Restore>
+	  <Error>Nelze detekovat složku.</Error>
+	  <NoMsg>Žádné varování.</NoMsg>
+	</Detection>
+	<Processing>
+		<Header>Záznam úlohy:</Header>
+		<Info>Pohodlně se usaďte a odpočívejte, GameSave Manager provádí požadovanou úlohu.
+Potřebný čas záleží na vybrané úloze a operačním systému.</Info>
+	</Processing>
+	<IgnoreCommandline>
+		<AlreadyIgnored title="Již ignorováno" width="430" height="110">Zadaný záznam ("%NAME%") je již ignorován.</AlreadyIgnored>
+		<InvalidEntryName title="Neplatný název záznamu" width="430" height="110">Neexistuje žádný záznam "%NAME%" v 'oficiální' nebo 'vaší' databázi, proto není, co ignorovat.</InvalidEntryName>
+		<Success title="Úspěšné" width="500" height="150">Záznam "%NAME%" byl úspěšně označen k ignorování.
+
+Detekci můžete kdykoli obnovit pomocí 'Nastavení programu -> Konfigurace detekce -> Ignorované záznamy'.</Success>
+	</IgnoreCommandline>
+	</GameSaveManager_Translation>

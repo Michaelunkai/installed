@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Checking for Updates</Title>
+	<Info>As with all software, GameSave Manager has regular updates.
+This page will list any available updates for you.
+
+Click the icon on the left to recheck for updates.</Info>
+	<Recheck>Queries the servers again for update information.</Recheck>
+	<ProgramUpdate>
+		<Title>Program Update</Title>
+		<Info>It's highly recommended that you run the latest version of GameSave Manager.
+Program Updates add new features, fix known bugs and generally improve GameSave Manager for the better.</Info>
+		<Download>Download</Download>
+		<ApplyUpdate>Download &amp; Apply</ApplyUpdate>
+	</ProgramUpdate>
+	<LangPack>
+		<Title>Translation Pack</Title>
+		<Info>No 'Program Update' detected.
+However, the author of the Translation Pack you're using has issued an update.</Info>
+		<Download>Download</Download>
+		<ApplyUpdate>Download &amp; Apply</ApplyUpdate>
+	</LangPack>
+	<DatabaseUpdate>
+		<Title>Database Update</Title>
+		<Info>While Database Updates aren't as important as Program Updates, they add support for more games and fix detection issues with existing entries.
+Therefore, we recommend you update your Database at least once a week.</Info>
+		<Download>Apply Update</Download>
+	</DatabaseUpdate>
+	<Changelog>View Changelog</Changelog>
+	<DialogPrompt title="Update(s) available" width="500" height="110">There appears to be either a 'Program Update' or 'Database Update' available for you.
+
+Would you like to visit the Updates page?</DialogPrompt>
+	<Errors>
+		<Checking>Checking for updates...</Checking>
+		<NoUpdates>No updates currently available</NoUpdates>
+		<LangPack>[Community Made] Translation Pack update</LangPack>
+		<LangPack_Invalid>Query Error: Unknown 'PackID' specified!</LangPack_Invalid>
+		<UpdateRequired>Database Update available; requires latest Program Update.</UpdateRequired>
+		<NoConnection>Unable to query website for release information. Please try again later.</NoConnection>
+	</Errors>
+</GameSaveManager_Translation>

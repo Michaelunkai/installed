@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<FileMenu>
+		<File>
+			<Title>Файл</Title>
+			<Backup>Резервные копии сохранений</Backup>
+			<ScheduledTasks>Запланированные задания</ScheduledTasks>
+			<SyncLink>Sync and Link</SyncLink>
+			<GameplayBackup>Резервное копирование геймплея</GameplayBackup>
+			<Restore>Восстановление сохранений</Restore>
+			<Validate>Проверка архива</Validate>
+			<SteamSpreader>Steam Spreader</SteamSpreader>
+			<Exit>Выход</Exit>
+		</File>
+		<Edit>
+			<Title>Редактирование</Title>
+			<CustomEntries>Пользовательские записи</CustomEntries>
+			<Variables>Модификация переменных</Variables>
+			<ProgSettings>Настройки программы</ProgSettings>
+		</Edit>
+		<Help>
+			<Title>Помощь</Title>
+			<Help>GameSave Manager помощь</Help>
+			<TranslationFilter>Translation Filter</TranslationFilter>
+			<ListEntries>Какие игры в настоящее время поддерживаются?</ListEntries>
+			<VisitWebsite>Домашняя страница</VisitWebsite>
+			<Update>Проверить обновления</Update>
+			<ReleaseHistory>История релизов</ReleaseHistory>
+			<About>О GameSave Manager</About>
+			<CommandlineHelp>Помощь по командной строке</CommandlineHelp>
+		</Help>
+	</FileMenu>
+	<Social>
+		<Facebook>Найдите нас на Facebook</Facebook>
+		<Twitter>Следуйте за нами в Twitter</Twitter>
+		<GooglePlus>Мы в Google+</GooglePlus>
+		<Steam>Присоединяйтесь к нам в Steam</Steam>
+	</Social>
+	<UpdateAvailable>
+		<Title>Доступны новые обновления</Title>
+		<InfoTip>Одно или несколько обновлений доступны для вас.
+Нажмите здесь для получения дополнительной информации.</InfoTip>
+	</UpdateAvailable>
+	<Loading>
+		<Title>Пожалуйста подождите</Title>
+		<Info>GameSave Manager загружает необходимые файлы в память системы...</Info>
+		<Tasks>
+			<Dirs>Создание рабочих каталогов...</Dirs>
+			<LoadDB>Загрузка базы данных...</LoadDB>
+			<Updates>Проверка наличия обновлений...</Updates>
+		</Tasks>
+	</Loading>
+	<FirstRun>
+		<Header>Приветствие</Header>
+		<Welcome>Добро пожаловать в GameSave Manager.
+Для начала, пожалуйста, выберите нужный язык ниже.
+
+Примечание: Вы можете изменить язык (и многое другое) в любое время, открыв "Настройки программы".</Welcome>
+		<TranslationInfo>Все языки, кроме "английского", поддерживаются сообществом.
+Таким образом, их перевод может быть неполным.</TranslationInfo>
+		<CustomCache width="400">Настроить "директорию для кеширования"</CustomCache>
+	</FirstRun>
+	<GlobalSettings>
+		<StoreWithinLaunchDir width="400">Хранить настройки в одной директории с программой</StoreWithinLaunchDir>
+		<SeparateDBPerUser width="400">Хранить базу данных "Официальных записей" в AppData</SeparateDBPerUser>
+	</GlobalSettings>
+	<Installer>
+		<Header>Установить?</Header>
+		<Info>Несмотря на то, что GameSave Manager является портативной программой, некоторые пользователи предпочитают "устанавливать" его. Поэтому этот мастер установки и был добавлен.
+
+Вы желаете "установить" GameSave Manager?</Info>
+		<Confirm width="400">Да, пожалуйста, я хотел бы "установить"</Confirm>
+		<Install>Установить в:</Install>
+		<DesktopShortcut width="400">и создать ярлык на рабочем столе тоже</DesktopShortcut>
+	</Installer>
+	<ModifyVariables>Модификация переменных</ModifyVariables>
+	<CustomDynDir>Настроить "динамическое обнаружение" переменных:</CustomDynDir>
+	<CustomCacheWarning>При изменении этой переменной, потребуется перезагрузка GameSave Manager.</CustomCacheWarning>
+	<BackToMainMenu>Вернуться в "Главное меню"</BackToMainMenu>
+	<Unsupported title="Функция не поддерживается:" width="430" height="125">Кажется ваша операционная система не поддерживает сейчас эту функцию.
+
+Название операционной системы:
+	%OS_NAME%</Unsupported>
+	<UpdateReminder title="Проверить обновления?" width="430" height="110">Прошло 7 дней с момента последней проверки обновлений.
+
+Желает проверить обновления сейчас?</UpdateReminder>
+	<UpdateReminder_First title="Проверить обновления?" width="470" height="125">Добро пожаловать в GameSave Manager.
+GameSave Manager постоянно обновляется, как программа, так и база данных.
+
+Желает проверить обновления сейчас?</UpdateReminder_First>
+	<GenericButtons>
+		<OK>OK</OK>
+		<Yes>Да</Yes>
+		<No>Нет</No>
+		<Add>Добавить</Add>
+		<Edit>Редактировать</Edit>
+		<Remove>Удалить</Remove>
+		<Back>&lt; Назад</Back>
+		<Next>Вперед &gt;</Next>
+		<Cancel>Отмена</Cancel>
+		<Finish>Завершить</Finish>
+		<Browse>Обзор</Browse>
+		<Close>Закрыть</Close>
+		<Abort>Прервать</Abort>
+	</GenericButtons>
+	<true>true</true>
+	<false>false</false>
+	<Detection>
+		<Backup>Пожалуйста, подождите, пока система проверяется на наличие поддерживаемых сохранений...</Backup>
+		<Restore>Сканирование архивов с сохранениями...</Restore>
+		<Error>Не удалось обнаружить директорию.</Error>
+		<NoMsg>Предупреждений нет.</NoMsg>
+		<Status>
+			 <LookingIn>Идет поиск...</LookingIn>
+			 <Found>Найдено...</Found>
+			 <Nothing>Ничего не найдено :'(</Nothing>
+		  </Status>
+	</Detection>
+	<Processing>
+		<Header>Журнал задач:</Header>
+		<Info>Теперь вы можете отдохнуть и расслабиться, пока GameSave Manager выполняет поставленную задачу.
+		Время выполнения, варьируется в зависимости от системы и поставленных задач.</Info>
+	</Processing>
+	<NoLogs title="Журнал логов пуст" width="430" height="110">В настоящий момент журнал логов пуст.</NoLogs>
+	<RemoveLog>Удалить выбранный журнал логов.</RemoveLog>
+	<IgnoreCommandline>
+		<AlreadyIgnored title="Уже игнорируется" width="430" height="110">Запись, которую вы указали ("%NAME%") уже игнорируются.</AlreadyIgnored>
+		<InvalidEntryName title="Неверное имя записи" width="430" height="110">Записи с указанным именем "%NAME%" не ни в официальной, ни в пользовательской базе данных, таким образом, игнорировать нечего.</InvalidEntryName>
+		<Success title="Успех" width="500" height="150">Запись с именем "%NAME%" успешно отмечена, как игнорируемая.
+
+Вы можете в любое время отменить игнорирование через 'Настройки программы -> Настройки сканирования -> Черный список'.</Success>
+	</IgnoreCommandline>
+	<OpenLog>Посмотреть выбранный лог во внешнем приложении</OpenLog>
+</GameSaveManager_Translation>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Заплановані завдання</Title>
+	<Info>Тут ви можете налаштувати GameSave Manager так, щоб він робив резервні копії ваших збережень за розкладом.
+Заплановані завдання можуть бути налаштовані, як для резервного копіювання конкретних збережень, так і для всіх виявлених збережень в системі, а також дозволяють перевизначити деякі налаштування програми, що дає вам більший контроль і гнучкість.</Info>
+	<List>
+		<Header>Поточні завдання</Header>
+		<NoEntries>В даний час немає жодного запланованого завдання.
+
+Щоб почати, натисніть кнопку "Додати" нижче.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Майстер планування завдань; Крок %CURRENT% з %TOTAL%</Title>
+		<Header>Майстер планування завдань</Header>
+		<Step1>
+			<Info>Цей майстер дозволить вам додати або змінити "заплановане завдання".
+
+В процесі налаштування, майстер запропонує вам вибрати для яких збережень ви хотіли б робити резервне копіювання за розкладом, а так само які налаштування програми ви хочете змінити.
+Цей процес займе не більше 5 хвилин. Пам'ятайте, що в будь-який момент ви можете перервати налаштування майстра.
+
+Для початку, давайте назвемо ваше завдання.
+Ви можете назвати своє завдання як завгодно, але рекомендується, щоб назва була осмисленою, щоб в майбутньому ви змогли згадати, що воно робить.</Info>
+			<Name>Назва завдання:</Name>
+			<Errors>
+				<InvalidName title="Неправильна назва:" width="420" height="110">Введена назва ("%NAME%") вже використовується іншим запланованим завданням.
+
+Будь ласка, вкажіть інше назва і повторіть спробу.</InvalidName>
+				<NoName title="Назва не вказана:" width="420" height="110">Ви забули назвати своє завдання.
+
+Будь ласка, вкажіть назва і спробуйте ще раз.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Використовуючи форму нижче, вкажіть, для яких збережень у цьому завданні ви хочете робити резервне копіювання.</Info>
+			<AllDetected width="155">Резервне копіювання всіх виявлених збережень</AllDetected>
+			<Specific width="160">Резервні копії тільки наступних</Specific>
+			<Rescan>Пересканувати систему перед стартом завдання</Rescan>
+			<ExclusionList>Вказати записи які слід ігнорувати (тільки для цього завдання)</ExclusionList>
+			<Errors>
+				<NoFound>GameSave Manager не зміг знайти підтримувані збереження у вашій системі.
+
+Повторне сканування вашої системи може виправити цю проблему, або оновіть базу даних або ж створіть декілька користувацьких записів і спробуйте знову.</NoFound>
+				<NoSelected title="Ошибка:" width="420" height="110">Для створення резервної копії не було вибрано жодного збереження.
+
+Для того, щоб продовжити, ви повинні вибрати хоча б одне збереження.</NoSelected>
+			</Errors>
+		</Step2>
+		<Step3>
+			<Info>Будь ласка, вкажіть нижче, коли цe завдання повинне бути виконане.</Info>
+			<Type>
+				<Header>Тип завдання:</Header>
+				<Daily width="47">Щоденно</Daily>
+				<Weekly width="60">Щотижня</Weekly>
+				<Monthly width="67">Щомісяця</Monthly>
+				<Minute>Щохвилини</Minute>
+				<Hourly>Щогодини</Hourly>
+				<OnIdle>Під час простоювання системи</OnIdle>
+			</Type>
+			<Daily>
+				<Header>Щоденне завдання</Header>
+				<RunThisTaskAt>Виконувати це завдання о</RunThisTaskAt>
+				<Every width="100">кожен(у)</Every>
+				<Days>день</Days>
+			</Daily>
+			<Weekly>
+				<Header>Щотижневе завдання</Header>
+				<RunThisTaskAt>Виконувати це завдання о</RunThisTaskAt>
+				<Every width="100">раз в</Every>
+				<Weeks>тиждень(і).</Weeks>
+				<DaysHeader>Запускати в обрані дні:</DaysHeader>
+				<Days>
+					<Monday>Понеділок</Monday>
+					<Tuesday>Вівторок</Tuesday>
+					<Wednesday>Середа</Wednesday>
+					<Thursday>Четвер</Thursday>
+					<Friday>П'ятниця</Friday>
+					<Saturday>Субота</Saturday>
+					<Sunday>Неділя</Sunday>
+				</Days>
+			</Weekly>
+			<Monthly>
+				<Header>Щомісячне завдання</Header>
+				<RunThisTaskAt>Виконувати це завдання о</RunThisTaskAt>
+				<Specific>
+					<Header width="135">в один из наступних днів:</Header>
+					<Last>в останній день</Last>
+				</Specific>
+				<EveryOther>
+					<Header width="57">в</Header>
+					<Frequency>
+						<First>перший</First>
+						<Second>другий</Second>
+						<Third>третій</Third>
+						<Last>останній</Last>
+					</Frequency>
+					<Day>
+						<Monday>Понеділок</Monday>
+						<Tuesday>Вівторок</Tuesday>
+						<Wednesday>Середа</Wednesday>
+						<Thursday>Четвер</Thursday>
+						<Friday>П'ятниця</Friday>
+						<Saturday>Субота</Saturday>
+						<Sunday>Неділя</Sunday>
+					</Day>
+				</EveryOther>
+				<MonthHeader>в числах такого місяця(-ів):</MonthHeader>
+				<Months>
+					<January>Січень</January>
+					<February>Лютий</February>
+					<March>Березень</March>
+					<April>квітень</April>
+					<May>Травень</May>
+					<June>Червень</June>
+					<July>Липень</July>
+					<August>Серпень</August>
+					<September>Вересень</September>
+					<October>Жовтень</October>
+					<November>Листопад</November>
+					<December>Грудень</December>
+				</Months>
+			</Monthly>
+			<Minute>
+            <Header>Щохвилинне завдання</Header>
+				<Every>Кожні(-у)</Every>
+				<Minutes>хвилин(-у)</Minutes>
+				<StartingFromTasksCreation>починаючи з часу створення завдання</StartingFromTasksCreation>
+				<StartingFrom>починаючи з</StartingFrom>
+			</Minute>
+			<Hourly>
+				<Header>Щогодинне завдання</Header>
+				<Every>Кожні(-у)</Every>
+				<Hours>годин(-у)</Hours>
+				<StartingFromTasksCreation>починаючи з часу створення завдання</StartingFromTasksCreation>
+				<StartingFrom>починаючи з</StartingFrom>
+			</Hourly>
+			<OnIdle>
+				<Header>Завдання під час простою системи</Header>
+				<WhenIdleFor>Коли система простоює</WhenIdleFor>
+				<Minutes>хвилин(-у)</Minutes>
+			</OnIdle>
+			<Errors>
+				<FormError title="Форма не заповнена:" width="420" height="110">Частина форми або вся форма не була правильно заповнена.
+
+Будь ласка, заповніть форму правильно і спробуйте ще раз.</FormError>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Ми майже закінчили.
+Використовуючи варіанти нижче, ви можете перевизначити налаштування GameSave Manager, які він буде використовувати в процесі виконання цього завдання.</Info>
+			<CreateSchedule width="216">Додати завдання в Планувальник Завдань Windows</CreateSchedule>
+			<Shortcut width="330">Створити ярлик для завдання, щоб я міг примусово його запускати.</Shortcut>
+			<SaveHeader>Місце збереження:</SaveHeader>
+			<UseCloud width="145">Використовувати мої налаштування "хмарного сховища"</UseCloud>
+			<SaveTo>Зберігати в:</SaveTo>
+			<ArchiveSettings>Налаштування архівування:</ArchiveSettings>
+			<SaveTo_Browse>Огляд</SaveTo_Browse>
+			<AutoGenerate width="195">Автоматично генерувати назву файлу</AutoGenerate>
+			<Errors>
+				<CloudError title="Недоступно" width="420" height="110"> Ви не налаштували "хмарне сховище" в налаштуваннях програми.
+
+Будь ласка, налаштуйте ці параметри і спробуйте знову.</CloudError>
+			</Errors>
+		</Step4>
+	</Wizard>
+	<Errors>
+		<InvalidEntry title="Помилка:" width="420" height="110">Вибране заплановане завдання не є правильним, або ж відбулася помилка при зверненні до бази даних за необхідними даними.
+
+Будь ласка, спробуйте ще раз.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

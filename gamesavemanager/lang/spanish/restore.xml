@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Restaurar GameSave(s)</Title>
+	<Detection>
+		<Title>Entradas detectadas</Title>
+		<ListCheck>Seleccionar todo / Deseleccionar todo</ListCheck>
+		<Counter>%TOTAL% partida(s) detectado / %SELECTED% partida(s) seleccionado</Counter>
+		<Legend>
+			<Title>Leyenda</Title>
+			<Files>El archivos se pueden restaurar</Files>
+			<Registry>Datos del Registro será restaurado</Registry>
+			<Warning>Entrada tiene un 'Mensaje Advertencia' es posible que desee leerlo</Warning>
+			<Unrestorable>No se puede detectar ruta de restauración, por opciones o valorer faltantes</Unrestorable>
+			<EntireEntry>Se restaurará todas las entradas</EntireEntry>
+		</Legend>
+	</Detection>
+	<Options>
+		<Start>Iniciar la tarea de restauración ahora.</Start>
+		<Open>Abre un archivo Backup creado anteriormente para restaurar.</Open>
+	</Options>
+	<Details>
+		<Title>Detalles de entrada</Title>
+		<NoneSelected>Ninguna entrada seleccionada.
+
+Por favor, seleccione una entrada en la lista de la izquierda.</NoneSelected>
+		<Unrestorable>La entrada seleccionada es inrestaurable.
+
+Hay muchas causas posibles para esto, pero estas son los más probables:
+1. Su 'Configuración del programa' impiden la detección (ver 'Detección de configuración')
+2. La ruta de guardado se detecta dinámicamente a través de un valor de registro que no está presente en su sistema.
+
+Si la razón número 2 es la causa, vuelva a instalar el juego. Es posible que lo necesite para iniciar.</Unrestorable>
+		<UnrestorableEntry>Todos los datos de copia de seguridad de esta entrada es inrestaurable debido a que GameSave Manager es capaz de detectar la ruta.
+
+Por favor seleccione una de las entradas de directorio para obtener más información, así como las posibles soluciones.</UnrestorableEntry>
+		<Entry>
+			<Name>Nombre entrada:</Name>
+			<VerInfo>Creado con:</VerInfo>
+			<IsOfficial>Entrada oficial:</IsOfficial>
+			<Size>Tamaño en disco:</Size>
+			<Warning>Advertencia:</Warning>
+		</Entry>
+		<Directory>
+			<Directory>Directorio:</Directory>
+			<Size>Tamaño en disco:</Size>
+			<Files>Archivos:</Files>
+		</Directory>
+		<Registry>
+			<Key>Registry Key:</Key>
+			<Values>Values:</Values>
+		</Registry>
+	</Details>
+	<Errors>
+		<Success title="Éxito" width="350" height="110">La Tarea de restauración se ha completado.
+
+Afortunadamente, no hay errores detectados.</Success>
+		<Failed title="Falló" width="420" height="110">La Tarea de restauración se ha completado.
+		
+Desafortunadamente, al menos 1 error fue detectado.
+
+Se ha guardado un registro. ¿Quieres verlo?</Failed>
+		<NoArchive>Actualmente no se a cargado ningún Backup.
+
+Para comenzar, por favor haga clic en el botón 'Abrir' en la parte superior derecha de esta ventana.</NoArchive>
+		<InvalidFile>Ese archivo parece útil, lástima que no está soportado por GameSave Manager.</InvalidFile>
+		<Incompatible>El archivo Backup especificado no parecen estar respaldadas por esta versión de GameSave Manager.
+
+Vuelva a intentarlo.</Incompatible>
+		<NoneSelected title="Error:" width="420" height="110">No se han especificado GameSaves para ser restaurado.</NoneSelected>
+	</Errors>
+</GameSaveManager_Translation>

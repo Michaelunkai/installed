@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GameSaveManager_Translation>
+	<Title>Настройки программы</Title>
+	<RestoreSettings>
+		<Title>Сбросить настройки</Title>
+		<Confirm title="Подтвердить:" width="500" height="110">Вы уверены, что хотите сбросить все настройки GameSave Manager?
+
+Примечание: Пользовательские записи сохранений не будут удалены.</Confirm>
+	</RestoreSettings>
+	<Categories>
+		<Title>Категории</Title>
+		<List>
+			<General>Основные настройки</General>
+			<Cloud>Настройки "облака"</Cloud>
+			<Update>Настройки обновлений</Update>
+			<Task>
+				<Header>Специфические настройки</Header>
+				<Backup>
+					<Header>Настройки резервного копирования</Header>
+					<SepArchives>Раздельные архивы</SepArchives>
+					<ExternalScripts>Внешние скрипты</ExternalScripts>
+				</Backup>
+				<SyncLink>Sync &amp; Link</SyncLink>
+				<Spreader>Steam Spreader</Spreader>
+			</Task>
+			<SevZip>Настройки 7zip</SevZip>
+			<Detection>Настройки сканирования</Detection>
+			<SortEntries>Сортировка записей</SortEntries>
+			<IgnoredEntries>Черный список</IgnoredEntries>
+		</List>
+	</Categories>
+	<General>
+		<Associations>
+			<Header width="95">Ассоциации файлов</Header>
+			<gsba width="152">Ассоциировать с .gsba файлами</gsba>
+			<gsdu width="152">Ассоциировать с .gsdu файлами</gsdu>
+			<gsms>Ассоциировать с .gsms файлами</gsms>
+			<AutoCheck width="210">Проверять ассоциацию файлов во время запуска программы</AutoCheck>
+			<ContextMenu>Добавить запись "GameSave Manager" в контекстное меню поддерживаемых файлов</ContextMenu>
+		</Associations>
+		<Lang width="60">Язык</Lang>
+		<Startup>
+			<Header width="90">Параметры запуска</Header>
+			<ScanOnStartup width="190">Сканировать систему для поиска поддерживаемых сохранений</ScanOnStartup>
+			<UpdateCheckOnStartup width="240">Проверять обновления программы и базы данных</UpdateCheckOnStartup>
+		</Startup>
+		<ShutdownTasks width="240">Выполнять "Задачи выключения" (рекомендуется)</ShutdownTasks>
+		<SaveLogs width="180">Вести журнал автоматически</SaveLogs>
+		<ShowVerInTitle width="310">Показать информацию о версии программы в заголовке окна</ShowVerInTitle>
+		<MessageSounds width="195">Диалоги уведомлений сопровождаются звуками</MessageSounds>
+		<RunAsAdmin width="375">Всегда запускать программу с правами администратора</RunAsAdmin>
+		<RunAsAdmin_Question title="Перезагрузить?" width="500" height="110">GameSave Manager сейчас не запущена с административными правами.
+
+Желаете перезагрузить программу и запустить с такими правами?</RunAsAdmin_Question>
+	</General>
+	<Cloud>
+		<Info>Для хранения ваших сохранений в безопасности, GameSave Manager может использовать множество сторонних приложений и сохранять данные "в облаке".</Info>
+		<Subfolder>Поддиректория:</Subfolder>
+		<Dropbox>
+			<Header>DropBox</Header>
+			<Enable width="150">Включить поддержку DropBox</Enable>
+			<Error title="Настройка недоступна:" width="500" height="110">GameSave Manager не обнаружил в вашей системе запущенный DropBox.
+
+И поэтому поддержка не может быть включена.</Error>
+			<ManuallySpecify>Директория для синхронизации не найдена.
+Пожалуйста, укажите ее вручную.</ManuallySpecify>
+		</Dropbox>
+		<GDrive>
+			<Header>Google Drive</Header>
+			<Enable width="175">Включить поддержку Google Drive</Enable>
+			<Error title="Настройка недоступна:" width="500" height="110">GameSave Manager не обнаружил в вашей системе запущенный Google Drive.
+
+И поэтому поддержка не может быть включена.</Error>
+			<ManuallySpecify>Директория для синхронизации не найдена.
+Пожалуйста, укажите ее вручную.</ManuallySpecify>
+		</GDrive>
+		<SkyDrive>
+			<Header>Microsoft SkyDrive</Header>
+			<Enable width="150">Включить поддержку SkyDrive</Enable>
+			<Error title="Настройка недоступна:" width="500" height="110">GameSave Manager не обнаружил в вашей системе запущенный Microsoft SkyDrive.
+
+И поэтому поддержка не может быть включена.</Error>
+		</SkyDrive>
+		<FTP>
+			<Header>Private Server через FTP</Header>
+			<Enable width="125">Включить поддержку FTP</Enable>
+			<Host>Хост:</Host>
+			<User>Логин:</User>
+			<Pass>Пароль:</Pass>
+			<Dir>Директория:</Dir>
+		</FTP>
+		<BoxSync>
+         <Header>Box.net</Header>
+         <Enable>Включить поддержку Box.net Sync</Enable>
+         <Error title="Настройка недоступна:" width="500" height="110">GameSave Manager не обнаружил в вашей системе запущенный клиент Box.net Sync.
+
+И поэтому поддержка не может быть включена.</Error>
+			<ManuallySpecify>Директория для синхронизации не найдена.
+Пожалуйста, укажите ее вручную.</ManuallySpecify>
+      </BoxSync>
+	</Cloud>
+	<Update>
+		<Updates_ProgUpdates>
+			<Header width="100">Обновление программы</Header>
+			<None width="380">Я буду применять обновления сам, пожалуйста, направьте меня на страницу загрузок</None>
+			<DirectLinks width="385">Использовать "Прямые ссылки", где это возможно, но обновления буду применить я</DirectLinks>
+			<ProgDownload width="305">Скачивать обновления и применять их автоматически</ProgDownload>
+		</Updates_ProgUpdates>
+		<ListTesting width="255">Список доступных бета, альфа и concept релизов</ListTesting>
+		<UpdateCheckOnStartup width="310">Проверять обновления для программы и базы данных вовремя запуска программы</UpdateCheckOnStartup>
+		<AutoUpdate width="295">Автоматически применять любые доступные обновления для базы данных</AutoUpdate>
+		<IncrementalUpdates width="295">Не перестраивать базу данных, использовать инкрементальные обновления</IncrementalUpdates>
+		<RemindCheckUpdates width="255">Напоминать мне проверять обновления раз в неделю</RemindCheckUpdates>
+		<PromptUser width="310">Отображать диалог подтверждения, когда доступны новые обновления</PromptUser>
+		<UpdateCheckOnLogin>Проверять обновления базы данных во время входа в Windows</UpdateCheckOnLogin>
+	</Update>
+	<Backup>
+		<SeparateArchives>
+			<Header width="102">Отдельные архивы</Header>
+			<Enable width="315">Создавать отдельный архив для каждой резервной копии</Enable>
+			<TimeStamp width="253">Добавлять метку времени к названию файла каждого архива</TimeStamp>
+			<OnChange width="325">Создать новый архив, если файлы были изменены (увеличение производительности)</OnChange>
+			<SepSubFolders>Хранение архивов для каждой записи в своих под папках</SepSubFolders>
+			<PurgeCount>Объединение резервных архивов, когда счетчик достигает...</PurgeCount>
+		</SeparateArchives>
+		<ValidateOnArchiveCreation width="378">Выполнять проверку архивов сразу же после их создания</ValidateOnArchiveCreation>
+		<DuplicateArchives width="300">Копировать все резервные копии, после их создания, в другой каталог</DuplicateArchives>
+		<DefaultBackupDir width="345">Задать директорию по умолчанию для всех резервных копий (переопределяется настройками "облака")</DefaultBackupDir>
+		<RescanReminder width="395">Напоминать проводить повторное сканирование системы (если текущие результаты устарели)</RescanReminder>
+		<ConfirmChecksumResponse>Проверять контрольную сумму и пропускать записи, которые не</ConfirmChecksumResponse>
+		<RememberBackupSelection>Запоминать выбранные записи сохранений между сессиями</RememberBackupSelection>
+	</Backup>
+	<SepArchives>
+		<Info>Используйте форму ниже, чтобы выбрать записи (если таковые имеются), для которых вы бы хотели добавлять метку времени к названию файла.
+
+Все не отмеченные записи будут использовать ваши настройки, выставленные в "Специфические настройки -> Настройки резервного копирования".</Info>
+	</SepArchives>
+	<SyncLink>
+		<Info>Чтобы сэкономить место выбранного вами "Облачного хранилища", Sync &amp; Link будут перечислены только те каталоги, которые отвечают определенным критериям.
+
+Здесь вы можете переопределить настройки сканирования сохранений GameSave Manager в соответствии с вашими потребностями.</Info>
+		<IgnoreExclusionRules width="335">Список директорий независимо от правил исключения файлов</IgnoreExclusionRules>
+		<ShowSteamCloud width="160">Показывать сохранения из "Steam Cloud"</ShowSteamCloud>
+		<ShowUplayCache width="160">Показывать сохранения из "Uplay Cache"</ShowUplayCache>
+		<WaitAfterEachLink width="390">После создания символической ссылки, ждать команды от пользователя, прежде чем перейти к следующей записи</WaitAfterEachLink>
+		<CustomSubfolder width="210">Позвольте мне указать название для поддиректории</CustomSubfolder>
+	</SyncLink>
+	<Spreader>
+		<Link>
+			<Header width="60">Тип ссылки</Header>
+			<SymLink width="125">Использовать "символические ссылки"</SymLink>
+			<Junction width="128">Использовать "NTFS Junctions"</Junction>
+		</Link>
+		<SteamRunningCheck width="260">Предупреждать, если запущен Steam, когда это необходимо</SteamRunningCheck>
+		<HideXCOPY width="255">Скрывать XCOPY окно команд</HideXCOPY>
+	</Spreader>
+	<SevZip>
+		<ArchiveCreation>
+			<Header width="95">Создание архива</Header>
+			<Use7zFormat width="255">Использовать тип архива "7z" (высокая компрессия)</Use7zFormat>
+			<UseCompression width="410">Использовать максимально возможную степень сжатия (очень влияет на производительность)</UseCompression>
+			<LZMA2>Использовать метод сжатия LZMA2(улучшенная многопоточность)</LZMA2>
+		</ArchiveCreation>
+		<HideWindow width="190">Скрывать консольное окно команд</HideWindow>
+		<UseLargePages width="295">Использовать "большие страницы" для быстрого сжатия в теории</UseLargePages>
+	</SevZip>
+	<Detection>
+		<Steam>
+			<Header width="95">Steam сканирование</Header>
+			<Enable width="140">Включить поддержку Steam</Enable>
+			<Cache width="195">Включить "Steam Cache" директорию</Cache>
+			<Cloud width="195">Включить "Steam Cloud" директорию</Cloud>
+		</Steam>
+		<Uplay>
+			<Header width="80">Ubisoft uPlay</Header>
+			<Enable width="250">Включить обнаружение сохранений из "uPlay cache"</Enable>
+		</Uplay>
+		<Flash>
+			<Header width="135">Кеш Macromedia Flash</Header>
+			<Enable width="210">Поиск сохранений в "кеше Flash"</Enable>
+		</Flash>
+		<SaveScanResults width="290">Сохранять результаты сканирования для быстрого сканирования в будущем</SaveScanResults>
+		<DetectSize width="188">Пытаться определять размер файлов сохранений</DetectSize>
+		<CheckForDupDirs>Не допускать дублирования каталогов в списке</CheckForDupDirs>
+		<RescanOnIdle>Во время простоя системы, перепроверять список поддерживаемых сохранений</RescanOnIdle>
+		<ShowStatusInfo>Отображать дополнительную информацию во время сканирования (может повлиять на скорость сканирования)</ShowStatusInfo>
+		<QuickExclusionRuleset>Использовать улучшенные "исключения для набора правил"</QuickExclusionRuleset>
+	</Detection>
+	<SortEntries>
+		<Header width="45">Сортировать обнаруженные записи по</Header>
+		<SortByName width="205">названию</SortByName>
+		<SortByDate width="247">дате последнего изменения</SortByDate>
+		<SortBySize width="225">размеру файлов сохранения</SortBySize>
+		<SortByCustomEntries>по статусу; пользовательские записи идут первыми</SortByCustomEntries>
+	</SortEntries>
+	<IgnoredEntries>
+		<Info>Отметьте те записи, которые вы не хотите больше искать.
+
+Примечание: Требуется полное повторное сканирование для применения изменений.</Info>
+	</IgnoredEntries>
+	<ExternalScripts>
+		<Info>С помощью внешних скриптов можно по разному изменять ваши резервные копии.
+
+Здесь вы можете включить / отключить скрипты, а также изменить их настройки.</Info>
+		<ScriptName>Управление скриптом для...</ScriptName>
+		<ScriptMETA>Автор: %AUTHOR%
+Версия: %VERSION%         |      Официальный: %ISOFFICIAL%</ScriptMETA>
+		<EnableScript>Включить этот скрипт</EnableScript>
+		<ScriptOptions>
+			<Header>Настройки скрипта:</Header>
+			<Value>Значение (нажмите [enter] для сохранения):</Value>
+			<Enable>Включить настройку</Enable>
+			<Saved>Значение сохранено!</Saved>
+		</ScriptOptions>
+	</ExternalScripts>
+	<ImportExport>
+		<LaunchButton>Импорт и экспорт ваших настроек</LaunchButton>
+		<Title>Импорт / Экспорт настроек</Title>
+		<Intro>
+			<Info>Что вы хотите сделать?</Info>
+			<Import>Импортировать настройки и пользовательские записи</Import>
+			<Export>Экспортировать текущие настройки и пользовательские записи</Export>
+		</Intro>
+		<Import>
+			<Step1>
+				<Info>Используя форму ниже, выберите резервную копию для восстановления.
+Когда будете готовы, нажмите 'Далее &gt;', чтобы начать.</Info>
+				<Open>Открыть...</Open>
+			</Step1>
+			<Step2>
+				<Loading>Пожалуйста подождите пока GameSave Manager читает выбранный архив.
+Это может занять несколько минут.</Loading>
+				<Info>Используя параметры ниже, выберите, что вы хотите импортировать.</Info>
+				<Settings>Настройки программы</Settings>
+				<IgnoreList>'Черный список'</IgnoreList>
+				<SteamSpreader>Историю Steam Spreader</SteamSpreader>
+				<Logs>Журнал задач</Logs>
+				<CustomEntries>Следующие пользовательские записи...</CustomEntries>
+				<SelectAll>Выбрать все / Отменить выбор</SelectAll>
+			</Step2>
+			<Step3>
+				<Success>Выбранные параметры успешно восстановлены из следующей резервной копии...
+%FILE%</Success>
+				<Failed>К сожалению, произошла ошибка при попытке восстановить выбранные параметры.
+Сведения об ошибке:
+---
+%ERROR%</Failed>
+			</Step3>
+		</Import>
+		<Export>
+			<Step1>
+				<Info>Используя параметры ниже, выберите, что вы хотите экспортировать.</Info>
+				<Settings>Настройки программы</Settings>
+				<IgnoreList>'Черный список'</IgnoreList>
+				<SteamSpreader>Историю Steam Spreader</SteamSpreader>
+				<Logs>Журнал задач</Logs>
+				<CustomEntries>Следующие пользовательские записи...</CustomEntries>
+				<SelectAll>Выбрать все / Отменить выбор</SelectAll>
+			</Step1>
+			<Step2>
+				<Info>Пожалуйста укажите ниже, куда сохранить резервную копию.
+Когда будете готовы, нажмите 'Далее &gt;', чтобы начать.</Info>
+				<SaveAs>Сохранить как...</SaveAs>
+			</Step2>
+			<Step3>
+				<Success>Ваши настройки успешно сохранены в следующей директории...
+%FILE%</Success>
+				<Failed>К сожалению, не удалось создать резервную копию.
+Сведения об ошибке:
+---
+%ERROR%</Failed>
+			</Step3>
+		</Export>
+		<Errors>
+			<InvalidFile title="Ошибка резервной копии" width="500" height="110">В выбранной резервной копии найдены не верные параметры резервного копирования.</InvalidFile>
+			<NothingSelected title="Ошибка:" width="500" height="110">Для продолжения операции, вы должны выбрать хотя бы один из параметров.</NothingSelected>
+			<NoFile title="Ошибка:" width="500" height="110">Не указан файл резервного копирования.
+Пожалуйста, выберите файл и попробуйте снова.</NoFile>
+		</Errors>
+	</ImportExport>
+</GameSaveManager_Translation>

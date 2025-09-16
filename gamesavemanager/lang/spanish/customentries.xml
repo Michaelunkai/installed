@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+	<Title>Entradas GameSave personalizadas</Title>
+	<Info>Desde esta página, puede agregar nuevas reglas de detección de GameSave Manager a seguir.
+Modificar una entrada con apoyo oficial para satisfacer sus propias necesidades, añadir una entrada completamente nueva o simplemente gestionar las entradas existentes GameSave personalizados aquí.</Info>
+	<List>
+		<Header>Entradas existentes</Header>
+		<NoEntries>'Entradas GameSave personalizadas' actualmente no definido.
+
+Para empezar, clic en 'Añadir' botón de abajo.</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Asistente Entradas GameSave personalizadas; Etapa %CURRENT% de %TOTAL%</Title>
+		<Header>Asistente Entradas GameSave personalizadas</Header>
+		<Step1>
+			<Info>Este asistente le guiará a través del proceso de adición o modificación 'Entradas GameSave personalizadas'.
+
+A lo largo de este asistente, se le pedirá información variada sobre los datos para respaldar así que por favor esté preparado para contestar algunas preguntas.
+Este proceso no debe tardar más de 5 minutos. Recuerde, usted puede cancelar en cualquier momento.
+
+Para empezar, vamos a nombrar nuestra Entrada GameSave personalizado.
+Usted puede llamar a esta entrada cualquier cosa que desee, pero se recomienda que lo llames algo útil (como el título completo del juego).</Info>
+			<Name>Título Entrada:</Name>
+			<Warning>NOTA: Si va a definir archivos adicionales, rutas o datos del registro de una 'Entrada apoyo oficial', utilice el nombre de dicha entrada para sobrescribirlo con tus propias definiciones.
+
+La entrada GameSave personalizadas luego se rellenará con los datos de la entrada de 'Apoyo Oficial' para editar.</Warning>
+			<Errors>
+				<InvalidName title="Nombre inválido:" width="420" height="110">El nombre indicado ('%NAME%') ya está en uso para otra entrada GameSave personalizado.
+
+Por favor, especifique un nombre diferente y vuelva a intentarlo.</InvalidName>
+				<NoName title="Sin nombre especificado:" width="420" height="110">Has olvidado ingresar el nombre de su Entradas GameSave personalizadas.
+
+Por favor, especifique un nombre y vuelva a intentarlo.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>El siguiente formulario le permite especificar los mensajes de advertencia para esta entrada.
+Un icono de exclamación se utiliza para notificar al usuario de un mensaje de advertencia, y se puede ver a través del panel "Entrada Detalles" de la selección de entrada.
+
+Si no desea especificar ninguna advertencia, simplemente deje en blanco el siguiente formulario y haga clic en 'Siguiente &gt;'</Info>
+			<Backup>Advertencia Backup</Backup>
+			<Restore>Advertencia Restaruración</Restore>
+		</Step2>
+		<Step3>
+			<Info>Utilizando el formulario de abajo, por favor especificar todos los archivos, directorios y datos del registro que desea hacer backup de esta entrada.Puede añadir tantos elementos como desee.</Info>
+			<DirTitle>Archivos y directorios del backup:</DirTitle>
+			<RegTitle>Datos del Registro de backup:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Error:" width="420" height="110">Ha olvidado especificar esta entrada para el Backup.
+
+Por favor, especifique al menos un directorio o una entrada del registro y vuelva a intentarlo.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Hemos terminado!
+Toda la información requerida ha sido recogido y estamos listos para guardarlo en la base de datos.
+
+Si desea cambiar algo, puede hacerlo ahora o más adelante editando esta entrada.</Info>
+			<SubmitPanel>
+				<Header>Compartir Entrada</Header>
+				<Info>Esta entrada parece cumplir los criterios para ser enviados a los servidores de GameSave Manager para su aprobación.
+Si se aprueba, esta entrada se llevará a cabo en 'Actualizar Database' en un futuro y así beneficiar a la comunidad en su conjunto.</Info>
+				<Submit>Sí, me gustaría compartir con ustedes esta entrada</Submit>
+				<InfoScene>A pesar de su reunión la entrada de los criterios para la presentación, sino que también parece contener uno o más 'Escena de lanzamiento' Guardar ubicaciones específicas.
+Tales lugares no son compatibles, por lo que no se puede presentar esta entrada para su aprobación.
+
+Si cree que esto es un error, es posible enviar manualmente su entrada en nuestros foros.
+En cualquier caso, su entrada GameSave personalizada es absolutamente resistente.</InfoScene>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Entradas GameSave personalizadas: Asistente Directorio; Etapa %CURRENT% de %TOTAL%</Title>
+			<Header>Entradas GameSave personalizadas: Asistente Directorio</Header>
+			<Step1>
+				<Info>Este asistente le guiará a través del proceso de adición--o modificar--una regla directorio para su entrada de GameSave personalizado.
+
+Este proceso no debe tardar más de un minuto.
+
+Para empezar, ¿le gustaría que GameSave Manager detecte dinámicamente parte de estos directorios para usted?</Info>
+				<UseSpecialPaths>Sí, por favor detectar de forma dinámica los siguientes directorios</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Mis Documentos</DOCUMENTS>
+					<SHARED_DOCUMENTS>Documentos Compartidos</SHARED_DOCUMENTS>
+					<APPDATA>Datos de Programa</APPDATA>
+					<APPDATA_COMMON>Datos de Programa - Common</APPDATA_COMMON>
+					<APPDATA_LOCAL>Datos de Programa - Local</APPDATA_LOCAL>
+					<APPDATA_LOCALLOW>Datos de Programa - LocalLow</APPDATA_LOCALLOW>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Directorio de instalación de Steam</STEAM>
+					<STEAM_CACHE>Cache Steam</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Cache Ubisoft uPlay</UPLAY>
+					<FLASH>Cache Macromedia Flash</FLASH>
+					<SAVED_GAMES>Saved Games</SAVED_GAMES>
+					<USER_PROFILE>Inicio de usuario</USER_PROFILE>
+					<REGISTRY>From Registry Value</REGISTRY>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Por favor, utilice el siguiente formulario para especificar 'Valores Registro', que contiene el directorio que desea detectar dinámicamente.
+
+NOTA: Los nombres de archivo se eliminan automáticamente del valor (por ejemplo, "C:\Game\Launch.exe" se convierte "C:\Game").</Info>
+				<Hive>Sección del Registro:</Hive>
+				<Path>Ruta del Registro:</Path>
+				<Value>Valor del Registro:</Value>
+				<Test>Probar detección</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Ahora tenemos que añadir el resto de la ruta de acceso al final del directorio que hemos especificado anteriormente para detectar dinámicamente.
+
+Para ello, basta con introducir el resto de la ruta del directorio en el campo de abajo.
+Si no es necesario añadir nada a la trayectoria detecta dinámicamente, deje el campo en blanco y haga clic en 'Siguiente &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Como usted ha optado por no detectar dinámicamente un directorio, ahora tiene que especificar la ruta completa a continuación.
+
+Si desea volver atrás y permitir la detección dinámica, no dude en hacer clic en "&lt; Atrás".</InfoWithoutSpecialPath>
+				<DynamicDetection>Detección Dinámica</DynamicDetection>
+				<Append>Añada la siguiente</Append>
+				<Full>Buscar en directorio siguiente</Full>
+			</Step2>
+			<Step3>
+				<Info>Por último, tenemos que especificar el archivos Backup.
+
+Puede utilizar 'comodines' (* y ?) dentro de los nombres de archivo que especifique.
+
+Ejemplo:
+	*.* - Procesa todos los archivos
+	*.sav - Procesa todo '.sav' tipos de archivos
+	My*.sav - Procesa todo '.sav' tipos de archivo que empiezan con 'my'
+	MySave.sav - Procesa el archivo 'MySave.sav' en el directorio raíz
+	bin\MySave.sav - Procesa el archivo 'MySave.sav' dentro del 'bin' sub-carpeta
+	bin\*.* - Procesa todos los archivos dentro de la 'bin' sub-carpeta</Info>
+				<Warning>NOTA: Archivos separados con un Pipex (por ejemplo *.sav|*.ini)</Warning>
+				<IncludedFiles>Archivos a incluir</IncludedFiles>
+				<ExcludedFiles>Archivos a excluir</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Entradas GameSave personalizadas: Asistente de registro</Title>
+			<Header>Entradas GameSave personalizadas: Asistente de registro</Header>
+			<Info>Introduzca los detalles clave del Registro siguiente para el backup.</Info>
+			<Hive>Sección del Registro:</Hive>
+			<Path>Ruta del Registro:</Path>
+			<DefinedValues>
+				<Header>Valor del Registro:</Header>
+				<EntireKey>Backup clave completa</EntireKey>
+				<Specific>Backup valor siguiente(s):</Specific>
+				<Values>Valores:</Values>
+				<Info>Separe los nombres con un valor Pipex ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Envío de mensajes</Header>
+		<Info>Está a punto de enviar tu GameSave personalizado titulado '%NAME%' en el servidor de GameSave para su aprobación.
+
+¿Desea especificar un mensaje de presentación?</Info>
+		<NoMsg>No gracias, sólo presentar mi entrada</NoMsg>
+		<Msg>Sí por favor, me gustaría que especificar alguna información adicional</Msg>
+		<ReturnCodes>
+			<NoConnection title="Error" width="420" height="110">Se ha producido un error al tratar de comunicarse con el servidor de GameSave.
+Quizás este desconectado o no tiene una conexión a Internet activa?</NoConnection>
+			<DBUpdate title="Error" width="420" height="110">Parece que hay una actualización de base de datos para usted.
+
+Por favor, aplique la actualización y vuelva a intentarlo.</DBUpdate>
+			<DynError title="Error" width="420" height="110">La entrada no pudo presentarse debido a un problema con su 'Detección Dinámica'</DynError>
+			<DupError title="Error" width="420" height="110">Esta entrada ya parece enviado por usted u otra persona.</DupError>
+			<Banned title="Error" width="420" height="110">Hemos recibido muchos envíos de spam desde su dirección IP.
+Por favor, intente enviarlo de forma manual a través de nuestros Foros</Banned>
+			<MissingData title="Error" width="420" height="110">La entrada parece faltar algunos datos necesarios.</MissingData>
+			<Update title="Error" width="420" height="110">Esta versión del GameSave Manager ya no es compatible con el servidor.
+Por favor, actualice a la última versión y vuelva a intentarlo.</Update>
+			<Maintenance title="Error" width="420" height="110">El sistema de envío aparece como en mantenimiento.
+Por favor, vuelve a intentarlo más tarde, o enviar la entrada de forma manual a través de nuestros Foros</Maintenance>
+			<SubmitError title="Error" width="420" height="110">Se ha producido un error desconocido al enviar la entrada.
+Por favor, vuelve a intentarlo más tarde, o enviar la entrada de forma manual a través de nuestros Foros</SubmitError>
+			<Success title="Éxito" width="420" height="110">Su entrada titulada '%NAME%' ha sido enviada con éxito y ahora está pendiente su aprobación.
+
+			Gracias.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Error:" width="420" height="110">La 'Entrada GameSave personalizada' seleccionada no parece ser válida, o ha ocurrido un error al consultar la base de datos para los datos requeridos.
+
+Por favor, inténtalo de nuevo.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>

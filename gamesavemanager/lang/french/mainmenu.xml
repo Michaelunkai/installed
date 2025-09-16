@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameSaveManager_Translation>
+  <Title>Menu principal</Title>
+  <Backup>
+    <Header>Faire une sauvegarde...</Header>
+    <Description>Faîtes une sauvegarde de votre progression dans les jeux détectés sur cette machine.</Description>
+    <Backup>Faire une sauvegarde</Backup>
+    <Scheduled>Tâches planifiées</Scheduled>
+    <Sync>Synchronisation &amp; Liens</Sync>
+    <GameplayBackup>Sauvegarde en jeu</GameplayBackup>
+  </Backup>
+  <Restore>
+    <Header>Restaurer des sauvegardes...</Header>
+    <Description>Restaurez des sauvegardes préalablement faîtes avec GameSave Manager.</Description>
+    <Open>Ouvrir les archives</Open>
+  </Restore>
+  <Spreader>
+    <Header>Décentraliseur Steam</Header>
+    <Description>Déplacez vos dossiers de sauvegarde sur une autre partition, tout en créant des liens symboliques vers leur nouvelle localisation avec simplicité.</Description>
+    <GoTo>Aller au décentraliseur Steam</GoTo>
+  </Spreader>
+  <Customise>
+    <Header>Personnaliser...</Header>
+    <Description>Personnalisez GameSave Manager pour répondre spécifiquement à vos besoins.</Description>
+    <CustomEntries>Sauvegardes personnalisées</CustomEntries>
+    <Variables>Modifier les variables</Variables>
+    <Settings>Configuration</Settings>
+  </Customise>
+  <Log>
+    <Header>Journaux des tâches</Header>
+    <Description>Voir les journaux des tâches executées.</Description>
+    <GoTo>Voir les journaux des tâches</GoTo>
+  </Log>
+</GameSaveManager_Translation>

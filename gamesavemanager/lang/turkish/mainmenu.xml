@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<GameSaveManager_Translation>
+	<Title>Ana Menü</Title>
+	<Backup>
+		<Header>Yedekleniyor...</Header>
+		<Description>Bu makinedeki oyun ilerlemenizi kolayca yedekleyin.</Description>
+		<Backup>Yedeğini alın</Backup>
+		<Scheduled>Zamanlanmış Görevler</Scheduled>
+		<Sync>Senkron &amp; Bağlantı</Sync>
+		<GameplayBackup>Oynarken Yedekle</GameplayBackup>
+	</Backup>
+	<Restore>
+		<Header>Geri Yükleniyor...</Header>
+		<Description>GameSave Manager ile daha önceden yedeklediğiniz kayıtları geri yükleyin.</Description>
+		<Open>Arşivi Aç</Open>
+	</Restore>
+	<Spreader>
+		<Header>Steam Dağıtıcı</Header>
+		<Description>Yeni konumlarına 'Simgesel Bağlantılar' oluşturarak, tüm klasörleri farklı bir bölüme taşıyın.</Description>
+		<GoTo>Steam Dağıtıcıya Gidin</GoTo>
+	</Spreader>
+	<Customise>
+		<Header>Özelleştir...</Header>
+		<Description>Kişisel ihityaçlarınıza uygun olarak GameSave Manager özelleştirin.</Description>
+		<CustomEntries>Özel Oyun Kaydı Girişleri</CustomEntries>
+		<Variables>Değişkenleri Düzenle</Variables>
+		<Settings>Program Ayarları</Settings>
+	</Customise>
+	<Log>
+		<Header>Görev Günlükleri</Header>
+		<Description>Daha önce yapılan görevlerin günlüklerine bakın.</Description>
+		<GoTo>Görev Günlüklerine Bak</GoTo>
+	</Log>
+</GameSaveManager_Translation>

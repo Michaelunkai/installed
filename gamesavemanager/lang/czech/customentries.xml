@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<GameSaveManager_Translation>
+	<Title>Vlastní uložené hry</Title>
+	<Info>Na této stránce můžete přidat vlastní pravidla pro detekci uložených her, kterými se GameSave Manager bude řídit.
+Stejně tak upravovat oficiální záznamy podle svých potřeb a přidat nové.</Info>
+	<List>
+		<Header>Existující záznamy</Header>
+		<NoEntries>Zatím jste nedefinovali žádné vlastní záznamy.
+
+Pro zahájení klikněte na tlačítko 'Přidat.'</NoEntries>
+	</List>
+	<Wizard>
+		<Title>Průvodce vlastními uloženými hrami - krok %CURRENT% z %TOTAL%</Title>
+		<Header>Průvodce vlastními uloženými hrami</Header>
+		<Step1>
+			<Info>Tento průvodce vás provede procesem vytvoření nebo upravení vlastních uložených her.
+
+Průvodce se vám postupně zeptá na detaily o zálohování dané hry.
+Tento proces by neměl trvat déle než 5 minut. Přesto jej můžete kdykoli přerušit.
+
+Začněme pojmenováním naplánované úlohy.
+Pojmenovat ji můžete jak chcete, ale doporučujeme název volit podle názvu hry.</Info>
+			<Name>Název:</Name>
+			<Warning>POZNÁMKA: Pokud definujete extra soubory, cesty nebo data registru již existující 'oficiálně podporované hry', prosím použijte stejný název, aby došlo k přepsání definic.
+
+Vlastní uložené hry Gamesave Entry upřednostní před 'oficiálně podporovanými' záznamy.</Warning>
+			<Errors>
+				<InvalidName title="Neplatný název:" width="420" height="110">Zadaný název ('%NAME%') je již používán pro jinou vlastní uloženou hru.
+
+Prosím, zadejte jiný název a zkuste to znovu.</InvalidName>
+				<NoName title="Nezadán název:" width="420" height="110">Nevyplnili jste název úlohy vlastní uložené hry.
+
+Prosím, zadejte název a zkuste to znovu.</NoName>
+			</Errors>
+		</Step1>
+		<Step2>
+			<Info>Níže můžete specifikovat varovné hlášky pro tento záznam.
+Ikona je použita pro varovné oznámení, které si můžete prohlédnout po výběru na panelu 'Detaily záznamu'.
+
+Pokud si nepřejete být upozorňováni, ponechte toto pole prázdné a pokračujte kliknutím na tlačítko 'Další &gt;'</Info>
+			<Backup>Varování při zálohování</Backup>
+			<Restore>Varování při obnovení</Restore>
+		</Step2>
+		<Step3>
+			<Info>Pomocí formuláře níže, prosím vyberte všechny soubory, složky a data registru, které se mají zálohovat.
+Můžete přidat neomezeně položek.</Info>
+			<DirTitle>Soubory & složky k zálohování:</DirTitle>
+			<RegTitle>Data registru k zálohování:</RegTitle>
+			<Errors>
+				<NothingSpecified title="Chyba:" width="420" height="110">Nevybral nic, co by se mělo zálohovat.
+
+Prosím, vyberte alespoň jednu složku nebo záznam registru a zkuste to znovu.</NothingSpecified>
+			</Errors>
+		</Step3>
+		<Step4>
+			<Info>Hotovo!
+Všechny potřebné informace byly sesbírány a jsou připraveny pro vložení do databáze.
+
+Pokud chcete cokoli změnit, můžete to udělat nyní nebo kdykoli v budoucnu.</Info>
+			<SubmitPanel>
+				<Header>Sdílet záznam</Header>
+				<Info>Tento záznam splňuje kritéria pro odeslání na server GameSave Manager.
+Pokud bude schválen, objeví se v další 'aktualizaci databáze' a bude z něj těžit celá komunita.</Info>
+				<InfoScene>Vypadá to, že váš výběr záznamů k odeslání obsahuje 'Scene Release' místo pro uložení her.
+Takové umístění není podporováno a nemůže být odesláno ke schválení.
+
+Pokud se domníváte, že jde o chybu, odešlete tento záznam na naše fórum.
+Žádné obavy, vaše vlastní uložené hry zůstanou beze změny.</InfoScene>
+				<Submit>Ano, rád se podělím o tento záznam</Submit>
+			</SubmitPanel>
+		</Step4>
+		<DirWizard>
+			<Title>Vlastní uložené hry: Průvodce složkou - krok %CURRENT% z %TOTAL%</Title>
+			<Header>Vlastní uložené hry: Průvodce složkou</Header>
+			<Step1>
+				<Info>Tento průvodce vás provede procesem přidání nebo úpravou složky, ve které se nachází uložená hra.
+
+Tento proces by neměl trvat déle než minutu.
+
+Na úvod, může GameSave Manager dynamicky detekovat obsah složky.</Info>
+				<UseSpecialPaths>Ano prosím, dynamicky detekuj následující složku</UseSpecialPaths>
+				<SpecialPaths>
+					<DOCUMENTS>Dokumenty</DOCUMENTS>
+					<SHARED_DOCUMENTS>Sdílené dokumenty</SHARED_DOCUMENTS>
+					<APPDATA>Data aplikací</APPDATA>
+					<APPDATA_COMMON>Data aplikací - běžné</APPDATA_COMMON>
+					<APPDATA_LOCAL>Data aplikací - místní</APPDATA_LOCAL>
+					<PROG_FILES_86>Program Files x86</PROG_FILES_86>
+					<STEAM>Instalační složka Steam</STEAM>
+					<STEAM_CACHE>Steam Cache</STEAM_CACHE>
+					<STEAM_CLOUD>Steam Cloud</STEAM_CLOUD>
+					<UPLAY>Ubisoft uPlay cache</UPLAY>
+					<FLASH>Macromedia Flash cache</FLASH>
+					<SAVED_GAMES>Uložené hry</SAVED_GAMES>
+					<USER_PROFILE>Domovská složka uživatele</USER_PROFILE>
+					<REGISTRY>Z hodnoty registru</REGISTRY>
+					<APPDATA_LOCALLOW>Application Data - LocalLow</APPDATA_LOCALLOW>
+				</SpecialPaths>
+			</Step1>
+			<Reg>
+				<Info>Prosím, použijte formulář níže pro zadání specifické 'hodnoty registru', která obsahuje složku, jejíž obsah chcete dynamicky detekovat.
+
+Poznámka: Názvy složek jsou automaticky získány z hodnoty (například z "C:\Game\Launch.exe" se stane "C:\Game").</Info>
+				<Hive>Větev registru:</Hive>
+				<Path>Cesta registru:</Path>
+				<Value>Klíč registru:</Value>
+				<Test>Otestovat</Test>
+			</Reg>
+			<Step2>
+				<InfoWithSpecialPath>Nyní potřebujeme přidat zbývající cestu na konec složky, kterou jste definovali v předchozím kroku.
+
+Stačí jednoduše do pole níže zadat cestu ke složce.
+Pokud nechcete nic dalšího přidat k dymicky detekované složce, ponechte pole prázdné a klikněte na tlačítko 'Další &gt;'.</InfoWithSpecialPath>
+				<InfoWithoutSpecialPath>Pokud jste nezvolili v předchozím kroku dynamickou detekci, nyní je potřeba zadat úplnou cestu.
+
+Pokud chcete zapnout dynamickou detekci, vraťte se o krok zpět kliknutím na tlačítko "&lt; Zpět".</InfoWithoutSpecialPath>
+				<DynamicDetection>Dynamická detekce</DynamicDetection>
+				<Append>Připojit následující</Append>
+				<Full>Prohledat následující složku</Full>
+			</Step2>
+			<Step3>
+				<Info>Na závěr potřebujeme určit, které soubory se mají zálohovat.
+
+Můžete použít zástupné znaky (* a ?) pro specifikování názvu souboru.
+
+Příklad:
+	*.* - Zpracuje všechny soubory.
+	*.sav - Zpracuje všechny soubory s příponou '.sav'.
+	moje*.sav - Zpracuje všechny soubory s příponou'.sav' začínající 'moje'.
+	mojehra.sav - Zpracuje všechny soubory 'mojehra.sav' v kořenové složce.
+	bin\mojehra.sav - Zpracuje soubor 'mojehra.sav' v podsložce 'bin'.
+	bin\*.* - Zpracuje všechny soubory v podsložce 'bin'.</Info>
+				<Warning>Poznámka: Soubory oddělte rourou (například *.sav|*.ini)</Warning>
+				<IncludedFiles>Soubory k zahrnutí</IncludedFiles>
+				<ExcludedFiles>Soubory k vyjmutí</ExcludedFiles>
+			</Step3>
+		</DirWizard>
+		<RegWizard>
+			<Title>Vlastní uložené hry: Průvodce registry</Title>
+			<Header>Vlastní uložené hry: Průvodce registry</Header>
+			<Info>Prosím, zadejte klíč registru, který chcete zálohovat.</Info>
+			<Hive>Větev registru:</Hive>
+			<Path>Cesta registru:</Path>
+			<DefinedValues>
+				<Header>Hodnoty registru:</Header>
+				<EntireKey>Zálohovat celý klíč</EntireKey>
+				<Specific>Zálohovat následující hodnoty:</Specific>
+				<Values>Hodnoty:</Values>
+				<Info>Názvy hodnot oddělte rourou ( | ).</Info>
+			</DefinedValues>
+		</RegWizard>
+	</Wizard>
+	<SubmissionMessage>
+		<Header>Zpráva k odeslání</Header>
+		<Info>Navrhli jste vlastní uloženou hru '%NAME%' na server GameSave Manager.
+
+Chcete nám sdělit něco bližšího?</Info>
+		<NoMsg>Ne, děkuji, odeslat pouze záznam</NoMsg>
+		<Msg>Ano, rád přidám další informace</Msg>
+		<ReturnCodes>
+			<NoConnection title="Chyba" width="420" height="110">Nastala chyba při komunikaci se serverem GameSave Manager.
+Pravděpodobně je offline nebo nejste připojeni k internetu?</NoConnection>
+			<DBUpdate title="Chyba" width="420" height="110">Vypadá to, že je dostupná aktualizace.
+
+Prosím, nainstalujte aktualizaci a zkuste to znovu.</DBUpdate>
+			<DynError title="Chyba" width="420" height="110">Záznam nebylo možné navrhnout z důvodu chyby s 'dynamickou detekcí'</DynError>
+			<DupError title="Chyba" width="420" height="110">Tento záznam jste již navrhli vy nebo někdo jiný.</DupError>
+			<Banned title="Chyba" width="420" height="110">Příliš mnoho nevyžádaných žádostí z vaší IP adresy.
+Prosím, zkuste záznam navrhnout ručně na našem fóru.</Banned>
+			<MissingData title="Chyba" width="420" height="110">Vypadá to, že nejsou vyplněny všechny data.</MissingData>
+			<Update title="Chyba" width="420" height="110">Tato verze GameSave Manager již není podporovaná.
+Prosím, aktualizujte program na nejnovější verzi a zkuste to znovu.</Update>
+			<Maintenance title="Chyba" width="420" height="110">Probíhá údržba systému pro přidávání záznamů.
+Prosím, zkuste to později nebo záznam navrhněte ručně na našem fóru.</Maintenance>
+			<SubmitError title="Chyba" width="420" height="110">Nastala chyba při odesílání záznamu.
+Prosím, zkuste to později nebo záznam navrhněte ručně na našem fóru.</SubmitError>
+			<Success title="Success" width="420" height="110">Vaše hra '%NAME%' byla úspěšně navrhnuta a čeká na schválení.
+			
+			Děkujeme.</Success>
+		</ReturnCodes>
+	</SubmissionMessage>
+	<Errors>
+		<InvalidEntry title="Chyba:" width="420" height="110">Vybraná 'vlastní uložená hra' není platná nebo nastala chyba při dotazování databáze.
+
+Prosím, zkuste to znovu.</InvalidEntry>
+	</Errors>
+</GameSaveManager_Translation>
